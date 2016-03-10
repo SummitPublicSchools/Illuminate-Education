@@ -29,6 +29,9 @@ GROUP BY
   middle_name,
   email
 
-ORDER BY site_name,short_name::INTEGER
+
+ORDER BY
+  site_name,
+  short_name::INTEGER
 
 ;
