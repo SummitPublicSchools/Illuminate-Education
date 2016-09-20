@@ -32,3 +32,5 @@ WHERE leave_date >= CURRENT_DATE
 ORDER BY
     "Site"
   , "Grade Level"
+  , "Student Last Name"
+  , "Student First Name"
