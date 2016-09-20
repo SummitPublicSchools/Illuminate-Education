@@ -1,6 +1,16 @@
-SELECT
+/*
+
+Summary
+• Pulls a list of currently enrolled students
+
+Level of Detail
+• student
+
+*/
+
+SELECT DISTINCT
   site_name AS "School",
-  short_name AS "Grade Level",
+  short_name::INTEGER AS "Grade Level",
   local_student_id AS "Student ID",
   student_id AS "Illuminate Student ID",
   last_name AS "Student Last Name",
@@ -19,19 +29,6 @@ WHERE leave_date >= CURRENT_DATE
   AND site_name <> 'SPS Tour'
 
 
-GROUP BY
-  site_name,
-  short_name,
-  local_student_id,
-  student_id,
-  last_name,
-  first_name,
-  middle_name,
-  email
-
-
 ORDER BY
   site_name,
   short_name::INTEGER
-
-;
