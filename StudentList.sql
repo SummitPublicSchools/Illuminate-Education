@@ -9,14 +9,14 @@ Level of Detail
 */
 
 SELECT DISTINCT
-  site_name AS "School",
-  short_name::INTEGER AS "Grade Level",
-  local_student_id AS "Student ID",
-  student_id AS "Illuminate Student ID",
-  last_name AS "Student Last Name",
-  first_name AS "Student First Name",
-  middle_name AS "Student Middle Name",
-  email AS "Student Email"
+    TRIM(site_name) AS "Site"
+  , short_name::INTEGER AS "Grade Level"
+  , local_student_id AS "Student ID"
+  , student_id AS "Illuminate Student ID"
+  , TRIM(last_name) AS "Student Last Name"
+  , TRIM(first_name) AS "Student First Name"
+  , TRIM(middle_name) AS "Student Middle Name"
+  , LOWER(email) AS "Student Email"
 
 
 FROM matviews.ss_cube
@@ -30,5 +30,5 @@ WHERE leave_date >= CURRENT_DATE
 
 
 ORDER BY
-  site_name,
-  short_name::INTEGER
+    "Site"
+  , "Grade Level"
