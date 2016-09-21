@@ -9,7 +9,7 @@ Level of Detail
 */
 
 SELECT DISTINCT
-    'Summit Public Schools' AS "SPS"
+    'Summit Public Schools' AS "SPS"  -- for Tableau purposes
   , TRIM(sites.site_name) AS "Site"
   , grade_levels.short_name::INTEGER AS "Grade Level"
   , students.local_student_id AS "Student ID"
