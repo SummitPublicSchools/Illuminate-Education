@@ -2,10 +2,10 @@
 
 Summit Public Schools
 
-• This python script connects to Illuminate CA + Illuminate WA databases
+• Connects to Illuminate CA + Illuminate WA databases
 • Queries student demographics information from both databases based on this query:
 https://github.com/SummitPublicSchools/Illuminate-Education/blob/master/Student_Demographics.sql
-• Finally, the script combines the CA + WA datasets into one dataset
+• Combines the CA + WA datasets into one dataset
 
 """
 
