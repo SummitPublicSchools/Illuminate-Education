@@ -27,7 +27,13 @@ SELECT DISTINCT
   , students.gender AS "Gender"
   , race_ethnicity.combined_race_ethnicity AS "Federal Reported Race"
   , students.is_hispanic AS "Hispanic / Latino Status"
-  , el.code_translation AS "English Proficiency"
+  , (
+      COALESCE
+        (
+          el.code_translation,  -- CA
+          programs.code_translation  -- WA
+        )
+    ) AS "English Proficiency"
   , demographics.sed AS "SED Status"
   , demographics.is_specialed AS "SPED Status"
 
@@ -54,12 +60,14 @@ FROM
     ON counselors.user_id = users.user_id
 
   -- Join current students to demographics
-  LEFT OUTER JOIN codes.english_proficiency AS el
-    ON el.code_id = students.english_proficiency
   LEFT OUTER JOIN race_ethnicity_combined AS race_ethnicity
     ON race_ethnicity.student_id = ss.student_id
   LEFT OUTER JOIN student_common_demographics AS demographics
     ON demographics.student_id = ss.student_id
+  LEFT OUTER JOIN codes.english_proficiency AS el  -- CA
+    ON el.code_id = students.english_proficiency
+  LEFT OUTER JOIN codes.student_programs AS programs  -- WA
+    ON programs.code_id = demographics.ell_program_id
 
 
 WHERE
