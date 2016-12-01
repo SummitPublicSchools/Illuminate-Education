@@ -73,7 +73,6 @@ SELECT DISTINCT
   , nwea_2017."nwea_2017_TypicalFallToSpringGrowth" AS "Typical Fall to Spring Growth"
 
 
-
 FROM
   -- Start with ss_current to pull only currently enrolled students
   matviews.ss_current AS ss
@@ -108,7 +107,8 @@ FROM
   -- Join current students to NWEA MAP data
   LEFT OUTER JOIN national_assessments.nwea_2017 AS nwea_2017
     ON nwea_2017.student_id = ss.student_id
-    -- GrowthMeasureYN: When more than one result record exists for a given student and test, only one record counts for growth reporting, marked TRUE.
+    -- GrowthMeasureYN:
+    -- When more than one result record exists for a given student and test, only one record counts for growth reporting, marked TRUE.
     AND nwea_2017."nwea_2017_GrowthMeasureYN" = 'TRUE'
 
 
