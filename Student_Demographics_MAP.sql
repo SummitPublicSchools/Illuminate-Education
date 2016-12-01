@@ -85,6 +85,7 @@ FROM
   INNER JOIN sites
     ON sites.site_id = ss.site_id
     AND sites.exclude_from_current_sites IS FALSE   -- excludes SPS as a district
+    AND sites.site_name <> 'SPS Tour'
 
   -- Join current students to counselors (mentors)
   LEFT OUTER JOIN student_counselor_aff AS counselors
@@ -110,10 +111,6 @@ FROM
     -- GrowthMeasureYN:
     -- When more than one result record exists for a given student and test, only one record counts for growth reporting, marked TRUE.
     AND nwea_2017."nwea_2017_GrowthMeasureYN" = 'TRUE'
-
-
-WHERE
-      sites.site_name <> 'SPS Tour'
 
 
 ORDER BY
