@@ -8,11 +8,13 @@ Level of Detail
 
 */
 
-SELECT DISTINCT
-    'Summit Public Schools' AS "SPS"  -- for Tableau purposes
-  , TRIM(sites.site_name) AS "Site"
+
+SELECT
+
+  -- Student Demographic Information
+    TRIM(sites.site_name) AS "Site"
   , grade_levels.short_name::INTEGER AS "Grade Level"
-  , students.local_student_id AS "Student ID"
+  , students.local_student_id AS "SPS ID"
   , students.student_id AS "Illuminate Student ID"
   , students.state_student_id AS "State Student ID"
   , TRIM(students.last_name) AS "Student Last Name"
@@ -50,6 +52,7 @@ FROM
   INNER JOIN sites
     ON sites.site_id = ss.site_id
     AND sites.exclude_from_current_sites IS FALSE   -- excludes SPS as a district
+    AND sites.site_name <> 'SPS Tour'
 
   -- Join current students to counselors (mentors)
   LEFT OUTER JOIN student_counselor_aff AS counselors
@@ -68,11 +71,6 @@ FROM
     ON el.code_id = students.english_proficiency
   LEFT OUTER JOIN codes.student_programs AS programs  -- WA
     ON programs.code_id = demographics.ell_program_id
-
-
-WHERE
-      sites.site_name <> 'SPS Tour'
-  -- AND ss.leave_date > CURRENT_DATE
 
 
 ORDER BY
