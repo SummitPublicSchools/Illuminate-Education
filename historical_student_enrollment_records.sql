@@ -56,8 +56,10 @@ FROM
 
 
 WHERE
+      sites.site_name != 'SPS Tour'
+
   -- Optional: include next line to exclude Summer terms
-  session_type_codes.code_translation != 'Summer'
+  AND session_type_codes.code_translation != 'Summer'
 
 
 ORDER BY
