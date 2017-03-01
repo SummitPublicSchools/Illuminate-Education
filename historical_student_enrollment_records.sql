@@ -9,19 +9,20 @@ Level of Detail
 */
 
 
-SELECT
+SELECT DISTINCT
 
     students.local_student_id AS "SPS ID"
   , students.student_id AS "Illuminate Student ID"
   , students.state_student_id AS "State Student ID"
   , TRIM(students.last_name) AS "Student Last Name"
   , TRIM(students.first_name) AS "Student First Name"
-  , TRIM(sites.site_name) AS "Site Name"
-  , students.school_enter_date AS "School Enter Date"
+  , ss_current.student_id IS NOT NULL AS "Currently Enrolled"
+  , students.school_enter_date AS "Summit Start Date"
   , sessions.academic_year AS "Academic Year"
+  , grade_levels.short_name::INTEGER AS "Enrollment Grade Level"
+  , TRIM(sites.site_name) AS "Enrollment Site Name"
   , enrollments.entry_date AS "Entry Date"
   , enrollments.leave_date AS "Leave Date"
-  , grade_levels.short_name::INTEGER AS "Grade Level"
   --, entry_codes.code_key AS "Entry Code"
   , exit_codes.code_key AS "Exit Code"
   , exit_codes.code_translation AS "Exit Description"
@@ -49,6 +50,10 @@ FROM
   LEFT JOIN codes.session_types AS session_type_codes
     ON sessions.session_type_id = session_type_codes.code_id
 
+  -- Join enrollment records to current students
+  LEFT JOIN matviews.ss_current AS ss_current
+    ON enrollments.student_id = ss_current.student_id
+
 
 WHERE
   -- Optional: include next line to exclude Summer terms
@@ -56,9 +61,10 @@ WHERE
 
 
 ORDER BY
-    students.last_name
-  , students.first_name
-  , sessions.academic_year
-  , enrollments.entry_date
-  , sites.site_name
-  , grade_levels.short_name
+    "Summit Start Date"
+  , "Student Last Name"
+  , "Student First Name"
+  , "Academic Year"
+  , "Entry Date"
+  , "Enrollment Grade Level"
+  , "Enrollment Site Name"
