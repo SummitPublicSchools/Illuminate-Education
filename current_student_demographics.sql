@@ -55,21 +55,21 @@ FROM
     AND sites.site_name <> 'SPS Tour'
 
   -- Join current students to counselors (mentors)
-  LEFT OUTER JOIN student_counselor_aff AS counselors
+  LEFT JOIN student_counselor_aff AS counselors
     ON counselors.student_id = ss.student_id
     AND counselors.start_date <= CURRENT_DATE
     AND (counselors.end_date IS NULL OR counselors.end_date > CURRENT_DATE)
-  LEFT OUTER JOIN users
+  LEFT JOIN users
     ON counselors.user_id = users.user_id
 
   -- Join current students to demographics
-  LEFT OUTER JOIN race_ethnicity_combined AS race_ethnicity
-    ON race_ethnicity.student_id = ss.student_id
-  LEFT OUTER JOIN student_common_demographics AS demographics
+  LEFT JOIN student_common_demographics AS demographics
     ON demographics.student_id = ss.student_id
-  LEFT OUTER JOIN codes.english_proficiency AS el  -- CA
-    ON el.code_id = students.english_proficiency
-  LEFT OUTER JOIN codes.student_programs AS programs  -- WA
+  LEFT JOIN race_ethnicity_combined AS race_ethnicity
+    ON race_ethnicity.student_id = ss.student_id
+  LEFT JOIN codes.english_proficiency AS el  -- CA
+    ON el.code_id = demographics.english_proficiency
+  LEFT JOIN codes.student_programs AS programs  -- WA
     ON programs.code_id = demographics.ell_program_id
 
 
