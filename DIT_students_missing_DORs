@@ -1,8 +1,8 @@
+SELECT
 /* Description
 
 */
 
-SELECT
 sites.site_name,
 stud.local_student_id,
 stud.last_name,
