@@ -1,9 +1,8 @@
 SELECT DISTINCT
+  sites.site_name AS "Current Site Name",
   students.local_student_id AS "Student ID",
   TRIM(students.last_name) AS "Last Name",
   TRIM(students.first_name) AS "First Name",
-  TRIM(students.middle_name) AS "Middle Name",
-  sites.site_name AS "Current Site Name",
   grade_levels.short_name::INTEGER AS "Current Grade Level",
   counselors.user_id AS "Counselor ID"
 
