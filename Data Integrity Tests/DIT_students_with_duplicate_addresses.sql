@@ -30,8 +30,7 @@ WITH
       LEFT JOIN contacts.dwellings USING (dwelling_id)
 
     WHERE
-      dwelling_id IS NOT NULL --AND
-      --hda.is_primary IS TRUE
+      dwelling_id IS NOT NULL
   )
 
 SELECT DISTINCT
