@@ -30,4 +30,5 @@ WHERE
   AND (minutes_per_week = 0
     OR minutes_per_week IS NULL)
   AND sites.site_id <> 9999999
+  AND timeblocks.timeblock_name <> 'SPED Caseload'
 ;
