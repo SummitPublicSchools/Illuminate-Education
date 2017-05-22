@@ -5,9 +5,10 @@ SELECT
   sites.site_name,
   sections.section_id,
   courses.short_name,
-  timeblocks.timeblock_name as period,
+  array_agg(timeblocks.timeblock_name) as period,
   sessions.academic_year,
-  users.last_name AS teacher,
+  array_agg(users.last_name) AS teacher_last,
+  array_agg(users.first_name) AS teacher_first,
   CASE WHEN (sections.minutes_per_week IS NULL or sections.minutes_per_week = 0)
     THEN TRUE ELSE FALSE END AS no_minutes
 
@@ -27,8 +28,12 @@ LEFT JOIN section_teacher_aff_dates on section_teacher_aff_dates.section_id = se
 
 WHERE
   section_teacher_aff_dates.end_date > now()
+  AND section_teacher_aff.primary_teacher IS TRUE
   AND (minutes_per_week = 0
     OR minutes_per_week IS NULL)
   AND sites.site_id <> 9999999
-  AND timeblocks.timeblock_name <> 'SPED Caseload'
+
+GROUP BY sections.section_id, sites.site_name, courses.short_name, sessions.academic_year
+
+ORDER BY sites.site_name, sections.section_id
 ;
