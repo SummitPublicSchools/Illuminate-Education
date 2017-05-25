@@ -1,0 +1,27 @@
+-- This pulls all "Incomplete" grades for current students. The last column indicates if the incomplete is from a prior Academic Year.
+SELECT
+  sites.site_name AS site,
+  students.local_student_id                 AS local_id,
+  matviews.ss_current.student_id,
+  students.last_name,
+  students.first_name,
+  (matviews.ss_current.grade_level_id - 1)  AS current_grade,
+  matviews.student_grades_transcript.academic_year,
+  departments.department_name,
+  matviews.student_grades_transcript.school_course_id,
+  grades.grade,
+  matviews.student_grades_transcript.credits_possible,
+  CASE WHEN matviews.student_grades_transcript.academic_year >= 2017
+    THEN FALSE ELSE TRUE END AS is_stale_incomplete
+FROM
+  matviews.ss_current
+LEFT JOIN students on students.student_id = matviews.ss_current.student_id
+LEFT JOIN sites on sites.site_id = matviews.ss_current.site_id
+LEFT JOIN matviews.student_grades_transcript on matviews.student_grades_transcript.student_id = matviews.ss_current.student_id
+LEFT JOIN grades on grades.grade_id = matviews.student_grades_transcript.grade_id
+LEFT JOIN courses on courses.course_id = matviews.student_grades_transcript.course_id
+LEFT JOIN departments on departments.department_id = courses.department_id
+
+WHERE
+  grades.grade = 'I' AND
+    matviews.ss_current.site_id <> 9999999;
