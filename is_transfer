@@ -1,0 +1,12 @@
+-- This returns whether a student has transfer records outside of Summit. All students in Illuminate.
+SELECT
+  matviews.ss_current.student_id,
+  CASE WHEN (SUM (CASE WHEN matviews.student_grades_transcript.grade_type = 'outer' THEN 1 ELSE 0 END)  -
+  SUM ( CASE WHEN matviews.student_grades_transcript.district_name LIKE 'Summit%' THEN 1 ELSE 0 END)) > 0 THEN TRUE ELSE FALSE END AS external_transfer_recs
+
+FROM matviews.ss_current
+LEFT JOIN matviews.student_grades_transcript on matviews.ss_current.student_id = matviews.student_grades_transcript.student_id
+
+GROUP BY matviews.ss_current.student_id
+ORDER BY
+  matviews.ss_current.student_id;
