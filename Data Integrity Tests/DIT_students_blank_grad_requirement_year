@@ -1,0 +1,20 @@
+SELECT
+  sites.site_name,
+  stud.local_student_id,
+  stud.last_name,
+  stud.first_name,
+  ss.grade_level_id - 1 AS grade,
+  houses.house_name     AS house,
+  stud.graduation_requirement_year
+
+FROM matviews.ss_current AS ss
+
+  LEFT JOIN students stud ON stud.student_id = ss.student_id
+  LEFT JOIN sites ON sites.site_id = ss.site_id
+  LEFT JOIN student_house_aff house_aff ON house_aff.student_id = ss.student_id
+  LEFT JOIN houses ON houses.house_id = house_aff.house_id
+
+WHERE
+  ss.site_id NOT IN (9999999, 9999998)
+  AND
+  stud.graduation_requirement_year IS NULL
