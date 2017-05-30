@@ -1,4 +1,5 @@
--- This query generates a list of students with missing credits in their transcripts. These students should be considered off-track for graduation, unless the School Leader has an additional plan.
+-- This query generates a list of students with missing credits in their transcripts. 
+-- These students should be considered off-track for graduation, unless the School Leader has an additional plan.
 
 SELECT *,
   (history_short + english_short + math_short + science_short) AS core_credits_short
