@@ -1,0 +1,34 @@
+-- All current students with all Passed Expeditions Courses taken at SPS.
+
+SELECT
+  sites.site_name,
+  matviews.ss_current.student_id,
+  students.local_student_id,
+  students.last_name,
+  students.first_name,
+  matviews.student_grades_transcript.academic_year,
+  departments.department_name,
+  matviews.student_grades_transcript.school_course_id,
+  courses.short_name,
+  grades.grade
+
+FROM
+  matviews.ss_current
+
+LEFT JOIN sites on sites.site_id = matviews.ss_current.site_id
+LEFT JOIN students on students.student_id = matviews.ss_current.student_id
+LEFT JOIN matviews.student_grades_transcript on matviews.student_grades_transcript.student_id = matviews.ss_current.student_id
+LEFT JOIN courses on matviews.student_grades_transcript.course_id = courses.course_id
+LEFT JOIN departments on departments.department_id = courses.department_id
+LEFT JOIN grades on grades.grade_id = matviews.student_grades_transcript.grade_id
+
+WHERE
+  (courses.school_course_id LIKE 'F%'
+  OR courses.school_course_id LIKE 'I%')
+  AND grade <> 'F'
+  AND grade <> 'NP'
+  AND grade <> 'W'
+  AND grade <> 'NG'
+  AND grade <> 'I'
+  AND departments.department_name <> 'Transfer'
+  AND matviews.ss_current.site_id <> 9999999;
