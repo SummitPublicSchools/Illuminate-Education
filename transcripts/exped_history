@@ -7,7 +7,6 @@ SELECT
   students.last_name,
   students.first_name,
   matviews.student_grades_transcript.academic_year,
-  departments.department_name,
   matviews.student_grades_transcript.school_course_id,
   courses.short_name,
   grades.grade
