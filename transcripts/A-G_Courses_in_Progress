@@ -17,7 +17,7 @@ SELECT
   SUM(CASE WHEN
     left(courses.school_course_id,1) = 'E' THEN 1 ELSE 0 END) AS forlang_enrolled,
   SUM(CASE WHEN
-      left(courses.school_course_id,1) = 'A' THEN 1 ELSE 0 END) AS vpa_enrolled
+      left(courses.school_course_id,1) = 'F' THEN 1 ELSE 0 END) AS vpa_enrolled
 
 
 FROM matviews.ss_current
