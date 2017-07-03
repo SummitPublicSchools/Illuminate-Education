@@ -11,7 +11,7 @@ SELECT
   matviews.student_grades_transcript.school_course_id,
   grades.grade,
   matviews.student_grades_transcript.credits_possible,
-  CASE WHEN matviews.student_grades_transcript.academic_year >= 2017
+  CASE WHEN matviews.student_grades_transcript.academic_year >= 2018
     THEN FALSE ELSE TRUE END AS is_stale_incomplete
 FROM
   matviews.ss_current
