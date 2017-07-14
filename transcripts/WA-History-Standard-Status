@@ -14,10 +14,21 @@ Note:
 
  */
 
-SELECT sites.site_name, students.local_student_id, students.last_name, students.first_name,  (matviews.ss_current.grade_level_id -1) AS grade, student_custom_fields_data.custom_field_washington_state_history AS WA_Hist_Status
-FROM matviews.ss_current
-LEFT JOIN students on matviews.ss_current.student_id = students.student_id
-LEFT JOIN sites on matviews.ss_current.site_id = sites.site_id
-LEFT JOIN student_custom_fields_data on matviews.ss_current.student_id = student_custom_fields_data.student_id
-WHERE sites.site_id <> 9999999
-ORDER BY site_name, grade, local_student_id;
+SELECT
+  sites.site_name,
+  students.local_student_id,
+  students.last_name,
+  students.first_name,
+  (matviews.student_term_aff.grade_level_id -1) AS grade,
+  codes.transcript_requirements.code_translation AS WA_Hist_status,
+  students.student_id
+FROM matviews.student_term_aff
+  LEFT JOIN students on students.student_id = matviews.student_term_aff.student_id
+  LEFT JOIN terms on terms.term_id = matviews.student_term_aff.term_id
+  LEFT JOIN sessions on sessions.session_id = terms.session_id
+  LEFT JOIN sites on sites.site_id = sessions.site_id
+  LEFT JOIN student_transcript_extra on matviews.student_term_aff.student_id = student_transcript_extra.student_id
+  LEFT JOIN codes.transcript_requirements on codes.transcript_requirements.code_id = student_transcript_extra.history_standard
+WHERE sites.site_id <> 9999999 AND
+  matviews.student_term_aff.entry_date > '2017-07-01'
+ORDER BY site_name, grade, local_student_id
