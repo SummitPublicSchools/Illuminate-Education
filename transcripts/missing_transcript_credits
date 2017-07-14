@@ -1,14 +1,12 @@
 -- This query generates a list of students with missing credits in their transcripts. 
 -- These students should be considered off-track for graduation, unless the School Leader has an additional plan.
 
-SELECT *,
-  (history_short + english_short + math_short + science_short) AS core_credits_short
-    FROM
+SELECT *, (history_short + english_short + math_short + science_short) AS core_credits_short
+  FROM
     (SELECT
        *,
        CASE WHEN
-         history_short > 0 OR english_short > 0 OR math_short > 0 OR science_short > 0 OR Needs_Foreign_Lang IS TRUE OR
-         Needs_VPA IS TRUE
+         history_short > 0 OR english_short > 0 OR math_short > 0 OR science_short > 0
          THEN TRUE
        ELSE FALSE END AS transcript_issue
      FROM
@@ -18,77 +16,53 @@ SELECT *,
           students.local_student_id                AS local_id,
           students.last_name,
           students.first_name,
-          (matviews.ss_current.grade_level_id - 1) AS current_grade,
+          (matviews.student_term_aff.grade_level_id - 1) AS current_grade,
 
           --  These CASE statements are calculating the proper number of transcript credits expected, depending on student grade level and course category, minus the credits found in that category on a student's record.
           --  See the grid of expectations here: https://docs.google.com/spreadsheets/d/1JQcO84KiyNJgD7m25zCp7XNbXjj3VtrmAwOQDScb_RQ/edit#gid=220782597
 
-          CASE WHEN (((matviews.ss_current.grade_level_id - 10) -
+          CASE WHEN (((matviews.student_term_aff.grade_level_id - 10) -
                       SUM(CASE
                           WHEN left(matviews.student_grades_transcript.school_course_id, 1) = 'A'
                             THEN matviews.student_grades_transcript.credits_received
                           ELSE 0 END))) <= 0
             THEN 0
-          ELSE (((matviews.ss_current.grade_level_id - 10) -
+          ELSE (((matviews.student_term_aff.grade_level_id - 10) -
                  SUM(CASE WHEN left(matviews.student_grades_transcript.school_course_id, 1) = 'A'
                    THEN matviews.student_grades_transcript.credits_received
                      ELSE 0 END)))
           END                                       AS history_short,
-          CASE WHEN (((matviews.ss_current.grade_level_id - 10) -
+          CASE WHEN (((matviews.student_term_aff.grade_level_id - 10) -
                       SUM(CASE
                           WHEN left(matviews.student_grades_transcript.school_course_id, 1) = 'B'
                             THEN matviews.student_grades_transcript.credits_received
                           ELSE 0 END))) <= 0
             THEN 0
-          ELSE (((matviews.ss_current.grade_level_id - 10) -
+          ELSE (((matviews.student_term_aff.grade_level_id - 10) -
                  SUM(CASE WHEN left(matviews.student_grades_transcript.school_course_id, 1) = 'B'
                    THEN matviews.student_grades_transcript.credits_received
                      ELSE 0 END))) END              AS english_short,
-          CASE WHEN (((matviews.ss_current.grade_level_id - 10) -
+          CASE WHEN (((matviews.student_term_aff.grade_level_id - 10) -
                       SUM(CASE WHEN left(matviews.student_grades_transcript.school_course_id, 1) = 'C'
                         THEN matviews.student_grades_transcript.credits_received
                           ELSE 0 END))) <= 0
             THEN 0
-          ELSE (((matviews.ss_current.grade_level_id - 10) -
+          ELSE (((matviews.student_term_aff.grade_level_id - 10) -
                  SUM(CASE WHEN left(matviews.student_grades_transcript.school_course_id, 1) = 'C'
                    THEN matviews.student_grades_transcript.credits_received
                      ELSE 0 END))) END              AS math_short,
-          CASE WHEN (((matviews.ss_current.grade_level_id - 10) -
+          CASE WHEN (((matviews.student_term_aff.grade_level_id - 10) -
                       SUM(CASE WHEN left(matviews.student_grades_transcript.school_course_id, 1) = 'D'
                         THEN matviews.student_grades_transcript.credits_received
                           ELSE 0 END))) <= 0
             THEN 0
-          ELSE (((matviews.ss_current.grade_level_id - 10) -
+          ELSE (((matviews.student_term_aff.grade_level_id - 10) -
                  SUM(CASE WHEN left(matviews.student_grades_transcript.school_course_id, 1) = 'D'
                    THEN matviews.student_grades_transcript.credits_received
                      ELSE 0 END))) END              AS science_short,
 
---          CASE WHEN matviews.ss_current.grade_level_id <= 12
---             THEN 0
---             ELSE (CASE  WHEN ((1 - SUM(CASE WHEN left(matviews.student_grades_transcript.school_course_id, 1) = 'E'
---                                             THEN matviews.student_grades_transcript.credits_received
---                           ELSE 0 END))) <= 0
---             THEN 0
---                         ELSE (1 - SUM(CASE  WHEN left(matviews.student_grades_transcript.school_course_id, 1) = 'E'
---                                             THEN matviews.student_grades_transcript.credits_received
---                                             ELSE 0 END)
---                                       )
---                   END) END AS forlang_short,
---
---           CASE WHEN matviews.ss_current.grade_level_id <= 12
---             THEN 0
---             ELSE (CASE  WHEN ((1 - SUM(CASE WHEN left(matviews.student_grades_transcript.school_course_id, 1) = 'F'
---                                             THEN matviews.student_grades_transcript.credits_received
---                           ELSE 0 END))) <= 0
---             THEN 0
---                         ELSE (1 - SUM(CASE  WHEN left(matviews.student_grades_transcript.school_course_id, 1) = 'F'
---                                             THEN matviews.student_grades_transcript.credits_received
---                                             ELSE 0 END)
---                                       )
---                   END) END AS vpa_short,
-
 -- This checks whether 10th graders have at least one Foreign Language credit on their transcripts. A "TRUE" means this student MUST take Spanish the following year.
-          CASE WHEN matviews.ss_current.grade_level_id < 12
+          CASE WHEN matviews.student_term_aff.grade_level_id < 12
             THEN FALSE
             ELSE CASE WHEN SUM(CASE WHEN left(matviews.student_grades_transcript.school_course_id, 1) = 'E'
                           THEN matviews.student_grades_transcript.credits_received
@@ -97,7 +71,7 @@ SELECT *,
           END AS Needs_Foreign_Lang,
 
 -- This checks whether 10th graders have at least one VPA credit on their transcripts. A "TRUE" means this student MUST take a VPA the following year.
-          CASE WHEN matviews.ss_current.grade_level_id < 12
+          CASE WHEN matviews.student_term_aff.grade_level_id < 12
             THEN FALSE
             ELSE CASE WHEN SUM(CASE WHEN left(matviews.student_grades_transcript.school_course_id, 1) = 'F'
                           THEN matviews.student_grades_transcript.credits_received
@@ -106,17 +80,20 @@ SELECT *,
           END AS Needs_VPA
 
 
-        FROM matviews.ss_current
+        FROM matviews.student_term_aff
 
-          LEFT JOIN students ON matviews.ss_current.student_id = students.student_id
-          LEFT JOIN sites ON sites.site_id = matviews.ss_current.site_id
+          LEFT JOIN students ON matviews.student_term_aff.student_id = students.student_id
+          LEFT JOIN terms on terms.term_id = matviews.student_term_aff.term_id
+          LEFT JOIN sessions on sessions.session_id = terms.session_id
+          LEFT JOIN sites on sites.site_id = sessions.site_id
           LEFT JOIN matviews.student_grades_transcript
-            ON matviews.student_grades_transcript.student_id = matviews.ss_current.student_id
+            ON matviews.student_grades_transcript.student_id = matviews.student_term_aff.student_id
           LEFT JOIN courses ON courses.course_id = matviews.student_grades_transcript.course_id
           LEFT JOIN departments ON departments.department_id = courses.department_id
 
-        WHERE matviews.ss_current.site_id <> 9999999
-              AND matviews.ss_current.grade_level_id >= 11
+        WHERE sites.site_id <> 9999999
+              AND matviews.student_term_aff.grade_level_id >= 11
+          AND matviews.student_term_aff.entry_date > '2017-07-01'
 
         GROUP BY
           students.local_student_id,
@@ -124,7 +101,7 @@ SELECT *,
           students.last_name,
           students.first_name,
           sites.site_name,
-          matviews.ss_current.grade_level_id)
+          matviews.student_term_aff.grade_level_id)
          AS column_set)
       AS transcheck
-  WHERE transcript_issue = TRUE;
+  WHERE transcript_issue = TRUE
