@@ -1,0 +1,317 @@
+--FROM PATRICK'S CONTACT PRIORITIZATION QUERY--
+WITH
+parent_guardian_1 AS (
+  SELECT DISTINCT
+      ss.student_id,
+      stud.local_student_id,
+      contacts.contact_id AS primary_guardian_id,
+      contacts.first_name AS guardian_1_first_name,
+      contacts.last_name AS guardian_1_last_name,
+      contacts.email_address AS guardian_1_email,
+      cell_phone_numbers.phone_number AS guardian_1_phone_number,
+      CASE
+        WHEN (sct.code_translation = 'Mother' OR
+             sct.code_translation = 'Father' OR
+             sct.code_translation = 'Aunt' OR
+             sct.code_translation = 'Uncle') THEN sct.code_translation
+        WHEN (sct.code_translation = 'Court Guardian' OR
+             sct.code_translation = 'Foster Father' OR
+             sct.code_translation = 'Foster Mother') THEN 'Guardian'
+        WHEN (sct.code_translation = 'Brother' OR
+             sct.code_translation = 'Sister') THEN 'Sibling'
+        ELSE 'Other'
+        END AS guardian_1_relation,
+        dwell.address AS guardian_1_address_street1,
+        dwell.address_2 AS guardian_1_address_street2,
+        dwell.city AS guardian_1_address_city_name,
+        codes.states.code_key AS guardian_1_address_state,
+        dwell.zip AS guardian_1_address_zipcode,
+        home_phone_numbers.phone_number AS guardian_1_home_phone_number,
+        work_phone_numbers.phone_number AS guardian_1_work_phone_number
+    FROM
+      -- all current students
+      matviews.ss_current AS ss
+
+      -- info about each student
+      LEFT JOIN public.students stud
+        ON ss.student_id = stud.student_id
+
+      -- get the basic view of student contact info
+      LEFT JOIN contacts.students_contact_info stu_cont_info
+        ON ss.student_id = stu_cont_info.student_id
+
+      -- connect contact type code with its text
+      LEFT JOIN codes.student_contact_type sct
+        ON stu_cont_info.contact_type_id = sct.code_id
+
+      -- connect information about each actual contact
+      LEFT JOIN contacts.contacts contacts
+        ON stu_cont_info.contact_id = contacts.contact_id
+
+      LEFT JOIN contacts.household_dwelling_aff hda
+        ON stu_cont_info.household_id = hda.household_id
+
+      -- connect dwelling info to the household
+      LEFT JOIN contacts.dwellings dwell
+        ON hda.dwelling_id = dwell.dwelling_id
+
+      -- get the state associated with the address
+      LEFT JOIN codes.states
+        ON dwell.state = codes.states.code_id
+
+      -- Get a single cell phone number for each contact. If they have more than one,
+      -- default to taking the the one that is marked 'is_primary'. Otherwise, just
+      -- choose one of them and we'll then let the parent decide
+
+	LEFT JOIN (
+                  SELECT *
+                  FROM (
+                    SELECT DISTINCT
+                      contacts.contact_phones.contact_id AS contact_id,
+                      contacts.contact_phones.phone      AS phone_number,
+                      codes.phone_type.code_translation  AS phone_type,
+                      contacts.contact_phones.is_primary,
+                      rank()
+                      OVER (PARTITION BY contact_id
+                        ORDER BY is_primary, phone DESC)        AS rank
+
+                    FROM contacts.contact_phones
+                      LEFT JOIN codes.phone_type
+                        ON contacts.contact_phones.phone_type_id = codes.phone_type.code_id
+
+                    -- phone types: 'Home, 'Work', 'Cellular', 'Other', 'Unknown
+                    WHERE codes.phone_type.code_translation = 'Cellular'
+
+                    -- ORDER BY contacts.contact_phones.is_primary DESC
+                  ) ranked_phone_numbers
+
+                  WHERE rank = 1
+        ) cell_phone_numbers ON contacts.contact_id = cell_phone_numbers.contact_id
+
+      -- Get a single home phone number for each contact. If they have more than one,
+      -- default to taking the the one that is marked 'is_primary'. Otherwise, just
+      -- choose one of them and we'll then let the parent decide
+      LEFT JOIN (
+                  SELECT *
+                  FROM (
+                    SELECT DISTINCT
+                      contacts.contact_phones.contact_id AS contact_id,
+                      contacts.contact_phones.phone      AS phone_number,
+                      codes.phone_type.code_translation  AS phone_type,
+                      contacts.contact_phones.is_primary,
+                      rank()
+                      OVER (PARTITION BY contact_id
+                        ORDER BY is_primary, phone DESC)        AS rank
+
+                    FROM contacts.contact_phones
+                      LEFT JOIN codes.phone_type
+                        ON contacts.contact_phones.phone_type_id = codes.phone_type.code_id
+
+                    -- phone types: 'Home, 'Work', 'Cellular', 'Other', 'Unknown
+                    WHERE codes.phone_type.code_translation = 'Home'
+
+                    -- ORDER BY contacts.contact_phones.is_primary DESC
+                  ) ranked_phone_numbers
+
+                  WHERE rank = 1
+        ) home_phone_numbers ON contacts.contact_id = home_phone_numbers.contact_id
+
+      -- Get a single work phone number for each contact. If they have more than one,
+      -- default to taking the the one that is marked 'is_primary'. Otherwise, just
+      -- choose one of them and we'll then let the parent decide
+      LEFT JOIN (
+                  SELECT *
+                  FROM (
+                    SELECT DISTINCT
+                      contacts.contact_phones.contact_id AS contact_id,
+                      contacts.contact_phones.phone      AS phone_number,
+                      codes.phone_type.code_translation  AS phone_type,
+                      contacts.contact_phones.is_primary,
+                      rank()
+                      OVER (PARTITION BY contact_id
+                        ORDER BY is_primary, phone DESC)        AS rank
+
+                    FROM contacts.contact_phones
+                      LEFT JOIN codes.phone_type
+                        ON contacts.contact_phones.phone_type_id = codes.phone_type.code_id
+
+                    -- phone types: 'Home, 'Work', 'Cellular', 'Other', 'Unknown
+                    WHERE codes.phone_type.code_translation = 'Work'
+
+                    -- ORDER BY contacts.contact_phones.is_primary DESC
+                  ) ranked_phone_numbers
+
+                  WHERE rank = 1
+        ) work_phone_numbers ON contacts.contact_id = work_phone_numbers.contact_id
+
+
+    WHERE
+
+    -- choose the most recent dwelling (and thus current address) for the household
+    hda.is_primary IS True AND
+
+    -- for parent/guardian 1, choose the primary parent at the student's primary
+    -- household
+    stu_cont_info.primary_household IS TRUE AND
+    stu_cont_info.primary_contact IS TRUE AND
+
+    -- ensure that it is a legal guardian
+    stu_cont_info.is_legal IS TRUE
+)
+/* --Before aggregating by week
+select
+wtbc.Site, wtbc.Grade, wtbc.local_student_id, wtbc.last_name, wtbc.first_name, wtbc.Course, wtbc.flag_text, wtbc.Week_Number, wtbc.num_tardies,
+wtbc.course_concat
+from weekly_tardies_by_course wtbc
+*/
+--END OF PATRICK'S CODE--
+SELECT
+	sit.site_name as Site,
+	gra.short_name as Grade,
+	st.local_student_id,
+	st.last_name,
+	st.first_name,
+	cou.short_name as Course,
+	satt.date,
+	af.flag_text,
+	sec.section_id,
+	trunc(date_part('day',satt.date::timestamp - '2016-08-14'::timestamp)/7)+1 as Week_Number,
+	date_trunc('week', satt.date::timestamp)::date-1 as Start_of_Week,
+	tim.short_name as timeblock_name,
+  parent_guardian_1.guardian_1_email as guardian_email-- M.Landon
+FROM matviews.ss_current ssc
+	left join sites sit on sit.site_id = ssc.site_id
+	left join grade_levels gra on gra.grade_level_id = ssc.grade_level_id
+	left join students st on st.student_id = ssc.student_id
+	left join section_student_aff ssa on ssa.student_id = ssc.student_id
+	left join sections sec on sec.section_id = ssa.section_id
+	left join section_course_aff scaff on scaff.section_id = sec.section_id and ssa.course_id = scaff.course_id
+	left join courses cou on cou.course_id = scaff.course_id
+	left join student_attendance satt on satt.ssa_id = ssa.ssa_id
+	left join attendance_flags af on af.attendance_flag_id = satt.attendance_flag_id
+	left join section_timeblock_aff sectim on sectim.section_id = sec.section_id
+	left join timeblocks tim on tim.timeblock_id = sectim.timeblock_id
+	left join parent_guardian_1 pg1 on st.local_student_id = pg1.student_id
+
+where ssc.site_id <> 9999999
+and ssc.site_id = 11
+and af.is_tardy = true
+and satt.date >= '2016-08-16'
+order by satt."date" desc
+
+with section_timeblocks as (
+		SELECT
+			sectim.section_id,
+			tim.short_name as timeblock_name,
+			row_number()
+			OVER (
+				PARTITION BY section_id
+				ORDER BY occurrence_order ) AS timeblock_order
+
+		FROM section_timeblock_aff sectim
+			LEFT JOIN timeblocks tim ON tim.timeblock_id = sectim.timeblock_id
+),
+
+individual_tardies as (
+
+SELECT
+  gra.short_name as Grade,
+  sit.site_name as Site,
+	st.local_student_id,
+	st.last_name,
+	st.first_name,
+-- 	cou.short_name as Course,
+-- 	sectim.timeblock_name,
+	concat(cou.short_name,' - ',sectim.timeblock_name) as Course,
+	satt.date,
+	af.flag_text,
+	trunc(date_part('day',satt.date::timestamp - '2016-08-14'::timestamp)/7)+1 as Week_Number,
+	date_trunc('week', satt.date::timestamp)::date-1 as Start_of_Week,
+	st.email as student_email,
+	CASE
+		WHEN cc.email_opt_out <> TRUE
+		THEN cc.email_address
+		ELSE 'Do not contact'
+		END as contact_email, -- M.Landon
+	cc.email_opt_out
+
+FROM matviews.ss_current ssc
+left join sites sit on sit.site_id = ssc.site_id
+left join grade_levels gra on gra.grade_level_id = ssc.grade_level_id
+left join students st on st.student_id = ssc.student_id
+left join section_student_aff ssa on ssa.student_id = ssc.student_id
+left join sections sec on sec.section_id = ssa.section_id
+left join section_course_aff scaff on scaff.section_id = sec.section_id and ssa.course_id = scaff.course_id
+left join courses cou on cou.course_id = scaff.course_id
+left join student_attendance satt on satt.ssa_id = ssa.ssa_id
+left join attendance_flags af on af.attendance_flag_id = satt.attendance_flag_id
+left join section_timeblocks sectim on sectim.section_id = sec.section_id and sectim.timeblock_order = 1
+left join public.students pub on st.student_id = pub.student_id -- M.Landon
+left join contacts.students_contact_info coninfo on pub.student_id = coninfo.student_id -- M.Landon
+left join contacts.contacts cc on coninfo.contact_id = cc.contact_id -- M.Landon
+
+where ssc.site_id <> 9999999
+and ssc.site_id = 11
+and af.is_tardy = true
+and satt.date >= '2016-08-16'
+order by satt."date" desc
+),
+
+weekly_tardies_by_course as (
+
+select it.Site, it.Grade, it.local_student_id, it.last_name, it.first_name, it.Course, it.flag_text, it.Week_Number, it.Start_of_week, count(it.date) as num_tardies,
+concat(it.Course,' (',count(it.date),')') as course_concat, it.student_email, it.contact_email, it.email_opt_out
+from individual_tardies it
+group by it.Site, it.Grade, it.local_student_id, it.last_name, it.first_name, it.Course, it.flag_text, it.Week_Number, it.start_of_week, it.student_email, it.contact_email, it.email_opt_out
+order by it.local_student_id, it.week_number
+
+)
+
+select
+wtbc2.Site,
+wtbc2.Grade,
+wtbc2.local_student_id,
+wtbc2.last_name,
+wtbc2.first_name,
+wtbc2.flag_text as attendance_flag,
+wtbc2.Week_Number,
+wtbc2.Start_of_Week,
+sum(wtbc2.num_tardies) as weekly_total_tardies,
+array_agg(wtbc2.course_concat) as tardy_courses,
+wtbc2.student_email as student_email, -- M.Landon
+parent_guardian_1.guardian_1_email as guardian_email
+--CASE
+	--WHEN wtbc2.email_opt_out <> TRUE
+		--THEN wtbc2.contact_email
+		--ELSE 'Do not contact'
+	--END as contact_email -- M.Landon
+
+from weekly_tardies_by_course wtbc2
+ LEFT JOIN parent_guardian_1
+    ON wtbc2.local_student_id = parent_guardian_1.student_id
+group by wtbc2.Site, wtbc2.Grade, wtbc2.local_student_id, wtbc2.last_name, wtbc2.first_name, wtbc2.flag_text, wtbc2.Week_Number, wtbc2.start_of_week, wtbc2.student_email, guardian_1_email --M.Landon
+order by wtbc2.local_student_id, wtbc2.week_number
+
+
+
+
+/* --Original query - Each tardy on its own row
+
+SELECT sit.site_name as Site, gra.short_name as Grade, st.local_student_id, st.last_name, st.first_name, cou.short_name as Course, satt.date, af.flag_text FROM matviews.ss_current ssc
+left join sites sit on sit.site_id = ssc.site_id
+left join grade_levels gra on gra.grade_level_id = ssc.grade_level_id
+left join students st on st.student_id = ssc.student_id
+left join section_student_aff ssa on ssa.student_id = ssc.student_id
+left join sections sec on sec.section_id = ssa.section_id
+left join section_course_aff scaff on scaff.section_id = sec.section_id and ssa.course_id = scaff.course_id
+left join courses cou on cou.course_id = scaff.course_id
+left join student_attendance satt on satt.ssa_id = ssa.ssa_id
+left join attendance_flags af on af.attendance_flag_id = satt.attendance_flag_id
+where ssc.site_id <> 9999999
+and ssc.site_id = 11
+and af.is_tardy = true
+and satt.date >= '2016-08-16'
+order by satt."date" desc
+
+*/
+
