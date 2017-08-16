@@ -57,7 +57,7 @@ LEFT JOIN sites on sessions.site_id = sites.site_id
 WHERE
   matviews.student_term_aff.entry_date > '2017-08-01' AND
   section_term_aff.term_id >= 261 AND
-  section_teacher_aff.end_date > current_date
+  (section_teacher_aff.end_date > current_date OR section_teacher_aff.end_date IS NULL)
 
 
 GROUP BY
