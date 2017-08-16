@@ -1,0 +1,77 @@
+-- This pulls each timeblock assignment for teachers (CA SY18). This works with the report at https://docs.google.com/spreadsheets/d/1sdBErTjf6ksPvRSvrVvNTZrayux4DzEsCaO6ourUaYE/edit#gid=335779212
+SELECT
+  sites.site_name,
+   users.first_name,
+  users.last_name,
+   timeblocks.timeblock_name AS time,
+
+    CASE WHEN courses.school_course_id = 'B100' THEN 'English 9' ELSE
+      CASE WHEN courses.school_course_id = 'B200' THEN 'English 10' ELSE
+        CASE WHEN courses.school_course_id = 'I501M' THEN 'Mentor PLT' ELSE
+          CASE WHEN substring(courses.school_course_id,1,4)='I501' THEN 'PLT' ELSE
+            CASE WHEN substring(courses.school_course_id,1,2) = 'S2' THEN 'Summit Reads' ELSE
+              CASE WHEN courses.school_course_id = 'I1107' OR courses.school_course_id = 'I1108' THEN 'Intro to Comp Sci' ELSE
+                CASE WHEN courses.school_course_id = 'I023' OR courses.school_course_id = 'I024' THEN 'Intro to Design' ELSE
+                  CASE WHEN courses.school_course_id = 'I007' OR courses.school_course_id = 'I008' THEN 'Drama' ELSE
+                    CASE WHEN substring(courses.school_course_id,1,5) = 'B300' THEN 'AP English Language' ELSE
+                        CASE WHEN substring(courses.school_course_id,1,5) = 'B400' THEN 'AP English Literature' ELSE
+                            CASE WHEN substring(courses.school_course_id,1,2) = 'S3' THEN 'Summit Solves' ELSE
+                              CASE WHEN substring(courses.school_course_id,1,2) = 'LC' THEN 'Learning Center' ELSE
+                    courses.short_name
+                      END
+                    END
+                  END
+                END
+              END
+            END
+          END
+         END
+        END
+      END
+    END
+  END,
+  CASE WHEN timeblocks.timeblock_name LIKE '%Mentor%' THEN 'Mentor' ELSE
+    CASE WHEN timeblocks.timeblock_name LIKE '%10-Minute%' THEN
+      'Mentor' ELSE substring(timeblocks.timeblock_name,4,3)  END END,
+  to_char(timeblock_times.start_time, 'HH12:MI AM'),
+  to_char(timeblock_times.end_time, 'HH12:MI AM'),
+   rooms.name
+FROM
+  section_student_aff
+LEFT JOIN students ON section_student_aff.student_id = students.student_id
+LEFT JOIN matviews.student_term_aff on matviews.student_term_aff.student_id = section_student_aff.student_id
+LEFT JOIN terms on terms.term_id = matviews.student_term_aff.term_id
+LEFT JOIN sessions on sessions.session_id = terms.session_id
+LEFT JOIN section_timeblock_aff on section_timeblock_aff.section_id = section_student_aff.section_id
+LEFT JOIN timeblocks on timeblocks.timeblock_id = section_timeblock_aff.timeblock_id
+LEFT JOIN sections on section_student_aff.section_id = sections.section_id
+LEFT JOIN courses ON section_student_aff.course_id = courses.course_id
+LEFT JOIN timeblock_times ON timeblocks.timeblock_id = timeblock_times.timeblock_id
+LEFT JOIN section_teacher_aff on sections.section_id = section_teacher_aff.section_id
+LEFT JOIN users on users.user_id = section_teacher_aff.user_id
+LEFT JOIN rooms ON rooms.room_id = sections.room_id
+LEFT JOIN student_house_aff ON students.student_id = student_house_aff.student_id
+LEFT JOIN houses ON houses.house_id = student_house_aff.house_id
+LEFT JOIN section_term_aff on sections.section_id = section_term_aff.section_id
+LEFT JOIN sites on sessions.site_id = sites.site_id
+WHERE
+  matviews.student_term_aff.entry_date > '2017-08-01' AND
+  section_term_aff.term_id >= 261 AND
+  section_teacher_aff.end_date > current_date
+
+
+GROUP BY
+  sites.site_name,
+  sections.section_id,
+  courses.school_course_id,
+  courses.short_name,
+  timeblocks.timeblock_name,
+  timeblock_times.start_time,
+  timeblock_times.end_time,
+  users.first_name,
+  users.last_name,
+  rooms.name
+ORDER BY
+  sites.site_name,
+  time,
+  users.last_name
