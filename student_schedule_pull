@@ -64,6 +64,7 @@ WHERE
   matviews.student_term_aff.entry_date > '2017-08-01' AND
   section_term_aff.term_id >= 261  AND
   section_teacher_aff.primary_teacher IS TRUE AND
+  (section_student_aff.leave_date >  current_date OR section_student_aff.leave_date IS NULL)
 -- Edit the session IDs below to match the session id for your site this year.
   sessions.session_id = 216 AND
   houses.session_id = 216 AND
