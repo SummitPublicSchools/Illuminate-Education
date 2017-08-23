@@ -9,17 +9,19 @@ SELECT
   matviews.student_grades_transcript.academic_year,
   matviews.student_grades_transcript.school_course_id,
   courses.short_name,
-  grades.grade
+  grades.grade,
+  matviews.student_grades_transcript.is_repeat
 
 FROM
   matviews.ss_current
 
 LEFT JOIN sites on sites.site_id = matviews.ss_current.site_id
 LEFT JOIN students on students.student_id = matviews.ss_current.student_id
-LEFT JOIN matviews.student_grades_transcript on matviews.student_grades_transcript.student_id = matviews.ss_current.student_id
+LEFT JOIN matviews.student_grades_transcript on matviews.ss_current.student_id = matviews.student_grades_transcript.student_id
 LEFT JOIN courses on matviews.student_grades_transcript.course_id = courses.course_id
 LEFT JOIN departments on departments.department_id = courses.department_id
 LEFT JOIN grades on grades.grade_id = matviews.student_grades_transcript.grade_id
+
 
 WHERE
   (courses.school_course_id LIKE 'F%'
@@ -28,6 +30,19 @@ WHERE
   AND matviews.ss_current.grade_level_id > 9
   AND departments.department_name <> 'Transfer'
   AND matviews.ss_current.site_id <> 9999999
+  AND matviews.student_grades_transcript.is_repeat is FALSE
+
+GROUP BY
+   sites.site_name,
+  students.local_student_id,
+  matviews.ss_current.grade_level_id,
+  students.last_name,
+  students.first_name,
+  matviews.student_grades_transcript.academic_year,
+  matviews.student_grades_transcript.school_course_id,
+  courses.short_name,
+  grades.grade,
+  matviews.student_grades_transcript.is_repeat
 
 ORDER BY
 sites.site_name,
