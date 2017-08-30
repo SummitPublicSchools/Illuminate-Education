@@ -1,0 +1,27 @@
+-- All CA HS Expeditions sections w/ local IDs.
+SELECT
+  sites.site_name,
+  courses.school_course_id,
+  sections.local_section_id,
+  courses.short_name,
+  users.last_name,
+  users.local_user_id,
+  timeblocks.timeblock_name
+
+FROM
+  sections
+
+LEFT JOIN section_teacher_aff on sections.section_id = section_teacher_aff.section_id
+LEFT JOIN users on section_teacher_aff.user_id = users.user_id
+LEFT JOIN section_course_aff on sections.section_id = section_course_aff.section_id
+LEFT JOIN courses on section_course_aff.course_id = courses.course_id
+LEFT JOIN section_term_aff on sections.section_id = section_term_aff.section_id
+LEFT JOIN terms on section_term_aff.term_id = terms.term_id
+LEFT JOIN sessions on terms.session_id = sessions.session_id
+LEFT JOIN sites on sessions.site_id = sites.site_id
+LEFT JOIN section_timeblock_aff on sections.section_id = section_timeblock_aff.section_id
+LEFT JOIN timeblocks on section_timeblock_aff.timeblock_id = timeblocks.timeblock_id
+
+WHERE
+  sessions.academic_year = 2018 AND
+  timeblock_name LIKE '%Exped%'
