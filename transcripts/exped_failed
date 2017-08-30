@@ -25,7 +25,8 @@ LEFT JOIN grades on grades.grade_id = matviews.student_grades_transcript.grade_i
 
 WHERE
   (courses.school_course_id LIKE 'F%'
-  OR courses.school_course_id LIKE 'I%')
+  OR courses.school_course_id LIKE 'I%'
+  OR courses.school_course_id LIKE 'G%')
   AND (grade = 'F' OR grade = 'I')
   AND matviews.ss_current.grade_level_id > 9
   AND departments.department_name <> 'Transfer'
