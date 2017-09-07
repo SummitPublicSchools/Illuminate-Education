@@ -23,7 +23,8 @@ LEFT JOIN grades on grades.grade_id = matviews.student_grades_transcript.grade_i
 
 WHERE
   (courses.school_course_id LIKE 'F%'
-  OR courses.school_course_id LIKE 'I%')
+  OR courses.school_course_id LIKE 'I%'
+  OR courses.school_course_id LIKE 'G%')
   AND grade <> 'F'
   AND grade <> 'NP'
   AND grade <> 'W'
