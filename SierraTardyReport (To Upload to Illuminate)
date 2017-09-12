@@ -1,0 +1,192 @@
+-- with contact_emails_table as (
+-- 		SELECT
+-- 	stu_con_email.local_student_id,
+-- 	string_agg(stu_con_email.email_address, ',') AS contact_emails
+-- FROM (
+-- 	SELECT
+-- 		st.local_student_id,
+-- 		cc.email_address,
+-- 		row_number() OVER (PARTITION BY cc.email_address) AS row_num
+--
+-- 	FROM matviews.ss_current ssc
+-- 		LEFT JOIN students st ON st.student_id = ssc.student_id
+-- 		LEFT JOIN contacts.students_contact_info coninfo ON st.student_id = coninfo.student_id
+-- 		-- M.Landon
+-- 		LEFT JOIN contacts.contacts cc ON coninfo.contact_id = cc.contact_id -- M.Landon
+-- 	WHERE coninfo.is_legal IS TRUE
+-- ) AS stu_con_email
+-- WHERE stu_con_email.row_num = 1
+-- GROUP BY stu_con_email.local_student_id)
+--
+--
+-- SELECT
+-- 	sit.site_name as Site,
+-- 	gra.short_name as Grade,
+-- 	st.local_student_id,
+-- 	st.last_name,
+-- 	st.first_name,
+-- 	cou.short_name as Course,
+-- 	satt.date,
+-- 	af.flag_text,
+-- 	sec.section_id,
+-- 	trunc(date_part('day',satt.date::timestamp - '2017-08-22'::timestamp)/7)+1 as Week_Number,
+-- 	date_trunc('week', satt.date::timestamp)::date-1 as Start_of_Week,
+-- 	tim.short_name as timeblock_name,
+-- 	st.email as student_email,
+-- 	ct.contact_emails
+--
+-- FROM matviews.ss_current ssc
+-- 	left join sites sit on sit.site_id = ssc.site_id
+-- 	left join grade_levels gra on gra.grade_level_id = ssc.grade_level_id
+-- 	left join students st on st.student_id = ssc.student_id
+-- 	left join section_student_aff ssa on ssa.student_id = ssc.student_id
+-- 	left join sections sec on sec.section_id = ssa.section_id
+-- 	left join section_course_aff scaff on scaff.section_id = sec.section_id and ssa.course_id = scaff.course_id
+-- 	left join courses cou on cou.course_id = scaff.course_id
+-- 	left join student_attendance satt on satt.ssa_id = ssa.ssa_id
+-- 	left join attendance_flags af on af.attendance_flag_id = satt.attendance_flag_id
+-- 	left join section_timeblock_aff sectim on sectim.section_id = sec.section_id
+-- 	left join timeblocks tim on tim.timeblock_id = sectim.timeblock_id
+-- 	left join contact_emails_table ct on ct.local_student_id = st.local_student_id
+--
+--
+-- where ssc.site_id <> 9999999
+-- and ssc.site_id = 11
+-- and af.is_tardy = true
+-- and satt.date >= '2017-08-22'
+-- order by satt."date" desc
+
+
+with section_timeblocks as (
+		SELECT
+			sectim.section_id,
+			tim.short_name as timeblock_name,
+			row_number()
+			OVER (
+				PARTITION BY section_id
+				ORDER BY occurrence_order ) AS timeblock_order
+
+		FROM section_timeblock_aff sectim
+			LEFT JOIN timeblocks tim ON tim.timeblock_id = sectim.timeblock_id
+),
+
+individual_tardies as (
+
+SELECT
+	sit.site_name as Site,
+	gra.short_name as Grade,
+	st.local_student_id,
+	st.last_name,
+	st.first_name,
+-- 	cou.short_name as Course,
+-- 	sectim.timeblock_name,
+	concat(cou.short_name,' - ',sectim.timeblock_name) as Course,
+	satt.date,
+	af.flag_text,
+	trunc(date_part('day',satt.date::timestamp - '2017-08-22'::timestamp)/7)+1 as Week_Number,
+	date_trunc('week', satt.date::timestamp)::date-1 as Start_of_Week,
+	st.email as student_email,
+	CASE
+		WHEN cc.email_opt_out <> TRUE
+		THEN cc.email_address
+		ELSE 'Do not contact'
+		END as contact_email, -- M.Landon
+	cc.email_opt_out
+
+FROM matviews.ss_current ssc
+left join sites sit on sit.site_id = ssc.site_id
+left join grade_levels gra on gra.grade_level_id = ssc.grade_level_id
+left join students st on st.student_id = ssc.student_id
+left join section_student_aff ssa on ssa.student_id = ssc.student_id
+left join sections sec on sec.section_id = ssa.section_id
+left join section_course_aff scaff on scaff.section_id = sec.section_id and ssa.course_id = scaff.course_id
+left join courses cou on cou.course_id = scaff.course_id
+left join student_attendance satt on satt.ssa_id = ssa.ssa_id
+left join attendance_flags af on af.attendance_flag_id = satt.attendance_flag_id
+left join section_timeblocks sectim on sectim.section_id = sec.section_id and sectim.timeblock_order = 1
+left join public.students pub on st.student_id = pub.student_id -- M.Landon
+left join contacts.students_contact_info coninfo on pub.student_id = coninfo.student_id -- M.Landon
+left join contacts.contacts cc on coninfo.contact_id = cc.contact_id -- M.Landon
+
+where ssc.site_id <> 9999999
+and ssc.site_id = 11
+and af.is_tardy = true
+and satt.date >= '2017-08-22'
+order by satt."date" desc
+),
+
+weekly_tardies_by_course as (
+
+select it.Site, it.Grade, it.local_student_id, it.last_name, it.first_name, it.Course, it.flag_text, it.Week_Number, it.Start_of_week, count(it.date) as num_tardies,
+concat(it.Course,' (',count(it.date),')') as course_concat, it.student_email, it.contact_email, it.email_opt_out
+from individual_tardies it
+group by it.Site, it.Grade, it.local_student_id, it.last_name, it.first_name, it.Course, it.flag_text, it.Week_Number, it.start_of_week, it.student_email, it.contact_email, it.email_opt_out
+order by it.local_student_id, it.week_number
+
+),
+
+/* --Before aggregating by week
+select
+wtbc.Site, wtbc.Grade, wtbc.local_student_id, wtbc.last_name, wtbc.first_name, wtbc.Course, wtbc.flag_text, wtbc.Week_Number, wtbc.num_tardies,
+wtbc.course_concat
+from weekly_tardies_by_course wtbc
+*/
+contact_emails_table as (
+		SELECT
+	stu_con_email.local_student_id,
+	string_agg(stu_con_email.email_address, ',') AS contact_emails
+FROM (
+	SELECT
+		st.local_student_id,
+		cc.email_address,
+		row_number() OVER (PARTITION BY cc.email_address) AS row_num
+
+	FROM matviews.ss_current ssc
+		LEFT JOIN students st ON st.student_id = ssc.student_id
+		LEFT JOIN contacts.students_contact_info coninfo ON st.student_id = coninfo.student_id
+		-- M.Landon
+		LEFT JOIN contacts.contacts cc ON coninfo.contact_id = cc.contact_id -- M.Landon
+	WHERE coninfo.is_legal IS TRUE
+) AS stu_con_email
+WHERE stu_con_email.row_num = 1
+GROUP BY stu_con_email.local_student_id)
+
+select
+wtbc2.Site,
+wtbc2.Grade,
+wtbc2.local_student_id,
+wtbc2.last_name,
+wtbc2.first_name,
+wtbc2.flag_text as attendance_flag,
+wtbc2.Week_Number,
+wtbc2.Start_of_Week,
+sum(wtbc2.num_tardies) as weekly_total_tardies,
+array_agg(wtbc2.course_concat) as tardy_courses,
+wtbc2.student_email as student_email, -- M.Landon
+ct.contact_emails
+
+from weekly_tardies_by_course wtbc2
+	left join contact_emails_table ct on ct.local_student_id = wtbc2.local_student_id
+group by wtbc2.Site, wtbc2.Grade, wtbc2.local_student_id, wtbc2.last_name, wtbc2.first_name, wtbc2.flag_text, wtbc2.Week_Number, wtbc2.start_of_week, wtbc2.student_email, ct.contact_emails
+order by wtbc2.local_student_id, wtbc2.week_number
+
+
+/* --Original query - Each tardy on its own row
+
+SELECT sit.site_name as Site, gra.short_name as Grade, st.local_student_id, st.last_name, st.first_name, cou.short_name as Course, satt.date, af.flag_text FROM matviews.ss_current ssc
+left join sites sit on sit.site_id = ssc.site_id
+left join grade_levels gra on gra.grade_level_id = ssc.grade_level_id
+left join students st on st.student_id = ssc.student_id
+left join section_student_aff ssa on ssa.student_id = ssc.student_id
+left join sections sec on sec.section_id = ssa.section_id
+left join section_course_aff scaff on scaff.section_id = sec.section_id and ssa.course_id = scaff.course_id
+left join courses cou on cou.course_id = scaff.course_id
+left join student_attendance satt on satt.ssa_id = ssa.ssa_id
+left join attendance_flags af on af.attendance_flag_id = satt.attendance_flag_id
+where ssc.site_id <> 9999999
+and ssc.site_id = 11
+and af.is_tardy = true
+and satt.date >= '2017-08-15'
+order by satt."date" desc
+
+*/
