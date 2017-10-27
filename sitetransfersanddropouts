@@ -1,0 +1,76 @@
+ /*
+ This query pulls students who exited a Summmit school for a reason besides graduating and did not return
+ to the same school the following academic year
+
+ HOW TO USE:
+  Modify academic year, following academic year and site ID
+  For example, if you wanted to see how many students left Rainier in 2016-2017 then
+  side ID = 1 (line 42 and line 70)
+  academic year = 2017 (line 68)
+  following academic year = 2018 (line 40)
+
+
+ SUGGESTED MODIFICATIONS:
+  - Change exit code key to narrow search to non-disciplinary reasons
+  - Remove following_year_enrolled filter to include those intending to transfer at the end of the year
+  - Remove site from "following_year_enrolled" to exclude students who stayed in the Summit Network (just switched sites)
+
+  File name: transfersanddropputs.sql file
+  Original Author: Madeline Landon
+  */
+
+
+WITH following_year_enrolled AS (
+  SELECT
+        students.student_id,
+        sessions.academic_year,
+        sessions.site_id,
+        students.local_student_id
+
+  FROM
+      -- Start with enrollment records to see if the student has an enrollment for AY + 1
+      public.student_session_aff AS enrollments
+      INNER JOIN public.students AS students
+        ON enrollments.student_id = students.student_id
+      INNER JOIN public.sessions AS sessions
+        ON enrollments.session_id = sessions.session_id
+      LEFT JOIN codes.session_types AS session_type_codes
+        ON sessions.session_type_id = session_type_codes.code_id
+
+  WHERE
+      sessions.academic_year = 2018 AND
+      session_type_codes.code_translation != 'Summer' AND
+      sessions.site_id = 1 -- This is Rainier
+)
+
+SELECT
+    students.local_student_id,
+    enrollments.leave_date,
+    exit.code_translation,
+    exit.code_key
+
+
+FROM
+    public.student_session_aff AS enrollments
+    INNER JOIN public.students AS students
+      ON enrollments.student_id = students.student_id
+    INNER JOIN public.sessions AS sessions
+      ON enrollments.session_id = sessions.session_id
+    LEFT JOIN codes.session_types AS session_type_codes
+      ON sessions.session_type_id = session_type_codes.code_id
+    LEFT JOIN codes.exit_codes AS exit
+      ON exit.code_id = enrollments.exit_code_id
+    LEFT JOIN public.session_dates AS dates
+      ON sessions.session_id = dates.session_id
+    LEFT JOIN following_year_enrolled AS following
+      ON following.student_id = students.student_id
+
+WHERE
+    sessions.academic_year = '2017'
+    AND session_type_codes.code_translation != 'Summer'
+    AND sessions.site_id = 1 --RAINIER
+    AND (exit.code_key <> 'E230'
+       AND following.academic_year IS NULL)
+
+
+
