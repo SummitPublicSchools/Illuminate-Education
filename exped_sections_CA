@@ -1,46 +1,52 @@
--- A list of all active CA HS Expeditions Sections, excluding TA sections.
-SELECT
+-- A list of all Expeditions Sections, excluding TA sections.
+SELECT * FROM
+  (SELECT
+    sites.site_name as site
+    , sessions.academic_year
+    , seccrs.section_id
+    , courses.school_course_id
+    , courses.short_name
+    , array_agg(DISTINCT timeblocks.timeblock_name) as periods
+    , users.last_name
+    , users.first_name
+    , count(DISTINCT secstu.ssa_id) as size
 
-  sites.site_name as site
-  , sessions.academic_year
-  , seccrs.section_id
-  , courses.school_course_id
-  , courses.short_name
-  , array_agg(timeblocks.timeblock_name) as periods
-  , users.last_name
-  , users.first_name
-  , sectch.end_date
+  FROM section_course_aff as seccrs
 
-FROM section_course_aff as seccrs
+  LEFT JOIN courses on seccrs.course_id = courses.course_id
+  LEFT JOIN section_term_aff as secterm on secterm.section_id = seccrs.section_id
+  LEFT JOIN terms on secterm.term_id = terms.term_id
+  LEFT JOIN sessions on terms.session_id = sessions.session_id
+  LEFT JOIN sites on sessions.site_id = sites.site_id
+  LEFT JOIN section_teacher_aff as sectch ON sectch.section_id = secterm.section_id
+  LEFT JOIN users on sectch.user_id = users.user_id
+  LEFT JOIN section_timeblock_aff as sectb on sectb.section_id = secterm.section_id
+  LEFT JOIN timeblocks on sectb.timeblock_id = timeblocks.timeblock_id
+  LEFT JOIN departments on courses.department_id = departments.department_id
+  LEFT JOIN section_student_aff as secstu on secstu.section_id = sectch.section_id
 
-LEFT JOIN courses on seccrs.course_id = courses.course_id
-LEFT JOIN section_term_aff as secterm on secterm.section_id = seccrs.section_id
-LEFT JOIN terms on secterm.term_id = terms.term_id
-LEFT JOIN sessions on terms.session_id = sessions.session_id
-LEFT JOIN sites on sessions.site_id = sites.site_id
-LEFT JOIN section_teacher_aff as sectch ON sectch.section_id = secterm.section_id
-LEFT JOIN users on sectch.user_id = users.user_id
-LEFT JOIN section_timeblock_aff as sectb on sectb.section_id = secterm.section_id
-LEFT JOIN timeblocks on sectb.timeblock_id = timeblocks.timeblock_id
-LEFT JOIN departments on courses.department_id = departments.department_id
+  WHERE
+    sectch.end_date > now()
+    AND sectch.primary_teacher is TRUE
+    AND (secstu.leave_date > now() OR secstu.leave_date IS NULL)
+    AND departments.department_id IN (43,44)
+    AND timeblock_name LIKE '%Exped%'
+    AND school_course_id NOT LIKE 'I1106%'
+
+  GROUP BY
+    sites.site_name
+    , sessions.academic_year
+    , seccrs.section_id
+    , courses.school_course_id
+    , courses.short_name
+    , users.last_name
+    , users.first_name
+
+) as seclist
 
 WHERE
-  sectch.end_date > now()
-  AND sectch.primary_teacher is TRUE
-  AND departments.department_id IN (43,44)
-  AND timeblock_name LIKE '%Exped%'
-  AND school_course_id NOT LIKE 'I1106%'
-
-GROUP BY
-  sites.site_name
-  , sessions.academic_year
-  , seccrs.section_id
-  , courses.school_course_id
-  , courses.short_name
-  , users.last_name
-  , users.first_name
-  , sectch.end_date
+  size > 0
 
 ORDER BY
-  site,
-  short_name
+    site,
+    short_name
