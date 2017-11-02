@@ -1,20 +1,37 @@
 SELECT
-  sites.site_name,
-  stud.local_student_id,
-  stud.last_name,
-  stud.first_name,
-  ss.grade_level_id - 1 AS grade,
-  houses.house_name     AS house,
-  stud.graduation_requirement_year
+  sites.site_name
+  , stud.local_student_id
+  , stud.last_name
+  , stud.first_name
+  , (cast(ss.grade_level_id as integer) - 1) AS grade
+  , max(sessions.academic_year) as acad_year
+  , stud.graduation_requirement_year
 
-FROM matviews.ss_current AS ss
+FROM matviews.student_term_aff as ss
 
+  LEFT JOIN terms on ss.term_id = terms.term_id
+  LEFT JOIN sessions on sessions.session_id = terms.session_id
   LEFT JOIN students stud ON stud.student_id = ss.student_id
-  LEFT JOIN sites ON sites.site_id = ss.site_id
-  LEFT JOIN student_house_aff house_aff ON house_aff.student_id = ss.student_id
-  LEFT JOIN houses ON houses.house_id = house_aff.house_id
+  LEFT JOIN sites ON sites.site_id = sessions.site_id
 
 WHERE
-  ss.site_id NOT IN (9999999, 9999998)
-  AND
-  stud.graduation_requirement_year IS NULL
+  sessions.site_id NOT IN (9999999, 9999998)
+  AND stud.graduation_requirement_year IS NULL
+  AND ss.grade_level_id >=10
+-- Change the values here to capture students enrolled in different academic years.
+  AND sessions.academic_year IN (2018, 2017, 2016, 2015)
+
+GROUP BY
+  sites.site_name
+  , stud.local_student_id
+  , stud.last_name
+  , stud.first_name
+  , ss.grade_level_id
+  , sessions.academic_year
+  , stud.graduation_requirement_year
+
+
+ORDER BY
+  sites.site_name
+  , academic_year
+  , local_student_id
