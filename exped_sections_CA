@@ -1,4 +1,4 @@
--- A list of all Expeditions Sections, excluding TA sections.
+-- A list of all active CA HS Expeditions Sections, excluding TA sections.
 SELECT
 
   sites.site_name as site
