@@ -40,8 +40,6 @@ FROM
     , stud.local_student_id
     , stud.last_name
     , stud.first_name
-  --   , ss.grade_level_id
-  --   , sessions.academic_year
     , stud.graduation_requirement_year
 
 
