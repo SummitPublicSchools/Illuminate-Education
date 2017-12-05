@@ -1,0 +1,57 @@
+--this query should pull total AP test takers and total passing grades for each test administered 
+--to use: update site id and year for desired results (lines 50 and 51)
+
+SELECT
+  exam_name_text,
+  passing,
+  total_test_takers
+
+FROM
+  (SELECT
+     exam_name_text,
+     COUNT(CASE WHEN exam_grade = 1
+       THEN exam_grade
+           ELSE NULL END)    AS one,
+     COUNT(CASE WHEN exam_grade = 2
+       THEN exam_grade
+           ELSE NULL END)    AS two,
+     COUNT(CASE WHEN exam_grade = 3
+       THEN exam_grade
+           ELSE NULL END)    AS three,
+     COUNT(CASE WHEN exam_grade = 4
+       THEN exam_grade
+           ELSE NULL END)    AS four,
+     COUNT(CASE WHEN exam_grade = 5
+       THEN exam_grade
+           ELSE NULL END)    AS five,
+     COUNT(local_student_id) AS total_test_takers,
+     COUNT(CASE WHEN exam_grade >= 3
+       THEN exam_grade
+           ELSE NULL END)    AS passing
+
+   FROM
+     (SELECT
+        local_student_id,
+        last_name,
+        first_name,
+        "ap_2017_examCode"     AS exam_code,
+        "ap_2017_examCodeText" AS exam_name_text,
+        "ap_2017_examGrade"    AS exam_grade
+
+
+      FROM national_assessments.aptest_2017 AS test
+        LEFT JOIN public.students AS stud
+          ON stud.student_id = test.student_id
+        LEFT JOIN public.student_session_aff AS enrollments
+          ON enrollments.student_id = stud.student_id
+        INNER JOIN public.sessions AS sessions
+          ON enrollments.session_id = sessions.session_id
+
+      WHERE sessions.site_id = 1
+            AND sessions.academic_year = 2017
+
+      GROUP BY stud.local_student_id, last_name, first_name, exam_code, exam_name_text, exam_grade
+     ) sub
+
+   GROUP BY 1
+   ORDER BY 1, 2) sub2
