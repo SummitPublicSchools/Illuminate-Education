@@ -1,0 +1,71 @@
+/** This query pulls District of Residences and Cities for Tam and K2 Students as of Census Day. The city associated
+ with each student is the dwelling city of the student's primary household**/
+
+/**This is an annual data request from West Contra Costa Unified School District**/
+
+/******************************************************************************
+###############################################################################
+Instructions for use:
+1. Update Academic year (line 59)
+2. Update Census day dates (lines 64 and 65)
+3. Update Site names (lines 67 and 68)
+###############################################################################
+******************************************************************************/
+
+WITH primary_city AS(
+    SELECT
+      local_student_id,
+      con_info.student_id,
+      hda.dwelling_id,
+      con_info.contact_id,
+      city
+
+    FROM public.students
+      LEFT JOIN contacts.students_contact_info AS con_info
+        ON students.student_id = con_info.student_id
+      LEFT JOIN contacts.contacts AS contacts
+        ON con_info.contact_id = contacts.contact_id
+      LEFT JOIN contacts.household_dwelling_aff AS hda
+        ON con_info.household_id = hda.household_id
+      LEFT JOIN contacts.dwellings AS dwellings
+        ON dwellings.dwelling_id = hda.dwelling_id
+    WHERE
+      primary_household is TRUE --From students_contact_info
+      AND is_primary is TRUE --From household_dwelling_aff
+)
+
+
+SELECT DISTINCT
+  students.state_student_id,
+  students.first_name,
+  students.last_name,
+  --enrollments.entry_date,
+  --enrollments.leave_date,
+  site_name AS summit_school,
+  DOR_codes.code_translation AS transfer_district,
+  primary_city.city,
+  CASE WHEN code_translation = 'West Contra Costa Unified' THEN 'Yes'
+    ELSE 'No' END AS in_district
+
+FROM
+  public.student_session_aff AS enrollments
+  LEFT JOIN public.students
+    ON students.student_id = enrollments.student_id
+  LEFT JOIN sessions
+    ON sessions.session_id = enrollments.session_id
+  LEFT JOIN sites
+    ON sessions.site_id = sites.site_id
+  LEFT JOIN student_transfers AS DORs
+    ON students.student_id = DORs.student_id
+  LEFT JOIN codes.district_of_residence AS DOR_codes
+    ON DOR_codes.code_id = DORs.from_district_id
+  LEFT JOIN primary_city
+    ON primary_city.student_id = students.student_id
+
+WHERE
+  sessions.academic_year = 2018
+  AND entry_date <= '2017-10-04'
+  AND leave_date >= '2017-10-04'
+  AND (site_name LIKE '%K2' OR
+       site_name LIKE '%Tamalpais%')
+;
