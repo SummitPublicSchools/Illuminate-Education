@@ -9,6 +9,9 @@ Instructions for use:
 1. Update Academic year (line 59)
 2. Update Census day dates (lines 64 and 65)
 3. Update Site names (lines 67 and 68)
+NOTE: DORs must be up-to-date meaning that if a student moved, their DOR was updated in Illuminate. 
+Do a quick check after running this query to ensure that in-district students are 
+affiliated with cities you would expect. 
 ###############################################################################
 ******************************************************************************/
 
