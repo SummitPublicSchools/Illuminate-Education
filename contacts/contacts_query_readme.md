@@ -13,5 +13,5 @@ This query was QAed by Cherish Harris. Here is a list of checks that she ran:
 * Compared guardian 1 in query and primary contact from Illuminate (Contact OMs about discrepancies due to primary contact not being marked as legal)
 * Crosschecked contacts with restraining orders in Illuminate and confirmed none of those contacts appear in the query
 * Compared Illuminate primary contact email address with query
-* Pciked students at random to check that guardian 1 in marked as legal and confirmed contact info
+* Picked students at random to check that guardian 1 in marked as legal and confirmed contact info
 * Picked students at random to check that emergency contact is marked as emergency and not legal
