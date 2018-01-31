@@ -1,3 +1,9 @@
+/***************************************************************************************
+Description:
+Returns a single row per student with local ID, first name, last name, grade level, house
+, entry date, exit date.  Results can be easily filtered for any date, school, or house.
+***************************************************************************************/
+
 WITH current_enrollment AS (
 		SELECT
 			sch.site_name
