@@ -2,7 +2,7 @@
 * contact_info_starter-long_or_wide.sql
 *******************************************************************************
 * Author: Patrick Yoho
-* Last Updated: 11/30/17
+* Last Updated: 02/07/18
 *
 * This query is a fantastic starting point for querying student contact
 * information either in wide or long format. It is useful because it
@@ -450,13 +450,13 @@ SELECT DISTINCT
   legal_guardian_1.work_phone_number AS "guardian_1.work_phone_number",
 
   legal_guardian_1.physical_address_line_1 AS "guardian_1.physical_address_line_1",
-  legal_guardian_1.physical_address_line_1 AS "guardian_1.physical_address_line_2",
+  legal_guardian_1.physical_address_line_2 AS "guardian_1.physical_address_line_2",
   legal_guardian_1.physical_address_city AS "guardian_1.physical_address_city",
   legal_guardian_1.physical_address_state AS "guardian_1.physical_address_state",
   legal_guardian_1.physical_address_zip AS "guardian_1.physical_address_zip",
   
   legal_guardian_1.mailing_address_line_1 AS "guardian_1.mailing_address_line_1",
-  legal_guardian_1.mailing_address_line_1 AS "guardian_1.mailing_address_line_2",
+  legal_guardian_1.mailing_address_line_2 AS "guardian_1.mailing_address_line_2",
   legal_guardian_1.mailing_address_city AS "guardian_1.mailing_address_city",
   legal_guardian_1.mailing_address_state AS "guardian_1.mailing_address_state",
   legal_guardian_1.mailing_address_zip AS "guardian_1.mailing_address_zip",
@@ -474,13 +474,13 @@ SELECT DISTINCT
   legal_guardian_2.work_phone_number AS "guardian_2.work_phone_number",
 
   legal_guardian_2.physical_address_line_1 AS "guardian_2.physical_address_line_1",
-  legal_guardian_2.physical_address_line_1 AS "guardian_2.physical_address_line_2",
+  legal_guardian_2.physical_address_line_2 AS "guardian_2.physical_address_line_2",
   legal_guardian_2.physical_address_city AS "guardian_2.physical_address_city",
   legal_guardian_2.physical_address_state AS "guardian_2.physical_address_state",
   legal_guardian_2.physical_address_zip AS "guardian_2.physical_address_zip",
   
   legal_guardian_2.mailing_address_line_1 AS "guardian_2.mailing_address_line_1",
-  legal_guardian_2.mailing_address_line_1 AS "guardian_2.mailing_address_line_2",
+  legal_guardian_2.mailing_address_line_2 AS "guardian_2.mailing_address_line_2",
   legal_guardian_2.mailing_address_city AS "guardian_2.mailing_address_city",
   legal_guardian_2.mailing_address_state AS "guardian_2.mailing_address_state",
   legal_guardian_2.mailing_address_zip AS "guardian_2.mailing_address_zip",
