@@ -1,6 +1,6 @@
 /*
 This query pulls all current students at a site with a count of their total daily absences, total class absences, and
- total tardies for the year. This query was QA'ed for CA schools and should be reevaluated in its use for WA schools.
+ total tardies for the year. This query was QA'ed for CA schools using Attendance -> Search Records Reports and should be reevaluated in its use for WA schools.
 
  Examples of use:
  - Custom report in Illuminate for sites to use in mail merge
