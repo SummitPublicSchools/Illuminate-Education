@@ -26,7 +26,7 @@ FROM
 
   LEFT JOIN public.sessions AS sessions
     ON enrollments.session_id = sessions.session_id
-  LEFT JOIN public.sites as sites
+  LEFT JOIN public.sites AS sites
     ON sessions.site_id = sites.site_id
 
 WHERE
