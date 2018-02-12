@@ -1,12 +1,23 @@
-/*
-  Supply a date in the where block and this will return the enrollment
-  count on that day. Some very small modification can lead to getting
-  the student ids of the people enrolled on that date.
+/*************************************************************************
+* enrollment_count_on_date
+**************************************************************************
+* Original Author: Patrick Yoho
+* Last Updated: 2018-02-11
+*
+* Description:
+*  Supply a date in the WHERE block and this query will return the 
+*  enrollment count on that day. 
+*
+* Ideas for Extension
+*  This query is a useful starting point for getting information about
+*  students who had an enrollment on a specific date. You could, for
+*  example, get the local_student_ids for all students enrolled on a
+*  particular date.  - 
 */
 
 SELECT sites.site_name,
-  enrollments.grade_level_id - 1,
-  COUNT(enrollments.student_id)
+  enrollments.grade_level_id - 1 AS grade,
+  COUNT(enrollments.student_id) AS number_of_enrolled_students
 
 FROM
   -- Start with enrollment records (according to Illuminate, this is supposed
