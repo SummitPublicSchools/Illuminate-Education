@@ -44,12 +44,7 @@ individual_tardies AS
 		, date_trunc('week', satt."date"::timestamp)::date as Start_of_Week
 		--, date_trunc('week', satt."date"::timestamp)::date as Start_of_Week_v2
 		, st.email as student_email
-		--, CASE
-		--	WHEN cc.email_opt_out <> TRUE
-		--	THEN cc.email_address
-		--	ELSE 'Do not contact'
-		--	END as contact_email -- M.Landon
-		--, cc.email_opt_out
+		
 	FROM matviews.ss_current ssc
 
 	LEFT JOIN sites sit
@@ -84,16 +79,9 @@ individual_tardies AS
 		ON sectim.section_id = sec.section_id
 			AND sectim.timeblock_order = 1
 
-	--LEFT JOIN contacts.students_contact_info coninfo
-	--	ON ssc.student_id = coninfo.student_id -- M.Landon
-
-	--LEFT JOIN contacts.contacts cc
-	--	ON coninfo.contact_id = cc.contact_id -- M.Landon
-
 	WHERE ssc.site_id = 11 --Sierra
 		AND af.is_tardy = TRUE
 		AND satt."date" >= '2017-08-22'
-		--AND st.local_student_id = '110022'
 
 	ORDER BY satt."date" DESC
 )
@@ -114,8 +102,7 @@ weekly_tardies_by_course AS
 		, count(it.date) as num_tardies
 		, concat(it.Course,' (',count(it.date),')') as course_concat
 		, it.student_email
-		--, it.contact_email
-		--, it.email_opt_out
+
 	FROM individual_tardies it
 
 	GROUP BY it.Site
@@ -150,8 +137,7 @@ stu_con_email AS
 
 		LEFT JOIN contacts.students_contact_info coninfo
 			ON st.student_id = coninfo.student_id
-		-- M.Landon
-
+		
 		LEFT JOIN contacts.contacts cc
 			ON coninfo.contact_id = cc.contact_id -- M.Landon
 
