@@ -15,7 +15,7 @@ SELECT
   ,(matviews.student_term_aff.grade_level_id - 1) AS grade_level_id
   ,sessions.academic_year
   ,courses.school_course_id AS course_id
-  ,sections.section_id
+  ,sections.local_section_id
   -- Enter desired exit date
   ,'2018-06-07' as leave_date
   ,sessions.session_type_id
