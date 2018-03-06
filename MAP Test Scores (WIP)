@@ -96,7 +96,7 @@ LEFT JOIN fall_math ON fall_read.student_id = fall_math.student_id
 LEFT JOIN winter_math ON fall_read.student_id = winter_math.student_id
 
 WHERE
-  winter_read."nwea_2018_TestRITScore" ISNULL OR
+  winter_read."nwea_2018_TestRITScore" ISNULL AND
   winter_math."nwea_2018_TestRITScore" ISNULL
 
 ORDER BY "nwea_2018_SchoolName", local_student_id
