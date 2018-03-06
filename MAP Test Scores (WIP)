@@ -1,0 +1,102 @@
+WITH fall_read AS (
+    SELECT
+      "nwea_2018_SchoolName",
+      student_session_aff.session_id,
+      "nwea_2018_TermName",
+      "nwea_2018_TestRITScore",
+      "nwea_2018_id",
+      "nwea_2018_Discipline",
+      students.student_id,
+      students.first_name,
+      students.last_name,
+      student_session_aff.leave_date
+    FROM students
+      LEFT JOIN national_assessments.nwea_2018 ON students.student_id = nwea_2018.student_id
+      LEFT JOIN student_session_aff ON students.student_id = student_session_aff.student_id
+    WHERE
+      -- Only currently enrolled students reading scores from Fall testing
+      student_session_aff.leave_date > DATE 'today' AND
+      "nwea_2018_TermName" = 'Fall 2017-2018' AND
+      "nwea_2018_Discipline" = 'Reading'
+), winter_read AS (
+    SELECT
+      "nwea_2018_SchoolName",
+      student_session_aff.session_id,
+      "nwea_2018_TermName",
+      "nwea_2018_TestRITScore",
+      "nwea_2018_id",
+      "nwea_2018_Discipline",
+      students.student_id,
+      students.first_name,
+      students.last_name,
+      student_session_aff.leave_date
+    FROM students
+      LEFT JOIN national_assessments.nwea_2018 ON students.student_id = nwea_2018.student_id
+      LEFT JOIN student_session_aff ON students.student_id = student_session_aff.student_id
+    WHERE
+      -- Only currently enrolled students reading scores from Winter testing
+      student_session_aff.leave_date > DATE 'today' AND
+      "nwea_2018_TermName" = 'Winter 2017-2018' AND
+      "nwea_2018_Discipline" = 'Reading'
+), fall_math AS (
+   SELECT
+      "nwea_2018_SchoolName",
+      student_session_aff.session_id,
+      "nwea_2018_TermName",
+      "nwea_2018_TestRITScore",
+      "nwea_2018_id",
+      "nwea_2018_Discipline",
+      students.student_id,
+      students.first_name,
+      students.last_name,
+      student_session_aff.leave_date
+    FROM students
+      LEFT JOIN national_assessments.nwea_2018 ON students.student_id = nwea_2018.student_id
+      LEFT JOIN student_session_aff ON students.student_id = student_session_aff.student_id
+    WHERE
+      -- Only currently enrolled students math scores from Fall testing
+      student_session_aff.leave_date > DATE 'today' AND
+      "nwea_2018_TermName" = 'Fall 2017-2018' AND
+      "nwea_2018_Discipline" = 'Mathematics'
+), winter_math AS (
+   SELECT
+      "nwea_2018_SchoolName",
+      student_session_aff.session_id,
+      "nwea_2018_TermName",
+      "nwea_2018_TestRITScore",
+      "nwea_2018_id",
+      "nwea_2018_Discipline",
+      students.student_id,
+      students.first_name,
+      students.last_name,
+      student_session_aff.leave_date
+    FROM students
+      LEFT JOIN national_assessments.nwea_2018 ON students.student_id = nwea_2018.student_id
+      LEFT JOIN student_session_aff ON students.student_id = student_session_aff.student_id
+    WHERE
+      -- Only currently enrolled students math scores from Winter testing
+      student_session_aff.leave_date > DATE 'today' AND
+      "nwea_2018_TermName" = 'Winter 2017-2018' AND
+      "nwea_2018_Discipline" = 'Mathematics'
+)
+SELECT
+  students.local_student_id,
+  students.first_name,
+  students.last_name,
+  fall_read."nwea_2018_TestRITScore" AS fall_reading_score,
+  fall_math."nwea_2018_TestRITScore" AS fall_math_score,
+  winter_read."nwea_2018_TestRITScore" AS winter_readng_score,
+  winter_read."nwea_2018_TestRITScore" AS winter_math_score,
+  fall_read."nwea_2018_SchoolName"
+FROM fall_read
+
+LEFT JOIN students ON fall_read.student_id = students.student_id
+LEFT JOIN winter_read ON fall_read.student_id = winter_read.student_id
+LEFT JOIN fall_math ON fall_read.student_id = fall_math.student_id
+LEFT JOIN winter_math ON fall_read.student_id = winter_math.student_id
+
+WHERE
+  winter_read."nwea_2018_TestRITScore" ISNULL OR
+  winter_math."nwea_2018_TestRITScore" ISNULL
+
+ORDER BY "nwea_2018_SchoolName", local_student_id
