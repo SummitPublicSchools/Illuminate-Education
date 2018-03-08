@@ -1,3 +1,4 @@
+-- This query pulls the list of students who do not have test scores for Winter MAP testing
 WITH fall_read AS (
     SELECT
       "nwea_2018_SchoolName",
@@ -80,23 +81,28 @@ WITH fall_read AS (
       "nwea_2018_Discipline" = 'Mathematics'
 )
 SELECT
-  students.local_student_id,
+  student_session_aff.student_id,
   students.first_name,
   students.last_name,
+  site_name,
   fall_read."nwea_2018_TestRITScore" AS fall_reading_score,
   fall_math."nwea_2018_TestRITScore" AS fall_math_score,
-  winter_read."nwea_2018_TestRITScore" AS winter_readng_score,
-  winter_read."nwea_2018_TestRITScore" AS winter_math_score,
-  fall_read."nwea_2018_SchoolName"
-FROM fall_read
+  winter_read."nwea_2018_TestRITScore" AS winter_reading_score,
+  winter_read."nwea_2018_TestRITScore" AS winter_math_score
+FROM student_session_aff
 
-LEFT JOIN students ON fall_read.student_id = students.student_id
-LEFT JOIN winter_read ON fall_read.student_id = winter_read.student_id
-LEFT JOIN fall_math ON fall_read.student_id = fall_math.student_id
-LEFT JOIN winter_math ON fall_read.student_id = winter_math.student_id
+LEFT JOIN students ON student_session_aff.student_id = students.student_id
+LEFT JOIN sessions ON student_session_aff.session_id = sessions.session_id
+LEFT JOIN sites ON sessions.site_id = sites.site_id
+LEFT JOIN fall_read ON student_session_aff.student_id = fall_read.student_id
+LEFT JOIN winter_read ON student_session_aff.student_id = winter_read.student_id
+LEFT JOIN fall_math ON student_session_aff.student_id = fall_math.student_id
+LEFT JOIN winter_math ON student_session_aff.student_id = winter_math.student_id
 
 WHERE
+  sessions.session_id <> 215 AND
+  student_session_aff.leave_date > DATE 'today' AND
   winter_read."nwea_2018_TestRITScore" ISNULL AND
   winter_math."nwea_2018_TestRITScore" ISNULL
 
-ORDER BY "nwea_2018_SchoolName", local_student_id
+ORDER BY site_name, local_student_id
