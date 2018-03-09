@@ -439,10 +439,17 @@ mailing_address_dwelling_rank, mailing_address_rank
   )
 
 SELECT DISTINCT
-  local_student_id,
+  local_student_id AS "Local Student ID,
+  stud.state_student_id AS "State Student ID",
+  stud.last_name AS "Student Last Name,
+  stud.first_name AS "Student First Name",
+  stud.birth_date AS "Student Birth Date",
+  st.site_name AS "Site Name",
+  enrollments.grade_level_id - 1 AS "Grade Level",
+  houses.house_name AS "Mentor",
+  
 
 -- Guardian 1
-  --legal_guardian_1.contact_id AS "guardian_1.contact_id",
   legal_guardian_1.last_name AS "Legal Guardian 1 Last Name",
   legal_guardian_1.first_name AS "Legal Guardian 1 First Name",
   legal_guardian_1.contact_type AS "Legal Guardian 1 Contact Type",
@@ -466,7 +473,6 @@ SELECT DISTINCT
   legal_guardian_1.mailing_address_zip AS "Legal Guardian 1 Mailing Zip",
   
 -- Guardian 2
-  --legal_guardian_2.contact_id AS "guardian_2.contact_id",
   legal_guardian_2.last_name AS "Legal Guardian 2 Last Name",
   legal_guardian_2.first_name AS "Legal Guardian 2 First Name",
   legal_guardian_2.contact_type AS "Legal Guardian 2 Contact Type",
@@ -490,7 +496,6 @@ SELECT DISTINCT
   legal_guardian_2.mailing_address_zip AS "Legal Guardian 2 Mailing Zip",
 
 -- Emergency Contact 1
-  --emergency_contact_1.contact_id AS "emergency_contact_1.contact_id",
   emergency_contact_1.last_name AS "Emergency Contact 1 Last Name",
   emergency_contact_1.first_name AS "Emergency Contact 1 First Name",
   emergency_contact_1.contact_type AS "Emergency Contact 1 Contact Type",
@@ -502,7 +507,6 @@ SELECT DISTINCT
   emergency_contact_1.work_phone_number AS "Emergency Contact 1 Work Phone",
 
 -- Emergency Contact 1
-  --emergency_contact_2.contact_id AS "emergency_contact_2.contact_id",
   emergency_contact_2.last_name AS "Emergency Contact 2 Last Name",
   emergency_contact_2.first_name AS "Emergency Contact 2 First Name",
   emergency_contact_2.contact_type AS "Emergency Contact 2 Contact Type",
@@ -515,9 +519,16 @@ SELECT DISTINCT
 
 FROM student_session_aff AS enrollments
   LEFT JOIN sessions ON enrollments.session_id = sessions.session_id
-
+  
+  -- Get student info
   LEFT JOIN public.students stud USING(student_id)
+  LEFT JOIN public.sites AS st ON sessions.site_id = st.site_id
+  
+  -- Get mentor
+  LEFT JOIN student_house_aff ON stud.student_id = student_house_aff.student_id
+  LEFT JOIN houses ON houses.house_id = student_house_aff.house_id
 
+  -- Get contact info
   LEFT JOIN legal_guardian_1 ON legal_guardian_1.student_id = enrollments.student_id
   LEFT JOIN legal_guardian_2 ON legal_guardian_2.student_id = enrollments.student_id
   LEFT JOIN emergency_contact_1 ON emergency_contact_1.student_id = enrollments.student_id
