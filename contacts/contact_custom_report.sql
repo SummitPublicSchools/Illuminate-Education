@@ -4,10 +4,10 @@
 * Author: Patrick Yoho
 * Last Updated: 03/09/18 by Mario Palmisano
 *
-* This query is a modification of Patrick's contact_info_starter_long_or_wide.sql that 
+* This query is a modification of Patrick's contact_info_starter_long_or_wide.sql that
 * is designed to be turned into a custom report for hosting on the Operations Hub. This
 * will be the official contacts report.
-* 
+*
 * This query is a fantastic starting point for querying student contact
 * information either in wide or long format. It is useful because it
 * picks out a single dwelling and cell, work, and home phone number so that
@@ -133,7 +133,7 @@ There are 3 Common Table Expressions (CTEs) here.
 Grabs all of the addresses and enumerates them by contact in order of the movein_date.
 
 2.) current_physical_addresses
-This just renames columns to pull a physical address. It only grabs addresses 
+This just renames columns to pull a physical address. It only grabs addresses
 where moveout_date is null.
 
 3.) mailing_addresses
@@ -439,15 +439,15 @@ mailing_address_dwelling_rank, mailing_address_rank
   )
 
 SELECT DISTINCT
-  local_student_id AS "Local Student ID,
+  local_student_id AS "Local Student ID",
   stud.state_student_id AS "State Student ID",
-  stud.last_name AS "Student Last Name,
+  stud.last_name AS "Student Last Name",
   stud.first_name AS "Student First Name",
   stud.birth_date AS "Student Birth Date",
   st.site_name AS "Site Name",
   enrollments.grade_level_id - 1 AS "Grade Level",
   houses.house_name AS "Mentor",
-  
+
 
 -- Guardian 1
   legal_guardian_1.last_name AS "Legal Guardian 1 Last Name",
@@ -455,7 +455,7 @@ SELECT DISTINCT
   legal_guardian_1.contact_type AS "Legal Guardian 1 Contact Type",
 
   legal_guardian_1.email_address AS "Legal Guardian 1 Email",
-  
+
   legal_guardian_1.cell_phone_number AS "Legal Guardian 1 Cell Phone",
   legal_guardian_1.home_phone_number AS "Legal Guardian 1 Home Phone",
   legal_guardian_1.work_phone_number AS "Legal Guardian 1 Work Phone",
@@ -465,20 +465,20 @@ SELECT DISTINCT
   legal_guardian_1.physical_address_city AS "Legal Guardian 1 City",
   legal_guardian_1.physical_address_state AS "Legal Guardian 1 State",
   legal_guardian_1.physical_address_zip AS "Legal Guardian 1 Zip",
-  
+
   legal_guardian_1.mailing_address_line_1 AS "Legal Guardian 1 Mailing Address Line 1",
   legal_guardian_1.mailing_address_line_2 AS "Legal Guardian 1 Mailing Address Line 2",
   legal_guardian_1.mailing_address_city AS "Legal Guardian 1 Mailing City",
   legal_guardian_1.mailing_address_state AS "Legal Guardian 1 Mailing State",
   legal_guardian_1.mailing_address_zip AS "Legal Guardian 1 Mailing Zip",
-  
+
 -- Guardian 2
   legal_guardian_2.last_name AS "Legal Guardian 2 Last Name",
   legal_guardian_2.first_name AS "Legal Guardian 2 First Name",
   legal_guardian_2.contact_type AS "Legal Guardian 2 Contact Type",
 
   legal_guardian_2.email_address AS "Legal Guardian 2 Email",
-  
+
   legal_guardian_2.cell_phone_number AS "Legal Guardian 2 Cell Phone",
   legal_guardian_2.home_phone_number AS "Legal Guardian 2 Home Phone",
   legal_guardian_2.work_phone_number AS "Legal Guardian 2 Work Phone",
@@ -488,7 +488,7 @@ SELECT DISTINCT
   legal_guardian_2.physical_address_city AS "Legal Guardian 2 City",
   legal_guardian_2.physical_address_state AS "Legal Guardian 2 State",
   legal_guardian_2.physical_address_zip AS "Legal Guardian 2 Zip",
-  
+
   legal_guardian_2.mailing_address_line_1 AS "Legal Guardian 2 Mailing Address Line 1",
   legal_guardian_2.mailing_address_line_2 AS "Legal Guardian 2 Mailing Address Line 2",
   legal_guardian_2.mailing_address_city AS "Legal Guardian 2 Mailing City",
@@ -501,7 +501,7 @@ SELECT DISTINCT
   emergency_contact_1.contact_type AS "Emergency Contact 1 Contact Type",
 
   emergency_contact_1.email_address AS "Emergency Contact 1 Email",
-  
+
   emergency_contact_1.cell_phone_number AS "Emergency Contact 1 Cell Phone",
   emergency_contact_1.home_phone_number AS "Emergency Contact 1 Home Phone",
   emergency_contact_1.work_phone_number AS "Emergency Contact 1 Work Phone",
@@ -512,20 +512,21 @@ SELECT DISTINCT
   emergency_contact_2.contact_type AS "Emergency Contact 2 Contact Type",
 
   emergency_contact_2.email_address AS "Emergency Contact 2 Email",
-  
+
   emergency_contact_2.cell_phone_number AS "Emergency Contact 2 Cell Phone",
   emergency_contact_2.home_phone_number AS "Emergency Contact 2 Home Phone",
   emergency_contact_2.work_phone_number AS "Emergency Contact 2 Work Phone"
 
 FROM student_session_aff AS enrollments
   LEFT JOIN sessions ON enrollments.session_id = sessions.session_id
-  
+
   -- Get student info
   LEFT JOIN public.students stud USING(student_id)
   LEFT JOIN public.sites AS st ON sessions.site_id = st.site_id
-  
+
   -- Get mentor
   LEFT JOIN student_house_aff ON stud.student_id = student_house_aff.student_id
+    AND student_house_aff.session_id = sessions.session_id
   LEFT JOIN houses ON houses.house_id = student_house_aff.house_id
 
   -- Get contact info
