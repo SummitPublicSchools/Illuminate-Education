@@ -495,7 +495,7 @@ SELECT DISTINCT
   
   emergency_contact_1.cell_phone_number AS "emergency_contact_1.cell_phone_number",
   emergency_contact_1.home_phone_number AS "emergency_contact_1.home_phone_number",
-  emergency_contact_1.home_phone_number AS "emergency_contact_1.work_phone_number",
+  emergency_contact_1.work_phone_number AS "emergency_contact_1.work_phone_number",
 
 -- Emergency Contact 1
   emergency_contact_2.contact_id AS "emergency_contact_2.contact_id",
@@ -507,7 +507,7 @@ SELECT DISTINCT
   
   emergency_contact_2.cell_phone_number AS "emergency_contact_2.cell_phone_number",
   emergency_contact_2.home_phone_number AS "emergency_contact_2.home_phone_number",
-  emergency_contact_2.home_phone_number AS "emergency_contact_2.work_phone_number"
+  emergency_contact_2.work_phone_number AS "emergency_contact_2.work_phone_number"
 
 FROM student_session_aff AS enrollments
   LEFT JOIN sessions ON enrollments.session_id = sessions.session_id
