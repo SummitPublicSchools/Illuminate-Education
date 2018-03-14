@@ -18,7 +18,7 @@
 SELECT
   sites.site_name,
   enrollments.grade_level_id - 1 AS grade,
-  COUNT(enrollments.student_id) AS number_of_enrolled_students,
+  COUNT(enrollments.student_id) AS number_of_enrolled_students
 
 FROM
   -- Start with enrollment records (according to Illuminate, this is supposed
