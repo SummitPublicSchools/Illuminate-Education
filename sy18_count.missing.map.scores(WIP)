@@ -96,6 +96,7 @@ LEFT JOIN fall_math ON students.local_student_id = fall_math.local_student_id
 LEFT JOIN winter_math ON students.local_student_id = winter_math.local_student_id
 
 WHERE
+-- take out the session id constrain for WA
   sessions.session_id <> 215 AND
   student_session_aff.leave_date > DATE 'today' AND
   winter_read."nwea_2018_TestRITScore" ISNULL AND
