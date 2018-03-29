@@ -1,10 +1,11 @@
 /***********************************************************************************************************************
 This query produces a roster of currently enrolled students at Sierra and Olympus and indicates whether they are Title I
 eligible. Title I eligibility is based on meeting any of the following criteria:
- - Scoring below 50th percentile on MAP Reading or Math in the current school year
+ - Scoring below 50th percentile on MAP Reading or Math in the most recent test administration (highest score used if
+   the test was taken more than once)
  - Not meeting standard on the previous year's SBAC administration in ELA or Math
  - Getting a C+ or below in English or Math in the previous school year
- 
+
 To update this query for a new school year, update the following:
  - session ids in the student set table
  - NWEA tables
@@ -61,10 +62,12 @@ LEFT JOIN
     "nwea_2018_localStudentID" AS local_student_id
     , "nwea_2018_TermName" AS map_term
     , "nwea_2018_TestPercentile" AS map_percentile
-    , row_number() OVER(PARTITION BY "nwea_2018_localStudentID" ORDER BY "nwea_2018_TestPercentile") AS row_num
+    , row_number() OVER(PARTITION BY "nwea_2018_localStudentID"
+                        ORDER BY "nwea_2018_TermName" DESC, "nwea_2018_TestPercentile" DESC) AS row_num
 
   FROM national_assessments.nwea_2018
-  WHERE "nwea_2018_Discipline" = 'Reading') AS map_reading
+  WHERE
+    "nwea_2018_Discipline" = 'Reading') AS map_reading
 
   ON map_reading.local_student_id = student_set.local_student_id
 
@@ -75,7 +78,8 @@ LEFT JOIN
     , "nwea_2018_TermName" AS map_term
     , "nwea_2018_TestPercentile" AS map_percentile
     , "nwea_2018_Discipline" AS map_discipline
-    , row_number() OVER(PARTITION BY "nwea_2018_localStudentID" ORDER BY "nwea_2018_TestPercentile") AS row_num
+    , row_number() OVER(PARTITION BY "nwea_2018_localStudentID"
+                        ORDER BY "nwea_2018_TermName" DESC, "nwea_2018_TestPercentile" DESC) AS row_num
 
   FROM national_assessments.nwea_2018
   WHERE "nwea_2018_Discipline" = 'Mathematics'
