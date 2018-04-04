@@ -1,8 +1,8 @@
 /*************************************************************************
-* sed_students - NOT FINAL
+* sed_students
 **************************************************************************
 * Original Author: Maddy Landon
-* Last Updated: 2018-03-23
+* Last Updated: 2018-04-04
 *
 * Description:
 * In Illuminate, a student is flagged as Socio-Economically Disadvantaged (SED) when the student meets either one of two criteria:
@@ -23,24 +23,23 @@ with frl AS (
       programs.student_program_id,
       programs.start_date,
       programs.end_date
-    FROM student_session_aff AS enrollments
-      -- only join current programs
-    LEFT JOIN student_program_aff programs ON (enrollments.student_id = programs.student_id
-                                                 AND programs.end_date >= CURRENT_DATE)
+    FROM public.student_session_aff AS enrollments
+      -- only join programs with start_dates in current year
+      -- note that direct cert students can have FRL program start dates as early as 07-01
+    LEFT JOIN public.student_program_aff programs ON (enrollments.student_id = programs.student_id
+                                                 AND programs.start_date >= '2017-06-30')
     LEFT JOIN codes.student_programs ON programs.student_program_id = student_programs.code_id
-    LEFT JOIN sessions ON enrollments.session_id = sessions.session_id
+    LEFT JOIN public.sessions ON enrollments.session_id = sessions.session_id
     -- filter for FRL programs only
-
     WHERE student_programs.code_key in ('137', '136')
-    AND academic_year = 2018
+      AND academic_year = 2018
 ),
   parent_ed AS (
     SELECT
       student_id,
       parent_education.code_translation AS parent_ed_level
-    FROM students
+    FROM public.students
     LEFT JOIN codes.parent_education ON students.parent_education_level = parent_education.code_id
-
     WHERE code_translation LIKE 'Not a High School Graduate'
 ),
   sed AS(
@@ -57,13 +56,12 @@ with frl AS (
       enrollments.student_id,
       house_name,
       enrollments.session_id
-      FROM student_session_aff AS enrollments
-      LEFT JOIN sessions ON enrollments.session_id = sessions.session_id
-      LEFT JOIN student_house_aff ON (enrollments.student_id = student_house_aff.student_id
+    FROM student_session_aff AS enrollments
+    LEFT JOIN sessions ON enrollments.session_id = sessions.session_id
+    LEFT JOIN student_house_aff ON (enrollments.student_id = student_house_aff.student_id
                                         AND student_house_aff.session_id = enrollments.session_id)
-      LEFT JOIN houses ON houses.house_id = student_house_aff.house_id
-
-      WHERE academic_year = 2018
+    LEFT JOIN houses ON houses.house_id = student_house_aff.house_id
+    WHERE academic_year = 2018
       AND leave_date >= current_date
 )
 
@@ -94,4 +92,3 @@ LEFT JOIN sed ON sed.student_id = stud.student_id
 LEFT JOIN current_house ON ss.student_id = current_house.student_id
 
 WHERE ss.site_id < 9999997
-ORDER BY last_name
