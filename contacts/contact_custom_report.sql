@@ -536,8 +536,7 @@ FROM student_session_aff AS enrollments
   LEFT JOIN emergency_contact_2 ON emergency_contact_2.student_id = enrollments.student_id
 
 WHERE
-  -- get students enrolled in the current academic year
-  sessions.academic_year = 2018
+  enrollments.is_primary_ada = TRUE
 
   -- get students enrolled in a window around the current time
   AND enrollments.entry_date <= current_date
