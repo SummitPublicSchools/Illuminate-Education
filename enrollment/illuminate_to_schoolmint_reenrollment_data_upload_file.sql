@@ -25,7 +25,6 @@ adds a ranking, as well as the translation for the correspondance_language code.
   contacts_ranked AS (
     SELECT
     contact_types_ranked.*,
-    
     CASE
       WHEN contact_types_ranked.contact_type = 'Mother' THEN 'MO'
       WHEN contact_types_ranked.contact_type = 'Father' THEN 'FA'
@@ -50,7 +49,6 @@ adds a ranking, as well as the translation for the correspondance_language code.
             contact_types_ranked.contact_type = 'Foster Mother') THEN 'FP'
       ELSE 'OT'
       END AS "contact_type_sm", --SchoolMint contact type codes
-      
     codes.language.code_translation AS correspondance_language_text,
     codes.parent_education.code_translation AS education_level_text,
     codes.marital_status.code_translation AS maritial_status_text,
@@ -442,7 +440,6 @@ The following CTE is the final output of the contacts query in wide format.
 
     FROM student_session_aff AS enrollments
       LEFT JOIN sessions ON enrollments.session_id = sessions.session_id
-
       LEFT JOIN public.students stud USING(student_id)
 
       LEFT JOIN legal_guardian_1 ON legal_guardian_1.student_id = enrollments.student_id
@@ -456,7 +453,7 @@ The following CTE is the final output of the contacts query in wide format.
 
       -- Get students enrolled in a window around the current time
       AND enrollments.entry_date <= current_date
-      AND enrollments.leave_date > current_date
+      AND (enrollments.leave_date > current_date OR enrollments.leave_date = NULL)
 
       -- Get rid of the district 'Summit Public Schools', 'Summit NPS', and 'SPS Tour' site association
       AND sessions.site_id < 20
