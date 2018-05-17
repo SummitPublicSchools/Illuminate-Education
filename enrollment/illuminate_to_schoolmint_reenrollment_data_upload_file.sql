@@ -345,9 +345,9 @@ The following CTE is the final output of the contacts query in wide format.
         WHEN sessions.site_id = 6 THEN 46
         WHEN sessions.site_id = 7 THEN 52
         WHEN sessions.site_id = 8 THEN 276
-        WHEN sessions.site_id = 11 THEN 11 --TODO
-        WHEN sessions.site_id = 12 THEN 12 --TODO
-        WHEN sessions.site_id = 13 THEN 13 --TODO
+        WHEN sessions.site_id = 11 THEN 144
+        WHEN sessions.site_id = 12 THEN 145
+        WHEN sessions.site_id = 13 THEN 277
         ELSE 9999999
         END AS "site_id_sm", -- SchoolMint site ids
     
