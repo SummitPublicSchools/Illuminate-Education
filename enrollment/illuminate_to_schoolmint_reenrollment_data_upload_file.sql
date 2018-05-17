@@ -25,6 +25,32 @@ adds a ranking, as well as the translation for the correspondance_language code.
   contacts_ranked AS (
     SELECT
     contact_types_ranked.*,
+    
+    CASE
+      WHEN contact_types_ranked.contact_type = 'Mother' THEN 'MO'
+      WHEN contact_types_ranked.contact_type = 'Father' THEN 'FA'
+      WHEN contact_types_ranked.contact_type = 'Stepfather' THEN 'SFA'
+      WHEN contact_types_ranked.contact_type = 'Stepmother' THEN 'SMO'
+      WHEN contact_types_ranked.contact_type = 'Sibling' THEN 'SB'
+      WHEN contact_types_ranked.contact_type = 'Aunt' THEN 'AU'
+      WHEN contact_types_ranked.contact_type = 'Uncle' THEN 'UN'
+      WHEN contact_types_ranked.contact_type = 'Brother' THEN 'BR'
+      WHEN contact_types_ranked.contact_type = 'Sister' THEN 'SI'
+      WHEN contact_types_ranked.contact_type = 'Cousin' THEN 'CO'
+      WHEN (contact_types_ranked.contact_type = 'Grandparent' OR
+            contact_types_ranked.contact_type = 'Grandfather' OR
+            contact_types_ranked.contact_type = 'Grandmother') THEN 'GP'
+      WHEN (contact_types_ranked.contact_type = 'Caretaker' OR 
+            contact_types_ranked.contact_type = 'Court Guardian' OR
+            contact_types_ranked.contact_type = 'Agency Representative' OR
+            contact_types_ranked.contact_type = 'Agency Rep' OR
+            contact_types_ranked.contact_type = 'Parent/Guardian') THEN 'CT'
+      WHEN (contact_types_ranked.contact_type = 'Foster Parent' OR
+            contact_types_ranked.contact_type = 'Foster Father' OR
+            contact_types_ranked.contact_type = 'Foster Mother') THEN 'FP'
+      ELSE 'OT'
+      END AS "contact_type_sm", --SchoolMint contact type codes
+      
     codes.language.code_translation AS correspondance_language_text,
     codes.parent_education.code_translation AS education_level_text,
     codes.marital_status.code_translation AS maritial_status_text,
@@ -312,12 +338,41 @@ The following CTE is the final output of the contacts query in wide format.
   contacts_final AS (
     SELECT DISTINCT
       local_student_id,
+      CASE
+        WHEN sessions.site_id = 1 THEN 51
+        WHEN sessions.site_id = 2 THEN 50
+        WHEN sessions.site_id = 3 THEN 47
+        WHEN sessions.site_id = 4 THEN 48
+        WHEN sessions.site_id = 5 THEN 49
+        WHEN sessions.site_id = 6 THEN 46
+        WHEN sessions.site_id = 7 THEN 52
+        WHEN sessions.site_id = 8 THEN 276
+        WHEN sessions.site_id = 11 THEN 11 --TODO
+        WHEN sessions.site_id = 12 THEN 12 --TODO
+        WHEN sessions.site_id = 13 THEN 13 --TODO
+        ELSE 9999999
+        END AS "site_id_sm", -- SchoolMint site ids
+    
+      CASE
+        WHEN sessions.site_id = 1 THEN 'Summit Rainier'
+        WHEN sessions.site_id = 2 THEN 'Summit Tahoma'
+        WHEN sessions.site_id = 3 THEN 'Summit Prep'
+        WHEN sessions.site_id = 4 THEN 'Summit Everest'
+        WHEN sessions.site_id = 5 THEN 'Summit Denali'
+        WHEN sessions.site_id = 6 THEN 'Summit Shasta'
+        WHEN sessions.site_id = 7 THEN 'Summit K2'
+        WHEN sessions.site_id = 8 THEN 'Summit Tamalpais'
+        WHEN sessions.site_id = 11 THEN 'Summit Sierra'
+        WHEN sessions.site_id = 12 THEN 'Summit Olympus'
+        WHEN sessions.site_id = 13 THEN 'Summit Atlas'
+        ELSE 'Other Site'
+        END AS "site_name_sm", -- SchoolMint site names
 
     -- Guardian 1
       legal_guardian_1.contact_id AS "guardian_1.contact_id",
       legal_guardian_1.last_name AS "guardian_1.last_name",
       legal_guardian_1.first_name AS "guardian_1.first_name",
-      legal_guardian_1.contact_type AS "guardian_1.contact_type",
+      legal_guardian_1.contact_type_sm AS "guardian_1.contact_type",
 
       legal_guardian_1.email_address AS "guardian_1.email",
 
@@ -341,7 +396,7 @@ The following CTE is the final output of the contacts query in wide format.
       legal_guardian_2.contact_id AS "guardian_2.contact_id",
       legal_guardian_2.last_name AS "guardian_2.last_name",
       legal_guardian_2.first_name AS "guardian_2.first_name",
-      legal_guardian_2.contact_type AS "guardian_2.contact_type",
+      legal_guardian_2.contact_type_sm AS "guardian_2.contact_type",
 
       legal_guardian_2.email_address AS "guardian_2.email",
 
@@ -365,7 +420,7 @@ The following CTE is the final output of the contacts query in wide format.
       emergency_contact_1.contact_id AS "emergency_contact_1.contact_id",
       emergency_contact_1.last_name AS "emergency_contact_1.last_name",
       emergency_contact_1.first_name AS "emergency_contact_1.first_name",
-      emergency_contact_1.contact_type AS "emergency_contact_1.contact_type",
+      emergency_contact_1.contact_type_sm AS "emergency_contact_1.contact_type",
 
       emergency_contact_1.email_address AS "emergency_contact_1.email",
 
@@ -377,7 +432,7 @@ The following CTE is the final output of the contacts query in wide format.
       emergency_contact_2.contact_id AS "emergency_contact_2.contact_id",
       emergency_contact_2.last_name AS "emergency_contact_2.last_name",
       emergency_contact_2.first_name AS "emergency_contact_2.first_name",
-      emergency_contact_2.contact_type AS "emergency_contact_2.contact_type",
+      emergency_contact_2.contact_type_sm AS "emergency_contact_2.contact_type",
 
       emergency_contact_2.email_address AS "emergency_contact_2.email",
 
@@ -396,14 +451,14 @@ The following CTE is the final output of the contacts query in wide format.
       LEFT JOIN emergency_contact_2 ON emergency_contact_2.student_id = enrollments.student_id
 
     WHERE
-      -- get students enrolled in the current academic year
+      -- Get students enrolled in the current academic year
       sessions.academic_year = 2018
 
-      -- get students enrolled in a window around the current time
+      -- Get students enrolled in a window around the current time
       AND enrollments.entry_date <= current_date
       AND enrollments.leave_date > current_date
 
-      -- get rid of the district 'Summit Public Schools' site association
+      -- Get rid of the district 'Summit Public Schools', 'Summit NPS', and 'SPS Tour' site association
       AND sessions.site_id < 20
 
     ORDER BY local_student_id
@@ -429,24 +484,21 @@ SELECT DISTINCT
   contacts_final."guardian_1.physical_address_line_2" AS "student_address_street2",
   contacts_final."guardian_1.physical_address_city" AS "student_address_city_name",
   contacts_final."guardian_1.physical_address_state" AS "student_address_state",
-  contacts_final."guardian_1.physical_address_zip" AS "student_address_zipcode",
+  substring(contacts_final."guardian_1.physical_address_zip" from 1 for 5) AS "student_address_zipcode",
 
-  sites.site_id AS "student_current_school_id",
-  sites.site_name AS "student_current_school_name",
+  contacts_final.site_id_sm AS "student_current_school_id",
+  contacts_final.site_name_sm AS "student_current_school_name",
   ss.grade_level_id - 1 AS "student_current_grade_level",
   ss.grade_level_id AS "re_enrollment_grade",
-  -- TODO can we just use site id of the current school?
-  sites.site_id AS re_enrollment_school_id,
-  sites.site_name AS "re_enrollment_school_name",
+  contacts_final.site_id_sm AS "re_enrollment_school_id",
+  contacts_final.site_name_sm AS "re_enrollment_school_name",
 
-  -- TODO can we assume guardian 1 for resides with?
-  -- TODO make the contact code align with sm
-  contacts_final."guardian_1.contact_type" AS student_lives_with,
+  contacts_final."guardian_1.contact_type" AS "student_lives_with",
   contacts_final."guardian_1.mailing_address_line_1" AS "mailing_address_street1",
   contacts_final."guardian_1.mailing_address_line_2" AS "mailing_address_street2",
   contacts_final."guardian_1.mailing_address_city" AS "mailing_address_city_name",
   contacts_final."guardian_1.mailing_address_state" AS "mailing_address_state",
-  contacts_final."guardian_1.mailing_address_zip" AS "mailing_address_zipcode",
+  substring(contacts_final."guardian_1.mailing_address_zip" from 1 for 5) AS "mailing_address_zipcode",
 
   -- Guardian 1
   contacts_final."guardian_1.contact_id" AS "primary_guardian_id",
@@ -455,13 +507,12 @@ SELECT DISTINCT
   contacts_final."guardian_1.email" AS "guardian_1_email",
   -- TODO I think we need to make sure the below number is populated by a number if cell is blank
   contacts_final."guardian_1.cell_phone_number" AS "guardian_1_phone_number",
-  -- TODO make the contact code align with sm
   contacts_final."guardian_1.contact_type" AS "guardian_1_relation",
   contacts_final."guardian_1.physical_address_line_1" AS "guardian_1_address_street1",
   contacts_final."guardian_1.physical_address_line_2" AS "guardian_1_address_street2",
   contacts_final."guardian_1.physical_address_city" AS "guardian_1_address_city_name",
   contacts_final."guardian_1.physical_address_state" AS "guardian_1_address_state",
-  contacts_final."guardian_1.physical_address_zip" AS "guardian_1_address_zipcode",
+  substring(contacts_final."guardian_1.physical_address_zip" from 1 for 5) AS "guardian_1_address_zipcode",
   contacts_final."guardian_1.home_phone_number" AS "guardian_1_home_phone_number",
   contacts_final."guardian_1.work_phone_number" AS "guardian_1_work_phone_number",
 
@@ -470,13 +521,12 @@ SELECT DISTINCT
   contacts_final."guardian_2.last_name" AS "guardian_2_last_name",
   contacts_final."guardian_2.email" AS "guardian_2_email",
   contacts_final."guardian_2.cell_phone_number" AS "guardian_2_phone_number",
-  -- TODO make the contact code align with sm
   contacts_final."guardian_2.contact_type" AS "guardian_2_relation",
   contacts_final."guardian_2.physical_address_line_1" AS "guardian_2_address_street1",
   contacts_final."guardian_2.physical_address_line_2" AS "guardian_2_address_street2",
   contacts_final."guardian_2.physical_address_city" AS "guardian_2_address_city_name",
   contacts_final."guardian_2.physical_address_state" AS "guardian_2_address_state",
-  contacts_final."guardian_2.physical_address_zip" AS "guardian_2_address_zipcode",
+  substring(contacts_final."guardian_2.physical_address_zip" from 1 for 5) AS "guardian_2_address_zipcode",
   contacts_final."guardian_2.home_phone_number" AS "guardian_2_home_phone_number",
   contacts_final."guardian_2.work_phone_number" AS "guardian_2_work_phone_number",
 
@@ -487,9 +537,8 @@ SELECT DISTINCT
   contacts_final."emergency_contact_1.home_phone_number" AS "emergency_contact_1_home_phone_number",
   contacts_final."emergency_contact_1.work_phone_number" AS "emergency_contact_1_work_phone_number",
   contacts_final."emergency_contact_1.email" AS "emergency_contact_1_email",
-  -- TODO make the contact code align with sm
   contacts_final."emergency_contact_1.contact_type" AS "emergency_contact_1_relationship",
-
+  
   -- Emergency contact 2
   contacts_final."emergency_contact_2.first_name" AS "emergency_contact_2_first_name",
   contacts_final."emergency_contact_2.last_name" AS "emergency_contact_2_last_name",
@@ -497,7 +546,6 @@ SELECT DISTINCT
   contacts_final."emergency_contact_2.home_phone_number" AS "emergency_contact_2_home_phone_number",
   contacts_final."emergency_contact_2.work_phone_number" AS "emergency_contact_2_work_phone_number",
   contacts_final."emergency_contact_2.email" AS "emergency_contact_2_email",
-  -- TODO make the contact code align with sm
   contacts_final."emergency_contact_2.contact_type" AS "emergency_contact_2_relationship",
 
   -- Emergency contact 3
@@ -514,16 +562,15 @@ SELECT DISTINCT
 
 
 FROM
-matviews.ss_current AS ss
-LEFT JOIN public.students stud USING (student_id)
-LEFT JOIN public.sites USING (site_id)
--- Contact info from contacts query
-LEFT JOIN contacts_final ON contacts_final.local_student_id = stud.local_student_id
--- Health information for Doctor
-LEFT JOIN health.general ON stud.student_id = health.general.student_id
+  matviews.ss_current AS ss
+  LEFT JOIN public.students stud USING (student_id)
+  -- Contact info from contacts query
+  LEFT JOIN contacts_final ON contacts_final.local_student_id = stud.local_student_id
+  -- Health information for Doctor
+  LEFT JOIN health.general ON stud.student_id = health.general.student_id
 
 WHERE
-ss.site_id < 20 AND
-ss.grade_level_id != 13
+  ss.site_id < 20 AND
+  ss.grade_level_id <> 13
 
 ORDER BY stud.local_student_id
