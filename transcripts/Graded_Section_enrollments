@@ -3,7 +3,7 @@ SELECT
   , students.local_student_id
   , students.last_name
   , students.first_name
-  , (matviews.ss_current.grade_level_id + 1) as current_grade_level
+  , (matviews.ss_current.grade_level_id - 1) as current_grade_level
   , ssa.section_id
   , sections.local_section_id
   , departments.department_name
