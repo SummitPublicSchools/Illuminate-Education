@@ -228,7 +228,6 @@ SELECT
   students.last_name,
   students.first_name,
   grade_level_id -1 AS grade,
-  academic_year,
   fall_read.score AS fall_reading_score,
   fall_math.score AS fall_math_score,
   winter_read.score AS winter_reading_score,
