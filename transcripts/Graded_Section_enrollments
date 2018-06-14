@@ -38,8 +38,10 @@ WHERE
   AND sterma.entry_date < '2018-05-20'
   AND sta.primary_teacher IS TRUE
   AND (sta.end_date > '2018-06-01' OR sta.end_date IS NULL)
+  AND sy18sess.site_id NOT IN (9999999,9999998,9999997)
 
---   AND students.local_student_id = '20916'
+-- TEST STUDENT
+-- AND students.local_student_id = '20916'
 
 GROUP BY
   sites.site_name
