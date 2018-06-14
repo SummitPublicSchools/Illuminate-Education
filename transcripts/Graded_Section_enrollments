@@ -18,8 +18,8 @@ SELECT
 FROM
   matviews.student_term_aff AS sterma
 
-LEFT JOIN (SELECT * FROM terms WHERE terms.start_date = '2017-08-15' AND terms.end_date = '2018-06-07' AND terms.term_name = 'Year') AS sy18terms on sterma.term_id = sy18terms.term_id
-LEFT JOIN (SELECT * FROM student_session_aff WHERE student_session_aff.leave_date BETWEEN '2018-05-15' AND '2018-06-15') AS ssessa ON ssessa.student_id = sterma.student_id
+LEFT JOIN (SELECT * FROM terms WHERE terms.start_date >= '2017-08-15' AND terms.end_date <= '2018-06-22' AND terms.term_name = 'Year') AS sy18terms on sterma.term_id = sy18terms.term_id
+LEFT JOIN (SELECT * FROM student_session_aff WHERE (student_session_aff.leave_date IS NULL OR student_session_aff.leave_date BETWEEN '2018-05-15' AND '2018-06-23')) AS ssessa ON ssessa.student_id = sterma.student_id
 LEFT JOIN (SELECT * FROM sessions WHERE sessions.academic_year = 2018 AND sessions.session_type_id = 1) AS sy18sess ON ssessa.session_id = sy18sess.session_id
 LEFT JOIN sites on sy18sess.site_id = sites.site_id
 LEFT JOIN students on sterma.student_id = students.student_id
@@ -34,11 +34,12 @@ WHERE
   courses.transcript_inclusion IS NOT FALSE
   AND courses.is_active IS TRUE
   AND courses.variable_credits_high  >= 0.5
-  AND sterma.leave_date > '2018-05-20' AND sterma.entry_date < '2018-05-20'
+  AND (sterma.leave_date > '2018-05-20' OR sterma.leave_date IS NULL)
+  AND sterma.entry_date < '2018-05-20'
   AND sta.primary_teacher IS TRUE
   AND (sta.end_date > '2018-06-01' OR sta.end_date IS NULL)
 
-  AND students.local_student_id = '20916'
+--   AND students.local_student_id = '20916'
 
 GROUP BY
   sites.site_name
