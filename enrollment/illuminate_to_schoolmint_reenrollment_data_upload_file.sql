@@ -567,7 +567,7 @@ FROM
   LEFT JOIN health.general ON stud.student_id = health.general.student_id
 
 WHERE
-  ss.site_id < 20 AND
+  ss.site_id < 20 AND -- Note this filters out NPS students
   ss.grade_level_id <> 13
 
 ORDER BY stud.local_student_id
