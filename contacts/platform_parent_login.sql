@@ -377,7 +377,8 @@ SELECT DISTINCT
   first_two_legal_guardians.email_address AS "Parent Email",
   NULL AS "Parent Username",
   first_two_legal_guardians.phone_number AS "Parent Phone Number",
-  CASE WHEN first_two_legal_guardians.phone_type = 'Cellular' THEN 'Cellular' 
+  CASE WHEN first_two_legal_guardians.phone_number IS NULL THEN NULL  
+       WHEN first_two_legal_guardians.phone_type = 'Cellular' THEN 'Cellular' 
        WHEN first_two_legal_guardians.phone_type = 'Home' THEN 'Home' 
        WHEN first_two_legal_guardians.phone_type = 'Work' THEN 'Work'  
        ELSE 'Other' 
