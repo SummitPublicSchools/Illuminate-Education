@@ -370,6 +370,7 @@ mailing_address_dwelling_rank, mailing_address_rank
 
 SELECT DISTINCT
   local_student_id AS "Local Student ID",
+  sites.site_name AS "School Site",
   stud.email AS "Student Email",
   
   first_two_legal_guardians.last_name AS "Parent Last Name",
@@ -391,7 +392,8 @@ SELECT DISTINCT
   
 FROM student_session_aff AS enrollments
   LEFT JOIN sessions ON enrollments.session_id = sessions.session_id
-  LEFT JOIN public.students AS stud USING(student_id)
+  LEFT JOIN students AS stud USING(student_id)
+  LEFT JOIN sites ON sessions.site_id = sites.site_id
   LEFT JOIN first_two_legal_guardians ON first_two_legal_guardians.student_id = enrollments.student_id
 
 WHERE
