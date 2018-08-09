@@ -395,12 +395,12 @@ FROM student_session_aff AS enrollments
   LEFT JOIN first_two_legal_guardians ON first_two_legal_guardians.student_id = enrollments.student_id
 
 WHERE
-  -- get students enrolled in the current academic year
-  sessions.academic_year = 2019
+  -- get students enrolled in a given academic year
+  sessions.academic_year = {0}
 
-  -- get students enrolled on day 1
-  AND enrollments.entry_date >= '2018-08-15'
-  AND enrollments.leave_date > '2018-08-15'
+  -- get students enrolled on a given day or later
+  AND enrollments.entry_date >= '{1}'
+  AND enrollments.leave_date > '{1}'
 
   -- get rid of the district 'Summit Public Schools' site association
   AND sessions.site_id < 20
