@@ -226,28 +226,34 @@ mailing address. It only grabs addresses where moveout_date is null
 
 /*********************************
 PHONE NUMBERS
-Only want cell phones, other phones, and unknown phones.  Cell should prioritized as should
-primary phones.
 *********************************/
   phones_ranked AS (
     SELECT DISTINCT
-        contacts.contact_phones.contact_id AS contact_id,
-        contacts.contact_phones.phone      AS phone_number,
-        codes.phone_type.code_translation  AS phone_type,
-        contacts.contact_phones.is_primary,
-        rank()
-        OVER (PARTITION BY contact_id, phone_type_id
-          ORDER BY phone_type DESC, is_primary DESC, phone DESC) AS phone_rank
+            contacts.contact_phones.contact_id AS contact_id,
+            contacts.contact_phones.phone      AS phone_number,
+            codes.phone_type.code_translation  AS phone_type,
+            contacts.contact_phones.is_primary,
+            ROW_NUMBER()
+            OVER (PARTITION BY contact_id
+              ORDER BY
+                (CASE WHEN codes.phone_type.code_translation = 'Cellular' AND is_primary THEN 1
+                      WHEN codes.phone_type.code_translation = 'Cellular' THEN 2
+                      WHEN codes.phone_type.code_translation = 'Other' AND is_primary THEN 3
+                      WHEN codes.phone_type.code_translation = 'Other' THEN 4
+                      WHEN codes.phone_type.code_translation = 'Unknown' AND is_primary THEN 5
+                      WHEN codes.phone_type.code_translation = 'Unknown' THEN 6
+                      WHEN codes.phone_type.code_translation = 'Home' AND is_primary THEN 7
+                      WHEN codes.phone_type.code_translation = 'Home' THEN 8
+                      WHEN codes.phone_type.code_translation = 'Work' AND is_primary THEN 9
+                      WHEN codes.phone_type.code_translation = 'Work' THEN 10
+                      ELSE 11
+                 END)
+            ) AS phone_rank
+          FROM contacts.contact_phones
+            LEFT JOIN codes.phone_type
+              ON contacts.contact_phones.phone_type_id = codes.phone_type.code_id
 
-      FROM contacts.contact_phones
-        LEFT JOIN codes.phone_type
-          ON contacts.contact_phones.phone_type_id = codes.phone_type.code_id
-
-      WHERE (codes.phone_type.code_translation = 'Cellular' 
-        OR codes.phone_type.code_translation = 'Other' 
-        OR codes.phone_type.code_translation = 'Unknown')
-      
-      ORDER BY contact_id, phone_rank
+          ORDER BY contact_id, phone_rank
   ),
 
 /*********************************
@@ -371,8 +377,16 @@ SELECT DISTINCT
   first_two_legal_guardians.email_address AS "Parent Email",
   NULL AS "Parent Username",
   first_two_legal_guardians.phone_number AS "Parent Phone Number",
-  CASE WHEN first_two_legal_guardians.phone_type = 'Cellular' THEN 'Cellular' ELSE 'Other' END AS "Parent Phone Type",
-  first_two_legal_guardians.correspondance_language_text AS "Preferred Language"
+  CASE WHEN first_two_legal_guardians.phone_type = 'Cellular' THEN 'Cellular' 
+       WHEN first_two_legal_guardians.phone_type = 'Home' THEN 'Home' 
+       WHEN first_two_legal_guardians.phone_type = 'Work' THEN 'Work'  
+       ELSE 'Other' 
+  END AS "Parent Phone Type",
+  CASE WHEN first_two_legal_guardians.correspondance_language_text = 'English'
+            OR first_two_legal_guardians.correspondance_language_text IS NULL THEN 'English'
+       WHEN first_two_legal_guardians.correspondance_language_text = 'Spanish' THEN 'Spanish'
+       ELSE 'Other'
+  END AS "Preferred Language"
   
 FROM student_session_aff AS enrollments
   LEFT JOIN sessions ON enrollments.session_id = sessions.session_id
