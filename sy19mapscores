@@ -1,29 +1,29 @@
--- This query gives the SY18 MAP scores for currently enrolled students
+-- This query gives the SY19 MAP scores for currently enrolled students
 WITH fall_read AS (
     WITH
 score AS (
   SELECT
       student_id,
-      "nwea_2018_SchoolName",
-      "nwea_2018_TermName",
-      "nwea_2018_Discipline",
-      max("nwea_2018_TestRITScore") AS score
-    FROM national_assessments.nwea_2018
+      "nwea_2019_SchoolName",
+      "nwea_2019_TermName",
+      "nwea_2019_Discipline",
+      max("nwea_2019_TestRITScore") AS score
+    FROM national_assessments.nwea_2019
     WHERE
-      "nwea_2018_TermName" = 'Fall 2017-2018' AND
-      "nwea_2018_Discipline" = 'Reading'
+      "nwea_2019_TermName" = 'Fall 2018-2019' AND
+      "nwea_2019_Discipline" = 'Reading'
 GROUP BY
    student_id,
-    "nwea_2018_SchoolName",
-    "nwea_2018_TermName",
-    "nwea_2018_Discipline"
+    "nwea_2019_SchoolName",
+    "nwea_2019_TermName",
+    "nwea_2019_Discipline"
   )
 SELECT
-      score."nwea_2018_SchoolName",
+      score."nwea_2019_SchoolName",
       student_session_aff.session_id,
-      score."nwea_2018_TermName",
+      score."nwea_2019_TermName",
       score,
-      score."nwea_2018_Discipline",
+      score."nwea_2019_Discipline",
       local_student_id,
       students.first_name,
       students.last_name,
@@ -34,33 +34,33 @@ SELECT
     WHERE
       -- Only currently enrolled students reading scores from Fall testing
       student_session_aff.leave_date > DATE 'today' AND
-      score."nwea_2018_TermName" = 'Fall 2017-2018' AND
-      score."nwea_2018_Discipline" = 'Reading'
+      score."nwea_2019_TermName" = 'Fall 2018-2019' AND
+      score."nwea_2019_Discipline" = 'Reading'
 ), winter_read AS (
    WITH
 score AS (
   SELECT
       student_id,
-      "nwea_2018_SchoolName",
-      "nwea_2018_TermName",
-      "nwea_2018_Discipline",
-      max("nwea_2018_TestRITScore") AS score
-    FROM national_assessments.nwea_2018
+      "nwea_2019_SchoolName",
+      "nwea_2019_TermName",
+      "nwea_2019_Discipline",
+      max("nwea_2019_TestRITScore") AS score
+    FROM national_assessments.nwea_2019
     WHERE
-      "nwea_2018_TermName" = 'Winter 2017-2018' AND
-      "nwea_2018_Discipline" = 'Reading'
+      "nwea_2019_TermName" = 'Winter 2018-2019' AND
+      "nwea_2019_Discipline" = 'Reading'
 GROUP BY
    student_id,
-    "nwea_2018_SchoolName",
-    "nwea_2018_TermName",
-    "nwea_2018_Discipline"
+    "nwea_2019_SchoolName",
+    "nwea_2019_TermName",
+    "nwea_2019_Discipline"
   )
 SELECT
-      score."nwea_2018_SchoolName",
+      score."nwea_2019_SchoolName",
       student_session_aff.session_id,
-      score."nwea_2018_TermName",
+      score."nwea_2019_TermName",
       score,
-      score."nwea_2018_Discipline",
+      score."nwea_2019_Discipline",
       local_student_id,
       students.first_name,
       students.last_name,
@@ -71,33 +71,33 @@ SELECT
     WHERE
       -- Only currently enrolled students reading scores from Fall testing
       student_session_aff.leave_date > DATE 'today' AND
-      score."nwea_2018_TermName" = 'Winter 2017-2018' AND
-      score."nwea_2018_Discipline" = 'Reading'
+      score."nwea_2019_TermName" = 'Winter 2018-2019' AND
+      score."nwea_2019_Discipline" = 'Reading'
 ), spring_read AS (
    WITH
 score AS (
   SELECT
       student_id,
-      "nwea_2018_SchoolName",
-      "nwea_2018_TermName",
-      "nwea_2018_Discipline",
-      max("nwea_2018_TestRITScore") AS score
-    FROM national_assessments.nwea_2018
+      "nwea_2019_SchoolName",
+      "nwea_2019_TermName",
+      "nwea_2019_Discipline",
+      max("nwea_2019_TestRITScore") AS score
+    FROM national_assessments.nwea_2019
     WHERE
-      "nwea_2018_TermName" = 'Spring 2017-2018' AND
-      "nwea_2018_Discipline" = 'Reading'
+      "nwea_2019_TermName" = 'Spring 2018-2019' AND
+      "nwea_2019_Discipline" = 'Reading'
 GROUP BY
    student_id,
-    "nwea_2018_SchoolName",
-    "nwea_2018_TermName",
-    "nwea_2018_Discipline"
+    "nwea_2019_SchoolName",
+    "nwea_2019_TermName",
+    "nwea_2019_Discipline"
   )
 SELECT
-      score."nwea_2018_SchoolName",
+      score."nwea_2019_SchoolName",
       student_session_aff.session_id,
-      score."nwea_2018_TermName",
+      score."nwea_2019_TermName",
       score,
-      score."nwea_2018_Discipline",
+      score."nwea_2019_Discipline",
       local_student_id,
       students.first_name,
       students.last_name,
@@ -108,33 +108,33 @@ SELECT
     WHERE
       -- Only currently enrolled students reading scores from Fall testing
       student_session_aff.leave_date > DATE 'today' AND
-      score."nwea_2018_TermName" = 'Spring 2017-2018' AND
-      score."nwea_2018_Discipline" = 'Reading'
+      score."nwea_2019_TermName" = 'Spring 2018-2019' AND
+      score."nwea_2019_Discipline" = 'Reading'
 ), fall_math AS (
    WITH
 score AS (
   SELECT
       student_id,
-      "nwea_2018_SchoolName",
-      "nwea_2018_TermName",
-      "nwea_2018_Discipline",
-      max("nwea_2018_TestRITScore") AS score
-    FROM national_assessments.nwea_2018
+      "nwea_2019_SchoolName",
+      "nwea_2019_TermName",
+      "nwea_2019_Discipline",
+      max("nwea_2019_TestRITScore") AS score
+    FROM national_assessments.nwea_2019
     WHERE
-      "nwea_2018_TermName" = 'Fall 2017-2018' AND
-      "nwea_2018_Discipline" = 'Mathematics'
+      "nwea_2019_TermName" = 'Fall 2018-2019' AND
+      "nwea_2019_Discipline" = 'Mathematics'
 GROUP BY
    student_id,
-    "nwea_2018_SchoolName",
-    "nwea_2018_TermName",
-    "nwea_2018_Discipline"
+    "nwea_2019_SchoolName",
+    "nwea_2019_TermName",
+    "nwea_2019_Discipline"
   )
 SELECT
-      score."nwea_2018_SchoolName",
+      score."nwea_2019_SchoolName",
       student_session_aff.session_id,
-      score."nwea_2018_TermName",
+      score."nwea_2019_TermName",
       score,
-      score."nwea_2018_Discipline",
+      score."nwea_2019_Discipline",
       local_student_id,
       students.first_name,
       students.last_name,
@@ -145,33 +145,33 @@ SELECT
     WHERE
       -- Only currently enrolled students reading scores from Fall testing
       student_session_aff.leave_date > DATE 'today' AND
-      score."nwea_2018_TermName" = 'Fall 2017-2018' AND
-      score."nwea_2018_Discipline" = 'Mathematics'
+      score."nwea_2019_TermName" = 'Fall 2018-2019' AND
+      score."nwea_2019_Discipline" = 'Mathematics'
 ), winter_math AS (
    WITH
 score AS (
   SELECT
       student_id,
-      "nwea_2018_SchoolName",
-      "nwea_2018_TermName",
-      "nwea_2018_Discipline",
-      max("nwea_2018_TestRITScore") AS score
-    FROM national_assessments.nwea_2018
+      "nwea_2019_SchoolName",
+      "nwea_2019_TermName",
+      "nwea_2019_Discipline",
+      max("nwea_2019_TestRITScore") AS score
+    FROM national_assessments.nwea_2019
     WHERE
-      "nwea_2018_TermName" = 'Winter 2017-2018' AND
-      "nwea_2018_Discipline" = 'Mathematics'
+      "nwea_2019_TermName" = 'Winter 2018-2019' AND
+      "nwea_2019_Discipline" = 'Mathematics'
 GROUP BY
    student_id,
-    "nwea_2018_SchoolName",
-    "nwea_2018_TermName",
-    "nwea_2018_Discipline"
+    "nwea_2019_SchoolName",
+    "nwea_2019_TermName",
+    "nwea_2019_Discipline"
   )
 SELECT
-      score."nwea_2018_SchoolName",
+      score."nwea_2019_SchoolName",
       student_session_aff.session_id,
-      score."nwea_2018_TermName",
+      score."nwea_2019_TermName",
       score,
-      score."nwea_2018_Discipline",
+      score."nwea_2019_Discipline",
       local_student_id,
       students.first_name,
       students.last_name,
@@ -182,33 +182,33 @@ SELECT
     WHERE
       -- Only currently enrolled students reading scores from Fall testing
       student_session_aff.leave_date > DATE 'today' AND
-      score."nwea_2018_TermName" = 'Winter 2017-2018' AND
-      score."nwea_2018_Discipline" = 'Mathematics'
+      score."nwea_2019_TermName" = 'Winter 2018-2019' AND
+      score."nwea_2019_Discipline" = 'Mathematics'
 ), spring_math AS (
    WITH
 score AS (
   SELECT
       student_id,
-      "nwea_2018_SchoolName",
-      "nwea_2018_TermName",
-      "nwea_2018_Discipline",
-      max("nwea_2018_TestRITScore") AS score
-    FROM national_assessments.nwea_2018
+      "nwea_2019_SchoolName",
+      "nwea_2019_TermName",
+      "nwea_2019_Discipline",
+      max("nwea_2019_TestRITScore") AS score
+    FROM national_assessments.nwea_2019
     WHERE
-      "nwea_2018_TermName" = 'Spring 2017-2018' AND
-      "nwea_2018_Discipline" = 'Mathematics'
+      "nwea_2019_TermName" = 'Spring 2018-2019' AND
+      "nwea_2019_Discipline" = 'Mathematics'
 GROUP BY
    student_id,
-    "nwea_2018_SchoolName",
-    "nwea_2018_TermName",
-    "nwea_2018_Discipline"
+    "nwea_2019_SchoolName",
+    "nwea_2019_TermName",
+    "nwea_2019_Discipline"
   )
 SELECT
-      score."nwea_2018_SchoolName",
+      score."nwea_2019_SchoolName",
       student_session_aff.session_id,
-      score."nwea_2018_TermName",
+      score."nwea_2019_TermName",
       score,
-      score."nwea_2018_Discipline",
+      score."nwea_2019_Discipline",
       local_student_id,
       students.first_name,
       students.last_name,
@@ -219,14 +219,15 @@ SELECT
     WHERE
       -- Only currently enrolled students reading scores from Fall testing
       student_session_aff.leave_date > DATE 'today' AND
-      score."nwea_2018_TermName" = 'Spring 2017-2018' AND
-      score."nwea_2018_Discipline" = 'Mathematics'
+      score."nwea_2019_TermName" = 'Spring 2018-2019' AND
+      score."nwea_2019_Discipline" = 'Mathematics'
 )
 SELECT
   site_name,
   students.local_student_id,
   students.last_name,
   students.first_name,
+  gender,
   grade_level_id -1 AS grade,
   fall_read.score AS fall_reading_score,
   fall_math.score AS fall_math_score,
@@ -247,8 +248,8 @@ LEFT JOIN spring_math ON students.local_student_id = spring_math.local_student_i
 WHERE
   -- Remove session id constraints for WA
   sessions.session_id <> 215 AND
-  sessions.session_id <> 232 AND
-  academic_year = 2018 AND
+  sessions.session_id <> 214 AND
+  academic_year = 2019 AND
 --     Filter for grades 6-10 to only get students who need to test
 --   grade_level_id -1 IN (6,7,8,9,10) AND
   student_session_aff.leave_date > DATE 'today'
