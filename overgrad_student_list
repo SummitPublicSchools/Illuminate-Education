@@ -1,4 +1,4 @@
--- This generates an upload file for adding all current HS students to Overgrad.
+-- This generates an upload file for adding all current 11th & 12th grade students to Overgrad.
 SELECT
   sites.site_name site,
   students.local_student_id spsid,
@@ -7,11 +7,44 @@ SELECT
   students.last_name,
   students.graduation_requirement_year,
   students.birth_date,
-  students.reported_gender
+  students.gender,
+  (matviews.ss_current.grade_level_id -1) as currentgradelevel,
+--   (matviews.student_term_aff.grade_level_id-1) as enteredgradelevel,
+  h2.house_name
+
+
 FROM
   matviews.ss_current
 LEFT JOIN sites on sites.site_id = matviews.ss_current.site_id
 LEFT JOIN students on students.student_id = matviews.ss_current.student_id
+LEFT JOIN matviews.student_term_aff on student_term_aff.student_id = matviews.ss_current.student_id
+LEFT JOIN terms on terms.term_id = matviews.student_term_aff.term_id
+LEFT JOIN student_house_aff a on students.student_id = a.student_id
+LEFT JOIN houses h2 on a.house_id = h2.house_id
+LEFT JOIN sessions s2 on terms.session_id = s2.session_id
+
 WHERE
   matviews.ss_current.site_id <> 9999999
-  AND matviews.ss_current.grade_level_id >= 10
+  AND matviews.ss_current.grade_level_id >= 12
+  AND terms.term_type = 1
+  AND terms.term_name = 'Year'
+  AND (matviews.student_term_aff.leave_date IS NULL OR matviews.student_term_aff.leave_date > now())
+  AND a.session_id = s2.session_id
+
+GROUP BY
+  sites.site_name,
+  students.local_student_id,
+  students.email,
+  students.first_name,
+  students.last_name,
+  students.graduation_requirement_year,
+  students.birth_date,
+  students.gender,
+  matviews.ss_current.grade_level_id,
+  matviews.student_term_aff.entry_date,
+  matviews.student_term_aff.grade_level_id,
+  terms.term_name,
+  h2.house_name
+
+ORDER BY
+  site, currentgradelevel, spsid
