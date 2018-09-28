@@ -1,7 +1,7 @@
 /* This query identifies all currently enrolled students at Shasta and Denali who qualify for Title I.
 Meeting any of the following criteria will qualify a student:
 - Grade of C+ or below in math or English
-- Highest MAP score within previous year is below 50th percentile
+- Below 50th percentile in MAP math or reading within the past year
 - Below proficient on last year's SBAC administration (if applicable)
 This query pulls all of the relevant criteria and determines eligibility. Students may be duplicated if they had more
 than one math or English course in the previous school year.
