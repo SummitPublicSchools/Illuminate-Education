@@ -1,9 +1,9 @@
 /* This query identifies all currently enrolled students at Shasta and Denali who qualify for Title I.
 Meeting any of the following criteria will qualify a student:
 - Grade of C+ or below in math or English
-- Below 50th percentile in MAP math or reading within the past year
+- Highest MAP Math or Reading score within the past year is below 50th percentile
 - Below proficient on last year's SBAC administration (if applicable)
-This query pulls all of the relevant criteria and determines eligibility. Students may be duplicated if they had more 
+This query pulls all of the relevant criteria and determines eligibility. Students may be duplicated if they had more
 than one math or English course in the previous school year.
  */
 
@@ -17,16 +17,16 @@ SELECT
   math_grades.math_grade AS math_grade,
   ela_grades.ela_course,
   ela_grades.ela_grade,
-  min_map_math.map_term AS max_map_math_term,
-  min_map_math.map_percentile AS max_map_math_percentile,
-  min_map_reading.map_term AS max_map_reading_term,
-  min_map_reading.map_percentile AS max_map_reading_percentile,
+  max_map_math.map_term AS max_map_math_term,
+  max_map_math.map_percentile AS max_map_math_percentile,
+  max_map_reading.map_term AS max_map_reading_term,
+  max_map_reading.map_percentile AS max_map_reading_percentile,
   sbac_math.sbac_math_level,
   sbac_ela.sbac_ela_level,
   CASE WHEN math_grade IN ('F', 'D-', 'D', 'D+', 'C-', 'C', 'C+', 'INCOMPLETE') THEN TRUE
        WHEN ela_grade IN  ('F', 'D-', 'D', 'D+', 'C-', 'C', 'C+', 'INCOMPLETE') THEN TRUE
-       WHEN min_map_math.map_percentile < 50 THEN TRUE
-       WHEN min_map_reading.map_percentile < 50 THEN TRUE
+       WHEN max_map_math.map_percentile < 50 THEN TRUE
+       WHEN max_map_reading.map_percentile < 50 THEN TRUE
        WHEN sbac_math_level IN ('Standard Not Met', 'Standard Nearly Met') THEN TRUE
        WHEN sbac_ela_level IN ('Standard Not Met', 'Standard Nearly Met') THEN TRUE
        ELSE FALSE
@@ -51,12 +51,12 @@ FROM
 
   WHERE
     /* change session ids for different sites or academic years */
-    enrollments.session_id in (213, 217) AND
+    enrollments.session_id in (233, 236) AND
     enrollments.leave_date > DATE 'today'
   ) student_set
 
 LEFT JOIN
-  /* SY17 math grades */
+  /* SY18 math grades */
   (SELECT
     student_grades.student_id,
     courses.school_course_id AS math_course,
@@ -75,13 +75,13 @@ LEFT JOIN
 
   WHERE
     SUBSTRING(courses.school_course_id,1,1) = 'C' AND
-    sessions.academic_year = 2017
+    sessions.academic_year = 2018
   ) math_grades
 
   ON math_grades.student_id = student_set.student_id
 
 LEFT JOIN
-  /* SY17 ELA grades */
+  /* SY18 ELA grades */
   (SELECT
     student_grades.student_id,
     courses.school_course_id AS ela_course,
@@ -100,13 +100,13 @@ LEFT JOIN
 
   WHERE
     SUBSTRING(courses.school_course_id,1,1) = 'B' AND
-    sessions.academic_year = 2017
+    sessions.academic_year = 2018
   ) ela_grades
 
   ON ela_grades.student_id = student_set.student_id
 
 LEFT JOIN
-  /* 2017 and 2018 MAP math scores */
+  /* 2018 and 2019 MAP math scores */
     (SELECT DISTINCT ON (student_id)
       map_math.student_id,
       map_math.map_discipline,
@@ -117,33 +117,33 @@ LEFT JOIN
 
       (SELECT
         student_id,
-        "nwea_2017_Discipline" AS map_discipline,
-        "nwea_2017_TermName" AS map_term,
-        "nwea_2017_TestPercentile" AS map_percentile
+        "nwea_2018_Discipline" AS map_discipline,
+        "nwea_2018_TermName" AS map_term,
+        "nwea_2018_TestPercentile" AS map_percentile
 
-       FROM national_assessments.nwea_2017
+       FROM national_assessments.nwea_2018
 
       UNION
 
       SELECT
         student_id,
-        "nwea_2018_Discipline" AS map_discipline,
-        "nwea_2018_TermName" AS map_term,
-        "nwea_2018_TestPercentile" AS map_percentile
+        "nwea_2019_Discipline" AS map_discipline,
+        "nwea_2019_TermName" AS map_term,
+        "nwea_2019_TestPercentile" AS map_percentile
 
-      FROM national_assessments.nwea_2018
+      FROM national_assessments.nwea_2019
 
       ) map_math
 
     WHERE map_discipline = 'Mathematics'
 
-    ORDER BY student_id, map_percentile
-    ) min_map_math
+    ORDER BY student_id, map_percentile DESC
+    ) max_map_math
 
-    ON min_map_math.student_id = student_set.student_id
+    ON max_map_math.student_id = student_set.student_id
 
 LEFT JOIN
-    /* 2017 and 2018 MAP reading scores */
+    /* 2018 and 2019 MAP reading scores */
     (SELECT DISTINCT ON (student_id)
       map_reading.student_id,
       map_reading.map_discipline,
@@ -153,40 +153,40 @@ LEFT JOIN
      FROM
       (SELECT
         student_id,
-        "nwea_2017_Discipline" AS map_discipline,
-        "nwea_2017_TermName" AS map_term,
-        "nwea_2017_TestPercentile" AS map_percentile
+        "nwea_2018_Discipline" AS map_discipline,
+        "nwea_2018_TermName" AS map_term,
+        "nwea_2018_TestPercentile" AS map_percentile
 
-       FROM national_assessments.nwea_2017
+       FROM national_assessments.nwea_2018
 
       UNION
 
       SELECT
         student_id,
-        "nwea_2018_Discipline" AS map_discipline,
-        "nwea_2018_TermName" AS map_term,
-        "nwea_2018_TestPercentile" AS map_percentile
+        "nwea_2019_Discipline" AS map_discipline,
+        "nwea_2019_TermName" AS map_term,
+        "nwea_2019_TestPercentile" AS map_percentile
 
-      FROM national_assessments.nwea_2018
+      FROM national_assessments.nwea_2019
 
       ) map_reading
 
     WHERE map_discipline = 'Reading'
 
-    ORDER BY student_id, map_percentile
-    ) min_map_reading
+    ORDER BY student_id, map_percentile DESC
+    ) max_map_reading
 
-    ON min_map_reading.student_id = student_set.student_id
+    ON max_map_reading.student_id = student_set.student_id
 
 LEFT JOIN
   /* ELA SBAC scores */
     (SELECT
       student_id,
-      "caaspp_2017_ela_performanceLevelText" AS sbac_ela_level
+      "caaspp_2018_ela_performanceLevelText" AS sbac_ela_level
 
-    FROM state_data_ca.caaspp_2017_ela
+    FROM state_data_ca.caaspp_2018_ela
 
-    WHERE "caaspp_2017_assessType" = 'Summative (Final)'
+    WHERE "caaspp_2018_assessType" = 'Summative (Final)'
     ) sbac_ela
 
     ON sbac_ela.student_id = student_set.student_id
@@ -195,26 +195,17 @@ LEFT JOIN
   /* math SBAC scores */
     (SELECT
       student_id,
-      "caaspp_2017_math_performanceLevelText" AS sbac_math_level
+      "caaspp_2018_math_performanceLevelText" AS sbac_math_level
 
-    FROM state_data_ca.caaspp_2017_math
+    FROM state_data_ca.caaspp_2018_math
 
-    WHERE "caaspp_2017_assessType" = 'Summative (Final)'
+    WHERE "caaspp_2018_assessType" = 'Summative (Final)'
     ) sbac_math
 
     ON sbac_math.student_id = student_set.student_id
+
 
 ORDER BY
   site_name,
   grade_level,
   local_student_id
-
-
-
-
-
-
-
-
-
-
