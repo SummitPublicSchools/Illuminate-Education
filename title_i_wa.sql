@@ -1,10 +1,38 @@
 /***********************************************************************************************************************
 This query produces a roster of currently enrolled students at Atlas, Olympus, and Sierra and indicates whether they are Title I
 eligible. Title I eligibility is based on meeting any of the following criteria:
- - Scoring below 50th percentile on MAP Reading or Math in the most recent test administration for that student (highest score used if
-   the test was taken more than once in a given term) - considering current and previous school year
- - Not meeting standard on the previous year's SBAC administration in ELA or Math
- - Getting a C+ or below in English or Math in the previous school year
+
+-------
+ 
+TITLE I MATH:
+
+< 50 percentile on MAP Math in most recent test administration for that student 
+(considering current and previous school year; if student took test more than once in most recent administration, use highest score)
+
+OR
+
+SBAC Math not meeting standard on the previous year’s administration
+
+OR 
+
+<= C+ in Math in the previous year
+
+-------
+
+TITLE I ELA:
+
+< 50 percentile on MAP Reading in most recent test administration for that student 
+(considering current and previous school year; if student took test more than once in most recent administration, use highest score)
+
+OR
+
+SBAC ELA not meeting standard on the previous year’s administration
+
+OR 
+
+<= C+ in English in the previous year
+
+-------
 
 To update this query for a new school year, update the following:
  - session ids in the student set table
@@ -19,22 +47,25 @@ SELECT
   , last_name
   , first_name
   , student_set.grade_level
-  , map_reading.map_percentile AS min_map_reading_percentile
-  , map_reading.map_term AS min_map_reading_term
   , map_math.map_percentile AS min_map_math_percentile
   , map_math.map_term AS min_map_math_term
-  , sbac_ela_met_standard
   , sbac_math_met_standard
-  , ela_grade
   , math_grade
-  , CASE WHEN map_reading.map_percentile < 50 THEN TRUE
-         WHEN map_math.map_percentile < 50 THEN TRUE
-         WHEN sbac_ela_met_standard = 'NO' THEN TRUE
+  , CASE WHEN map_math.map_percentile < 50 THEN TRUE
          WHEN sbac_math_met_standard = 'NO' THEN TRUE
-         WHEN ela_grade IN ('C+', 'C', 'C-', 'D+', 'D', 'D-', 'F', 'INCOMPLETE') THEN TRUE
          WHEN math_grade IN ('C+', 'C', 'C-', 'D+', 'D', 'D-', 'F', 'INCOMPLETE') THEN TRUE
          ELSE FALSE
-    END AS title_i
+    END AS title_i_math
+  , map_reading.map_percentile AS min_map_reading_percentile
+  , map_reading.map_term AS min_map_reading_term
+  , sbac_ela_met_standard
+  , ela_grade
+  , CASE WHEN map_reading.map_percentile < 50 THEN TRUE
+         WHEN sbac_ela_met_standard = 'NO' THEN TRUE
+         WHEN ela_grade IN ('C+', 'C', 'C-', 'D+', 'D', 'D-', 'F', 'INCOMPLETE') THEN TRUE
+         ELSE FALSE
+    END AS title_i_ela   
+
 
 FROM
   /* Student set: currently enrolled students at Atlas, Olympus, and Sierra */
@@ -96,6 +127,11 @@ LEFT JOIN
 
       FROM national_assessments.nwea_2019
 
+      WHERE
+        -- classifications should be made on fall not winter or spring of current year
+        "nwea_2019_TermName" <> 'Winter 2018-2019' AND
+        "nwea_2019_TermName" <> 'Spring 2018-2019'
+
       ) math
 
     WHERE map_discipline = 'Mathematics'
@@ -141,6 +177,11 @@ LEFT JOIN
 
       FROM national_assessments.nwea_2019
 
+      WHERE
+        -- classifications should be made on fall not winter or spring of current year
+        "nwea_2019_TermName" <> 'Winter 2018-2019' AND
+        "nwea_2019_TermName" <> 'Spring 2018-2019'
+      
       ) reading
 
     WHERE map_discipline = 'Reading'
