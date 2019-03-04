@@ -1,0 +1,2687 @@
+,local_student_id,site_id,grading_period_name,academic_year,local_section_id,school_course_id,corrected_grade,max_credits,credits_received,is_final?,is_repeat?,session_type_id
+0,21157,4,Final Grades,2019,A400-Mears-M3A,A400,B+,1.0,1.0,0,0,1
+1,21157,4,Final Grades,2019,B400-Macho-T2A,B400,A-,1.0,1.0,0,0,1
+2,21157,4,Final Grades,2019,C400-Hagyard-T1A,C400,B+,1.0,1.0,0,0,1
+3,21157,4,Final Grades,2019,D430-Anderson-M1A,D430,A-,1.0,1.0,0,0,1
+4,21157,4,Final Grades,2019,I139-Internship-Olson-AM,I139,NO GRADE,1.0,1.0,0,0,1
+5,20907,4,Final Grades,2019,A400-Mears-M3A,A400,C+,1.0,1.0,0,0,1
+6,20907,4,Final Grades,2019,B400-Macho-T3A,B400,B,1.0,1.0,0,0,1
+7,20907,4,Final Grades,2019,C400-Hagyard-T2A,C400,C+,1.0,1.0,0,0,1
+8,20907,4,Final Grades,2019,D430-Anderson-T1A,D430,I,1.0,0.0,0,0,1
+9,20907,4,Final Grades,2019,I700-Advanced Cooking-Hein-PM,I700,NP,1.0,0.0,0,0,1
+10,20986,4,Final Grades,2019,A400-Mears-M1A,A400,B-,1.0,1.0,0,0,1
+11,20986,4,Final Grades,2019,B400-Macho-M2A,B400,B,1.0,1.0,0,0,1
+12,20986,4,Final Grades,2019,C400-Hagyard-T1A,C400,B+,1.0,1.0,0,0,1
+13,20986,4,Final Grades,2019,D430-Anderson-M3A,D430,I,1.0,0.0,0,0,1
+14,20986,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,NO GRADE,1.0,1.0,0,0,1
+15,20957,4,Final Grades,2019,A400-Mears-T3A,A400,A-,1.0,1.0,0,0,1
+16,20957,4,Final Grades,2019,B400-Macho-T1A,B400,B+,1.0,1.0,0,0,1
+17,20957,4,Final Grades,2019,C402-Hagyard-M2A,C402,A+,1.0,1.0,0,0,1
+18,20957,4,Final Grades,2019,D430-Anderson-M3A,D430,C,1.0,1.0,0,0,1
+19,20957,4,Final Grades,2019,I139-Internship-Olson-AM,I139,NO GRADE,1.0,1.0,0,0,1
+20,20987,4,Final Grades,2019,A400-Mears-M1A,A400,B+,1.0,1.0,0,0,1
+21,20987,4,Final Grades,2019,B400-Macho-M2A,B400,B-,1.0,1.0,0,0,1
+22,20987,4,Final Grades,2019,C400-Hagyard-T2A,C400,C-,1.0,1.0,0,0,1
+23,20987,4,Final Grades,2019,D430-Anderson-T1A,D430,B,1.0,1.0,0,0,1
+24,20987,4,Final Grades,2019,E400-Chaney-M3A,E400,I,1.0,0.0,0,0,1
+25,20987,4,Final Grades,2019,I181-Ethnic Studies-Barragan-AM,I181,P,1.0,1.0,0,0,1
+26,20987,4,Final Grades,2019,I700-Advanced Cooking-Hein-PM,I700,P,1.0,1.0,0,0,1
+27,20934,4,Final Grades,2019,A400-Mears-M1A,A400,I,1.0,0.0,0,0,1
+28,20934,4,Final Grades,2019,B400-Macho-T3A,B400,C-,1.0,1.0,0,0,1
+29,20934,4,Final Grades,2019,C400-Hagyard-T2A,C400,I,1.0,0.0,0,0,1
+30,20934,4,Final Grades,2019,D430-Anderson-T1A,D430,C,1.0,1.0,0,0,1
+31,20934,4,Final Grades,2019,E400-Chaney-M3A,E400,I,1.0,0.0,0,0,1
+32,20934,4,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+33,20948,4,Final Grades,2019,A400-Mears-M2A,A400,C+,1.0,1.0,0,0,1
+34,20948,4,Final Grades,2019,B400-Macho-T3A,B400,B-,1.0,1.0,0,0,1
+35,20948,4,Final Grades,2019,C400-Hagyard-T2A,C400,I,1.0,0.0,0,0,1
+36,20948,4,Final Grades,2019,D430-Anderson-T1A,D430,B-,1.0,1.0,0,0,1
+37,20948,4,Final Grades,2019,I700-Advanced Cooking-Hein-PM,I700,NP,1.0,0.0,0,0,1
+38,20910,4,Final Grades,2019,A400-Mears-M2A,A400,A,1.0,1.0,0,0,1
+39,20910,4,Final Grades,2019,B400-Macho-T3A,B400,A-,1.0,1.0,0,0,1
+40,20910,4,Final Grades,2019,C400-Hagyard-T2A,C400,B-,1.0,1.0,0,0,1
+41,20910,4,Final Grades,2019,D430-Anderson-T1A,D430,B+,1.0,1.0,0,0,1
+42,20910,4,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+43,20913,4,Final Grades,2019,A400-Mears-M3A,A400,C+,1.0,1.0,0,0,1
+44,20913,4,Final Grades,2019,B400-Macho-T3A,B400,C+,1.0,1.0,0,0,1
+45,20913,4,Final Grades,2019,C402-Hagyard-M2A,C402,B,1.0,1.0,0,0,1
+46,20913,4,Final Grades,2019,D430-Anderson-T1A,D430,I,1.0,0.0,0,0,1
+47,20913,4,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+48,20954,4,Final Grades,2019,A400-Mears-M3A,A400,I,1.0,0.0,0,0,1
+49,20954,4,Final Grades,2019,B400-Macho-T1A,B400,B,1.0,1.0,0,0,1
+50,20954,4,Final Grades,2019,C400-Hagyard-T2A,C400,B-,1.0,1.0,0,0,1
+51,20954,4,Final Grades,2019,D430-Anderson-T3A,D430,I,1.0,0.0,0,0,1
+52,20954,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+53,20962,4,Final Grades,2019,A400-Mears-T3A,A400,B-,1.0,1.0,0,0,1
+54,20962,4,Final Grades,2019,B400-Macho-T2A,B400,B,1.0,1.0,0,0,1
+55,20962,4,Final Grades,2019,C402-Hagyard-M2A,C402,B+,1.0,1.0,0,0,1
+56,20962,4,Final Grades,2019,D430-Anderson-M1A,D430,C,1.0,1.0,0,0,1
+57,20962,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+58,20997,4,Final Grades,2019,A400-Mears-T3A,A400,C+,1.0,1.0,0,0,1
+59,20997,4,Final Grades,2019,B400-Macho-T2A,B400,B+,1.0,1.0,0,0,1
+60,20997,4,Final Grades,2019,C402-Hagyard-M2A,C402,A,1.0,1.0,0,0,1
+61,20997,4,Final Grades,2019,D430-Anderson-M1A,D430,B,1.0,1.0,0,0,1
+62,20997,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+63,20914,4,Final Grades,2019,A400-Mears-M3A,A400,A-,1.0,1.0,0,0,1
+64,20914,4,Final Grades,2019,B400-Macho-M2A,B400,A-,1.0,1.0,0,0,1
+65,20914,4,Final Grades,2019,C400-Hagyard-T1A,C400,A-,1.0,1.0,0,0,1
+66,20914,4,Final Grades,2019,D430-Anderson-T3A,D430,A-,1.0,1.0,0,0,1
+67,20914,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+68,20975,4,Final Grades,2019,A400-Mears-T3A,A400,B+,1.0,1.0,0,0,1
+69,20975,4,Final Grades,2019,B400-Macho-M2A,B400,A-,1.0,1.0,0,0,1
+70,20975,4,Final Grades,2019,C400-Hagyard-T2A,C400,C-,1.0,1.0,0,0,1
+71,20975,4,Final Grades,2019,D430-Anderson-T1A,D430,B-,1.0,1.0,0,0,1
+72,20975,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+73,20968,4,Final Grades,2019,A400-Mears-T3A,A400,A,1.0,1.0,0,0,1
+74,20968,4,Final Grades,2019,B400-Macho-M2A,B400,A,1.0,1.0,0,0,1
+75,20968,4,Final Grades,2019,C400-Hagyard-T1A,C400,A,1.0,1.0,0,0,1
+76,20968,4,Final Grades,2019,D430-Anderson-M1A,D430,A-,1.0,1.0,0,0,1
+77,20968,4,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+78,20939,4,Final Grades,2019,A400-Mears-T3A,A400,A,1.0,1.0,0,0,1
+79,20939,4,Final Grades,2019,B400-Macho-M2A,B400,A,1.0,1.0,0,0,1
+80,20939,4,Final Grades,2019,C400-Hagyard-T1A,C400,C+,1.0,1.0,0,0,1
+81,20939,4,Final Grades,2019,D430-Anderson-M1A,D430,A-,1.0,1.0,0,0,1
+82,20939,4,Final Grades,2019,E400-Chaney-M3A,E400,A-,1.0,1.0,0,0,1
+83,20939,4,Final Grades,2019,I2000-Advanced Multimedia Political Journalism-DeOrnellas-AM,F2000,I,1.0,0.0,0,0,1
+84,20889,4,Final Grades,2019,A400-Mears-T3A,A400,B-,1.0,1.0,0,0,1
+85,20889,4,Final Grades,2019,B400-Macho-M2A,B400,A-,1.0,1.0,0,0,1
+86,20889,4,Final Grades,2019,C400-Hagyard-T1A,C400,A,1.0,1.0,0,0,1
+87,20889,4,Final Grades,2019,D430-Anderson-M3A,D430,B,1.0,1.0,0,0,1
+88,20889,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,NP,1.0,0.0,0,0,1
+89,20938,4,Final Grades,2019,A400-Mears-T3A,A400,C+,1.0,1.0,0,0,1
+90,20938,4,Final Grades,2019,B400-Macho-T1A,B400,B-,1.0,1.0,0,0,1
+91,20938,4,Final Grades,2019,C400-Hagyard-T2A,C400,C,1.0,1.0,0,0,1
+92,20938,4,Final Grades,2019,D430-Anderson-M3A,D430,B-,1.0,1.0,0,0,1
+93,20938,4,Final Grades,2019,E400-Chaney-M2A,E400,B-,1.0,1.0,0,0,1
+94,20938,4,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+95,20888,4,Final Grades,2019,A400-Mears-M3A,A400,I,1.0,0.0,0,0,1
+96,20888,4,Final Grades,2019,B400-Macho-T3A,B400,B,1.0,1.0,0,0,1
+97,20888,4,Final Grades,2019,C402-Hagyard-M2A,C402,I,1.0,0.0,0,0,1
+98,20888,4,Final Grades,2019,D430-Anderson-T1A,D430,C,1.0,1.0,0,0,1
+99,20888,4,Final Grades,2019,I1611-Community Service (All Day)-Jures-AM,I1611,NP,1.0,0.0,0,0,1
+100,20928,4,Final Grades,2019,A400-Mears-T3A,A400,C-,1.0,1.0,0,0,1
+101,20928,4,Final Grades,2019,B400-Macho-T1A,B400,C+,1.0,1.0,0,0,1
+102,20928,4,Final Grades,2019,C402-Hagyard-M1A,C402,I,1.0,0.0,0,0,1
+103,20928,4,Final Grades,2019,D430-Anderson-M3A,D430,I,1.0,0.0,0,0,1
+104,20928,4,Final Grades,2019,E400-Chaney-M2A,E400,I,1.0,0.0,0,0,1
+105,20928,4,Final Grades,2019,I181-Ethnic Studies-Barragan-AM,I181,P,1.0,1.0,0,0,1
+106,20928,4,Final Grades,2019,I700-Advanced Cooking-Hein-PM,I700,P,1.0,1.0,0,0,1
+107,20911,4,Final Grades,2019,A400-Mears-T3A,A400,C+,1.0,1.0,0,0,1
+108,20911,4,Final Grades,2019,B400-Macho-T1A,B400,B-,1.0,1.0,0,0,1
+109,20911,4,Final Grades,2019,C400-Hagyard-T2A,C400,B,1.0,1.0,0,0,1
+110,20911,4,Final Grades,2019,D430-Anderson-M1A,D430,C+,1.0,1.0,0,0,1
+111,20911,4,Final Grades,2019,I139-Internship-Olson-AM,I139,NO GRADE,1.0,1.0,0,0,1
+112,20904,4,Final Grades,2019,A400-Mears-M3A,A400,I,1.0,0.0,0,0,1
+113,20904,4,Final Grades,2019,B400-Macho-T3A,B400,C,1.0,1.0,0,0,1
+114,20904,4,Final Grades,2019,C402-Hagyard-M2A,C402,B,1.0,1.0,0,0,1
+115,20904,4,Final Grades,2019,D430-Anderson-T1A,D430,I,1.0,0.0,0,0,1
+116,20904,4,Final Grades,2019,I2000-Advanced Multimedia Political Journalism-DeOrnellas-AM,F2000,I,1.0,0.0,0,0,1
+117,21284,4,Final Grades,2019,A400-Mears-M2A,A400,C-,1.0,1.0,0,0,1
+118,21284,4,Final Grades,2019,B400-Macho-T3A,B400,B-,1.0,1.0,0,0,1
+119,21284,4,Final Grades,2019,C402-Hagyard-M1A,C402,B+,1.0,1.0,0,0,1
+120,21284,4,Final Grades,2019,D430-Anderson-M3A,D430,C,1.0,1.0,0,0,1
+121,21284,4,Final Grades,2019,E300-Meier-T1A,E300,B-,1.0,1.0,0,0,1
+122,21284,4,Final Grades,2019,I1611-Community Service (All Day)-Jures-AM,I1611,NP,1.0,0.0,0,0,1
+123,20940,4,Final Grades,2019,A400-Mears-M2A,A400,B+,1.0,1.0,0,0,1
+124,20940,4,Final Grades,2019,B400-Macho-T3A,B400,A-,1.0,1.0,0,0,1
+125,20940,4,Final Grades,2019,C402-Hagyard-M1A,C402,B,1.0,1.0,0,0,1
+126,20940,4,Final Grades,2019,D430-Anderson-T1A,D430,B,1.0,1.0,0,0,1
+127,20940,4,Final Grades,2019,E400-Chaney-M3A,E400,B-,1.0,1.0,0,0,1
+128,20940,4,Final Grades,2019,91596,I1106CF,NP,1.0,0.0,0,0,1
+129,20940,4,Final Grades,2019,I700-Advanced Cooking-Hein-PM,I700,NP,1.0,0.0,0,0,1
+130,20922,4,Final Grades,2019,A400-Mears-M2A,A400,A,1.0,1.0,0,0,1
+131,20922,4,Final Grades,2019,B400-Macho-T3A,B400,A-,1.0,1.0,0,0,1
+132,20922,4,Final Grades,2019,C400-Hagyard-T2A,C400,A+,1.0,1.0,0,0,1
+133,20922,4,Final Grades,2019,D430-Anderson-M1A,D430,A-,1.0,1.0,0,0,1
+134,20922,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+135,11673,4,Final Grades,2019,A400-Mears-M1A,A400,A-,1.0,1.0,0,0,1
+136,11673,4,Final Grades,2019,B400-Macho-M2A,B400,A-,1.0,1.0,0,0,1
+137,11673,4,Final Grades,2019,C400-Hagyard-T1A,C400,A-,1.0,1.0,0,0,1
+138,11673,4,Final Grades,2019,D430-Anderson-T3A,D430,A,1.0,1.0,0,0,1
+139,11673,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+140,20903,4,Final Grades,2019,A400-Mears-M1A,A400,B+,1.0,1.0,0,0,1
+141,20903,4,Final Grades,2019,B400-Macho-T2A,B400,A-,1.0,1.0,0,0,1
+142,20903,4,Final Grades,2019,C400-Hagyard-T1A,C400,B-,1.0,1.0,0,0,1
+143,20903,4,Final Grades,2019,D430-Anderson-M3A,D430,B-,1.0,1.0,0,0,1
+144,20903,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+145,20894,4,Final Grades,2019,A400-Mears-M1A,A400,B-,1.0,1.0,0,0,1
+146,20894,4,Final Grades,2019,B400-Macho-T1A,B400,B,1.0,1.0,0,0,1
+147,20894,4,Final Grades,2019,C402-Hagyard-M2A,C402,B,1.0,1.0,0,0,1
+148,20894,4,Final Grades,2019,D430-Anderson-T3A,D430,B-,1.0,1.0,0,0,1
+149,20894,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+150,20971,4,Final Grades,2019,A400-Mears-M2A,A400,A-,1.0,1.0,0,0,1
+151,20971,4,Final Grades,2019,B400-Macho-T2A,B400,A,1.0,1.0,0,0,1
+152,20971,4,Final Grades,2019,D430-Anderson-T3A,D430,I,1.0,0.0,0,0,1
+153,20971,4,Final Grades,2019,F503-Intermediate Visual Art-Burchiel-AM,F503,A,1.0,1.0,0,0,1
+154,20971,4,Final Grades,2019,F511-Intro to Video Production-Nelson-PM,F511,I,1.0,0.0,0,0,1
+155,20931,4,Final Grades,2019,A400-Mears-T3A,A400,B+,1.0,1.0,0,0,1
+156,20931,4,Final Grades,2019,B400-Macho-T2A,B400,B+,1.0,1.0,0,0,1
+157,20931,4,Final Grades,2019,C400-Hagyard-T1A,C400,A,1.0,1.0,0,0,1
+158,20931,4,Final Grades,2019,D430-Anderson-M3A,D430,B+,1.0,1.0,0,0,1
+159,20931,4,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+160,20909,4,Final Grades,2019,A400-Mears-M3A,A400,A-,1.0,1.0,0,0,1
+161,20909,4,Final Grades,2019,B400-Macho-T2A,B400,A-,1.0,1.0,0,0,1
+162,20909,4,Final Grades,2019,D430-Anderson-T3A,D430,C+,1.0,1.0,0,0,1
+163,20909,4,Final Grades,2019,E300-Meier-M2A,E300,C,1.0,1.0,0,0,1
+164,20909,4,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+165,20951,4,Final Grades,2019,A400-Mears-T3A,A400,I,1.0,0.0,0,0,1
+166,20951,4,Final Grades,2019,B400-Macho-T2A,B400,C,1.0,1.0,0,0,1
+167,20951,4,Final Grades,2019,C402-Hagyard-M1A,C402,I,1.0,0.0,0,0,1
+168,20951,4,Final Grades,2019,D430-Anderson-T1A,D430,I,1.0,0.0,0,0,1
+169,20951,4,Final Grades,2019,I139-Internship-Olson-AM,I139,NP,1.0,0.0,0,0,1
+170,20966,4,Final Grades,2019,A400-Mears-M2A,A400,B,1.0,1.0,0,0,1
+171,20966,4,Final Grades,2019,B400-Macho-T1A,B400,B,1.0,1.0,0,0,1
+172,20966,4,Final Grades,2019,C400-Hagyard-T2A,C400,A-,1.0,1.0,0,0,1
+173,20966,4,Final Grades,2019,D430-Anderson-M1A,D430,B-,1.0,1.0,0,0,1
+174,20966,4,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+175,20965,4,Final Grades,2019,A400-Mears-M2A,A400,I,1.0,0.0,0,0,1
+176,20965,4,Final Grades,2019,B400-Macho-T2A,B400,B+,1.0,1.0,0,0,1
+177,20965,4,Final Grades,2019,C400-Hagyard-T1A,C400,I,1.0,0.0,0,0,1
+178,20965,4,Final Grades,2019,D430-Anderson-T3A,D430,I,1.0,0.0,0,0,1
+179,20965,4,Final Grades,2019,E400-Chaney-M3A,E400,I,1.0,0.0,0,0,1
+180,20965,4,Final Grades,2019,F503-Intermediate Visual Art-Burchiel-AM,F503,I,1.0,0.0,0,0,1
+181,20965,4,Final Grades,2019,,I106,,1.0,1.0,0,0,1
+182,21146,4,Final Grades,2019,A400-Mears-M1A,A400,B,1.0,1.0,0,0,1
+183,21146,4,Final Grades,2019,B400-Macho-T3A,B400,A-,1.0,1.0,0,0,1
+184,21146,4,Final Grades,2019,C402-Hagyard-M2A,C402,A-,1.0,1.0,0,0,1
+185,21146,4,Final Grades,2019,D430-Anderson-T1A,D430,B,1.0,1.0,0,0,1
+186,21146,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+187,20805,4,Final Grades,2019,A400-Mears-M3A,A400,I,1.0,0.0,0,0,1
+188,20805,4,Final Grades,2019,B400-Macho-T3A,B400,C+,1.0,1.0,0,0,1
+189,20805,4,Final Grades,2019,C402-Hagyard-M2A,C402,B-,1.0,1.0,0,0,1
+190,20805,4,Final Grades,2019,D430-Anderson-T1A,D430,I,1.0,0.0,0,0,1
+191,20805,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+192,20932,4,Final Grades,2019,A400-Mears-M3A,A400,B+,1.0,1.0,0,0,1
+193,20932,4,Final Grades,2019,B400-Macho-M2A,B400,A-,1.0,1.0,0,0,1
+194,20932,4,Final Grades,2019,C400-Hagyard-T2A,C400,C,1.0,1.0,0,0,1
+195,20932,4,Final Grades,2019,D430-Anderson-T1A,D430,A-,1.0,1.0,0,0,1
+196,20932,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+197,20982,4,Final Grades,2019,A400-Mears-M2A,A400,B-,1.0,1.0,0,0,1
+198,20982,4,Final Grades,2019,B400-Macho-T1A,B400,C,1.0,1.0,0,0,1
+199,20982,4,Final Grades,2019,C402-Hagyard-M1A,C402,I,1.0,0.0,0,0,1
+200,20982,4,Final Grades,2019,D430-Anderson-T3A,D430,I,1.0,0.0,0,0,1
+201,20982,4,Final Grades,2019,I139-Internship-Olson-AM,I139,NP,1.0,0.0,0,0,1
+202,20810,4,Final Grades,2019,A400-Mears-M1A,A400,C+,1.0,1.0,0,0,1
+203,20810,4,Final Grades,2019,B400-Macho-T2A,B400,C+,1.0,1.0,0,0,1
+204,20810,4,Final Grades,2019,C402-Hagyard-M2A,C402,B+,1.0,1.0,0,0,1
+205,20810,4,Final Grades,2019,D430-Anderson-T1A,D430,C+,1.0,1.0,0,0,1
+206,20810,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+207,20980,4,Final Grades,2019,A400-Mears-T3A,A400,C+,1.0,1.0,0,0,1
+208,20980,4,Final Grades,2019,B400-Macho-T2A,B400,B+,1.0,1.0,0,0,1
+209,20980,4,Final Grades,2019,C402-Hagyard-M2A,C402,A,1.0,1.0,0,0,1
+210,20980,4,Final Grades,2019,D430-Anderson-M1A,D430,C,1.0,1.0,0,0,1
+211,20980,4,Final Grades,2019,E400-Chaney-M3A,E400,B-,1.0,1.0,0,0,1
+212,20980,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+213,20947,4,Final Grades,2019,A400-Mears-M1A,A400,C,1.0,1.0,0,0,1
+214,20947,4,Final Grades,2019,B400-Macho-T1A,B400,B-,1.0,1.0,0,0,1
+215,20947,4,Final Grades,2019,C402-Hagyard-M2A,C402,B-,1.0,1.0,0,0,1
+216,20947,4,Final Grades,2019,D430-Anderson-T3A,D430,C,1.0,1.0,0,0,1
+217,20947,4,Final Grades,2019,E400-Chaney-M3A,E400,I,1.0,0.0,0,0,1
+218,20947,4,Final Grades,2019,I1611-Community Service (All Day)-Jures-AM,I1611,NP,1.0,0.0,0,0,1
+219,20955,4,Final Grades,2019,A400-Mears-T3A,A400,B,1.0,1.0,0,0,1
+220,20955,4,Final Grades,2019,B400-Macho-T1A,B400,A,1.0,1.0,0,0,1
+221,20955,4,Final Grades,2019,C400-Hagyard-T2A,C400,B,1.0,1.0,0,0,1
+222,20955,4,Final Grades,2019,D430-Anderson-M3A,D430,B-,1.0,1.0,0,0,1
+223,20955,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+224,20926,4,Final Grades,2019,A400-Mears-M1A,A400,A-,1.0,1.0,0,0,1
+225,20926,4,Final Grades,2019,B400-Macho-M2A,B400,A-,1.0,1.0,0,0,1
+226,20926,4,Final Grades,2019,C400-Hagyard-T1A,C400,B,1.0,1.0,0,0,1
+227,20926,4,Final Grades,2019,D430-Anderson-T3A,D430,B+,1.0,1.0,0,0,1
+228,20926,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+229,20943,4,Final Grades,2019,A400-Mears-M1A,A400,B-,1.0,1.0,0,0,1
+230,20943,4,Final Grades,2019,B400-Macho-T2A,B400,B+,1.0,1.0,0,0,1
+231,20943,4,Final Grades,2019,C400-Hagyard-T1A,C400,B+,1.0,1.0,0,0,1
+232,20943,4,Final Grades,2019,D430-Anderson-M3A,D430,B+,1.0,1.0,0,0,1
+233,20943,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+234,20916,4,Final Grades,2019,A400-Mears-M2A,A400,I,1.0,0.0,0,0,1
+235,20916,4,Final Grades,2019,B400-Macho-T3A,B400,C,1.0,1.0,0,0,1
+236,20916,4,Final Grades,2019,C402-Hagyard-M1A,C402,I,1.0,0.0,0,0,1
+237,20916,4,Final Grades,2019,D430-Anderson-M3A,D430,I,1.0,0.0,0,0,1
+238,20916,4,Final Grades,2019,E300-Meier-T1A,E300,I,1.0,0.0,0,0,1
+239,20916,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,NP,1.0,0.0,0,0,1
+240,20956,4,Final Grades,2019,A400-Mears-M3A,A400,I,1.0,0.0,0,0,1
+241,20956,4,Final Grades,2019,B400-Macho-T1A,B400,C+,1.0,1.0,0,0,1
+242,20956,4,Final Grades,2019,C400-Hagyard-T2A,C400,C,1.0,1.0,0,0,1
+243,20956,4,Final Grades,2019,D430-Anderson-T3A,D430,I,1.0,0.0,0,0,1
+244,20956,4,Final Grades,2019,I139-Internship-Olson-AM,I139,NO GRADE,1.0,1.0,0,0,1
+245,20984,4,Final Grades,2019,A400-Mears-M3A,A400,I,1.0,0.0,0,0,1
+246,20984,4,Final Grades,2019,B400-Macho-M2A,B400,C,1.0,1.0,0,0,1
+247,20984,4,Final Grades,2019,C402-Hagyard-M1A,C402,I,1.0,0.0,0,0,1
+248,20984,4,Final Grades,2019,D430-Anderson-T3A,D430,C,1.0,1.0,0,0,1
+249,20984,4,Final Grades,2019,I181-Ethnic Studies-Barragan-AM,I181,P,1.0,1.0,0,0,1
+250,20984,4,Final Grades,2019,I700-Advanced Cooking-Hein-PM,I700,P,1.0,1.0,0,0,1
+251,20933,4,Final Grades,2019,A400-Mears-M1A,A400,C,1.0,1.0,0,0,1
+252,20933,4,Final Grades,2019,B400-Macho-T1A,B400,B-,1.0,1.0,0,0,1
+253,20933,4,Final Grades,2019,C402-Hagyard-M2A,C402,B+,1.0,1.0,0,0,1
+254,20933,4,Final Grades,2019,D430-Anderson-M3A,D430,C-,1.0,1.0,0,0,1
+255,20933,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,NO GRADE,1.0,1.0,0,0,1
+256,20898,4,Final Grades,2019,A400-Mears-M3A,A400,I,1.0,0.0,0,0,1
+257,20898,4,Final Grades,2019,B400-Macho-T1A,B400,C,1.0,1.0,0,0,1
+258,20898,4,Final Grades,2019,C402-Hagyard-M1A,C402,I,1.0,0.0,0,0,1
+259,20898,4,Final Grades,2019,I181-Ethnic Studies-Barragan-PM,I181,P,1.0,1.0,0,0,1
+260,20953,4,Final Grades,2019,A400-Mears-M2A,A400,A-,1.0,1.0,0,0,1
+261,20953,4,Final Grades,2019,B400-Macho-T3A,B400,A-,1.0,1.0,0,0,1
+262,20953,4,Final Grades,2019,C400-Hagyard-T1A,C400,A,1.0,1.0,0,0,1
+263,20953,4,Final Grades,2019,D430-Anderson-M1A,D430,A-,1.0,1.0,0,0,1
+264,20953,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+265,20905,4,Final Grades,2019,A400-Mears-M2A,A400,I,1.0,0.0,0,0,1
+266,20905,4,Final Grades,2019,B400-Macho-T3A,B400,C-,1.0,1.0,0,0,1
+267,20905,4,Final Grades,2019,C402-Hagyard-M1A,C402,I,1.0,0.0,0,0,1
+268,20905,4,Final Grades,2019,D430-Anderson-M3A,D430,I,1.0,0.0,0,0,1
+269,20905,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,NP,1.0,0.0,0,0,1
+270,20959,4,Final Grades,2019,A400-Mears-M2A,A400,B+,1.0,1.0,0,0,1
+271,20959,4,Final Grades,2019,B400-Macho-T1A,B400,A-,1.0,1.0,0,0,1
+272,20959,4,Final Grades,2019,C400-Hagyard-T2A,C400,A+,1.0,1.0,0,0,1
+273,20959,4,Final Grades,2019,D430-Anderson-M3A,D430,I,1.0,0.0,0,0,1
+274,20959,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,NP,1.0,0.0,0,0,1
+275,21408,4,Final Grades,2019,A400-Mears-T3A,A400,B,1.0,1.0,0,0,1
+276,21408,4,Final Grades,2019,B400-Macho-T1A,B400,A-,1.0,1.0,0,0,1
+277,21408,4,Final Grades,2019,C402-Hagyard-M2A,C402,A,1.0,1.0,0,0,1
+278,21408,4,Final Grades,2019,D430-Anderson-M1A,D430,B+,1.0,1.0,0,0,1
+279,21408,4,Final Grades,2019,91605,I1106SC,P,1.0,1.0,0,0,1
+280,21408,4,Final Grades,2019,"I1599-Soccer, Leadership and Global Studies-Pineda-AM",I1599,P,1.0,1.0,0,0,1
+281,20983,4,Final Grades,2019,A400-Mears-M1A,A400,I,1.0,0.0,0,0,1
+282,20983,4,Final Grades,2019,B400-Macho-T2A,B400,C,1.0,1.0,0,0,1
+283,20983,4,Final Grades,2019,C402-Hagyard-M2A,C402,B,1.0,1.0,0,0,1
+284,20983,4,Final Grades,2019,D430-Anderson-T3A,D430,I,1.0,0.0,0,0,1
+285,20983,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,NP,1.0,0.0,0,0,1
+286,20897,4,Final Grades,2019,A400-Mears-T3A,A400,I,1.0,0.0,0,0,1
+287,20897,4,Final Grades,2019,B400-Macho-M2A,B400,C,1.0,1.0,0,0,1
+288,20897,4,Final Grades,2019,C400-Hagyard-T1A,C400,I,1.0,0.0,0,0,1
+289,20897,4,Final Grades,2019,D430-Anderson-M1A,D430,C+,1.0,1.0,0,0,1
+290,20897,4,Final Grades,2019,E400-Chaney-M3A,E400,I,1.0,0.0,0,0,1
+291,20897,4,Final Grades,2019,G022-Entrepreneurship-Lyming-PM,G022,A-,1.0,1.0,0,0,1
+292,20897,4,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+293,20918,4,Final Grades,2019,A400-Mears-T3A,A400,C-,1.0,1.0,0,0,1
+294,20918,4,Final Grades,2019,B400-Macho-T1A,B400,B-,1.0,1.0,0,0,1
+295,20918,4,Final Grades,2019,C402-Hagyard-M1A,C402,A-,1.0,1.0,0,0,1
+296,20918,4,Final Grades,2019,D430-Anderson-M3A,D430,B,1.0,1.0,0,0,1
+297,20918,4,Final Grades,2019,E400-Chaney-M2A,E400,I,1.0,0.0,0,0,1
+298,20918,4,Final Grades,2019,I139-Internship-Olson-AM,I139,NO GRADE,1.0,1.0,0,0,1
+299,21007,4,Final Grades,2019,A400-Mears-T3A,A400,B,1.0,1.0,0,0,1
+300,21007,4,Final Grades,2019,B400-Macho-T1A,B400,B-,1.0,1.0,0,0,1
+301,21007,4,Final Grades,2019,C402-Hagyard-M2A,C402,B-,1.0,1.0,0,0,1
+302,21007,4,Final Grades,2019,D430-Anderson-M3A,D430,C+,1.0,1.0,0,0,1
+303,21007,4,Final Grades,2019,E400-Chaney-M1A,E400,I,1.0,0.0,0,0,1
+304,21007,4,Final Grades,2019,I139-Internship-Olson-AM,I139,NP,1.0,0.0,0,0,1
+305,21003,4,Final Grades,2019,A400-Mears-T3A,A400,A-,1.0,1.0,0,0,1
+306,21003,4,Final Grades,2019,B400-Macho-M2A,B400,A-,1.0,1.0,0,0,1
+307,21003,4,Final Grades,2019,C400-Hagyard-T2A,C400,A-,1.0,1.0,0,0,1
+308,21003,4,Final Grades,2019,D430-Anderson-T1A,D430,A-,1.0,1.0,0,0,1
+309,21003,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+310,20936,4,Final Grades,2019,A400-Mears-T3A,A400,I,1.0,0.0,0,0,1
+311,20936,4,Final Grades,2019,B400-Macho-M2A,B400,B-,1.0,1.0,0,0,1
+312,20936,4,Final Grades,2019,C400-Hagyard-T1A,C400,B-,1.0,1.0,0,0,1
+313,20936,4,Final Grades,2019,D430-Anderson-M1A,D430,C+,1.0,1.0,0,0,1
+314,20936,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+315,21420,4,Final Grades,2019,A400-Mears-M3A,A400,B,1.0,1.0,0,0,1
+316,21420,4,Final Grades,2019,B400-Macho-T2A,B400,B+,1.0,1.0,0,0,1
+317,21420,4,Final Grades,2019,C402-Hagyard-M1A,C402,A-,1.0,1.0,0,0,1
+318,21420,4,Final Grades,2019,D430-Anderson-T3A,D430,I,1.0,0.0,0,0,1
+319,21420,4,Final Grades,2019,F511-Intro to Video Production-Nelson-PM,F511,A+,1.0,1.0,0,0,1
+320,21420,4,Final Grades,2019,G101-Intro to Psychology-Daily-AM,G101,C,1.0,1.0,0,0,1
+321,20920,4,Final Grades,2019,A400-Mears-M1A,A400,B,1.0,1.0,0,0,1
+322,20920,4,Final Grades,2019,B400-Macho-T3A,B400,B,1.0,1.0,0,0,1
+323,20920,4,Final Grades,2019,C400-Hagyard-T2A,C400,B,1.0,1.0,0,0,1
+324,20920,4,Final Grades,2019,D430-Anderson-T1A,D430,B+,1.0,1.0,0,0,1
+325,20920,4,Final Grades,2019,I139-Internship-Olson-AM,I139,NO GRADE,1.0,1.0,0,0,1
+326,20967,4,Final Grades,2019,A400-Mears-M3A,A400,B-,1.0,1.0,0,0,1
+327,20967,4,Final Grades,2019,B400-Macho-M2A,B400,B+,1.0,1.0,0,0,1
+328,20967,4,Final Grades,2019,C402-Hagyard-M1A,C402,A,1.0,1.0,0,0,1
+329,20967,4,Final Grades,2019,D430-Anderson-T3A,D430,I,1.0,0.0,0,0,1
+330,20967,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,NP,1.0,0.0,0,0,1
+331,20927,4,Final Grades,2019,A400-Mears-M1A,A400,C,1.0,1.0,0,0,1
+332,20927,4,Final Grades,2019,B400-Macho-T1A,B400,C-,1.0,1.0,0,0,1
+333,20927,4,Final Grades,2019,C402-Hagyard-M2A,C402,I,1.0,0.0,0,0,1
+334,20927,4,Final Grades,2019,D430-Anderson-T3A,D430,C-,1.0,1.0,0,0,1
+335,20927,4,Final Grades,2019,E400-Chaney-M3A,E400,I,1.0,0.0,0,0,1
+336,20927,4,Final Grades,2019,"I1599-Soccer, Leadership and Global Studies-Pineda-PM",I1599,P,1.0,1.0,0,0,1
+337,20927,4,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+338,21012,4,Final Grades,2019,A400-Mears-M3A,A400,A,1.0,1.0,0,0,1
+339,21012,4,Final Grades,2019,B400-Macho-T1A,B400,A+,1.0,1.0,0,0,1
+340,21012,4,Final Grades,2019,C402-Hagyard-M2A,C402,A+,1.0,1.0,0,0,1
+341,21012,4,Final Grades,2019,D430-Anderson-T3A,D430,A,1.0,1.0,0,0,1
+342,21012,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+343,20915,4,Final Grades,2019,A400-Mears-T3A,A400,I,1.0,0.0,0,0,1
+344,20915,4,Final Grades,2019,B400-Macho-T1A,B400,B+,1.0,1.0,0,0,1
+345,20915,4,Final Grades,2019,C400-Hagyard-T2A,C400,C,1.0,1.0,0,0,1
+346,20915,4,Final Grades,2019,D430-Anderson-M3A,D430,I,1.0,0.0,0,0,1
+347,20915,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+348,20870,4,Final Grades,2019,A400-Mears-T3A,A400,I,1.0,0.0,0,0,1
+349,20870,4,Final Grades,2019,B400-Macho-M2A,B400,C-,1.0,1.0,0,0,1
+350,20870,4,Final Grades,2019,C402-Hagyard-M1A,C402,I,1.0,0.0,0,0,1
+351,20870,4,Final Grades,2019,D430-Anderson-M3A,D430,C-,1.0,1.0,0,0,1
+352,20870,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,NO GRADE,1.0,1.0,0,0,1
+353,20935,4,Final Grades,2019,A400-Mears-M2A,A400,A,1.0,1.0,0,0,1
+354,20935,4,Final Grades,2019,B400-Macho-T3A,B400,A,1.0,1.0,0,0,1
+355,20935,4,Final Grades,2019,C400-Hagyard-T2A,C400,A+,1.0,1.0,0,0,1
+356,20935,4,Final Grades,2019,D430-Anderson-T1A,D430,A-,1.0,1.0,0,0,1
+357,20935,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+358,20919,4,Final Grades,2019,A400-Mears-M3A,A400,A-,1.0,1.0,0,0,1
+359,20919,4,Final Grades,2019,B400-Macho-T3A,B400,A-,1.0,1.0,0,0,1
+360,20919,4,Final Grades,2019,C400-Hagyard-T1A,C400,A-,1.0,1.0,0,0,1
+361,20919,4,Final Grades,2019,D430-Anderson-M1A,D430,A-,1.0,1.0,0,0,1
+362,20919,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+363,20998,4,Final Grades,2019,A400-Mears-M2A,A400,I,1.0,0.0,0,0,1
+364,20998,4,Final Grades,2019,B400-Macho-T2A,B400,C-,1.0,1.0,0,0,1
+365,20998,4,Final Grades,2019,C402-Hagyard-M1A,C402,I,1.0,0.0,0,0,1
+366,20998,4,Final Grades,2019,D430-Anderson-T1A,D430,I,1.0,0.0,0,0,1
+367,20998,4,Final Grades,2019,E400-Chaney-M3A,E400,I,1.0,0.0,0,0,1
+368,20998,4,Final Grades,2019,I1611-Community Service (All Day)-Jures-AM,I1611,NP,1.0,0.0,0,0,1
+369,20988,4,Final Grades,2019,A400-Mears-M2A,A400,I,1.0,0.0,0,0,1
+370,20988,4,Final Grades,2019,B400-Macho-T2A,B400,C-,1.0,1.0,0,0,1
+371,20988,4,Final Grades,2019,C402-Hagyard-M1A,C402,I,1.0,0.0,0,0,1
+372,20988,4,Final Grades,2019,D430-Anderson-T3A,D430,I,1.0,0.0,0,0,1
+373,20988,4,Final Grades,2019,E400-Chaney-M3A,E400,I,1.0,0.0,0,0,1
+374,20988,4,Final Grades,2019,I181-Ethnic Studies-Barragan-PM,I181,P,1.0,1.0,0,0,1
+375,20988,4,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+376,20942,4,Final Grades,2019,A400-Mears-M3A,A400,B-,1.0,1.0,0,0,1
+377,20942,4,Final Grades,2019,B400-Macho-T2A,B400,B-,1.0,1.0,0,0,1
+378,20942,4,Final Grades,2019,C402-Hagyard-M1A,C402,B,1.0,1.0,0,0,1
+379,20942,4,Final Grades,2019,D430-Anderson-T1A,D430,B+,1.0,1.0,0,0,1
+380,20942,4,Final Grades,2019,I289-Identities-Canty-PM,I289,P,1.0,1.0,0,0,1
+381,20942,4,Final Grades,2019,I299-International Human Rights-Marinkovich-AM,I299,P,1.0,1.0,0,0,1
+382,21288,4,Final Grades,2019,A400-Mears-M1A,A400,B-,1.0,1.0,0,0,1
+383,21288,4,Final Grades,2019,B400-Macho-T3A,B400,C,1.0,1.0,0,0,1
+384,21288,4,Final Grades,2019,C320-de Vera-T1A,C320,B-,1.0,1.0,0,0,1
+385,21288,4,Final Grades,2019,D430-Anderson-M3A,D430,B-,1.0,1.0,0,0,1
+386,21288,4,Final Grades,2019,"I1599-Soccer, Leadership and Global Studies-Pineda-PM",I1599,P,1.0,1.0,0,0,1
+387,21288,4,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+388,20963,4,Final Grades,2019,A400-Mears-T3A,A400,B,1.0,1.0,0,0,1
+389,20963,4,Final Grades,2019,B400-Macho-M2A,B400,B,1.0,1.0,0,0,1
+390,20963,4,Final Grades,2019,C400-Hagyard-T1A,C400,A,1.0,1.0,0,0,1
+391,20963,4,Final Grades,2019,D430-Anderson-M1A,D430,B+,1.0,1.0,0,0,1
+392,20963,4,Final Grades,2019,"I1599-Soccer, Leadership and Global Studies-Pineda-AM",I1599,P,1.0,1.0,0,0,1
+393,20963,4,Final Grades,2019,I565-Digital Media-Gomez-PM,I565,P,1.0,1.0,0,0,1
+394,20890,4,Final Grades,2019,A400-Mears-M3A,A400,B+,1.0,1.0,0,0,1
+395,20890,4,Final Grades,2019,B400-Macho-T1A,B400,B,1.0,1.0,0,0,1
+396,20890,4,Final Grades,2019,C402-Hagyard-M1A,C402,A-,1.0,1.0,0,0,1
+397,20890,4,Final Grades,2019,D430-Anderson-T3A,D430,C+,1.0,1.0,0,0,1
+398,20890,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+399,20944,4,Final Grades,2019,A400-Mears-M1A,A400,B,1.0,1.0,0,0,1
+400,20944,4,Final Grades,2019,B400-Macho-M2A,B400,B+,1.0,1.0,0,0,1
+401,20944,4,Final Grades,2019,C400-Hagyard-T1A,C400,B+,1.0,1.0,0,0,1
+402,20944,4,Final Grades,2019,D430-Anderson-M3A,D430,B,1.0,1.0,0,0,1
+403,20944,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+404,20960,4,Final Grades,2019,A400-Mears-M3A,A400,A-,1.0,1.0,0,0,1
+405,20960,4,Final Grades,2019,B400-Macho-T2A,B400,B,1.0,1.0,0,0,1
+406,20960,4,Final Grades,2019,C400-Hagyard-T1A,C400,B,1.0,1.0,0,0,1
+407,20960,4,Final Grades,2019,D430-Anderson-M1A,D430,B+,1.0,1.0,0,0,1
+408,20960,4,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+409,20979,4,Final Grades,2019,A400-Mears-M3A,A400,I,1.0,0.0,0,0,1
+410,20979,4,Final Grades,2019,B400-Macho-T2A,B400,I,1.0,0.0,0,0,1
+411,20979,4,Final Grades,2019,C402-Hagyard-M2A,C402,I,1.0,0.0,0,0,1
+412,20979,4,Final Grades,2019,D430-Anderson-T3A,D430,I,1.0,0.0,0,0,1
+413,20979,4,Final Grades,2019,E400-Chaney-M1A,E400,I,1.0,0.0,0,0,1
+414,20979,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,NP,1.0,0.0,0,0,1
+415,20896,4,Final Grades,2019,A400-Mears-M1A,A400,B+,1.0,1.0,0,0,1
+416,20896,4,Final Grades,2019,B400-Macho-T1A,B400,B,1.0,1.0,0,0,1
+417,20896,4,Final Grades,2019,C402-Hagyard-M2A,C402,A,1.0,1.0,0,0,1
+418,20896,4,Final Grades,2019,D430-Anderson-M3A,D430,B-,1.0,1.0,0,0,1
+419,20896,4,Final Grades,2019,"I1599-Soccer, Leadership and Global Studies-Pineda-PM",I1599,P,1.0,1.0,0,0,1
+420,20896,4,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+421,20972,4,Final Grades,2019,A400-Mears-M1A,A400,A,1.0,1.0,0,0,1
+422,20972,4,Final Grades,2019,B400-Macho-T2A,B400,A-,1.0,1.0,0,0,1
+423,20972,4,Final Grades,2019,C400-Hagyard-T1A,C400,A-,1.0,1.0,0,0,1
+424,20972,4,Final Grades,2019,D430-Anderson-M3A,D430,B,1.0,1.0,0,0,1
+425,20972,4,Final Grades,2019,I2000-Advanced Multimedia Political Journalism-DeOrnellas-AM,F2000,C+,1.0,1.0,0,0,1
+426,20895,4,Final Grades,2019,A400-Mears-M3A,A400,C,1.0,1.0,0,0,1
+427,20895,4,Final Grades,2019,B400-Macho-T3A,B400,B-,1.0,1.0,0,0,1
+428,20895,4,Final Grades,2019,C402-Hagyard-M1A,C402,A+,1.0,1.0,0,0,1
+429,20895,4,Final Grades,2019,D430-Anderson-T1A,D430,I,1.0,0.0,0,0,1
+430,20895,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,NP,1.0,0.0,0,0,1
+431,20891,4,Final Grades,2019,A400-Mears-T3A,A400,I,1.0,0.0,0,0,1
+432,20891,4,Final Grades,2019,B400-Macho-T2A,B400,C-,1.0,1.0,0,0,1
+433,20891,4,Final Grades,2019,C402-Hagyard-M2A,C402,I,1.0,0.0,0,0,1
+434,20891,4,Final Grades,2019,D430-Anderson-M1A,D430,I,1.0,0.0,0,0,1
+435,20891,4,Final Grades,2019,E300-Meier-T1A,E300,B,1.0,1.0,0,0,1
+436,20891,4,Final Grades,2019,I1611-Community Service (All Day)-Jures-AM,I1611,NP,1.0,0.0,0,0,1
+437,20991,4,Final Grades,2019,A400-Mears-M2A,A400,B+,1.0,1.0,0,0,1
+438,20991,4,Final Grades,2019,B400-Macho-T2A,B400,A,1.0,1.0,0,0,1
+439,20991,4,Final Grades,2019,C400-Hagyard-T1A,C400,B,1.0,1.0,0,0,1
+440,20991,4,Final Grades,2019,D430-Anderson-T3A,D430,A-,1.0,1.0,0,0,1
+441,20991,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+442,20930,4,Final Grades,2019,A400-Mears-M2A,A400,B,1.0,1.0,0,0,1
+443,20930,4,Final Grades,2019,B400-Macho-T3A,B400,B,1.0,1.0,0,0,1
+444,20930,4,Final Grades,2019,C402-Hagyard-M1A,C402,B+,1.0,1.0,0,0,1
+445,20930,4,Final Grades,2019,D430-Anderson-T1A,D430,B,1.0,1.0,0,0,1
+446,20930,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+447,20977,4,Final Grades,2019,A400-Mears-T3A,A400,I,1.0,0.0,0,0,1
+448,20977,4,Final Grades,2019,B400-Macho-M2A,B400,A,1.0,1.0,0,0,1
+449,20977,4,Final Grades,2019,C402-Hagyard-M1A,C402,A+,1.0,1.0,0,0,1
+450,20977,4,Final Grades,2019,D430-Anderson-T1A,D430,C+,1.0,1.0,0,0,1
+451,20977,4,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+452,20952,4,Final Grades,2019,A300-Austin-M3A,A300,I,1.0,0.0,0,0,1
+453,20952,4,Final Grades,2019,B300-Boyle-M2A,B300,I,1.0,0.0,0,0,1
+454,20952,4,Final Grades,2019,C320-de Vera-T1A,C320,I,1.0,0.0,0,0,1
+455,20952,4,Final Grades,2019,E100-Meier-T2A,E100,I,1.0,0.0,0,0,1
+456,20952,4,Final Grades,2019,I289-Identities-Canty-PM,I289,P,1.0,1.0,0,0,1
+457,20952,4,Final Grades,2019,I565-Digital Media-Gomez-AM,I565,NP,1.0,0.0,0,0,1
+458,11660,3,Final Grades,2019,A400-Nguyen-M3A,A400,A-,1.0,1.0,0,0,1
+459,11660,3,Final Grades,2019,B400-Hawkins-T2A,B400,B-,1.0,1.0,0,0,1
+460,11660,3,Final Grades,2019,C402-Wang-M1A,C402,I,1.0,0.0,0,0,1
+461,11660,3,Final Grades,2019,D430-Oliver-T1A,D430,B+,1.0,1.0,0,0,1
+462,11660,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+463,11669,3,Final Grades,2019,A400-Nguyen-T1A,A400,C,1.0,1.0,0,0,1
+464,11669,3,Final Grades,2019,B400-Hawkins-M2A,B400,B-,1.0,1.0,0,0,1
+465,11669,3,Final Grades,2019,C402-Wang-M1A,C402,A-,1.0,1.0,0,0,1
+466,11669,3,Final Grades,2019,D430-Oliver-T2A,D430,I,1.0,0.0,0,0,1
+467,11669,3,Final Grades,2019,90403,I1106OA,P,1.0,1.0,0,0,1
+468,11705,3,Final Grades,2019,A400-Nguyen-T1A,A400,I,1.0,0.0,0,0,1
+469,11705,3,Final Grades,2019,B400-Hawkins-M2A,B400,A-,1.0,1.0,0,0,1
+470,11705,3,Final Grades,2019,C400-Wang-T2A,C400,C,1.0,1.0,0,0,1
+471,11705,3,Final Grades,2019,D430-Oliver-M3A,D430,B+,1.0,1.0,0,0,1
+472,11705,3,Final Grades,2019,E300-Plucinski-M1A,E300,C,1.0,1.0,0,0,1
+473,11705,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+474,11758,3,Final Grades,2019,A400-Nguyen-T1A,A400,B-,1.0,1.0,0,0,1
+475,11758,3,Final Grades,2019,B400-Hawkins-T2A,B400,B,1.0,1.0,0,0,1
+476,11758,3,Final Grades,2019,C402-Wang-M1A,C402,B-,1.0,1.0,0,0,1
+477,11758,3,Final Grades,2019,D430-Oliver-M3A,D430,B,1.0,1.0,0,0,1
+478,11758,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+479,12200,3,Final Grades,2019,A400-Nguyen-T1A,A400,A-,1.0,1.0,0,0,1
+480,12200,3,Final Grades,2019,B400-Hawkins-T3A,B400,A,1.0,1.0,0,0,1
+481,12200,3,Final Grades,2019,C400-Wang-T2A,C400,A-,1.0,1.0,0,0,1
+482,12200,3,Final Grades,2019,D430-Oliver-M3A,D430,B+,1.0,1.0,0,0,1
+483,12200,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+484,12201,3,Final Grades,2019,A400-Nguyen-M1A,A400,B,1.0,1.0,0,0,1
+485,12201,3,Final Grades,2019,B400-Hawkins-T3A,B400,A-,1.0,1.0,0,0,1
+486,12201,3,Final Grades,2019,C400-Wang-T2A,C400,A,1.0,1.0,0,0,1
+487,12201,3,Final Grades,2019,D430-Oliver-M3A,D430,A-,1.0,1.0,0,0,1
+488,12201,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+489,11742,3,Final Grades,2019,A400-Nguyen-M1A,A400,I,1.0,0.0,0,0,1
+490,11742,3,Final Grades,2019,B400-Hawkins-T2A,B400,C-,1.0,1.0,0,0,1
+491,11742,3,Final Grades,2019,C402-Wang-M2A,C402,B-,1.0,1.0,0,0,1
+492,11742,3,Final Grades,2019,D430-Oliver-T1A,D430,I,1.0,0.0,0,0,1
+493,11742,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+494,12035,3,Final Grades,2019,A400-Nguyen-M3A,A400,I,1.0,0.0,0,0,1
+495,12035,3,Final Grades,2019,90009,B100,I,1.0,0.0,0,0,1
+496,12035,3,Final Grades,2019,B400-Hawkins-T3A,B400,I,1.0,0.0,0,0,1
+497,12035,3,Final Grades,2019,C402-Wang-M2A,C402,I,1.0,0.0,0,0,1
+498,12035,3,Final Grades,2019,D430-Oliver-T1A,D430,I,1.0,0.0,0,0,1
+499,12035,3,Final Grades,2019,F503-Intermediate Visual Art-Burchiel-PM,F503,A,1.0,1.0,0,0,1
+500,12035,3,Final Grades,2019,G101-Intro to Psychology-Wilkins-AM,G101,B+,1.0,1.0,0,0,1
+501,11901,3,Final Grades,2019,A400-Nguyen-M3A,A400,I,1.0,0.0,0,0,1
+502,11901,3,Final Grades,2019,B400-Hawkins-T2A,B400,C+,1.0,1.0,0,0,1
+503,11901,3,Final Grades,2019,C400-Wang-T1A,C400,I,1.0,0.0,0,0,1
+504,11901,3,Final Grades,2019,D430-Oliver-M2A,D430,I,1.0,0.0,0,0,1
+505,11901,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+506,11655,3,Final Grades,2019,A400-Nguyen-T3A,A400,C,1.0,1.0,0,0,1
+507,11655,3,Final Grades,2019,B400-Hawkins-M3A,B400,I,1.0,0.0,0,0,1
+508,11655,3,Final Grades,2019,C402-Wang-M1A,C402,B,1.0,1.0,0,0,1
+509,11655,3,Final Grades,2019,D430-Oliver-T1A,D430,I,1.0,0.0,0,0,1
+510,11655,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+511,11670,3,Final Grades,2019,A300-Kelly-M2A,A300,I,1.0,0.0,0,0,1
+512,11670,3,Final Grades,2019,A400-Nguyen-T3A,A400,I,1.0,0.0,0,0,1
+513,11670,3,Final Grades,2019,B400-Hawkins-M3A,B400,I,1.0,0.0,0,0,1
+514,11670,3,Final Grades,2019,C402-Wang-M1A,C402,I,1.0,0.0,0,0,1
+515,11670,3,Final Grades,2019,D430-Oliver-T2A,D430,I,1.0,0.0,0,0,1
+516,11670,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+517,11685,3,Final Grades,2019,A400-Nguyen-T1A,A400,A-,1.0,1.0,0,0,1
+518,11685,3,Final Grades,2019,B400-Hawkins-M2A,B400,A,1.0,1.0,0,0,1
+519,11685,3,Final Grades,2019,C400-Wang-T2A,C400,A+,1.0,1.0,0,0,1
+520,11685,3,Final Grades,2019,D430-Oliver-M3A,D430,A-,1.0,1.0,0,0,1
+521,11685,3,Final Grades,2019,E400-Hoy-M1A,E400,C,1.0,1.0,0,0,1
+522,11685,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+523,11695,3,Final Grades,2019,A400-Nguyen-M3A,A400,C+,1.0,1.0,0,0,1
+524,11695,3,Final Grades,2019,B400-Hawkins-T3A,B400,C-,1.0,1.0,0,0,1
+525,11695,3,Final Grades,2019,C400-Wang-T2A,C400,B,1.0,1.0,0,0,1
+526,11695,3,Final Grades,2019,D430-Oliver-M2A,D430,I,1.0,0.0,0,0,1
+527,11695,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+528,11764,3,Final Grades,2019,A400-Nguyen-T1A,A400,I,1.0,0.0,0,0,1
+529,11764,3,Final Grades,2019,B400-Hawkins-M2A,B400,I,1.0,0.0,0,0,1
+530,11764,3,Final Grades,2019,C400-Wang-T2A,C400,I,1.0,0.0,0,0,1
+531,11764,3,Final Grades,2019,D430-Oliver-M3A,D430,I,1.0,0.0,0,0,1
+532,11764,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+533,11679,3,Final Grades,2019,A400-Nguyen-T1A,A400,B-,1.0,1.0,0,0,1
+534,11679,3,Final Grades,2019,B400-Hawkins-T3A,B400,B,1.0,1.0,0,0,1
+535,11679,3,Final Grades,2019,C402-Wang-M2A,C402,A,1.0,1.0,0,0,1
+536,11679,3,Final Grades,2019,D430-Oliver-M3A,D430,B-,1.0,1.0,0,0,1
+537,11679,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+538,12045,3,Final Grades,2019,A400-Nguyen-M3A,A400,I,1.0,0.0,0,0,1
+539,12045,3,Final Grades,2019,B400-Hawkins-M2A,B400,I,1.0,0.0,0,0,1
+540,12045,3,Final Grades,2019,C400-Wang-T1A,C400,I,1.0,0.0,0,0,1
+541,12045,3,Final Grades,2019,D430-Oliver-T2A,D430,I,1.0,0.0,0,0,1
+542,12045,3,Final Grades,2019,90404,I1106OA,NO GRADE,1.0,1.0,0,0,1
+543,11782,3,Final Grades,2019,A400-Nguyen-T1A,A400,A-,1.0,1.0,0,0,1
+544,11782,3,Final Grades,2019,B400-Hawkins-T3A,B400,B+,1.0,1.0,0,0,1
+545,11782,3,Final Grades,2019,C402-Wang-M2A,C402,A-,1.0,1.0,0,0,1
+546,11782,3,Final Grades,2019,D430-Oliver-M3A,D430,A+,1.0,1.0,0,0,1
+547,11782,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+548,11745,3,Final Grades,2019,A400-Nguyen-T1A,A400,A+,1.0,1.0,0,0,1
+549,11745,3,Final Grades,2019,B400-Hawkins-M3A,B400,A+,1.0,1.0,0,0,1
+550,11745,3,Final Grades,2019,C402-Wang-M1A,C402,A+,1.0,1.0,0,0,1
+551,11745,3,Final Grades,2019,D430-Oliver-T2A,D430,A+,1.0,1.0,0,0,1
+552,11745,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+553,11666,3,Final Grades,2019,A400-Nguyen-M3A,A400,I,1.0,0.0,0,0,1
+554,11666,3,Final Grades,2019,B400-Hawkins-T3A,B400,B,1.0,1.0,0,0,1
+555,11666,3,Final Grades,2019,C402-Wang-M1A,C402,A+,1.0,1.0,0,0,1
+556,11666,3,Final Grades,2019,D430-Oliver-T2A,D430,I,1.0,0.0,0,0,1
+557,11666,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+558,11663,3,Final Grades,2019,A400-Nguyen-T3A,A400,A,1.0,1.0,0,0,1
+559,11663,3,Final Grades,2019,B400-Hawkins-T2A,B400,A,1.0,1.0,0,0,1
+560,11663,3,Final Grades,2019,D430-Oliver-T1A,D430,A,1.0,1.0,0,0,1
+561,11663,3,Final Grades,2019,E400-Hoy-M1A,E400,A-,1.0,1.0,0,0,1
+562,11663,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+563,11774,3,Final Grades,2019,A400-Nguyen-T3A,A400,I,1.0,0.0,0,0,1
+564,11774,3,Final Grades,2019,B400-Hawkins-M3A,B400,B-,1.0,1.0,0,0,1
+565,11774,3,Final Grades,2019,C400-Wang-T1A,C400,C-,1.0,1.0,0,0,1
+566,11774,3,Final Grades,2019,D430-Oliver-M2A,D430,C,1.0,1.0,0,0,1
+567,11774,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+568,60411,3,Final Grades,2019,A400-Nguyen-M3A,A400,I,1.0,0.0,0,0,1
+569,60411,3,Final Grades,2019,B400-Hawkins-T3A,B400,I,1.0,0.0,0,0,1
+570,60411,3,Final Grades,2019,C402-Wang-M2A,C402,I,1.0,0.0,0,0,1
+571,60411,3,Final Grades,2019,D430-Oliver-T1A,D430,I,1.0,0.0,0,0,1
+572,60411,3,Final Grades,2019,I139-Internship-Olson-AM,I139,NP,1.0,0.0,0,0,1
+573,11725,3,Final Grades,2019,A400-Nguyen-M3A,A400,A,1.0,1.0,0,0,1
+574,11725,3,Final Grades,2019,B400-Hawkins-T2A,B400,A-,1.0,1.0,0,0,1
+575,11725,3,Final Grades,2019,C402-Wang-M1A,C402,A-,1.0,1.0,0,0,1
+576,11725,3,Final Grades,2019,D430-Oliver-T1A,D430,A-,1.0,1.0,0,0,1
+577,11725,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+578,12027,3,Final Grades,2019,A400-Nguyen-T3A,A400,A,1.0,1.0,0,0,1
+579,12027,3,Final Grades,2019,B400-Hawkins-T2A,B400,A,1.0,1.0,0,0,1
+580,12027,3,Final Grades,2019,91215,C420,A+,1.0,1.0,0,0,1
+581,12027,3,Final Grades,2019,D430-Oliver-M3A,D430,A+,1.0,1.0,0,0,1
+582,12027,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+583,12199,3,Final Grades,2019,A400-Nguyen-T3A,A400,A-,1.0,1.0,0,0,1
+584,12199,3,Final Grades,2019,B400-Hawkins-M3A,B400,A,1.0,1.0,0,0,1
+585,12199,3,Final Grades,2019,C400-Wang-T1A,C400,A,1.0,1.0,0,0,1
+586,12199,3,Final Grades,2019,D430-Oliver-T2A,D430,A+,1.0,1.0,0,0,1
+587,12199,3,Final Grades,2019,I139-Internship-Olson-AM,I139,NO GRADE,1.0,1.0,0,0,1
+588,11639,3,Final Grades,2019,A400-Nguyen-M3A,A400,A,1.0,1.0,0,0,1
+589,11639,3,Final Grades,2019,B400-Hawkins-T3A,B400,A,1.0,1.0,0,0,1
+590,11639,3,Final Grades,2019,C400-Wang-T1A,C400,I,1.0,0.0,0,0,1
+591,11639,3,Final Grades,2019,D430-Oliver-T2A,D430,A,1.0,1.0,0,0,1
+592,11639,3,Final Grades,2019,E400-Hoy-M1A,E400,B+,1.0,1.0,0,0,1
+593,11639,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+594,11653,3,Final Grades,2019,A400-Nguyen-T3A,A400,I,1.0,0.0,0,0,1
+595,11653,3,Final Grades,2019,B400-Hawkins-T2A,B400,I,1.0,0.0,0,0,1
+596,11653,3,Final Grades,2019,C402-Wang-M2A,C402,I,1.0,0.0,0,0,1
+597,11653,3,Final Grades,2019,D430-Oliver-M3A,D430,I,1.0,0.0,0,0,1
+598,11653,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+599,11746,3,Final Grades,2019,A400-Nguyen-T1A,A400,C-,1.0,1.0,0,0,1
+600,11746,3,Final Grades,2019,B400-Hawkins-M2A,B400,C-,1.0,1.0,0,0,1
+601,11746,3,Final Grades,2019,C402-Wang-M1A,C402,B,1.0,1.0,0,0,1
+602,11746,3,Final Grades,2019,D430-Oliver-T2A,D430,I,1.0,0.0,0,0,1
+603,11746,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+604,11658,3,Final Grades,2019,A400-Nguyen-M3A,A400,I,1.0,0.0,0,0,1
+605,11658,3,Final Grades,2019,B400-Hawkins-T2A,B400,I,1.0,0.0,0,0,1
+606,11658,3,Final Grades,2019,C402-Wang-M1A,C402,I,1.0,0.0,0,0,1
+607,11658,3,Final Grades,2019,D430-Oliver-M2A,D430,I,1.0,0.0,0,0,1
+608,11658,3,Final Grades,2019,I299-International Human Rights-Marinkovich-PM,I299,NP,1.0,0.0,0,0,1
+609,11658,3,Final Grades,2019,I302-U-University-Tom-AM,I302,P,1.0,1.0,0,0,1
+610,11732,3,Final Grades,2019,A400-Nguyen-T3A,A400,A,1.0,1.0,0,0,1
+611,11732,3,Final Grades,2019,B400-Hawkins-T2A,B400,A,1.0,1.0,0,0,1
+612,11732,3,Final Grades,2019,C402-Wang-M1A,C402,A+,1.0,1.0,0,0,1
+613,11732,3,Final Grades,2019,D430-Oliver-M2A,D430,A,1.0,1.0,0,0,1
+614,11732,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+615,11754,3,Final Grades,2019,A400-Nguyen-M1A,A400,I,1.0,0.0,0,0,1
+616,11754,3,Final Grades,2019,B400-Hawkins-T2A,B400,B-,1.0,1.0,0,0,1
+617,11754,3,Final Grades,2019,C402-Wang-M2A,C402,I,1.0,0.0,0,0,1
+618,11754,3,Final Grades,2019,D430-Oliver-T1A,D430,I,1.0,0.0,0,0,1
+619,11754,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+620,11689,3,Final Grades,2019,A400-Nguyen-T3A,A400,B-,1.0,1.0,0,0,1
+621,11689,3,Final Grades,2019,B400-Hawkins-M2A,B400,B,1.0,1.0,0,0,1
+622,11689,3,Final Grades,2019,C402-Wang-M1A,C402,B+,1.0,1.0,0,0,1
+623,11689,3,Final Grades,2019,D430-Oliver-T1A,D430,B-,1.0,1.0,0,0,1
+624,11689,3,Final Grades,2019,I1611-Community Service (All Day)-Jures-AM,I1611,P,1.0,1.0,0,0,1
+625,11550,3,Final Grades,2019,A400-Nguyen-T1A,A400,I,1.0,0.0,0,0,1
+626,11550,3,Final Grades,2019,B400-Hawkins-M2A,B400,I,1.0,0.0,0,0,1
+627,11550,3,Final Grades,2019,C400-Wang-T2A,C400,I,1.0,0.0,0,0,1
+628,11550,3,Final Grades,2019,D430-Oliver-M3A,D430,I,1.0,0.0,0,0,1
+629,11550,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+630,11698,3,Final Grades,2019,A400-Nguyen-M3A,A400,A-,1.0,1.0,0,0,1
+631,11698,3,Final Grades,2019,B400-Hawkins-T3A,B400,A-,1.0,1.0,0,0,1
+632,11698,3,Final Grades,2019,C400-Wang-T2A,C400,A-,1.0,1.0,0,0,1
+633,11698,3,Final Grades,2019,D430-Oliver-M2A,D430,A,1.0,1.0,0,0,1
+634,11698,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+635,60354,3,Final Grades,2019,A400-Nguyen-T1A,A400,I,1.0,0.0,0,0,1
+636,60354,3,Final Grades,2019,B400-Hawkins-M3A,B400,I,1.0,0.0,0,0,1
+637,60354,3,Final Grades,2019,C402-Wang-M1A,C402,I,1.0,0.0,0,0,1
+638,60354,3,Final Grades,2019,D430-Oliver-T2A,D430,I,1.0,0.0,0,0,1
+639,60354,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+640,11675,3,Final Grades,2019,A400-Nguyen-T1A,A400,I,1.0,0.0,0,0,1
+641,11675,3,Final Grades,2019,B400-Hawkins-M3A,B400,C+,1.0,1.0,0,0,1
+642,11675,3,Final Grades,2019,C402-Wang-M1A,C402,A,1.0,1.0,0,0,1
+643,11675,3,Final Grades,2019,D430-Oliver-T2A,D430,C-,1.0,1.0,0,0,1
+644,11675,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+645,11748,3,Final Grades,2019,A400-Nguyen-M1A,A400,I,1.0,0.0,0,0,1
+646,11748,3,Final Grades,2019,B400-Hawkins-M2A,B400,I,1.0,0.0,0,0,1
+647,11748,3,Final Grades,2019,C400-Wang-T1A,C400,C-,1.0,1.0,0,0,1
+648,11748,3,Final Grades,2019,D430-Oliver-T2A,D430,I,1.0,0.0,0,0,1
+649,11748,3,Final Grades,2019,E300-Plucinski-M3A,E300,I,1.0,0.0,0,0,1
+650,11748,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+651,11718,3,Final Grades,2019,A400-Nguyen-M1A,A400,I,1.0,0.0,0,0,1
+652,11718,3,Final Grades,2019,B400-Hawkins-T2A,B400,B,1.0,1.0,0,0,1
+653,11718,3,Final Grades,2019,C402-Wang-M2A,C402,A-,1.0,1.0,0,0,1
+654,11718,3,Final Grades,2019,D430-Oliver-T1A,D430,I,1.0,0.0,0,0,1
+655,11718,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+656,11664,3,Final Grades,2019,A400-Nguyen-T3A,A400,A+,1.0,1.0,0,0,1
+657,11664,3,Final Grades,2019,B400-Hawkins-M3A,B400,A,1.0,1.0,0,0,1
+658,11664,3,Final Grades,2019,C402-Wang-M2A,C402,A+,1.0,1.0,0,0,1
+659,11664,3,Final Grades,2019,D430-Oliver-T1A,D430,A+,1.0,1.0,0,0,1
+660,11664,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+661,11761,3,Final Grades,2019,A400-Nguyen-T3A,A400,A-,1.0,1.0,0,0,1
+662,11761,3,Final Grades,2019,B400-Hawkins-M2A,B400,A-,1.0,1.0,0,0,1
+663,11761,3,Final Grades,2019,C402-Wang-M1A,C402,A+,1.0,1.0,0,0,1
+664,11761,3,Final Grades,2019,D430-Oliver-T1A,D430,A,1.0,1.0,0,0,1
+665,11761,3,Final Grades,2019,I2000-Advanced Multimedia Political Journalism-DeOrnellas-AM,F2000,B,1.0,1.0,0,0,1
+666,11636,3,Final Grades,2019,A400-Nguyen-M1A,A400,A+,1.0,1.0,0,0,1
+667,11636,3,Final Grades,2019,B400-Hawkins-T2A,B400,A+,1.0,1.0,0,0,1
+668,11636,3,Final Grades,2019,D430-Oliver-M2A,D430,A+,1.0,1.0,0,0,1
+669,11636,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+670,11711,3,Final Grades,2019,A400-Nguyen-T1A,A400,B-,1.0,1.0,0,0,1
+671,11711,3,Final Grades,2019,B400-Hawkins-M3A,B400,A-,1.0,1.0,0,0,1
+672,11711,3,Final Grades,2019,C402-Wang-M2A,C402,A-,1.0,1.0,0,0,1
+673,11711,3,Final Grades,2019,D430-Oliver-T2A,D430,B-,1.0,1.0,0,0,1
+674,11711,3,Final Grades,2019,I1599-Soccer-Pineda-PM,I1599,P,1.0,1.0,0,0,1
+675,11711,3,Final Grades,2019,I302-U-University-Tom-AM,I302,P,1.0,1.0,0,0,1
+676,11702,3,Final Grades,2019,A400-Nguyen-M1A,A400,A,1.0,1.0,0,0,1
+677,11702,3,Final Grades,2019,B400-Hawkins-M2A,B400,A+,1.0,1.0,0,0,1
+678,11702,3,Final Grades,2019,D430-Oliver-T2A,D430,A+,1.0,1.0,0,0,1
+679,11702,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+680,11641,3,Final Grades,2019,A400-Nguyen-T3A,A400,I,1.0,0.0,0,0,1
+681,11641,3,Final Grades,2019,B400-Hawkins-T2A,B400,I,1.0,0.0,0,0,1
+682,11641,3,Final Grades,2019,C402-Wang-M2A,C402,I,1.0,0.0,0,0,1
+683,11641,3,Final Grades,2019,D430-Oliver-T1A,D430,I,1.0,0.0,0,0,1
+684,11641,3,Final Grades,2019,E300-Plucinski-M1A,E300,C,1.0,1.0,0,0,1
+685,11641,3,Final Grades,2019,F503-Intermediate Visual Art-Burchiel-PM,F503,A+,1.0,1.0,0,0,1
+686,11641,3,Final Grades,2019,I565-Digital Media-Gomez-AM,I565,NP,1.0,0.0,0,0,1
+687,11697,3,Final Grades,2019,A400-Nguyen-M1A,A400,A-,1.0,1.0,0,0,1
+688,11697,3,Final Grades,2019,B400-Hawkins-T2A,B400,A-,1.0,1.0,0,0,1
+689,11697,3,Final Grades,2019,C400-Wang-T1A,C400,A-,1.0,1.0,0,0,1
+690,11697,3,Final Grades,2019,D430-Oliver-M2A,D430,A+,1.0,1.0,0,0,1
+691,11697,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+692,11652,3,Final Grades,2019,A400-Nguyen-M1A,A400,C,1.0,1.0,0,0,1
+693,11652,3,Final Grades,2019,B400-Hawkins-T3A,B400,I,1.0,0.0,0,0,1
+694,11652,3,Final Grades,2019,C402-Wang-M2A,C402,I,1.0,0.0,0,0,1
+695,11652,3,Final Grades,2019,D430-Oliver-T1A,D430,I,1.0,0.0,0,0,1
+696,11652,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+697,11703,3,Final Grades,2019,90583,A400M,I,1.0,0.0,0,0,1
+698,11703,3,Final Grades,2019,90582,B400M,I,1.0,0.0,0,0,1
+699,11703,3,Final Grades,2019,90584,C402M,NO GRADE,1.0,1.0,0,0,1
+700,11703,3,Final Grades,2019,I302-U-University-Tom-AM,I302,P,1.0,1.0,0,0,1
+701,11703,3,Final Grades,2019,I345-Fitness-Ebbink Alemania-PM,I345,NO GRADE,1.0,1.0,0,0,1
+702,11740,3,Final Grades,2019,A400-Nguyen-M3A,A400,I,1.0,0.0,0,0,1
+703,11740,3,Final Grades,2019,B400-Hawkins-M2A,B400,C-,1.0,1.0,0,0,1
+704,11740,3,Final Grades,2019,C400-Wang-T2A,C400,I,1.0,0.0,0,0,1
+705,11740,3,Final Grades,2019,D430-Oliver-T1A,D430,C-,1.0,1.0,0,0,1
+706,11740,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+707,12031,3,Final Grades,2019,91036,A200,I,1.0,0.0,0,0,1
+708,12031,3,Final Grades,2019,A400-Nguyen-M1A,A400,I,1.0,0.0,0,0,1
+709,12031,3,Final Grades,2019,B400-Hawkins-T2A,B400,B-,1.0,1.0,0,0,1
+710,12031,3,Final Grades,2019,C400-Wang-T1A,C400,I,1.0,0.0,0,0,1
+711,12031,3,Final Grades,2019,D430-Oliver-M3A,D430,I,1.0,0.0,0,0,1
+712,12031,3,Final Grades,2019,E200-Hoy-T3A,E200,I,1.0,0.0,0,0,1
+713,12031,3,Final Grades,2019,F503-Intermediate Visual Art-Burchiel-PM,F503,B+,1.0,1.0,0,0,1
+714,12031,3,Final Grades,2019,G101-Intro to Psychology-Wilkins-AM,G101,B+,1.0,1.0,0,0,1
+715,20900,3,Final Grades,2019,A400-Nguyen-T3A,A400,C+,1.0,1.0,0,0,1
+716,20900,3,Final Grades,2019,B400-Hawkins-M3A,B400,I,1.0,0.0,0,0,1
+717,20900,3,Final Grades,2019,C402-Wang-M1A,C402,A-,1.0,1.0,0,0,1
+718,20900,3,Final Grades,2019,D430-Oliver-T2A,D430,C+,1.0,1.0,0,0,1
+719,20900,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+720,11650,3,Final Grades,2019,B400-Hawkins-T3A,B400,I,1.0,0.0,0,0,1
+721,11650,3,Final Grades,2019,C400-Wang-T1A,C400,I,1.0,0.0,0,0,1
+722,11650,3,Final Grades,2019,D430-Oliver-M2A,D430,I,1.0,0.0,0,0,1
+723,11650,3,Final Grades,2019,E300-Plucinski-M1A,E300,C,1.0,1.0,0,0,1
+724,11650,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+725,11647,3,Final Grades,2019,A400-Nguyen-M3A,A400,I,1.0,0.0,0,0,1
+726,11647,3,Final Grades,2019,B400-Hawkins-T3A,B400,I,1.0,0.0,0,0,1
+727,11647,3,Final Grades,2019,C400-Wang-T2A,C400,I,1.0,0.0,0,0,1
+728,11647,3,Final Grades,2019,D430-Oliver-M2A,D430,I,1.0,0.0,0,0,1
+729,11647,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+730,11649,3,Final Grades,2019,A400-Nguyen-T1A,A400,I,1.0,0.0,0,0,1
+731,11649,3,Final Grades,2019,B400-Hawkins-M3A,B400,I,1.0,0.0,0,0,1
+732,11649,3,Final Grades,2019,C400-Wang-T2A,C400,I,1.0,0.0,0,0,1
+733,11649,3,Final Grades,2019,D430-Oliver-M2A,D430,C-,1.0,1.0,0,0,1
+734,11649,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+735,11683,3,Final Grades,2019,A400-Nguyen-M1A,A400,I,1.0,0.0,0,0,1
+736,11683,3,Final Grades,2019,B400-Hawkins-T2A,B400,B-,1.0,1.0,0,0,1
+737,11683,3,Final Grades,2019,C402-Wang-M2A,C402,I,1.0,0.0,0,0,1
+738,11683,3,Final Grades,2019,D430-Oliver-T1A,D430,I,1.0,0.0,0,0,1
+739,11683,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+740,11739,3,Final Grades,2019,A400-Nguyen-T1A,A400,I,1.0,0.0,0,0,1
+741,11739,3,Final Grades,2019,B400-Hawkins-T2A,B400,I,1.0,0.0,0,0,1
+742,11739,3,Final Grades,2019,C402-Wang-M2A,C402,I,1.0,0.0,0,0,1
+743,11739,3,Final Grades,2019,D430-Oliver-M3A,D430,I,1.0,0.0,0,0,1
+744,11739,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+745,11714,3,Final Grades,2019,A400-Nguyen-M1A,A400,A,1.0,1.0,0,0,1
+746,11714,3,Final Grades,2019,B400-Hawkins-T2A,B400,A-,1.0,1.0,0,0,1
+747,11714,3,Final Grades,2019,D430-Oliver-T1A,D430,A,1.0,1.0,0,0,1
+748,11714,3,Final Grades,2019,E400-Hoy-M2A,E400,A,1.0,1.0,0,0,1
+749,11714,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+750,11659,3,Final Grades,2019,A400-Nguyen-M1A,A400,B+,1.0,1.0,0,0,1
+751,11659,3,Final Grades,2019,B400-Hawkins-M2A,B400,A-,1.0,1.0,0,0,1
+752,11659,3,Final Grades,2019,C400-Wang-T2A,C400,A,1.0,1.0,0,0,1
+753,11659,3,Final Grades,2019,D430-Oliver-T1A,D430,B+,1.0,1.0,0,0,1
+754,11659,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+755,11692,3,Final Grades,2019,A400-Nguyen-M1A,A400,A,1.0,1.0,0,0,1
+756,11692,3,Final Grades,2019,B400-Hawkins-T2A,B400,A,1.0,1.0,0,0,1
+757,11692,3,Final Grades,2019,C400-Wang-T1A,C400,A-,1.0,1.0,0,0,1
+758,11692,3,Final Grades,2019,D430-Oliver-M2A,D430,A-,1.0,1.0,0,0,1
+759,11692,3,Final Grades,2019,I1611-Community Service (All Day)-Jures-AM,I1611,P,1.0,1.0,0,0,1
+760,11722,3,Final Grades,2019,A400-Nguyen-T1A,A400,I,1.0,0.0,0,0,1
+761,11722,3,Final Grades,2019,B400-Hawkins-M2A,B400,B+,1.0,1.0,0,0,1
+762,11722,3,Final Grades,2019,C400-Wang-T2A,C400,B-,1.0,1.0,0,0,1
+763,11722,3,Final Grades,2019,D430-Oliver-M3A,D430,B+,1.0,1.0,0,0,1
+764,11722,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+765,11665,3,Final Grades,2019,A400-Nguyen-M1A,A400,A-,1.0,1.0,0,0,1
+766,11665,3,Final Grades,2019,B400-Hawkins-T2A,B400,B+,1.0,1.0,0,0,1
+767,11665,3,Final Grades,2019,C400-Wang-T1A,C400,B,1.0,1.0,0,0,1
+768,11665,3,Final Grades,2019,D430-Oliver-M2A,D430,B,1.0,1.0,0,0,1
+769,11665,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+770,11750,3,Final Grades,2019,A400-Nguyen-M1A,A400,A-,1.0,1.0,0,0,1
+771,11750,3,Final Grades,2019,B400-Hawkins-M3A,B400,A+,1.0,1.0,0,0,1
+772,11750,3,Final Grades,2019,C400-Wang-T1A,C400,A,1.0,1.0,0,0,1
+773,11750,3,Final Grades,2019,D430-Oliver-T2A,D430,A+,1.0,1.0,0,0,1
+774,11750,3,Final Grades,2019,E400-Hoy-M2A,E400,A-,1.0,1.0,0,0,1
+775,11750,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+776,11730,3,Final Grades,2019,A400-Nguyen-T1A,A400,A+,1.0,1.0,0,0,1
+777,11730,3,Final Grades,2019,B400-Hawkins-M3A,B400,I,1.0,0.0,0,0,1
+778,11730,3,Final Grades,2019,D430-Oliver-T2A,D430,A,1.0,1.0,0,0,1
+779,11730,3,Final Grades,2019,E400-Hoy-M1A,E400,A-,1.0,1.0,0,0,1
+780,11730,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+781,11902,3,Final Grades,2019,A400-Nguyen-T1A,A400,B,1.0,1.0,0,0,1
+782,11902,3,Final Grades,2019,B400-Hawkins-T3A,B400,A,1.0,1.0,0,0,1
+783,11902,3,Final Grades,2019,C402-Wang-M2A,C402,A+,1.0,1.0,0,0,1
+784,11902,3,Final Grades,2019,D430-Oliver-M3A,D430,A-,1.0,1.0,0,0,1
+785,11902,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+786,11759,3,Final Grades,2019,A400-Nguyen-T3A,A400,I,1.0,0.0,0,0,1
+787,11759,3,Final Grades,2019,B400-Hawkins-T2A,B400,C,1.0,1.0,0,0,1
+788,11759,3,Final Grades,2019,C402-Wang-M1A,C402,C+,1.0,1.0,0,0,1
+789,11759,3,Final Grades,2019,D430-Oliver-M2A,D430,B-,1.0,1.0,0,0,1
+790,11759,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+791,11696,3,Final Grades,2019,A400-Nguyen-M1A,A400,C-,1.0,1.0,0,0,1
+792,11696,3,Final Grades,2019,B400-Hawkins-T3A,B400,B+,1.0,1.0,0,0,1
+793,11696,3,Final Grades,2019,C402-Wang-M2A,C402,A-,1.0,1.0,0,0,1
+794,11696,3,Final Grades,2019,D430-Oliver-T2A,D430,B+,1.0,1.0,0,0,1
+795,11696,3,Final Grades,2019,I1611-Community Service (All Day)-Jures-AM,I1611,P,1.0,1.0,0,0,1
+796,11734,3,Final Grades,2019,A400-Nguyen-M3A,A400,B-,1.0,1.0,0,0,1
+797,11734,3,Final Grades,2019,B400-Hawkins-T3A,B400,B-,1.0,1.0,0,0,1
+798,11734,3,Final Grades,2019,C402-Wang-M2A,C402,A,1.0,1.0,0,0,1
+799,11734,3,Final Grades,2019,D430-Oliver-T1A,D430,B,1.0,1.0,0,0,1
+800,11734,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+801,11676,3,Final Grades,2019,A400-Nguyen-M1A,A400,B,1.0,1.0,0,0,1
+802,11676,3,Final Grades,2019,B400-Hawkins-M2A,B400,B,1.0,1.0,0,0,1
+803,11676,3,Final Grades,2019,C400-Wang-T1A,C400,C+,1.0,1.0,0,0,1
+804,11676,3,Final Grades,2019,D430-Oliver-T2A,D430,A,1.0,1.0,0,0,1
+805,11676,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+806,11693,3,Final Grades,2019,A400-Nguyen-T3A,A400,I,1.0,0.0,0,0,1
+807,11693,3,Final Grades,2019,B400-Hawkins-M3A,B400,I,1.0,0.0,0,0,1
+808,11693,3,Final Grades,2019,C402-Wang-M2A,C402,I,1.0,0.0,0,0,1
+809,11693,3,Final Grades,2019,D430-Oliver-T1A,D430,I,1.0,0.0,0,0,1
+810,11693,3,Final Grades,2019,E200-Hoy-T2A,E200,I,1.0,0.0,0,0,1
+811,11693,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+812,11715,3,Final Grades,2019,A400-Nguyen-M3A,A400,B-,1.0,1.0,0,0,1
+813,11715,3,Final Grades,2019,B400-Hawkins-M2A,B400,A,1.0,1.0,0,0,1
+814,11715,3,Final Grades,2019,C400-Wang-T1A,C400,B-,1.0,1.0,0,0,1
+815,11715,3,Final Grades,2019,D430-Oliver-T2A,D430,A+,1.0,1.0,0,0,1
+816,11715,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+817,12203,3,Final Grades,2019,A400-Nguyen-T3A,A400,I,1.0,0.0,0,0,1
+818,12203,3,Final Grades,2019,B400-Hawkins-M3A,B400,C,1.0,1.0,0,0,1
+819,12203,3,Final Grades,2019,C402-Wang-M1A,C402,I,1.0,0.0,0,0,1
+820,12203,3,Final Grades,2019,D430-Oliver-T2A,D430,C-,1.0,1.0,0,0,1
+821,12203,3,Final Grades,2019,E400-Hoy-M2A,E400,A,1.0,1.0,0,0,1
+822,12203,3,Final Grades,2019,I1599-Soccer-Pineda-PM,I1599,NO GRADE,1.0,1.0,0,0,1
+823,12203,3,Final Grades,2019,91872,I202,NP,1.0,0.0,0,0,1
+824,11680,3,Final Grades,2019,A400-Nguyen-M3A,A400,B,1.0,1.0,0,0,1
+825,11680,3,Final Grades,2019,B400-Hawkins-T2A,B400,B+,1.0,1.0,0,0,1
+826,11680,3,Final Grades,2019,C400-Wang-T1A,C400,B-,1.0,1.0,0,0,1
+827,11680,3,Final Grades,2019,D430-Oliver-M2A,D430,B,1.0,1.0,0,0,1
+828,11680,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+829,11684,3,Final Grades,2019,A400-Nguyen-M3A,A400,B-,1.0,1.0,0,0,1
+830,11684,3,Final Grades,2019,B400-Hawkins-T3A,B400,A-,1.0,1.0,0,0,1
+831,11684,3,Final Grades,2019,C400-Wang-T1A,C400,A-,1.0,1.0,0,0,1
+832,11684,3,Final Grades,2019,D430-Oliver-M2A,D430,B-,1.0,1.0,0,0,1
+833,11684,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+834,11690,3,Final Grades,2019,A300-Kelly-M3A,A300,I,1.0,0.0,0,0,1
+835,11690,3,Final Grades,2019,A400-Nguyen-T1A,A400,I,1.0,0.0,0,0,1
+836,11690,3,Final Grades,2019,B400-Hawkins-T3A,B400,I,1.0,0.0,0,0,1
+837,11690,3,Final Grades,2019,C402-Wang-M2A,C402,I,1.0,0.0,0,0,1
+838,11690,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+839,11756,3,Final Grades,2019,A400-Nguyen-T3A,A400,I,1.0,0.0,0,0,1
+840,11756,3,Final Grades,2019,B400-Hawkins-M2A,B400,C,1.0,1.0,0,0,1
+841,11756,3,Final Grades,2019,C402-Wang-M1A,C402,B,1.0,1.0,0,0,1
+842,11756,3,Final Grades,2019,D430-Oliver-T1A,D430,B-,1.0,1.0,0,0,1
+843,11756,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+844,11755,3,Final Grades,2019,A400-Nguyen-M3A,A400,C-,1.0,1.0,0,0,1
+845,11755,3,Final Grades,2019,B400-Hawkins-T3A,B400,I,1.0,0.0,0,0,1
+846,11755,3,Final Grades,2019,C402-Wang-M1A,C402,B,1.0,1.0,0,0,1
+847,11755,3,Final Grades,2019,D430-Oliver-T2A,D430,B-,1.0,1.0,0,0,1
+848,11755,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+849,11672,3,Final Grades,2019,A400-Nguyen-T3A,A400,I,1.0,0.0,0,0,1
+850,11672,3,Final Grades,2019,B400-Hawkins-M2A,B400,I,1.0,0.0,0,0,1
+851,11672,3,Final Grades,2019,C402-Wang-M1A,C402,I,1.0,0.0,0,0,1
+852,11672,3,Final Grades,2019,D430-Oliver-T1A,D430,I,1.0,0.0,0,0,1
+853,11672,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+854,11749,3,Final Grades,2019,A400-Nguyen-M3A,A400,C+,1.0,1.0,0,0,1
+855,11749,3,Final Grades,2019,B400-Hawkins-M2A,B400,C,1.0,1.0,0,0,1
+856,11749,3,Final Grades,2019,C402-Wang-M1A,C402,I,1.0,0.0,0,0,1
+857,11749,3,Final Grades,2019,D430-Oliver-T2A,D430,I,1.0,0.0,0,0,1
+858,11749,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+859,11694,3,Final Grades,2019,A400-Nguyen-T3A,A400,A-,1.0,1.0,0,0,1
+860,11694,3,Final Grades,2019,B400-Hawkins-M3A,B400,A+,1.0,1.0,0,0,1
+861,11694,3,Final Grades,2019,C400-Wang-T2A,C400,A,1.0,1.0,0,0,1
+862,11694,3,Final Grades,2019,D430-Oliver-M2A,D430,A,1.0,1.0,0,0,1
+863,11694,3,Final Grades,2019,90346,I1106IP,P,1.0,1.0,0,0,1
+864,11694,3,Final Grades,2019,I299-International Human Rights-Marinkovich-PM,I299,P,1.0,1.0,0,0,1
+865,11716,3,Final Grades,2019,A400-Nguyen-M1A,A400,I,1.0,0.0,0,0,1
+866,11716,3,Final Grades,2019,B400-Hawkins-M3A,B400,I,1.0,0.0,0,0,1
+867,11716,3,Final Grades,2019,C400-Wang-T1A,C400,I,1.0,0.0,0,0,1
+868,11716,3,Final Grades,2019,D430-Oliver-M2A,D430,I,1.0,0.0,0,0,1
+869,11716,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+870,11651,3,Final Grades,2019,A400-Nguyen-M1A,A400,B-,1.0,1.0,0,0,1
+871,11651,3,Final Grades,2019,B400-Hawkins-T3A,B400,B,1.0,1.0,0,0,1
+872,11651,3,Final Grades,2019,C402-Wang-M2A,C402,A-,1.0,1.0,0,0,1
+873,11651,3,Final Grades,2019,D430-Oliver-T1A,D430,B,1.0,1.0,0,0,1
+874,11651,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+875,11661,3,Final Grades,2019,A400-Nguyen-M3A,A400,A-,1.0,1.0,0,0,1
+876,11661,3,Final Grades,2019,B400-Hawkins-T3A,B400,A+,1.0,1.0,0,0,1
+877,11661,3,Final Grades,2019,C400-Wang-T1A,C400,B+,1.0,1.0,0,0,1
+878,11661,3,Final Grades,2019,D430-Oliver-M2A,D430,A-,1.0,1.0,0,0,1
+879,11661,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+880,12005,3,Final Grades,2019,A400-Nguyen-M1A,A400,I,1.0,0.0,0,0,1
+881,12005,3,Final Grades,2019,B400-Hawkins-M3A,B400,C+,1.0,1.0,0,0,1
+882,12005,3,Final Grades,2019,C402-Wang-M2A,C402,C+,1.0,1.0,0,0,1
+883,12005,3,Final Grades,2019,D430-Oliver-T1A,D430,I,1.0,0.0,0,0,1
+884,12005,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+885,12012,3,Final Grades,2019,A400-Nguyen-T3A,A400,A,1.0,1.0,0,0,1
+886,12012,3,Final Grades,2019,90009,B100,I,1.0,0.0,0,0,1
+887,12012,3,Final Grades,2019,B400-Hawkins-T2A,B400,A+,1.0,1.0,0,0,1
+888,12012,3,Final Grades,2019,C402-Wang-M1A,C402,A+,1.0,1.0,0,0,1
+889,12012,3,Final Grades,2019,D430-Oliver-M3A,D430,A+,1.0,1.0,0,0,1
+890,12012,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+891,11674,3,Final Grades,2019,A400-Nguyen-M1A,A400,A+,1.0,1.0,0,0,1
+892,11674,3,Final Grades,2019,B400-Hawkins-T2A,B400,A+,1.0,1.0,0,0,1
+893,11674,3,Final Grades,2019,D430-Oliver-T1A,D430,A+,1.0,1.0,0,0,1
+894,11674,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+895,11643,3,Final Grades,2019,A400-Nguyen-M1A,A400,B,1.0,1.0,0,0,1
+896,11643,3,Final Grades,2019,B400-Hawkins-T3A,B400,B,1.0,1.0,0,0,1
+897,11643,3,Final Grades,2019,C400-Wang-T1A,C400,B-,1.0,1.0,0,0,1
+898,11643,3,Final Grades,2019,D430-Oliver-M2A,D430,B-,1.0,1.0,0,0,1
+899,11643,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+900,11667,3,Final Grades,2019,A400-Nguyen-M3A,A400,I,1.0,0.0,0,0,1
+901,11667,3,Final Grades,2019,B400-Hawkins-M2A,B400,I,1.0,0.0,0,0,1
+902,11667,3,Final Grades,2019,C400-Wang-T2A,C400,I,1.0,0.0,0,0,1
+903,11667,3,Final Grades,2019,D430-Oliver-T1A,D430,I,1.0,0.0,0,0,1
+904,11667,3,Final Grades,2019,G297-Human Rights-Marinkovich-AM,G297,I,1.0,0.0,0,0,1
+905,11667,3,Final Grades,2019,I345-Fitness-Ebbink Alemania-PM,I345,NO GRADE,1.0,1.0,0,0,1
+906,11662,3,Final Grades,2019,A400-Nguyen-T3A,A400,A-,1.0,1.0,0,0,1
+907,11662,3,Final Grades,2019,B400-Hawkins-M2A,B400,A,1.0,1.0,0,0,1
+908,11662,3,Final Grades,2019,C400-Wang-T1A,C400,A-,1.0,1.0,0,0,1
+909,11662,3,Final Grades,2019,D430-Oliver-M3A,D430,A-,1.0,1.0,0,0,1
+910,11662,3,Final Grades,2019,E400-Hoy-M1A,E400,B+,1.0,1.0,0,0,1
+911,11662,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+912,11681,3,Final Grades,2019,A400-Nguyen-T3A,A400,B+,1.0,1.0,0,0,1
+913,11681,3,Final Grades,2019,B400-Hawkins-M2A,B400,A-,1.0,1.0,0,0,1
+914,11681,3,Final Grades,2019,C400-Wang-T1A,C400,B-,1.0,1.0,0,0,1
+915,11681,3,Final Grades,2019,D430-Oliver-M3A,D430,A-,1.0,1.0,0,0,1
+916,11681,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+917,11638,3,Final Grades,2019,A400-Nguyen-T3A,A400,A,1.0,1.0,0,0,1
+918,11638,3,Final Grades,2019,B400-Hawkins-M3A,B400,A,1.0,1.0,0,0,1
+919,11638,3,Final Grades,2019,C400-Wang-T2A,C400,A,1.0,1.0,0,0,1
+920,11638,3,Final Grades,2019,C402-Wang-M1A,C402,A+,1.0,1.0,0,0,1
+921,11638,3,Final Grades,2019,D430-Oliver-M2A,D430,A-,1.0,1.0,0,0,1
+922,11638,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+923,11757,3,Final Grades,2019,A400-Nguyen-T1A,A400,B-,1.0,1.0,0,0,1
+924,11757,3,Final Grades,2019,B400-Hawkins-M3A,B400,B,1.0,1.0,0,0,1
+925,11757,3,Final Grades,2019,C402-Wang-M1A,C402,A,1.0,1.0,0,0,1
+926,11757,3,Final Grades,2019,D430-Oliver-T2A,D430,B-,1.0,1.0,0,0,1
+927,11757,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+928,11657,3,Final Grades,2019,A400-Nguyen-M1A,A400,A-,1.0,1.0,0,0,1
+929,11657,3,Final Grades,2019,B400-Hawkins-T2A,B400,A-,1.0,1.0,0,0,1
+930,11657,3,Final Grades,2019,C400-Wang-T1A,C400,B-,1.0,1.0,0,0,1
+931,11657,3,Final Grades,2019,D430-Oliver-M2A,D430,A,1.0,1.0,0,0,1
+932,11657,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+933,11735,3,Final Grades,2019,A400-Nguyen-M3A,A400,I,1.0,0.0,0,0,1
+934,11735,3,Final Grades,2019,B400-Hawkins-T2A,B400,I,1.0,0.0,0,0,1
+935,11735,3,Final Grades,2019,C400-Wang-T1A,C400,I,1.0,0.0,0,0,1
+936,11735,3,Final Grades,2019,D430-Oliver-M2A,D430,I,1.0,0.0,0,0,1
+937,11735,3,Final Grades,2019,E300-Plucinski-M1A,E300,I,1.0,0.0,0,0,1
+938,11735,3,Final Grades,2019,I304-Life After High School (12th)-Goochee-AM,I304,NO GRADE,1.0,1.0,0,0,1
+939,11768,3,Final Grades,2019,A400-Nguyen-T1A,A400,I,1.0,0.0,0,0,1
+940,11768,3,Final Grades,2019,B400-Hawkins-T3A,B400,C,1.0,1.0,0,0,1
+941,11768,3,Final Grades,2019,C402-Wang-M1A,C402,B+,1.0,1.0,0,0,1
+942,11768,3,Final Grades,2019,D430-Oliver-M3A,D430,I,1.0,0.0,0,0,1
+943,11768,3,Final Grades,2019,I106-Independent Study-Olson-AM,I106,P,1.0,1.0,0,0,1
+944,11743,3,Final Grades,2019,A400-Nguyen-M1A,A400,A+,1.0,1.0,0,0,1
+945,11743,3,Final Grades,2019,B400-Hawkins-T2A,B400,A+,1.0,1.0,0,0,1
+946,11743,3,Final Grades,2019,D430-Oliver-T1A,D430,A+,1.0,1.0,0,0,1
+947,11743,3,Final Grades,2019,E400-Hoy-M2A,E400,A,1.0,1.0,0,0,1
+948,11743,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+949,11656,3,Final Grades,2019,A400-Nguyen-T1A,A400,C,1.0,1.0,0,0,1
+950,11656,3,Final Grades,2019,B400-Hawkins-M2A,B400,C,1.0,1.0,0,0,1
+951,11656,3,Final Grades,2019,C400-Wang-T2A,C400,I,1.0,0.0,0,0,1
+952,11656,3,Final Grades,2019,D430-Oliver-M3A,D430,C-,1.0,1.0,0,0,1
+953,11656,3,Final Grades,2019,I139-Internship-Olson-AM,I139,P,1.0,1.0,0,0,1
+954,30614,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,I,1.0,0.0,0,0,1
+955,30614,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,B-,1.0,1.0,0,0,1
+956,30614,1,Final Grades,2019,C420-LEE-T2/F1,C420,B-,1.0,1.0,0,0,1
+957,30614,1,Final Grades,2019,D430-BURNS-M1/W4,D430,I,1.0,0.0,0,0,1
+958,30614,1,Final Grades,2019,G297-Human Rights-Barragan-AM,G297,B,1.0,1.0,0,0,1
+959,30650,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,C+,1.0,1.0,0,0,1
+960,30650,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,A,1.0,1.0,0,0,1
+961,30650,1,Final Grades,2019,C400-LEE-M2/H1,C400,B,1.0,1.0,0,0,1
+962,30650,1,Final Grades,2019,C420-LEE-M4/H2,C420,A-,1.0,1.0,0,0,1
+963,30650,1,Final Grades,2019,D430-BURNS-T1/H4,D430,B,1.0,1.0,0,0,1
+964,30650,1,Final Grades,2019,E300-GREEN-T4/F2,E300,A-,1.0,1.0,0,0,1
+965,30650,1,Final Grades,2019,91878,I139,P,1.0,1.0,0,0,1
+966,30584,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,B+,1.0,1.0,0,0,1
+967,30584,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,A-,1.0,1.0,0,0,1
+968,30584,1,Final Grades,2019,C400-LEE-M1/W4,C400,B-,1.0,1.0,0,0,1
+969,30584,1,Final Grades,2019,C420-LEE-T2/F1,C420,A-,1.0,1.0,0,0,1
+970,30584,1,Final Grades,2019,D430-BURNS-M4/H2,D430,I,1.0,0.0,0,0,1
+971,30584,1,Final Grades,2019,91878,I139,P,1.0,1.0,0,0,1
+972,30601,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,I,1.0,0.0,0,0,1
+973,30601,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,B-,1.0,1.0,0,0,1
+974,30601,1,Final Grades,2019,C420-LEE-M4/H2,C420,C+,1.0,1.0,0,0,1
+975,30601,1,Final Grades,2019,D430-BURNS-T4/F2,D430,I,1.0,0.0,0,0,1
+976,30601,1,Final Grades,2019,I2000-Multimedia Political Journalism-DeOrnellas-AM,F299,A-,1.0,1.0,0,0,1
+977,30601,1,Final Grades,2019,F511-Intro to Video Production-Nelson-PM,F511,I,1.0,0.0,0,0,1
+978,30628,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,B,1.0,1.0,0,0,1
+979,30628,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,A-,1.0,1.0,0,0,1
+980,30628,1,Final Grades,2019,C420-LEE-T1/H4,C420,A-,1.0,1.0,0,0,1
+981,30628,1,Final Grades,2019,D430-BURNS-T4/F2,D430,A-,1.0,1.0,0,0,1
+982,30628,1,Final Grades,2019,90405,I1106LA,P,1.0,1.0,0,0,1
+983,30605,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,A-,1.0,1.0,0,0,1
+984,30605,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,A+,1.0,1.0,0,0,1
+985,30605,1,Final Grades,2019,C400-LEE-M1/W4,C400,B,1.0,1.0,0,0,1
+986,30605,1,Final Grades,2019,C420-LEE-M4/H2,C420,A-,1.0,1.0,0,0,1
+987,30605,1,Final Grades,2019,D430-BURNS-T4/F2,D430,A+,1.0,1.0,0,0,1
+988,30605,1,Final Grades,2019,91878,I139,P,1.0,1.0,0,0,1
+989,30661,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,B,1.0,1.0,0,0,1
+990,30661,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,A-,1.0,1.0,0,0,1
+991,30661,1,Final Grades,2019,C420-LEE-T1/H4,C420,B-,1.0,1.0,0,0,1
+992,30661,1,Final Grades,2019,D430-BURNS-T4/F2,D430,C+,1.0,1.0,0,0,1
+993,30661,1,Final Grades,2019,E300-GREEN-M2/H1,E300,B-,1.0,1.0,0,0,1
+994,30661,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+995,30651,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,A-,1.0,1.0,0,0,1
+996,30651,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,A-,1.0,1.0,0,0,1
+997,30651,1,Final Grades,2019,C420-LEE-T1/H4,C420,B,1.0,1.0,0,0,1
+998,30651,1,Final Grades,2019,D430-BURNS-T4/F2,D430,A-,1.0,1.0,0,0,1
+999,30651,1,Final Grades,2019,91878,I139,P,1.0,1.0,0,0,1
+1000,31021,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,I,1.0,0.0,0,0,1
+1001,31021,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,C,1.0,1.0,0,0,1
+1002,31021,1,Final Grades,2019,C420-LEE-M4/H2,C420,I,1.0,0.0,0,0,1
+1003,31021,1,Final Grades,2019,D430-BURNS-T4/F2,D430,I,1.0,0.0,0,0,1
+1004,31021,1,Final Grades,2019,F562-Intro to Drama-Estronemicas-AM,F562,I,1.0,0.0,0,0,1
+1005,30551,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,C-,1.0,1.0,0,0,1
+1006,30551,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,B,1.0,1.0,0,0,1
+1007,30551,1,Final Grades,2019,C400-LEE-M1/W4,C400,B,1.0,1.0,0,0,1
+1008,30551,1,Final Grades,2019,D430-BURNS-M4/H2,D430,C+,1.0,1.0,0,0,1
+1009,30551,1,Final Grades,2019,E300-GREEN-T1/H4,E300,B,1.0,1.0,0,0,1
+1010,30551,1,Final Grades,2019,I121-Human Sexuality-Breuer-AM,I121,P,1.0,1.0,0,0,1
+1011,30551,1,Final Grades,2019,I142-Robotics-Taylor-PM,I142,P,1.0,1.0,0,0,1
+1012,30603,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,I,1.0,0.0,0,0,1
+1013,30603,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,I,1.0,0.0,0,0,1
+1014,30603,1,Final Grades,2019,C420-LEE-M4/H2,C420,I,1.0,0.0,0,0,1
+1015,30603,1,Final Grades,2019,D430-BURNS-T4/F2,D430,I,1.0,0.0,0,0,1
+1016,30603,1,Final Grades,2019,G022-Entrepreneurship-Calvert-AM,G022,I,1.0,0.0,0,0,1
+1017,30603,1,Final Grades,2019,I181-Ethnic Studies-Barragan-PM,I181,P,1.0,1.0,0,0,1
+1018,30554,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,B-,1.0,1.0,0,0,1
+1019,30554,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,A,1.0,1.0,0,0,1
+1020,30554,1,Final Grades,2019,C400-LEE-M1/W4,C400,B-,1.0,1.0,0,0,1
+1021,30554,1,Final Grades,2019,D430-BURNS-T1/H4,D430,A-,1.0,1.0,0,0,1
+1022,30554,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1023,30581,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,A-,1.0,1.0,0,0,1
+1024,30581,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,A+,1.0,1.0,0,0,1
+1025,30581,1,Final Grades,2019,C400-LEE-M1/W4,C400,A,1.0,1.0,0,0,1
+1026,30581,1,Final Grades,2019,C420-LEE-T1/H4,C420,A,1.0,1.0,0,0,1
+1027,30581,1,Final Grades,2019,D430-BURNS-M4/H2,D430,A,1.0,1.0,0,0,1
+1028,30581,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1029,30570,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,I,1.0,0.0,0,0,1
+1030,30570,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,I,1.0,0.0,0,0,1
+1031,30570,1,Final Grades,2019,C420-LEE-T2/F1,C420,I,1.0,0.0,0,0,1
+1032,30570,1,Final Grades,2019,D430-BURNS-T4/F2,D430,I,1.0,0.0,0,0,1
+1033,30570,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1034,30646,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,B,1.0,1.0,0,0,1
+1035,30646,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,A-,1.0,1.0,0,0,1
+1036,30646,1,Final Grades,2019,C420-LEE-M4/H2,C420,A-,1.0,1.0,0,0,1
+1037,30646,1,Final Grades,2019,D430-BURNS-T1/H4,D430,A-,1.0,1.0,0,0,1
+1038,30646,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1039,30962,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,B+,1.0,1.0,0,0,1
+1040,30962,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,A+,1.0,1.0,0,0,1
+1041,30962,1,Final Grades,2019,C420-LEE-T1/H4,C420,B+,1.0,1.0,0,0,1
+1042,30962,1,Final Grades,2019,D430-BURNS-M4/H2,D430,A,1.0,1.0,0,0,1
+1043,30962,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1044,30656,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,I,1.0,0.0,0,0,1
+1045,30656,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,C-,1.0,1.0,0,0,1
+1046,30656,1,Final Grades,2019,C420-LEE-T1/H4,C420,I,1.0,0.0,0,0,1
+1047,30656,1,Final Grades,2019,D430-BURNS-M4/H2,D430,I,1.0,0.0,0,0,1
+1048,30656,1,Final Grades,2019,E200-MOSQUEIRA-T4/F2,E200,C,1.0,1.0,0,0,1
+1049,30656,1,Final Grades,2019,G297-Human Rights-Barragan-AM,G297,I,1.0,0.0,0,0,1
+1050,30656,1,Final Grades,2019,I181-Ethnic Studies-Barragan-PM,I181,P,1.0,1.0,0,0,1
+1051,30723,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,I,1.0,0.0,0,0,1
+1052,30723,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,B-,1.0,1.0,0,0,1
+1053,30723,1,Final Grades,2019,C400-LEE-M1/W4,C400,I,1.0,0.0,0,0,1
+1054,30723,1,Final Grades,2019,D430-BURNS-T1/H4,D430,I,1.0,0.0,0,0,1
+1055,30723,1,Final Grades,2019,E400-MOSQUEIRA-T2/F1,E400,I,1.0,0.0,0,0,1
+1056,30723,1,Final Grades,2019,G297-Human Rights-Barragan-AM,G297,B,1.0,1.0,0,0,1
+1057,30723,1,Final Grades,2019,I202-Video Game Programming-Hesby-PM,I202,P,1.0,1.0,0,0,1
+1058,30588,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,B-,1.0,1.0,0,0,1
+1059,30588,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,A-,1.0,1.0,0,0,1
+1060,30588,1,Final Grades,2019,C400-LEE-M2/H1,C400,B-,1.0,1.0,0,0,1
+1061,30588,1,Final Grades,2019,C420-LEE-T2/F1,C420,B,1.0,1.0,0,0,1
+1062,30588,1,Final Grades,2019,D430-BURNS-M4/H2,D430,B,1.0,1.0,0,0,1
+1063,30588,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1064,30537,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,C-,1.0,1.0,0,0,1
+1065,30537,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,C+,1.0,1.0,0,0,1
+1066,30537,1,Final Grades,2019,C420-LEE-T2/F1,C420,C-,1.0,1.0,0,0,1
+1067,30537,1,Final Grades,2019,D200-LIN-M4/H2,D200,B+,1.0,1.0,0,0,1
+1068,30537,1,Final Grades,2019,F502-Intro to Visual Art-Street to Canvas-AM,F502,C,1.0,1.0,0,0,1
+1069,30537,1,Final Grades,2019,I300-Adulting 101-Calvert-PM,I300,P,1.0,1.0,0,0,1
+1070,30644,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,I,1.0,0.0,0,0,1
+1071,30644,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,I,1.0,0.0,0,0,1
+1072,30644,1,Final Grades,2019,C420-LEE-T1/H4,C420,I,1.0,0.0,0,0,1
+1073,30644,1,Final Grades,2019,D430-BURNS-M1/W4,D430,I,1.0,0.0,0,0,1
+1074,30644,1,Final Grades,2019,G297-Human Rights-Barragan-AM,G297,C+,1.0,1.0,0,0,1
+1075,30644,1,Final Grades,2019,I300-Adulting 101-Calvert-PM,I300,P,1.0,1.0,0,0,1
+1076,30593,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,I,1.0,0.0,0,0,1
+1077,30593,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,C,1.0,1.0,0,0,1
+1078,30593,1,Final Grades,2019,C420-LEE-T1/H4,C420,C,1.0,1.0,0,0,1
+1079,30593,1,Final Grades,2019,D430-BURNS-M1/W4,D430,I,1.0,0.0,0,0,1
+1080,30593,1,Final Grades,2019,G297-Human Rights-Barragan-AM,G297,B-,1.0,1.0,0,0,1
+1081,30593,1,Final Grades,2019,90359,I1106ES,P,1.0,1.0,0,0,1
+1082,30534,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,B+,1.0,1.0,0,0,1
+1083,30534,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,A,1.0,1.0,0,0,1
+1084,30534,1,Final Grades,2019,C420-LEE-T2/F1,C420,B+,1.0,1.0,0,0,1
+1085,30534,1,Final Grades,2019,D430-BURNS-M1/W4,D430,A,1.0,1.0,0,0,1
+1086,30534,1,Final Grades,2019,91878,I139,P,1.0,1.0,0,0,1
+1087,30615,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,I,1.0,0.0,0,0,1
+1088,30615,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,C-,1.0,1.0,0,0,1
+1089,30615,1,Final Grades,2019,C420-LEE-T1/H4,C420,I,1.0,0.0,0,0,1
+1090,30615,1,Final Grades,2019,D430-BURNS-M4/H2,D430,I,1.0,0.0,0,0,1
+1091,30615,1,Final Grades,2019,F511-Intro to Video Production-Nelson-PM,F511,A+,1.0,1.0,0,0,1
+1092,30615,1,Final Grades,2019,I121-Human Sexuality-Breuer-AM,I121,NP,1.0,0.0,0,0,1
+1093,30599,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,I,1.0,0.0,0,0,1
+1094,30599,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,I,1.0,0.0,0,0,1
+1095,30599,1,Final Grades,2019,C420-LEE-T2/F1,C420,I,1.0,0.0,0,0,1
+1096,30599,1,Final Grades,2019,D430-BURNS-T1/H4,D430,I,1.0,0.0,0,0,1
+1097,30599,1,Final Grades,2019,E200-MOSQUEIRA-T4/F2,E200,B-,1.0,1.0,0,0,1
+1098,30599,1,Final Grades,2019,I121-Human Sexuality-Breuer-AM,I121,NP,1.0,0.0,0,0,1
+1099,30599,1,Final Grades,2019,I300-Adulting 101-Calvert-PM,I300,P,1.0,1.0,0,0,1
+1100,30617,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,A-,1.0,1.0,0,0,1
+1101,30617,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,A,1.0,1.0,0,0,1
+1102,30617,1,Final Grades,2019,C400-LEE-M1/W4,C400,B-,1.0,1.0,0,0,1
+1103,30617,1,Final Grades,2019,C420-LEE-T2/F1,C420,A-,1.0,1.0,0,0,1
+1104,30617,1,Final Grades,2019,D430-BURNS-M4/H2,D430,A,1.0,1.0,0,0,1
+1105,30617,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1106,30610,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,B-,1.0,1.0,0,0,1
+1107,30610,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,A-,1.0,1.0,0,0,1
+1108,30610,1,Final Grades,2019,C400-LEE-M2/H1,C400,C+,1.0,1.0,0,0,1
+1109,30610,1,Final Grades,2019,D430-BURNS-M4/H2,D430,I,1.0,0.0,0,0,1
+1110,30610,1,Final Grades,2019,91878,I139,P,1.0,1.0,0,0,1
+1111,30647,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,C,1.0,1.0,0,0,1
+1112,30647,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,B+,1.0,1.0,0,0,1
+1113,30647,1,Final Grades,2019,C420-LEE-T2/F1,C420,I,1.0,0.0,0,0,1
+1114,30647,1,Final Grades,2019,D430-BURNS-T1/H4,D430,I,1.0,0.0,0,0,1
+1115,30647,1,Final Grades,2019,90359,I1106ES,P,1.0,1.0,0,0,1
+1116,30647,1,Final Grades,2019,90358,I1106HR,P,1.0,1.0,0,0,1
+1117,30569,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,C,1.0,1.0,0,0,1
+1118,30569,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,A-,1.0,1.0,0,0,1
+1119,30569,1,Final Grades,2019,C420-LEE-M4/H2,C420,B,1.0,1.0,0,0,1
+1120,30569,1,Final Grades,2019,D430-BURNS-M1/W4,D430,B,1.0,1.0,0,0,1
+1121,30569,1,Final Grades,2019,E400-MOSQUEIRA-T1/H4,E400,A-,1.0,1.0,0,0,1
+1122,30569,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1123,30545,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,A,1.0,1.0,0,0,1
+1124,30545,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,A+,1.0,1.0,0,0,1
+1125,30545,1,Final Grades,2019,C400-LEE-M1/W4,C400,A-,1.0,1.0,0,0,1
+1126,30545,1,Final Grades,2019,C420-LEE-M4/H2,C420,A,1.0,1.0,0,0,1
+1127,30545,1,Final Grades,2019,D430-BURNS-T1/H4,D430,A+,1.0,1.0,0,0,1
+1128,30545,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1129,30680,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,B-,1.0,1.0,0,0,1
+1130,30680,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,A-,1.0,1.0,0,0,1
+1131,30680,1,Final Grades,2019,C420-LEE-T2/F1,C420,B,1.0,1.0,0,0,1
+1132,30680,1,Final Grades,2019,D430-BURNS-T4/F2,D430,I,1.0,0.0,0,0,1
+1133,30680,1,Final Grades,2019,91878,I139,P,1.0,1.0,0,0,1
+1134,30549,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,I,1.0,0.0,0,0,1
+1135,30549,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,C-,1.0,1.0,0,0,1
+1136,30549,1,Final Grades,2019,C420-LEE-M4/H2,C420,I,1.0,0.0,0,0,1
+1137,30549,1,Final Grades,2019,E300-GREEN-M2/H1,E300,I,1.0,0.0,0,0,1
+1138,30549,1,Final Grades,2019,I2000-Multimedia Political Journalism-DeOrnellas-AM,F299,I,1.0,0.0,0,0,1
+1139,30549,1,Final Grades,2019,I300-Adulting 101-Calvert-PM,I300,NP,1.0,0.0,0,0,1
+1140,30618,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,I,1.0,0.0,0,0,1
+1141,30618,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,C-,1.0,1.0,0,0,1
+1142,30618,1,Final Grades,2019,C400-LEE-M2/H1,C400,I,1.0,0.0,0,0,1
+1143,30618,1,Final Grades,2019,D430-BURNS-T4/F2,D430,I,1.0,0.0,0,0,1
+1144,30618,1,Final Grades,2019,I121-Human Sexuality-Breuer-AM,I121,NP,1.0,0.0,0,0,1
+1145,30550,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,B-,1.0,1.0,0,0,1
+1146,30550,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,A+,1.0,1.0,0,0,1
+1147,30550,1,Final Grades,2019,C420-LEE-T2/F1,C420,A-,1.0,1.0,0,0,1
+1148,30550,1,Final Grades,2019,D430-BURNS-T4/F2,D430,B,1.0,1.0,0,0,1
+1149,30550,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1150,30609,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,I,1.0,0.0,0,0,1
+1151,30609,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,A-,1.0,1.0,0,0,1
+1152,30609,1,Final Grades,2019,C400-LEE-M2/H1,C400,I,1.0,0.0,0,0,1
+1153,30609,1,Final Grades,2019,C420-LEE-M4/H2,C420,C+,1.0,1.0,0,0,1
+1154,30609,1,Final Grades,2019,D430-BURNS-M1/W4,D430,C+,1.0,1.0,0,0,1
+1155,30609,1,Final Grades,2019,91878,I139,P,1.0,1.0,0,0,1
+1156,30941,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,I,1.0,0.0,0,0,1
+1157,30941,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,B-,1.0,1.0,0,0,1
+1158,30941,1,Final Grades,2019,C320-EBRAHIM-T1/H4,C320,I,1.0,0.0,0,0,1
+1159,30941,1,Final Grades,2019,D430-BURNS-M1/W4,D430,I,1.0,0.0,0,0,1
+1160,30941,1,Final Grades,2019,F511-Intro to Video Production-Nelson-PM,F511,I,1.0,0.0,0,0,1
+1161,30941,1,Final Grades,2019,I121-Human Sexuality-Breuer-AM,I121,P,1.0,1.0,0,0,1
+1162,30587,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,I,1.0,0.0,0,0,1
+1163,30587,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,B,1.0,1.0,0,0,1
+1164,30587,1,Final Grades,2019,C420-LEE-T2/F1,C420,I,1.0,0.0,0,0,1
+1165,30587,1,Final Grades,2019,D430-BURNS-M1/W4,D430,I,1.0,0.0,0,0,1
+1166,30587,1,Final Grades,2019,E400-MOSQUEIRA-T1/H4,E400,A-,1.0,1.0,0,0,1
+1167,30587,1,Final Grades,2019,G297-Human Rights-Barragan-AM,G297,A-,1.0,1.0,0,0,1
+1168,30587,1,Final Grades,2019,I181-Ethnic Studies-Barragan-PM,I181,P,1.0,1.0,0,0,1
+1169,30542,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,B-,1.0,1.0,0,0,1
+1170,30542,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,A-,1.0,1.0,0,0,1
+1171,30542,1,Final Grades,2019,C400-LEE-M2/H1,C400,B-,1.0,1.0,0,0,1
+1172,30542,1,Final Grades,2019,C420-LEE-T2/F1,C420,A-,1.0,1.0,0,0,1
+1173,30542,1,Final Grades,2019,D430-BURNS-M1/W4,D430,B+,1.0,1.0,0,0,1
+1174,30542,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1175,30729,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,B-,1.0,1.0,0,0,1
+1176,30729,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,A-,1.0,1.0,0,0,1
+1177,30729,1,Final Grades,2019,C420-LEE-T2/F1,C420,B-,1.0,1.0,0,0,1
+1178,30729,1,Final Grades,2019,D430-BURNS-T4/F2,D430,I,1.0,0.0,0,0,1
+1179,30729,1,Final Grades,2019,I2000-Multimedia Political Journalism-DeOrnellas-AM,F299,A-,1.0,1.0,0,0,1
+1180,30729,1,Final Grades,2019,I181-Ethnic Studies-Barragan-PM,I181,P,1.0,1.0,0,0,1
+1181,30613,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,B,1.0,1.0,0,0,1
+1182,30613,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,A,1.0,1.0,0,0,1
+1183,30613,1,Final Grades,2019,C420-LEE-T2/F1,C420,B,1.0,1.0,0,0,1
+1184,30613,1,Final Grades,2019,D430-BURNS-M4/H2,D430,B,1.0,1.0,0,0,1
+1185,30613,1,Final Grades,2019,E300-GREEN-T1/H4,E300,B,1.0,1.0,0,0,1
+1186,30613,1,Final Grades,2019,91878,I139,P,1.0,1.0,0,0,1
+1187,30689,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,B-,1.0,1.0,0,0,1
+1188,30689,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,A+,1.0,1.0,0,0,1
+1189,30689,1,Final Grades,2019,C420-LEE-M4/H2,C420,A,1.0,1.0,0,0,1
+1190,30689,1,Final Grades,2019,D430-BURNS-T1/H4,D430,B+,1.0,1.0,0,0,1
+1191,30689,1,Final Grades,2019,I121-Human Sexuality-Breuer-AM,I121,P,1.0,1.0,0,0,1
+1192,30658,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,A-,1.0,1.0,0,0,1
+1193,30658,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,A,1.0,1.0,0,0,1
+1194,30658,1,Final Grades,2019,C420-LEE-T1/H4,C420,A-,1.0,1.0,0,0,1
+1195,30658,1,Final Grades,2019,D430-BURNS-M4/H2,D430,A-,1.0,1.0,0,0,1
+1196,30658,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1197,30548,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,I,1.0,0.0,0,0,1
+1198,30548,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,I,1.0,0.0,0,0,1
+1199,30548,1,Final Grades,2019,C420-LEE-T2/F1,C420,C,1.0,1.0,0,0,1
+1200,30548,1,Final Grades,2019,D430-BURNS-T1/H4,D430,C,1.0,1.0,0,0,1
+1201,30548,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1202,30586,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,I,1.0,0.0,0,0,1
+1203,30586,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,C+,1.0,1.0,0,0,1
+1204,30586,1,Final Grades,2019,C420-LEE-M4/H2,C420,I,1.0,0.0,0,0,1
+1205,30586,1,Final Grades,2019,D430-BURNS-M1/W4,D430,I,1.0,0.0,0,0,1
+1206,30586,1,Final Grades,2019,I2000-Multimedia Political Journalism-DeOrnellas-AM,F299,B+,1.0,1.0,0,0,1
+1207,30586,1,Final Grades,2019,I300-Adulting 101-Calvert-PM,I300,P,1.0,1.0,0,0,1
+1208,30580,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,B-,1.0,1.0,0,0,1
+1209,30580,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,A,1.0,1.0,0,0,1
+1210,30580,1,Final Grades,2019,C400-LEE-M1/W4,C400,C+,1.0,1.0,0,0,1
+1211,30580,1,Final Grades,2019,D430-BURNS-T1/H4,D430,A,1.0,1.0,0,0,1
+1212,30580,1,Final Grades,2019,E300-GREEN-M2/H1,E300,B-,1.0,1.0,0,0,1
+1213,30580,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1214,30574,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,B-,1.0,1.0,0,0,1
+1215,30574,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,B+,1.0,1.0,0,0,1
+1216,30574,1,Final Grades,2019,C420-LEE-T1/H4,C420,A-,1.0,1.0,0,0,1
+1217,30574,1,Final Grades,2019,D430-BURNS-M4/H2,D430,B,1.0,1.0,0,0,1
+1218,30574,1,Final Grades,2019,G297-Human Rights-Barragan-AM,G297,A+,1.0,1.0,0,0,1
+1219,30574,1,Final Grades,2019,I181-Ethnic Studies-Barragan-PM,I181,P,1.0,1.0,0,0,1
+1220,30703,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,I,1.0,0.0,0,0,1
+1221,30703,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,I,1.0,0.0,0,0,1
+1222,30703,1,Final Grades,2019,C420-LEE-T1/H4,C420,I,1.0,0.0,0,0,1
+1223,30703,1,Final Grades,2019,D430-BURNS-T4/F2,D430,I,1.0,0.0,0,0,1
+1224,30703,1,Final Grades,2019,F562-Intro to Drama-Estronemicas-AM,F562,I,1.0,0.0,0,0,1
+1225,30553,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,B+,1.0,1.0,0,0,1
+1226,30553,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,A+,1.0,1.0,0,0,1
+1227,30553,1,Final Grades,2019,C420-LEE-M4/H2,C420,A-,1.0,1.0,0,0,1
+1228,30553,1,Final Grades,2019,D430-BURNS-T1/H4,D430,A,1.0,1.0,0,0,1
+1229,30553,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1230,30681,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,B,1.0,1.0,0,0,1
+1231,30681,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,A,1.0,1.0,0,0,1
+1232,30681,1,Final Grades,2019,C420-LEE-T2/F1,C420,A-,1.0,1.0,0,0,1
+1233,30681,1,Final Grades,2019,D430-BURNS-T4/F2,D430,A-,1.0,1.0,0,0,1
+1234,30681,1,Final Grades,2019,I1122-Stage Combat-Brown-PM,I1122,P,1.0,1.0,0,0,1
+1235,30681,1,Final Grades,2019,I121-Human Sexuality-Breuer-AM,I121,P,1.0,1.0,0,0,1
+1236,30582,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,B-,1.0,1.0,0,0,1
+1237,30582,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,A+,1.0,1.0,0,0,1
+1238,30582,1,Final Grades,2019,C420-LEE-T1/H4,C420,A-,1.0,1.0,0,0,1
+1239,30582,1,Final Grades,2019,D430-BURNS-T4/F2,D430,A-,1.0,1.0,0,0,1
+1240,30582,1,Final Grades,2019,I121-Human Sexuality-Breuer-AM,I121,P,1.0,1.0,0,0,1
+1241,30582,1,Final Grades,2019,I181-Ethnic Studies-Barragan-PM,I181,P,1.0,1.0,0,0,1
+1242,30622,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,B,1.0,1.0,0,0,1
+1243,30622,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,B-,1.0,1.0,0,0,1
+1244,30622,1,Final Grades,2019,C420-LEE-T2/F1,C420,B,1.0,1.0,0,0,1
+1245,30622,1,Final Grades,2019,D430-BURNS-T4/F2,D430,B,1.0,1.0,0,0,1
+1246,30622,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1247,30643,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,I,1.0,0.0,0,0,1
+1248,30643,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,C,1.0,1.0,0,0,1
+1249,30643,1,Final Grades,2019,D430-BURNS-M1/W4,D430,I,1.0,0.0,0,0,1
+1250,30643,1,Final Grades,2019,E200-MOSQUEIRA-M2/H1,E200,B,1.0,1.0,0,0,1
+1251,30643,1,Final Grades,2019,I231-Creative Writing-DeOrnellas-PM,F231,A+,1.0,1.0,0,0,1
+1252,30643,1,Final Grades,2019,F562-Intro to Drama-Estronemicas-AM,F562,I,1.0,0.0,0,0,1
+1253,30596,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,A-,1.0,1.0,0,0,1
+1254,30596,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,A+,1.0,1.0,0,0,1
+1255,30596,1,Final Grades,2019,C420-LEE-T1/H4,C420,A-,1.0,1.0,0,0,1
+1256,30596,1,Final Grades,2019,D430-BURNS-M1/W4,D430,A,1.0,1.0,0,0,1
+1257,30596,1,Final Grades,2019,F562-Intro to Drama-Estronemicas-AM,F562,B+,1.0,1.0,0,0,1
+1258,30596,1,Final Grades,2019,90352,I1106CW,P,1.0,1.0,0,0,1
+1259,30556,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,I,1.0,0.0,0,0,1
+1260,30556,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,I,1.0,0.0,0,0,1
+1261,30556,1,Final Grades,2019,C420-LEE-T2/F1,C420,C,1.0,1.0,0,0,1
+1262,30556,1,Final Grades,2019,D430-BURNS-T1/H4,D430,C-,1.0,1.0,0,0,1
+1263,30556,1,Final Grades,2019,E300-GREEN-M2/H1,E300,I,1.0,0.0,0,0,1
+1264,30556,1,Final Grades,2019,90353,I1106ID,NO GRADE,1.0,1.0,0,0,1
+1265,30556,1,Final Grades,2019,I121-Human Sexuality-Breuer-PM,I121,NP,1.0,0.0,0,0,1
+1266,30544,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,I,1.0,0.0,0,0,1
+1267,30544,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,C,1.0,1.0,0,0,1
+1268,30544,1,Final Grades,2019,C400-LEE-M1/W4,C400,I,1.0,0.0,0,0,1
+1269,30544,1,Final Grades,2019,D430-BURNS-T1/H4,D430,I,1.0,0.0,0,0,1
+1270,30544,1,Final Grades,2019,F503-Intermediate Visual Art-Street to Canvas-PM,F503,I,1.0,0.0,0,0,1
+1271,30544,1,Final Grades,2019,I121-Human Sexuality-Breuer-AM,I121,P,1.0,1.0,0,0,1
+1272,30720,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,B,1.0,1.0,0,0,1
+1273,30720,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,A+,1.0,1.0,0,0,1
+1274,30720,1,Final Grades,2019,C400-LEE-M2/H1,C400,B,1.0,1.0,0,0,1
+1275,30720,1,Final Grades,2019,C420-LEE-M4/H2,C420,A,1.0,1.0,0,0,1
+1276,30720,1,Final Grades,2019,D430-BURNS-M1/W4,D430,B+,1.0,1.0,0,0,1
+1277,30720,1,Final Grades,2019,91878,I139,P,1.0,1.0,0,0,1
+1278,30708,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,I,1.0,0.0,0,0,1
+1279,30708,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,C,1.0,1.0,0,0,1
+1280,30708,1,Final Grades,2019,C420-LEE-M4/H2,C420,C-,1.0,1.0,0,0,1
+1281,30708,1,Final Grades,2019,D430-BURNS-M1/W4,D430,C,1.0,1.0,0,0,1
+1282,30708,1,Final Grades,2019,I2000-Multimedia Political Journalism-DeOrnellas-AM,F299,I,1.0,0.0,0,0,1
+1283,30708,1,Final Grades,2019,F511-Intro to Video Production-Nelson-PM,F511,A+,1.0,1.0,0,0,1
+1284,30607,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,A-,1.0,1.0,0,0,1
+1285,30607,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,A+,1.0,1.0,0,0,1
+1286,30607,1,Final Grades,2019,C420-LEE-M4/H2,C420,A-,1.0,1.0,0,0,1
+1287,30607,1,Final Grades,2019,D430-BURNS-M1/W4,D430,A-,1.0,1.0,0,0,1
+1288,30607,1,Final Grades,2019,91878,I139,P,1.0,1.0,0,0,1
+1289,30682,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,I,1.0,0.0,0,0,1
+1290,30682,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,C+,1.0,1.0,0,0,1
+1291,30682,1,Final Grades,2019,C420-LEE-M4/H2,C420,I,1.0,0.0,0,0,1
+1292,30682,1,Final Grades,2019,D430-BURNS-T1/H4,D430,I,1.0,0.0,0,0,1
+1293,30682,1,Final Grades,2019,90353,I1106ID,NO GRADE,1.0,1.0,0,0,1
+1294,30566,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,C,1.0,1.0,0,0,1
+1295,30566,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,B-,1.0,1.0,0,0,1
+1296,30566,1,Final Grades,2019,C420-LEE-M4/H2,C420,B-,1.0,1.0,0,0,1
+1297,30566,1,Final Grades,2019,D430-BURNS-M1/W4,D430,I,1.0,0.0,0,0,1
+1298,30566,1,Final Grades,2019,91878,I139,P,1.0,1.0,0,0,1
+1299,31145,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,I,1.0,0.0,0,0,1
+1300,31145,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,B-,1.0,1.0,0,0,1
+1301,31145,1,Final Grades,2019,C320-EBRAHIM-T2/F1,C320,I,1.0,0.0,0,0,1
+1302,31145,1,Final Grades,2019,D430-BURNS-T1/H4,D430,I,1.0,0.0,0,0,1
+1303,31145,1,Final Grades,2019,F511-Intro to Video Production-Nelson-AM,F511,I,1.0,0.0,0,0,1
+1304,31145,1,Final Grades,2019,I121-Human Sexuality-Breuer-PM,I121,P,1.0,1.0,0,0,1
+1305,30631,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,B+,1.0,1.0,0,0,1
+1306,30631,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,A+,1.0,1.0,0,0,1
+1307,30631,1,Final Grades,2019,C420-LEE-M4/H2,C420,A,1.0,1.0,0,0,1
+1308,30631,1,Final Grades,2019,D430-BURNS-T1/H4,D430,A-,1.0,1.0,0,0,1
+1309,30631,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1310,30952,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,B-,1.0,1.0,0,0,1
+1311,30952,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,B,1.0,1.0,0,0,1
+1312,30952,1,Final Grades,2019,C400-LEE-M2/H1,C400,B-,1.0,1.0,0,0,1
+1313,30952,1,Final Grades,2019,D430-BURNS-M1/W4,D430,B-,1.0,1.0,0,0,1
+1314,30952,1,Final Grades,2019,E300-GREEN-T1/H4,E300,I,1.0,0.0,0,0,1
+1315,30952,1,Final Grades,2019,F511-Intro to Video Production-Nelson-AM,F511,A+,1.0,1.0,0,0,1
+1316,30952,1,Final Grades,2019,I202-Video Game Programming-Hesby-PM,I202,P,1.0,1.0,0,0,1
+1317,30722,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,I,1.0,0.0,0,0,1
+1318,30722,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,B-,1.0,1.0,0,0,1
+1319,30722,1,Final Grades,2019,C420-LEE-M4/H2,C420,I,1.0,0.0,0,0,1
+1320,30722,1,Final Grades,2019,D430-BURNS-M1/W4,D430,I,1.0,0.0,0,0,1
+1321,30722,1,Final Grades,2019,E300-GREEN-M2/H1,E300,I,1.0,0.0,0,0,1
+1322,30722,1,Final Grades,2019,90381,I1106AD,P,1.0,1.0,0,0,1
+1323,30722,1,Final Grades,2019,90358,I1106HR,P,1.0,1.0,0,0,1
+1324,30676,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,B,1.0,1.0,0,0,1
+1325,30676,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,A,1.0,1.0,0,0,1
+1326,30676,1,Final Grades,2019,C420-LEE-T2/F1,C420,A-,1.0,1.0,0,0,1
+1327,30676,1,Final Grades,2019,D430-BURNS-T1/H4,D430,B+,1.0,1.0,0,0,1
+1328,30676,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1329,30675,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,B-,1.0,1.0,0,0,1
+1330,30675,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,A,1.0,1.0,0,0,1
+1331,30675,1,Final Grades,2019,C420-LEE-T1/H4,C420,A+,1.0,1.0,0,0,1
+1332,30675,1,Final Grades,2019,D430-BURNS-M4/H2,D430,B-,1.0,1.0,0,0,1
+1333,30675,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1334,30546,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,A,1.0,1.0,0,0,1
+1335,30546,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,A+,1.0,1.0,0,0,1
+1336,30546,1,Final Grades,2019,C420-LEE-T2/F1,C420,A+,1.0,1.0,0,0,1
+1337,30546,1,Final Grades,2019,D430-BURNS-T4/F2,D430,A,1.0,1.0,0,0,1
+1338,30546,1,Final Grades,2019,G103-Intro to Programming-Hesby-AM,G103,A+,1.0,1.0,0,0,1
+1339,30546,1,Final Grades,2019,I202-Video Game Programming-Hesby-PM,I202,P,1.0,1.0,0,0,1
+1340,30578,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,I,1.0,0.0,0,0,1
+1341,30578,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,B-,1.0,1.0,0,0,1
+1342,30578,1,Final Grades,2019,C420-LEE-T2/F1,C420,I,1.0,0.0,0,0,1
+1343,30578,1,Final Grades,2019,D430-BURNS-T4/F2,D430,I,1.0,0.0,0,0,1
+1344,30578,1,Final Grades,2019,91879,I106,NP,1.0,0.0,0,0,1
+1345,30579,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,I,1.0,0.0,0,0,1
+1346,30579,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,B-,1.0,1.0,0,0,1
+1347,30579,1,Final Grades,2019,C400-LEE-M1/W4,C400,I,1.0,0.0,0,0,1
+1348,30579,1,Final Grades,2019,C420-LEE-T2/F1,C420,C+,1.0,1.0,0,0,1
+1349,30579,1,Final Grades,2019,D430-BURNS-M4/H2,D430,B-,1.0,1.0,0,0,1
+1350,30579,1,Final Grades,2019,90382,I1106CR,P,1.0,1.0,0,0,1
+1351,30577,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,A,1.0,1.0,0,0,1
+1352,30577,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,A+,1.0,1.0,0,0,1
+1353,30577,1,Final Grades,2019,C420-LEE-T1/H4,C420,A+,1.0,1.0,0,0,1
+1354,30577,1,Final Grades,2019,D430-BURNS-M4/H2,D430,A,1.0,1.0,0,0,1
+1355,30577,1,Final Grades,2019,E400-MOSQUEIRA-T2/F1,E400,A,1.0,1.0,0,0,1
+1356,30577,1,Final Grades,2019,91878,I139,P,1.0,1.0,0,0,1
+1357,30687,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,A-,1.0,1.0,0,0,1
+1358,30687,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,A,1.0,1.0,0,0,1
+1359,30687,1,Final Grades,2019,C400-LEE-M2/H1,C400,B-,1.0,1.0,0,0,1
+1360,30687,1,Final Grades,2019,C420-LEE-T2/F1,C420,A,1.0,1.0,0,0,1
+1361,30687,1,Final Grades,2019,D430-BURNS-T4/F2,D430,B,1.0,1.0,0,0,1
+1362,30687,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1363,30602,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,B,1.0,1.0,0,0,1
+1364,30602,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,B+,1.0,1.0,0,0,1
+1365,30602,1,Final Grades,2019,C420-LEE-T1/H4,C420,B,1.0,1.0,0,0,1
+1366,30602,1,Final Grades,2019,D430-BURNS-M4/H2,D430,A-,1.0,1.0,0,0,1
+1367,30602,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1368,30716,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,C,1.0,1.0,0,0,1
+1369,30716,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,B,1.0,1.0,0,0,1
+1370,30716,1,Final Grades,2019,C420-LEE-T1/H4,C420,I,1.0,0.0,0,0,1
+1371,30716,1,Final Grades,2019,D430-BURNS-T4/F2,D430,C,1.0,1.0,0,0,1
+1372,30716,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1373,30734,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,I,1.0,0.0,0,0,1
+1374,30734,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,I,1.0,0.0,0,0,1
+1375,30734,1,Final Grades,2019,C420-LEE-M4/H2,C420,I,1.0,0.0,0,0,1
+1376,30734,1,Final Grades,2019,D430-BURNS-M1/W4,D430,I,1.0,0.0,0,0,1
+1377,30734,1,Final Grades,2019,E200-MOSQUEIRA-T4/F2,E200,I,1.0,0.0,0,0,1
+1378,30734,1,Final Grades,2019,I121-Human Sexuality-Breuer-AM,I121,NP,1.0,0.0,0,0,1
+1379,30559,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,B-,1.0,1.0,0,0,1
+1380,30559,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,A-,1.0,1.0,0,0,1
+1381,30559,1,Final Grades,2019,C420-LEE-T1/H4,C420,A-,1.0,1.0,0,0,1
+1382,30559,1,Final Grades,2019,D430-BURNS-M1/W4,D430,B,1.0,1.0,0,0,1
+1383,30559,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1384,30885,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,C+,1.0,1.0,0,0,1
+1385,30885,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,B+,1.0,1.0,0,0,1
+1386,30885,1,Final Grades,2019,C420-LEE-T2/F1,C420,B,1.0,1.0,0,0,1
+1387,30885,1,Final Grades,2019,D430-BURNS-T4/F2,D430,B,1.0,1.0,0,0,1
+1388,30885,1,Final Grades,2019,91878,I139,P,1.0,1.0,0,0,1
+1389,30611,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,I,1.0,0.0,0,0,1
+1390,30611,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,B,1.0,1.0,0,0,1
+1391,30611,1,Final Grades,2019,C420-LEE-M4/H2,C420,C,1.0,1.0,0,0,1
+1392,30611,1,Final Grades,2019,D430-BURNS-M1/W4,D430,I,1.0,0.0,0,0,1
+1393,30611,1,Final Grades,2019,91878,I139,P,1.0,1.0,0,0,1
+1394,30921,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,I,1.0,0.0,0,0,1
+1395,30921,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,B-,1.0,1.0,0,0,1
+1396,30921,1,Final Grades,2019,C320-EBRAHIM-T1/H4,C320,B,1.0,1.0,0,0,1
+1397,30921,1,Final Grades,2019,D430-BURNS-M4/H2,D430,I,1.0,0.0,0,0,1
+1398,30921,1,Final Grades,2019,G297-Human Rights-Barragan-AM,G297,B+,1.0,1.0,0,0,1
+1399,30921,1,Final Grades,2019,I181-Ethnic Studies-Barragan-PM,I181,P,1.0,1.0,0,0,1
+1400,30960,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,I,1.0,0.0,0,0,1
+1401,30960,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,B,1.0,1.0,0,0,1
+1402,30960,1,Final Grades,2019,C420-LEE-T2/F1,C420,B-,1.0,1.0,0,0,1
+1403,30960,1,Final Grades,2019,D300-DARKAZANLI-M2/H1,D300,B-,1.0,1.0,0,0,1
+1404,30960,1,Final Grades,2019,F511-Intro to Video Production-Nelson-PM,F511,A+,1.0,1.0,0,0,1
+1405,30960,1,Final Grades,2019,I121-Human Sexuality-Breuer-AM,I121,P,1.0,1.0,0,0,1
+1406,30619,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,A-,1.0,1.0,0,0,1
+1407,30619,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,A+,1.0,1.0,0,0,1
+1408,30619,1,Final Grades,2019,C420-LEE-T2/F1,C420,A+,1.0,1.0,0,0,1
+1409,30619,1,Final Grades,2019,D430-BURNS-T4/F2,D430,A,1.0,1.0,0,0,1
+1410,30619,1,Final Grades,2019,90411,I1106ENT,P,1.0,1.0,0,0,1
+1411,30619,1,Final Grades,2019,I181-Ethnic Studies-Barragan-PM,I181,P,1.0,1.0,0,0,1
+1412,30535,1,Final Grades,2019,90369,A400M,C,1.0,1.0,0,0,1
+1413,30535,1,Final Grades,2019,90367,B400M,B+,1.0,1.0,0,0,1
+1414,30535,1,Final Grades,2019,90368,D430M,C,1.0,1.0,0,0,1
+1415,30535,1,Final Grades,2019,G297-Human Rights-Barragan-AM,G297,C,1.0,1.0,0,0,1
+1416,30560,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,A,1.0,1.0,0,0,1
+1417,30560,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,A,1.0,1.0,0,0,1
+1418,30560,1,Final Grades,2019,C420-LEE-M4/H2,C420,A,1.0,1.0,0,0,1
+1419,30560,1,Final Grades,2019,D430-BURNS-T4/F2,D430,A,1.0,1.0,0,0,1
+1420,30560,1,Final Grades,2019,E400-MOSQUEIRA-T1/H4,E400,A,1.0,1.0,0,0,1
+1421,30560,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1422,30881,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,C,1.0,1.0,0,0,1
+1423,30881,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,B,1.0,1.0,0,0,1
+1424,30881,1,Final Grades,2019,C420-LEE-T1/H4,C420,B-,1.0,1.0,0,0,1
+1425,30881,1,Final Grades,2019,D430-BURNS-M4/H2,D430,C,1.0,1.0,0,0,1
+1426,30881,1,Final Grades,2019,91878,I139,P,1.0,1.0,0,0,1
+1427,30541,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,I,1.0,0.0,0,0,1
+1428,30541,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,A-,1.0,1.0,0,0,1
+1429,30541,1,Final Grades,2019,C420-LEE-T1/H4,C420,B,1.0,1.0,0,0,1
+1430,30541,1,Final Grades,2019,D430-BURNS-T4/F2,D430,B,1.0,1.0,0,0,1
+1431,30541,1,Final Grades,2019,G022-Entrepreneurship-Calvert-AM,G022,A+,1.0,1.0,0,0,1
+1432,30541,1,Final Grades,2019,I121-Human Sexuality-Breuer-PM,I121,P,1.0,1.0,0,0,1
+1433,30982,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,B,1.0,1.0,0,0,1
+1434,30982,1,Final Grades,2019,B400-WINDSOR-M1/W4,B400,A,1.0,1.0,0,0,1
+1435,30982,1,Final Grades,2019,C420-LEE-T2/F1,C420,B+,1.0,1.0,0,0,1
+1436,30982,1,Final Grades,2019,D300-DARKAZANLI-M2/H1,D300,A-,1.0,1.0,0,0,1
+1437,30982,1,Final Grades,2019,F511-Intro to Video Production-Nelson-AM,F511,A+,1.0,1.0,0,0,1
+1438,30982,1,Final Grades,2019,I181-Ethnic Studies-Barragan-PM,I181,P,1.0,1.0,0,0,1
+1439,30683,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,I,1.0,0.0,0,0,1
+1440,30683,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,C+,1.0,1.0,0,0,1
+1441,30683,1,Final Grades,2019,C420-LEE-M4/H2,C420,I,1.0,0.0,0,0,1
+1442,30683,1,Final Grades,2019,D430-BURNS-T4/F2,D430,I,1.0,0.0,0,0,1
+1443,30683,1,Final Grades,2019,F511-Intro to Video Production-Nelson-AM,F511,A+,1.0,1.0,0,0,1
+1444,30683,1,Final Grades,2019,I121-Human Sexuality-Breuer-PM,I121,P,1.0,1.0,0,0,1
+1445,30547,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,I,1.0,0.0,0,0,1
+1446,30547,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,C-,1.0,1.0,0,0,1
+1447,30547,1,Final Grades,2019,C420-LEE-T1/H4,C420,I,1.0,0.0,0,0,1
+1448,30547,1,Final Grades,2019,D430-BURNS-T4/F2,D430,I,1.0,0.0,0,0,1
+1449,30547,1,Final Grades,2019,90411,I1106ENT,P,1.0,1.0,0,0,1
+1450,30679,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,I,1.0,0.0,0,0,1
+1451,30679,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,C-,1.0,1.0,0,0,1
+1452,30679,1,Final Grades,2019,C420-LEE-M4/H2,C420,C,1.0,1.0,0,0,1
+1453,30679,1,Final Grades,2019,D430-BURNS-T1/H4,D430,I,1.0,0.0,0,0,1
+1454,30679,1,Final Grades,2019,I121-Human Sexuality-Breuer-AM,I121,P,1.0,1.0,0,0,1
+1455,31028,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,I,1.0,0.0,0,0,1
+1456,31028,1,Final Grades,2019,B300-MYERS-M4/H2,B300,A,1.0,1.0,0,0,1
+1457,31028,1,Final Grades,2019,C320-EBRAHIM-M1/W4,C320,C,1.0,1.0,0,0,1
+1458,31028,1,Final Grades,2019,D430-BURNS-T1/H4,D430,I,1.0,0.0,0,0,1
+1459,31028,1,Final Grades,2019,E200-MOSQUEIRA-T4/F2,E200,B,1.0,1.0,0,0,1
+1460,31028,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1461,30633,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,B,1.0,1.0,0,0,1
+1462,30633,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,A,1.0,1.0,0,0,1
+1463,30633,1,Final Grades,2019,C420-LEE-T1/H4,C420,A-,1.0,1.0,0,0,1
+1464,30633,1,Final Grades,2019,D300-DARKAZANLI-M2/H1,D300,A-,1.0,1.0,0,0,1
+1465,30633,1,Final Grades,2019,F511-Intro to Video Production-Nelson-AM,F511,A+,1.0,1.0,0,0,1
+1466,30633,1,Final Grades,2019,I181-Ethnic Studies-Barragan-PM,I181,P,1.0,1.0,0,0,1
+1467,30861,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,B,1.0,1.0,0,0,1
+1468,30861,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,A+,1.0,1.0,0,0,1
+1469,30861,1,Final Grades,2019,C420-LEE-M4/H2,C420,B-,1.0,1.0,0,0,1
+1470,30861,1,Final Grades,2019,D430-BURNS-M1/W4,D430,B+,1.0,1.0,0,0,1
+1471,30861,1,Final Grades,2019,E300-GREEN-T1/H4,E300,B+,1.0,1.0,0,0,1
+1472,30861,1,Final Grades,2019,91878,I139,NO GRADE,1.0,1.0,0,0,1
+1473,30670,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,A,1.0,1.0,0,0,1
+1474,30670,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,A,1.0,1.0,0,0,1
+1475,30670,1,Final Grades,2019,C420-LEE-M4/H2,C420,A,1.0,1.0,0,0,1
+1476,30670,1,Final Grades,2019,D430-BURNS-M1/W4,D430,A,1.0,1.0,0,0,1
+1477,30670,1,Final Grades,2019,E400-MOSQUEIRA-T2/F1,E400,A,1.0,1.0,0,0,1
+1478,30670,1,Final Grades,2019,91878,I139,P,1.0,1.0,0,0,1
+1479,30639,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,B,1.0,1.0,0,0,1
+1480,30639,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,A,1.0,1.0,0,0,1
+1481,30639,1,Final Grades,2019,C400-LEE-M1/W4,C400,B+,1.0,1.0,0,0,1
+1482,30639,1,Final Grades,2019,D430-BURNS-T1/H4,D430,A-,1.0,1.0,0,0,1
+1483,30639,1,Final Grades,2019,E300-GREEN-T4/F2,E300,B,1.0,1.0,0,0,1
+1484,30639,1,Final Grades,2019,F503-Intermediate Visual Art-Street to Canvas-PM,F503,I,1.0,0.0,0,0,1
+1485,30639,1,Final Grades,2019,F511-Intro to Video Production-Nelson-AM,F511,A+,1.0,1.0,0,0,1
+1486,30571,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,A-,1.0,1.0,0,0,1
+1487,30571,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,A+,1.0,1.0,0,0,1
+1488,30571,1,Final Grades,2019,C420-LEE-M4/H2,C420,A,1.0,1.0,0,0,1
+1489,30571,1,Final Grades,2019,D430-BURNS-T1/H4,D430,A+,1.0,1.0,0,0,1
+1490,30571,1,Final Grades,2019,G297-Human Rights-Barragan-AM,G297,A+,1.0,1.0,0,0,1
+1491,30571,1,Final Grades,2019,I181-Ethnic Studies-Barragan-PM,I181,P,1.0,1.0,0,0,1
+1492,30568,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,C+,1.0,1.0,0,0,1
+1493,30568,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,I,1.0,0.0,0,0,1
+1494,30568,1,Final Grades,2019,C420-LEE-T1/H4,C420,C+,1.0,1.0,0,0,1
+1495,30568,1,Final Grades,2019,D430-BURNS-M4/H2,D430,B+,1.0,1.0,0,0,1
+1496,30568,1,Final Grades,2019,91879,I106,P,1.0,1.0,0,0,1
+1497,30709,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,I,1.0,0.0,0,0,1
+1498,30709,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,C+,1.0,1.0,0,0,1
+1499,30709,1,Final Grades,2019,C420-LEE-T1/H4,C420,I,1.0,0.0,0,0,1
+1500,30709,1,Final Grades,2019,D430-BURNS-M4/H2,D430,I,1.0,0.0,0,0,1
+1501,30709,1,Final Grades,2019,F503-Intermediate Visual Art-Street to Canvas-PM,F503,I,1.0,0.0,0,0,1
+1502,30709,1,Final Grades,2019,I121-Human Sexuality-Breuer-AM,I121,P,1.0,1.0,0,0,1
+1503,31105,1,Final Grades,2019,A400-QUEZADA-M2/H1,A400,A-,1.0,1.0,0,0,1
+1504,31105,1,Final Grades,2019,B300-MYERS-M4/H2,B300,A+,1.0,1.0,0,0,1
+1505,31105,1,Final Grades,2019,C400-LEE-M1/W4,C400,A,1.0,1.0,0,0,1
+1506,31105,1,Final Grades,2019,C420-LEE-T2/F1,C420,A+,1.0,1.0,0,0,1
+1507,31105,1,Final Grades,2019,D430-BURNS-T1/H4,D430,A+,1.0,1.0,0,0,1
+1508,31105,1,Final Grades,2019,F502-Intro to Visual Art-Street to Canvas-AM,F502,A,1.0,1.0,0,0,1
+1509,31105,1,Final Grades,2019,F562-Intro to Drama-Estronemicas-PM,F562,A+,1.0,1.0,0,0,1
+1510,30402,1,Final Grades,2019,A300-MORRIS-T1/H4,A300,I,1.0,0.0,0,0,1
+1511,30402,1,Final Grades,2019,B300-MYERS-M1/W4,B300,I,1.0,0.0,0,0,1
+1512,30402,1,Final Grades,2019,G297-Human Rights-Barragan-AM,G297,I,1.0,0.0,0,0,1
+1513,30552,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,C,1.0,1.0,0,0,1
+1514,30552,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,B+,1.0,1.0,0,0,1
+1515,30552,1,Final Grades,2019,C420-LEE-T1/H4,C420,B+,1.0,1.0,0,0,1
+1516,30552,1,Final Grades,2019,D430-BURNS-M4/H2,D430,B-,1.0,1.0,0,0,1
+1517,30552,1,Final Grades,2019,G022-Entrepreneurship-Calvert-AM,G022,C+,1.0,1.0,0,0,1
+1518,30552,1,Final Grades,2019,I181-Ethnic Studies-Barragan-PM,I181,P,1.0,1.0,0,0,1
+1519,30606,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,I,1.0,0.0,0,0,1
+1520,30606,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,I,1.0,0.0,0,0,1
+1521,30606,1,Final Grades,2019,C420-LEE-T2/F1,C420,I,1.0,0.0,0,0,1
+1522,30606,1,Final Grades,2019,D430-BURNS-M1/W4,D430,I,1.0,0.0,0,0,1
+1523,30606,1,Final Grades,2019,F502-Intro to Visual Art-Street to Canvas-AM,F502,I,1.0,0.0,0,0,1
+1524,40877,1,Final Grades,2019,A400-QUEZADA-T2/F1,A400,I,1.0,0.0,0,0,1
+1525,40877,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,B+,1.0,1.0,0,0,1
+1526,40877,1,Final Grades,2019,C420-LEE-T1/H4,C420,I,1.0,0.0,0,0,1
+1527,40877,1,Final Grades,2019,D430-BURNS-M4/H2,D430,I,1.0,0.0,0,0,1
+1528,40877,1,Final Grades,2019,E300-GREEN-T4/F2,E300,I,1.0,0.0,0,0,1
+1529,40877,1,Final Grades,2019,G022-Entrepreneurship-Calvert-AM,G022,A+,1.0,1.0,0,0,1
+1530,40877,1,Final Grades,2019,I121-Human Sexuality-Breuer-PM,I121,NP,1.0,0.0,0,0,1
+1531,30997,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,I,1.0,0.0,0,0,1
+1532,30997,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,I,1.0,0.0,0,0,1
+1533,30997,1,Final Grades,2019,C420-LEE-T1/H4,C420,I,1.0,0.0,0,0,1
+1534,30997,1,Final Grades,2019,D430-BURNS-T4/F2,D430,I,1.0,0.0,0,0,1
+1535,30997,1,Final Grades,2019,E400-MOSQUEIRA-T2/F1,E400,I,1.0,0.0,0,0,1
+1536,30997,1,Final Grades,2019,F562-Intro to Drama-Estronemicas-AM,F562,I,1.0,0.0,0,0,1
+1537,30538,1,Final Grades,2019,A400-QUEZADA-T4/F2,A400,B+,1.0,1.0,0,0,1
+1538,30538,1,Final Grades,2019,B400-WINDSOR-M2/H1,B400,A,1.0,1.0,0,0,1
+1539,30538,1,Final Grades,2019,C420-LEE-M4/H2,C420,A,1.0,1.0,0,0,1
+1540,30538,1,Final Grades,2019,D430-BURNS-M1/W4,D430,A-,1.0,1.0,0,0,1
+1541,30538,1,Final Grades,2019,I1106ICS-Teaching Assistant: Computer Science-Hesby-AM,I1106ICS,P,1.0,1.0,0,0,1
+1542,30538,1,Final Grades,2019,I1106VGP-Teaching Assistant: Video Game Programming-Hesby-PM,I1106VGP,P,1.0,1.0,0,0,1
+1543,30597,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,B,1.0,1.0,0,0,1
+1544,30597,1,Final Grades,2019,B400-WINDSOR-T4/F2,B400,A,1.0,1.0,0,0,1
+1545,30597,1,Final Grades,2019,C420-LEE-T2/F1,C420,B+,1.0,1.0,0,0,1
+1546,30597,1,Final Grades,2019,D430-BURNS-T1/H4,D430,B,1.0,1.0,0,0,1
+1547,30597,1,Final Grades,2019,F511-Intro to Video Production-Nelson-PM,F511,A+,1.0,1.0,0,0,1
+1548,30597,1,Final Grades,2019,G022-Entrepreneurship-Calvert-AM,G022,A+,1.0,1.0,0,0,1
+1549,30543,1,Final Grades,2019,A400-QUEZADA-M4/H2,A400,I,1.0,0.0,0,0,1
+1550,30543,1,Final Grades,2019,B400-WINDSOR-T2/F1,B400,I,1.0,0.0,0,0,1
+1551,30543,1,Final Grades,2019,E200-MOSQUEIRA-M2/H1,E200,I,1.0,0.0,0,0,1
+1552,30543,1,Final Grades,2019,F503-Intermediate Visual Art-Street to Canvas-PM,F503,I,1.0,0.0,0,0,1
+1553,30543,1,Final Grades,2019,G103-Intro to Programming-Hesby-AM,G103,I,1.0,0.0,0,0,1
+1554,60295,6,Final Grades,2019,A400-Dalton-M1/W1,A400,B+,1.0,1.0,0,0,1
+1555,60295,6,Final Grades,2019,B400-Watts-T1/H1,B400,I,1.0,0.0,0,0,1
+1556,60295,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+1557,60295,6,Final Grades,2019,D430-Salomon-M2/W2,D430,I,1.0,0.0,0,0,1
+1558,60407,6,Final Grades,2019,A400-Dalton-M1/W1,A400,I,1.0,0.0,0,0,1
+1559,60407,6,Final Grades,2019,B400-Watts-T1/H1,B400,I,1.0,0.0,0,0,1
+1560,60407,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+1561,60407,6,Final Grades,2019,D430-Salomon-M3/W3,D430,I,1.0,0.0,0,0,1
+1562,60407,6,Final Grades,2019,I1088-Local Wilderness (Half Day)-Wilkins-PM,I1088,NP,1.0,0.0,0,0,1
+1563,60407,6,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,NP,1.0,0.0,0,0,1
+1564,60387,6,Final Grades,2019,A400-Dalton-T1/H1,A400,A-,1.0,1.0,0,0,1
+1565,60387,6,Final Grades,2019,B400-Watts-M2/W2,B400,B+,1.0,1.0,0,0,1
+1566,60387,6,Final Grades,2019,C400-Wu-M3/W3,C400,B-,1.0,1.0,0,0,1
+1567,60387,6,Final Grades,2019,D430-Salomon-T2/H2,D430,I,1.0,0.0,0,0,1
+1568,60386,6,Final Grades,2019,A400-Dalton-T3/H3,A400,I,1.0,0.0,0,0,1
+1569,60386,6,Final Grades,2019,B400-Watts-T1/H1,B400,I,1.0,0.0,0,0,1
+1570,60386,6,Final Grades,2019,C400-Wu-M1/W1,C400,I,1.0,0.0,0,0,1
+1571,60386,6,Final Grades,2019,D430-Salomon-M2/W2,D430,I,1.0,0.0,0,0,1
+1572,60307,6,Final Grades,2019,A400-Dalton-M3/W3,A400,I,1.0,0.0,0,0,1
+1573,60307,6,Final Grades,2019,B400-Watts-M1/W1,B400,I,1.0,0.0,0,0,1
+1574,60307,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+1575,60307,6,Final Grades,2019,D430-Salomon-T1/H1,D430,I,1.0,0.0,0,0,1
+1576,60307,6,Final Grades,2019,F511-Intro to Video Production-Nelson-AM,F511,I,1.0,0.0,0,0,1
+1577,60307,6,Final Grades,2019,I298-Research & Advocacy in Human Rights-Marinkovich-PM,I298,NP,1.0,0.0,0,0,1
+1578,60421,6,Final Grades,2019,A400-Dalton-M3/W3,A400,B,1.0,1.0,0,0,1
+1579,60421,6,Final Grades,2019,B400-Watts-T2/H2,B400,B,1.0,1.0,0,0,1
+1580,60421,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+1581,60421,6,Final Grades,2019,D430-Salomon-T1/H1,D430,I,1.0,0.0,0,0,1
+1582,60421,6,Final Grades,2019,E200-Morales-M2/W2,E200,B+,1.0,1.0,0,0,1
+1583,60421,6,Final Grades,2019,F503-Intermediate Visual Art-Burchiel-AM,F503,B,1.0,1.0,0,0,1
+1584,60421,6,Final Grades,2019,I1122-Stage Combat-Brown-PM,I1122,P,1.0,1.0,0,0,1
+1585,60371,6,Final Grades,2019,A400-Dalton-M1/W1,A400,B,1.0,1.0,0,0,1
+1586,60371,6,Final Grades,2019,B400-Watts-T1/H1,B400,I,1.0,0.0,0,0,1
+1587,60371,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+1588,60371,6,Final Grades,2019,D430-Salomon-M3/W3,D430,I,1.0,0.0,0,0,1
+1589,60371,6,Final Grades,2019,E300-Gross-T2/H2,E300,C+,1.0,1.0,0,0,1
+1590,60371,6,Final Grades,2019,I139-Internship-Hein-AM,I139,P,1.0,1.0,0,0,1
+1591,60558,6,Final Grades,2019,A400-Dalton-T3/H3,A400,C+,1.0,1.0,0,0,1
+1592,60558,6,Final Grades,2019,B400-Watts-T2/H2,B400,B,1.0,1.0,0,0,1
+1593,60558,6,Final Grades,2019,C400-Wu-M1/W1,C400,I,1.0,0.0,0,0,1
+1594,60558,6,Final Grades,2019,D430-Salomon-T1/H1,D430,I,1.0,0.0,0,0,1
+1595,60558,6,Final Grades,2019,I1088-Local Wilderness (Half Day)-Wilkins-AM,I1088,P,1.0,1.0,0,0,1
+1596,60558,6,Final Grades,2019,90436,I1106,P,1.0,1.0,0,0,1
+1597,60558,6,Final Grades,2019,I142-Robotics-Taylor-PM,I142,P,1.0,1.0,0,0,1
+1598,60340,6,Final Grades,2019,A400-Dalton-T1/H1,A400,B,1.0,1.0,0,0,1
+1599,60340,6,Final Grades,2019,B400-Watts-M1/W1,B400,A+,1.0,1.0,0,0,1
+1600,60340,6,Final Grades,2019,C420-Lim-M2/W2,C420,A+,1.0,1.0,0,0,1
+1601,60340,6,Final Grades,2019,D430-Salomon-T2/H2,D430,B+,1.0,1.0,0,0,1
+1602,60340,6,Final Grades,2019,E400-Gross-T3/H3,E400,A-,1.0,1.0,0,0,1
+1603,60340,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+1604,60738,6,Final Grades,2019,A400-Dalton-M3/W3,A400,A+,1.0,1.0,0,0,1
+1605,60738,6,Final Grades,2019,B400-Watts-M1/W1,B400,A,1.0,1.0,0,0,1
+1606,60738,6,Final Grades,2019,C420-Lim-T3/H3,C420,A+,1.0,1.0,0,0,1
+1607,60738,6,Final Grades,2019,D430-Salomon-T1/H1,D430,A,1.0,1.0,0,0,1
+1608,60738,6,Final Grades,2019,G022-Entrepreneurship-Calvert-AM,G022,A+,1.0,1.0,0,0,1
+1609,60738,6,Final Grades,2019,I300-Adulting 101-Calvert-PM,I300,P,1.0,1.0,0,0,1
+1610,60933,6,Final Grades,2019,A400-Dalton-T3/H3,A400,B,1.0,1.0,0,0,1
+1611,60933,6,Final Grades,2019,B300-Nugent-M3/W3,B300,B-,1.0,1.0,0,0,1
+1612,60933,6,Final Grades,2019,B400-Watts-M1/W1,B400,A-,1.0,1.0,0,0,1
+1613,60933,6,Final Grades,2019,C420-Lim-M2/W2,C420,B,1.0,1.0,0,0,1
+1614,60933,6,Final Grades,2019,D430-Salomon-T1/H1,D430,B,1.0,1.0,0,0,1
+1615,60933,6,Final Grades,2019,F502-Intro to Visual Art-Burchiel-PM,F502,A+,1.0,1.0,0,0,1
+1616,60933,6,Final Grades,2019,G101-Intro to Psychology-Rikhter-AM,G101,A+,1.0,1.0,0,0,1
+1617,60289,6,Final Grades,2019,A400-Dalton-T1/H1,A400,B-,1.0,1.0,0,0,1
+1618,60289,6,Final Grades,2019,B400-Watts-M2/W2,B400,I,1.0,0.0,0,0,1
+1619,60289,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+1620,60289,6,Final Grades,2019,D430-Salomon-T2/H2,D430,B-,1.0,1.0,0,0,1
+1621,60285,6,Final Grades,2019,A400-Dalton-T1/H1,A400,A,1.0,1.0,0,0,1
+1622,60285,6,Final Grades,2019,B400-Watts-M2/W2,B400,I,1.0,0.0,0,0,1
+1623,60285,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+1624,60285,6,Final Grades,2019,D430-Salomon-T2/H2,D430,I,1.0,0.0,0,0,1
+1625,60285,6,Final Grades,2019,I139-Internship-Hein-AM,I139,P,1.0,1.0,0,0,1
+1626,60374,6,Final Grades,2019,A400-Dalton-M3/W3,A400,A-,1.0,1.0,0,0,1
+1627,60374,6,Final Grades,2019,B400-Watts-T2/H2,B400,I,1.0,0.0,0,0,1
+1628,60374,6,Final Grades,2019,C420-Lim-M2/W2,C420,A,1.0,1.0,0,0,1
+1629,60374,6,Final Grades,2019,D430-Salomon-T1/H1,D430,I,1.0,0.0,0,0,1
+1630,60313,6,Final Grades,2019,A400-Dalton-T3/H3,A400,C-,1.0,1.0,0,0,1
+1631,60313,6,Final Grades,2019,B400-Watts-T1/H1,B400,I,1.0,0.0,0,0,1
+1632,60313,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+1633,60313,6,Final Grades,2019,D430-Salomon-M3/W3,D430,I,1.0,0.0,0,0,1
+1634,60313,6,Final Grades,2019,F503-Intermediate Visual Art-Burchiel-AM,F503,I,1.0,0.0,0,0,1
+1635,60313,6,Final Grades,2019,I1088-Local Wilderness (Half Day)-Wilkins-PM,I1088,NP,1.0,0.0,0,0,1
+1636,60304,6,Final Grades,2019,A400-Dalton-T1/H1,A400,A,1.0,1.0,0,0,1
+1637,60304,6,Final Grades,2019,B400-Watts-M1/W1,B400,A,1.0,1.0,0,0,1
+1638,60304,6,Final Grades,2019,C400-Wu-M3/W3,C400,B+,1.0,1.0,0,0,1
+1639,60304,6,Final Grades,2019,D430-Salomon-M2/W2,D430,A+,1.0,1.0,0,0,1
+1640,60365,6,Final Grades,2019,A400-Dalton-T3/H3,A400,I,1.0,0.0,0,0,1
+1641,60365,6,Final Grades,2019,B400-Watts-T1/H1,B400,I,1.0,0.0,0,0,1
+1642,60365,6,Final Grades,2019,C400-Wu-M1/W1,C400,I,1.0,0.0,0,0,1
+1643,60365,6,Final Grades,2019,D430-Salomon-M2/W2,D430,B,1.0,1.0,0,0,1
+1644,60365,6,Final Grades,2019,G022-Entrepreneurship-Calvert-AM,G022,I,1.0,0.0,0,0,1
+1645,60365,6,Final Grades,2019,I142-Robotics-Taylor-PM,I142,P,1.0,1.0,0,0,1
+1646,60388,6,Final Grades,2019,A400-Dalton-M3/W3,A400,A+,1.0,1.0,0,0,1
+1647,60388,6,Final Grades,2019,B400-Watts-T1/H1,B400,I,1.0,0.0,0,0,1
+1648,60388,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+1649,60388,6,Final Grades,2019,D430-Salomon-T2/H2,D430,I,1.0,0.0,0,0,1
+1650,60388,6,Final Grades,2019,E400-Gross-T3/H3,E400,A-,1.0,1.0,0,0,1
+1651,60388,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+1652,60388,6,Final Grades,2019,90425,I1106,P,1.0,1.0,0,0,1
+1653,60400,6,Final Grades,2019,A400-Dalton-M3/W3,A400,A,1.0,1.0,0,0,1
+1654,60400,6,Final Grades,2019,B400-Watts-T2/H2,B400,A,1.0,1.0,0,0,1
+1655,60400,6,Final Grades,2019,C400-Wu-M1/W1,C400,B,1.0,1.0,0,0,1
+1656,60400,6,Final Grades,2019,D430-Salomon-M2/W2,D430,A,1.0,1.0,0,0,1
+1657,60400,6,Final Grades,2019,E400-Gross-T3/H3,E400,B-,1.0,1.0,0,0,1
+1658,60400,6,Final Grades,2019,I139-Internship-Hein-AM,I139,P,1.0,1.0,0,0,1
+1659,60375,6,Final Grades,2019,A400-Dalton-M1/W1,A400,A-,1.0,1.0,0,0,1
+1660,60375,6,Final Grades,2019,B400-Watts-T1/H1,B400,I,1.0,0.0,0,0,1
+1661,60375,6,Final Grades,2019,C400-Wu-M3/W3,C400,A-,1.0,1.0,0,0,1
+1662,60375,6,Final Grades,2019,D430-Salomon-M2/W2,D430,I,1.0,0.0,0,0,1
+1663,60375,6,Final Grades,2019,E300-Gross-T2/H2,E300,B+,1.0,1.0,0,0,1
+1664,60375,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+1665,60342,6,Final Grades,2019,A400-Dalton-M3/W3,A400,B-,1.0,1.0,0,0,1
+1666,60342,6,Final Grades,2019,B400-Watts-M2/W2,B400,I,1.0,0.0,0,0,1
+1667,60342,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+1668,60342,6,Final Grades,2019,D430-Salomon-T1/H1,D430,I,1.0,0.0,0,0,1
+1669,60318,6,Final Grades,2019,A400-Dalton-M3/W3,A400,A+,1.0,1.0,0,0,1
+1670,60318,6,Final Grades,2019,B400-Watts-T1/H1,B400,A,1.0,1.0,0,0,1
+1671,60318,6,Final Grades,2019,C420-Lim-M2/W2,C420,A+,1.0,1.0,0,0,1
+1672,60318,6,Final Grades,2019,D430-Salomon-T2/H2,D430,B+,1.0,1.0,0,0,1
+1673,60318,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+1674,60318,6,Final Grades,2019,90424,I1106,P,1.0,1.0,0,0,1
+1675,60399,6,Final Grades,2019,A400-Dalton-T3/H3,A400,B,1.0,1.0,0,0,1
+1676,60399,6,Final Grades,2019,B400-Watts-M1/W1,B400,I,1.0,0.0,0,0,1
+1677,60399,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+1678,60399,6,Final Grades,2019,D430-Salomon-T1/H1,D430,I,1.0,0.0,0,0,1
+1679,60399,6,Final Grades,2019,I139-Internship-Hein-AM,I139,P,1.0,1.0,0,0,1
+1680,60301,6,Final Grades,2019,A400-Dalton-M3/W3,A400,A,1.0,1.0,0,0,1
+1681,60301,6,Final Grades,2019,B400-Watts-M2/W2,B400,I,1.0,0.0,0,0,1
+1682,60301,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+1683,60301,6,Final Grades,2019,D430-Salomon-T1/H1,D430,I,1.0,0.0,0,0,1
+1684,60301,6,Final Grades,2019,I139-Internship-Hein-AM,I139,P,1.0,1.0,0,0,1
+1685,60372,6,Final Grades,2019,A400-Dalton-T1/H1,A400,A,1.0,1.0,0,0,1
+1686,60372,6,Final Grades,2019,B400-Watts-M1/W1,B400,A,1.0,1.0,0,0,1
+1687,60372,6,Final Grades,2019,C420-Lim-T3/H3,C420,A+,1.0,1.0,0,0,1
+1688,60372,6,Final Grades,2019,D430-Salomon-M3/W3,D430,A,1.0,1.0,0,0,1
+1689,60372,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+1690,60372,6,Final Grades,2019,90426,I1106,P,1.0,1.0,0,0,1
+1691,60333,6,Final Grades,2019,A400-Dalton-M3/W3,A400,B+,1.0,1.0,0,0,1
+1692,60333,6,Final Grades,2019,B400-Watts-M1/W1,B400,I,1.0,0.0,0,0,1
+1693,60333,6,Final Grades,2019,C420-Lim-M2/W2,C420,B+,1.0,1.0,0,0,1
+1694,60333,6,Final Grades,2019,D430-Salomon-T1/H1,D430,B+,1.0,1.0,0,0,1
+1695,60333,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+1696,60426,6,Final Grades,2019,A400-Dalton-M3/W3,A400,A,1.0,1.0,0,0,1
+1697,60426,6,Final Grades,2019,B400-Watts-M2/W2,B400,A+,1.0,1.0,0,0,1
+1698,60426,6,Final Grades,2019,C400-Wu-M1/W1,C400,A,1.0,1.0,0,0,1
+1699,60426,6,Final Grades,2019,D430-Salomon-T2/H2,D430,A,1.0,1.0,0,0,1
+1700,60426,6,Final Grades,2019,E300-Gross-T1/H1,E300,B+,1.0,1.0,0,0,1
+1701,60426,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+1702,60425,6,Final Grades,2019,A400-Dalton-T3/H3,A400,A,1.0,1.0,0,0,1
+1703,60425,6,Final Grades,2019,B400-Watts-M2/W2,B400,A-,1.0,1.0,0,0,1
+1704,60425,6,Final Grades,2019,C400-Wu-M3/W3,C400,B+,1.0,1.0,0,0,1
+1705,60425,6,Final Grades,2019,D430-Salomon-T2/H2,D430,A+,1.0,1.0,0,0,1
+1706,60425,6,Final Grades,2019,E300-Gross-T1/H1,E300,B+,1.0,1.0,0,0,1
+1707,60425,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+1708,60303,6,Final Grades,2019,A400-Dalton-T1/H1,A400,A+,1.0,1.0,0,0,1
+1709,60303,6,Final Grades,2019,B400-Watts-T2/H2,B400,A+,1.0,1.0,0,0,1
+1710,60303,6,Final Grades,2019,C400-Wu-M3/W3,C400,A+,1.0,1.0,0,0,1
+1711,60303,6,Final Grades,2019,D430-Salomon-M2/W2,D430,A+,1.0,1.0,0,0,1
+1712,60303,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+1713,60303,6,Final Grades,2019,90425,I1106,P,1.0,1.0,0,0,1
+1714,60404,6,Final Grades,2019,A400-Dalton-M3/W3,A400,C,1.0,1.0,0,0,1
+1715,60404,6,Final Grades,2019,B400-Watts-T1/H1,B400,C,1.0,1.0,0,0,1
+1716,60404,6,Final Grades,2019,C420-Lim-T3/H3,C420,C+,1.0,1.0,0,0,1
+1717,60404,6,Final Grades,2019,D430-Salomon-M2/W2,D430,C-,1.0,1.0,0,0,1
+1718,60404,6,Final Grades,2019,I139-Internship-Hein-AM,I139,P,1.0,1.0,0,0,1
+1719,60311,6,Final Grades,2019,A400-Dalton-T3/H3,A400,B,1.0,1.0,0,0,1
+1720,60311,6,Final Grades,2019,B400-Watts-T1/H1,B400,B+,1.0,1.0,0,0,1
+1721,60311,6,Final Grades,2019,C420-Lim-M2/W2,C420,B-,1.0,1.0,0,0,1
+1722,60311,6,Final Grades,2019,D430-Salomon-T2/H2,D430,B-,1.0,1.0,0,0,1
+1723,60311,6,Final Grades,2019,89964,I1106CR,P,1.0,1.0,0,0,1
+1724,60419,6,Final Grades,2019,A400-Dalton-T1/H1,A400,B,1.0,1.0,0,0,1
+1725,60419,6,Final Grades,2019,B400-Watts-M1/W1,B400,I,1.0,0.0,0,0,1
+1726,60419,6,Final Grades,2019,C400-Wu-M3/W3,C400,I,1.0,0.0,0,0,1
+1727,60419,6,Final Grades,2019,D430-Salomon-M2/W2,D430,I,1.0,0.0,0,0,1
+1728,60419,6,Final Grades,2019,E300-Gross-T2/H2,E300,C-,1.0,1.0,0,0,1
+1729,60419,6,Final Grades,2019,I1088-Local Wilderness (Half Day)-Wilkins-AM,I1088,P,1.0,1.0,0,0,1
+1730,60419,6,Final Grades,2019,I142-Robotics-Taylor-PM,I142,P,1.0,1.0,0,0,1
+1731,60334,6,Final Grades,2019,A400-Dalton-T1/H1,A400,A,1.0,1.0,0,0,1
+1732,60334,6,Final Grades,2019,B400-Watts-M2/W2,B400,A+,1.0,1.0,0,0,1
+1733,60334,6,Final Grades,2019,C400-Wu-M3/W3,C400,B,1.0,1.0,0,0,1
+1734,60334,6,Final Grades,2019,D430-Salomon-T2/H2,D430,A,1.0,1.0,0,0,1
+1735,60334,6,Final Grades,2019,90423,I1106,P,1.0,1.0,0,0,1
+1736,60334,6,Final Grades,2019,I1611-Community Service (All Day)-Jures-AM,I1611,P,1.0,1.0,0,0,1
+1737,60397,6,Final Grades,2019,A400-Dalton-T1/H1,A400,A,1.0,1.0,0,0,1
+1738,60397,6,Final Grades,2019,B400-Watts-M2/W2,B400,B+,1.0,1.0,0,0,1
+1739,60397,6,Final Grades,2019,D430-Salomon-M3/W3,D430,B,1.0,1.0,0,0,1
+1740,60397,6,Final Grades,2019,E300-Gross-T2/H2,E300,C-,1.0,1.0,0,0,1
+1741,60397,6,Final Grades,2019,G022-Entrepreneurship-Lyming-PM,G022,A+,1.0,1.0,0,0,1
+1742,60397,6,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+1743,60430,6,Final Grades,2019,A400-Dalton-T1/H1,A400,A-,1.0,1.0,0,0,1
+1744,60430,6,Final Grades,2019,B400-Watts-T2/H2,B400,B,1.0,1.0,0,0,1
+1745,60430,6,Final Grades,2019,C420-Lim-T3/H3,C420,A-,1.0,1.0,0,0,1
+1746,60430,6,Final Grades,2019,D430-Salomon-M2/W2,D430,B+,1.0,1.0,0,0,1
+1747,60430,6,Final Grades,2019,F502-Intro to Visual Art-Burchiel-PM,F502,A-,1.0,1.0,0,0,1
+1748,60430,6,Final Grades,2019,F511-Intro to Video Production-Nelson-AM,F511,A+,1.0,1.0,0,0,1
+1749,60310,6,Final Grades,2019,A400-Dalton-M3/W3,A400,I,1.0,0.0,0,0,1
+1750,60310,6,Final Grades,2019,B400-Watts-T2/H2,B400,B-,1.0,1.0,0,0,1
+1751,60310,6,Final Grades,2019,C400-Wu-M1/W1,C400,B+,1.0,1.0,0,0,1
+1752,60310,6,Final Grades,2019,D430-Salomon-M2/W2,D430,I,1.0,0.0,0,0,1
+1753,60349,6,Final Grades,2019,A400-Dalton-T1/H1,A400,C+,1.0,1.0,0,0,1
+1754,60349,6,Final Grades,2019,B400-Watts-M2/W2,B400,B,1.0,1.0,0,0,1
+1755,60349,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+1756,60349,6,Final Grades,2019,D430-Salomon-M3/W3,D430,C+,1.0,1.0,0,0,1
+1757,60349,6,Final Grades,2019,G299-Multimedia Political Journalism-DeOrnellas-AM,F299,A+,1.0,1.0,0,0,1
+1758,60349,6,Final Grades,2019,I298-Research & Advocacy in Human Rights-Marinkovich-PM,I298,P,1.0,1.0,0,0,1
+1759,60315,6,Final Grades,2019,A400-Dalton-T3/H3,A400,A-,1.0,1.0,0,0,1
+1760,60315,6,Final Grades,2019,B400-Watts-T1/H1,B400,A,1.0,1.0,0,0,1
+1761,60315,6,Final Grades,2019,C400-Wu-M1/W1,C400,B,1.0,1.0,0,0,1
+1762,60315,6,Final Grades,2019,D430-Salomon-M3/W3,D430,B+,1.0,1.0,0,0,1
+1763,60315,6,Final Grades,2019,I231-Creative Writing-DeOrnellas-PM,F231,A+,1.0,1.0,0,0,1
+1764,60315,6,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+1765,60427,6,Final Grades,2019,A400-Dalton-T3/H3,A400,B+,1.0,1.0,0,0,1
+1766,60427,6,Final Grades,2019,B400-Watts-T1/H1,B400,A,1.0,1.0,0,0,1
+1767,60427,6,Final Grades,2019,C400-Wu-M1/W1,C400,B,1.0,1.0,0,0,1
+1768,60427,6,Final Grades,2019,D430-Salomon-M3/W3,D430,B+,1.0,1.0,0,0,1
+1769,60427,6,Final Grades,2019,90426,I1106,P,1.0,1.0,0,0,1
+1770,60427,6,Final Grades,2019,I298-Research & Advocacy in Human Rights-Marinkovich-PM,I298,P,1.0,1.0,0,0,1
+1771,60427,6,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+1772,60337,6,Final Grades,2019,A400-Dalton-T3/H3,A400,A-,1.0,1.0,0,0,1
+1773,60337,6,Final Grades,2019,B400-Watts-T2/H2,B400,A,1.0,1.0,0,0,1
+1774,60337,6,Final Grades,2019,C400-Wu-M3/W3,C400,B-,1.0,1.0,0,0,1
+1775,60337,6,Final Grades,2019,D430-Salomon-M2/W2,D430,B+,1.0,1.0,0,0,1
+1776,60337,6,Final Grades,2019,F503-Intermediate Visual Art-Burchiel-AM,F503,B-,1.0,1.0,0,0,1
+1777,60337,6,Final Grades,2019,I700-Advanced Cooking-Hein-PM,I700,P,1.0,1.0,0,0,1
+1778,60591,6,Final Grades,2019,A400-Dalton-M3/W3,A400,B,1.0,1.0,0,0,1
+1779,60591,6,Final Grades,2019,B400-Watts-M1/W1,B400,B,1.0,1.0,0,0,1
+1780,60591,6,Final Grades,2019,C320-Pattabiraman-T2/H2,C320,B,1.0,1.0,0,0,1
+1781,60591,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+1782,60591,6,Final Grades,2019,D430-Salomon-M2/W2,D430,I,1.0,0.0,0,0,1
+1783,60591,6,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+1784,60591,6,Final Grades,2019,I700-Advanced Cooking-Hein-PM,I700,P,1.0,1.0,0,0,1
+1785,60336,6,Final Grades,2019,A400-Dalton-M1/W1,A400,A,1.0,1.0,0,0,1
+1786,60336,6,Final Grades,2019,B400-Watts-T2/H2,B400,A+,1.0,1.0,0,0,1
+1787,60336,6,Final Grades,2019,C400-Wu-M3/W3,C400,B+,1.0,1.0,0,0,1
+1788,60336,6,Final Grades,2019,C420-Lim-M2/W2,C420,A,1.0,1.0,0,0,1
+1789,60336,6,Final Grades,2019,D430-Salomon-T1/H1,D430,A,1.0,1.0,0,0,1
+1790,60336,6,Final Grades,2019,I139-Internship-Hein-AM,I139,P,1.0,1.0,0,0,1
+1791,60292,6,Final Grades,2019,A400-Dalton-M1/W1,A400,A-,1.0,1.0,0,0,1
+1792,60292,6,Final Grades,2019,B400-Watts-T2/H2,B400,A-,1.0,1.0,0,0,1
+1793,60292,6,Final Grades,2019,C420-Lim-M2/W2,C420,A,1.0,1.0,0,0,1
+1794,60292,6,Final Grades,2019,D430-Salomon-T1/H1,D430,A,1.0,1.0,0,0,1
+1795,60312,6,Final Grades,2019,A400-Dalton-M1/W1,A400,I,1.0,0.0,0,0,1
+1796,60312,6,Final Grades,2019,B400-Watts-M2/W2,B400,I,1.0,0.0,0,0,1
+1797,60312,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+1798,60312,6,Final Grades,2019,D430-Salomon-T1/H1,D430,I,1.0,0.0,0,0,1
+1799,60312,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,NP,1.0,0.0,0,0,1
+1800,60423,6,Final Grades,2019,A400-Dalton-T1/H1,A400,B-,1.0,1.0,0,0,1
+1801,60423,6,Final Grades,2019,B400-Watts-M1/W1,B400,I,1.0,0.0,0,0,1
+1802,60423,6,Final Grades,2019,D430-Salomon-M3/W3,D430,I,1.0,0.0,0,0,1
+1803,60327,6,Final Grades,2019,A400-Dalton-M3/W3,A400,B,1.0,1.0,0,0,1
+1804,60327,6,Final Grades,2019,B400-Watts-M2/W2,B400,A-,1.0,1.0,0,0,1
+1805,60327,6,Final Grades,2019,C400-Wu-M1/W1,C400,I,1.0,0.0,0,0,1
+1806,60327,6,Final Grades,2019,D430-Salomon-T1/H1,D430,A-,1.0,1.0,0,0,1
+1807,60327,6,Final Grades,2019,I139-Internship-Hein-AM,I139,P,1.0,1.0,0,0,1
+1808,60335,6,Final Grades,2019,A400-Dalton-T3/H3,A400,A+,1.0,1.0,0,0,1
+1809,60335,6,Final Grades,2019,B400-Watts-T2/H2,B400,A+,1.0,1.0,0,0,1
+1810,60335,6,Final Grades,2019,C400-Wu-M1/W1,C400,A-,1.0,1.0,0,0,1
+1811,60335,6,Final Grades,2019,D430-Salomon-M3/W3,D430,A,1.0,1.0,0,0,1
+1812,60335,6,Final Grades,2019,E300-Gross-T1/H1,E300,A,1.0,1.0,0,0,1
+1813,60335,6,Final Grades,2019,I139-Internship-Hein-AM,I139,P,1.0,1.0,0,0,1
+1814,60364,6,Final Grades,2019,A400-Dalton-M3/W3,A400,A,1.0,1.0,0,0,1
+1815,60364,6,Final Grades,2019,B400-Watts-T2/H2,B400,A-,1.0,1.0,0,0,1
+1816,60364,6,Final Grades,2019,C400-Wu-M1/W1,C400,A-,1.0,1.0,0,0,1
+1817,60364,6,Final Grades,2019,D430-Salomon-M2/W2,D430,A-,1.0,1.0,0,0,1
+1818,60364,6,Final Grades,2019,E300-Gross-T1/H1,E300,C+,1.0,1.0,0,0,1
+1819,60364,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+1820,60408,6,Final Grades,2019,A400-Dalton-T1/H1,A400,B-,1.0,1.0,0,0,1
+1821,60408,6,Final Grades,2019,B400-Watts-M1/W1,B400,I,1.0,0.0,0,0,1
+1822,60408,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+1823,60408,6,Final Grades,2019,D430-Salomon-T2/H2,D430,I,1.0,0.0,0,0,1
+1824,60408,6,Final Grades,2019,I139-Internship-Hein-AM,I139,P,1.0,1.0,0,0,1
+1825,60378,6,Final Grades,2019,A400-Dalton-T3/H3,A400,I,1.0,0.0,0,0,1
+1826,60378,6,Final Grades,2019,B400-Watts-T1/H1,B400,I,1.0,0.0,0,0,1
+1827,60378,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+1828,60378,6,Final Grades,2019,D430-Salomon-M3/W3,D430,I,1.0,0.0,0,0,1
+1829,60378,6,Final Grades,2019,I298-Research & Advocacy in Human Rights-Marinkovich-PM,I298,P,1.0,1.0,0,0,1
+1830,60378,6,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+1831,60403,6,Final Grades,2019,A400-Dalton-T3/H3,A400,A-,1.0,1.0,0,0,1
+1832,60403,6,Final Grades,2019,B400-Watts-T1/H1,B400,A,1.0,1.0,0,0,1
+1833,60403,6,Final Grades,2019,C420-Lim-M2/W2,C420,A-,1.0,1.0,0,0,1
+1834,60403,6,Final Grades,2019,D430-Salomon-M3/W3,D430,A-,1.0,1.0,0,0,1
+1835,60403,6,Final Grades,2019,E300-Gross-T2/H2,E300,B+,1.0,1.0,0,0,1
+1836,60403,6,Final Grades,2019,I139-Internship-Hein-AM,I139,P,1.0,1.0,0,0,1
+1837,60754,6,Final Grades,2019,A400-Dalton-M1/W1,A400,A-,1.0,1.0,0,0,1
+1838,60754,6,Final Grades,2019,B400-Watts-T1/H1,B400,I,1.0,0.0,0,0,1
+1839,60754,6,Final Grades,2019,C320-Pattabiraman-M2/W2,C320,C,1.0,1.0,0,0,1
+1840,60754,6,Final Grades,2019,D430-Salomon-M3/W3,D430,I,1.0,0.0,0,0,1
+1841,60754,6,Final Grades,2019,E100-Odom-T2/H2,E100,NO GRADE,1.0,1.0,0,0,1
+1842,60754,6,Final Grades,2019,G297-Human Rights-Marinkovich-AM,G297,C,1.0,1.0,0,0,1
+1843,60754,6,Final Grades,2019,I298-Research & Advocacy in Human Rights-Marinkovich-PM,I298,P,1.0,1.0,0,0,1
+1844,60756,6,Final Grades,2019,A400-Dalton-M1/W1,A400,B+,1.0,1.0,0,0,1
+1845,60756,6,Final Grades,2019,B400-Watts-T1/H1,B400,C+,1.0,1.0,0,0,1
+1846,60756,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+1847,60756,6,Final Grades,2019,D430-Salomon-T2/H2,D430,I,1.0,0.0,0,0,1
+1848,60756,6,Final Grades,2019,E400-Gross-T3/H3,E400,B-,1.0,1.0,0,0,1
+1849,60756,6,Final Grades,2019,I121-Human Sexuality-Daily-PM,I121,P,1.0,1.0,0,0,1
+1850,60756,6,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+1851,60344,6,Final Grades,2019,A400-Dalton-M3/W3,A400,I,1.0,0.0,0,0,1
+1852,60344,6,Final Grades,2019,B400-Watts-T1/H1,B400,I,1.0,0.0,0,0,1
+1853,60344,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+1854,60344,6,Final Grades,2019,D430-Salomon-T2/H2,D430,I,1.0,0.0,0,0,1
+1855,60344,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+1856,60384,6,Final Grades,2019,A400-Dalton-M1/W1,A400,A-,1.0,1.0,0,0,1
+1857,60384,6,Final Grades,2019,B400-Watts-M2/W2,B400,A,1.0,1.0,0,0,1
+1858,60384,6,Final Grades,2019,C420-Lim-T3/H3,C420,A,1.0,1.0,0,0,1
+1859,60384,6,Final Grades,2019,D430-Salomon-M3/W3,D430,A-,1.0,1.0,0,0,1
+1860,60384,6,Final Grades,2019,E300-Gross-T1/H1,E300,B-,1.0,1.0,0,0,1
+1861,60384,6,Final Grades,2019,I139-Internship-Hein-AM,I139,P,1.0,1.0,0,0,1
+1862,60326,6,Final Grades,2019,A400-Dalton-M3/W3,A400,B,1.0,1.0,0,0,1
+1863,60326,6,Final Grades,2019,B400-Watts-M2/W2,B400,C+,1.0,1.0,0,0,1
+1864,60326,6,Final Grades,2019,C420-Lim-T3/H3,C420,C+,1.0,1.0,0,0,1
+1865,60326,6,Final Grades,2019,D430-Salomon-T2/H2,D430,B,1.0,1.0,0,0,1
+1866,60402,6,Final Grades,2019,A400-Dalton-M3/W3,A400,A,1.0,1.0,0,0,1
+1867,60402,6,Final Grades,2019,B400-Watts-M1/W1,B400,A,1.0,1.0,0,0,1
+1868,60402,6,Final Grades,2019,C420-Lim-T3/H3,C420,A+,1.0,1.0,0,0,1
+1869,60402,6,Final Grades,2019,D430-Salomon-M2/W2,D430,A,1.0,1.0,0,0,1
+1870,60380,6,Final Grades,2019,A400-Dalton-T3/H3,A400,A+,1.0,1.0,0,0,1
+1871,60380,6,Final Grades,2019,B400-Watts-T2/H2,B400,A+,1.0,1.0,0,0,1
+1872,60380,6,Final Grades,2019,C400-Wu-M1/W1,C400,B,1.0,1.0,0,0,1
+1873,60380,6,Final Grades,2019,D430-Salomon-M3/W3,D430,A+,1.0,1.0,0,0,1
+1874,60380,6,Final Grades,2019,E300-Gross-T1/H1,E300,A-,1.0,1.0,0,0,1
+1875,60380,6,Final Grades,2019,90426,I1106,P,1.0,1.0,0,0,1
+1876,60380,6,Final Grades,2019,I1611-Community Service (All Day)-Jures-AM,I1611,P,1.0,1.0,0,0,1
+1877,60271,6,Final Grades,2019,A400-Dalton-M1/W1,A400,I,1.0,0.0,0,0,1
+1878,60271,6,Final Grades,2019,B400-Watts-M2/W2,B400,I,1.0,0.0,0,0,1
+1879,60271,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+1880,60271,6,Final Grades,2019,D430-Salomon-T2/H2,D430,I,1.0,0.0,0,0,1
+1881,20923,6,Final Grades,2019,A400-Dalton-M1/W1,A400,I,1.0,0.0,0,0,1
+1882,20923,6,Final Grades,2019,B400-Watts-T2/H2,B400,I,1.0,0.0,0,0,1
+1883,20923,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+1884,20923,6,Final Grades,2019,D430-Salomon-M3/W3,D430,I,1.0,0.0,0,0,1
+1885,20923,6,Final Grades,2019,E400-Gross-T3/H3,E400,C-,1.0,1.0,0,0,1
+1886,60356,6,Final Grades,2019,A400-Dalton-M1/W1,A400,A+,1.0,1.0,0,0,1
+1887,60356,6,Final Grades,2019,B400-Watts-T1/H1,B400,A+,1.0,1.0,0,0,1
+1888,60356,6,Final Grades,2019,C420-Lim-M2/W2,C420,A+,1.0,1.0,0,0,1
+1889,60356,6,Final Grades,2019,D430-Salomon-T2/H2,D430,A+,1.0,1.0,0,0,1
+1890,60383,6,Final Grades,2019,A400-Dalton-T1/H1,A400,A,1.0,1.0,0,0,1
+1891,60383,6,Final Grades,2019,B400-Watts-T2/H2,B400,B,1.0,1.0,0,0,1
+1892,60383,6,Final Grades,2019,C400-Wu-M1/W1,C400,I,1.0,0.0,0,0,1
+1893,60383,6,Final Grades,2019,D430-Salomon-M3/W3,D430,I,1.0,0.0,0,0,1
+1894,60383,6,Final Grades,2019,E400-Gross-T3/H3,E400,I,1.0,0.0,0,0,1
+1895,60299,6,Final Grades,2019,A400-Dalton-M1/W1,A400,C+,1.0,1.0,0,0,1
+1896,60299,6,Final Grades,2019,B400-Watts-T2/H2,B400,B-,1.0,1.0,0,0,1
+1897,60299,6,Final Grades,2019,C420-Lim-M2/W2,C420,B,1.0,1.0,0,0,1
+1898,60299,6,Final Grades,2019,D430-Salomon-T1/H1,D430,C+,1.0,1.0,0,0,1
+1899,60370,6,Final Grades,2019,A300-Dayon-M3/W3,A300,I,1.0,0.0,0,0,1
+1900,60370,6,Final Grades,2019,A400-Dalton-T3/H3,A400,I,1.0,0.0,0,0,1
+1901,60370,6,Final Grades,2019,B400-Watts-M1/W1,B400,I,1.0,0.0,0,0,1
+1902,60370,6,Final Grades,2019,D430-Salomon-T2/H2,D430,I,1.0,0.0,0,0,1
+1903,60370,6,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+1904,60370,6,Final Grades,2019,I700-Advanced Cooking-Hein-PM,I700,P,1.0,1.0,0,0,1
+1905,60319,6,Final Grades,2019,A400-Dalton-T3/H3,A400,A-,1.0,1.0,0,0,1
+1906,60319,6,Final Grades,2019,B400-Watts-M1/W1,B400,A-,1.0,1.0,0,0,1
+1907,60319,6,Final Grades,2019,C400-Wu-M3/W3,C400,B,1.0,1.0,0,0,1
+1908,60319,6,Final Grades,2019,C420-Lim-M2/W2,C420,A,1.0,1.0,0,0,1
+1909,60319,6,Final Grades,2019,D430-Salomon-T1/H1,D430,B,1.0,1.0,0,0,1
+1910,60319,6,Final Grades,2019,90429,I1106,P,1.0,1.0,0,0,1
+1911,60319,6,Final Grades,2019,89965,I1106CF,P,1.0,1.0,0,0,1
+1912,60319,6,Final Grades,2019,I700-Advanced Cooking-Hein-PM,I700,P,1.0,1.0,0,0,1
+1913,60368,6,Final Grades,2019,A400-Dalton-T1/H1,A400,C,1.0,1.0,0,0,1
+1914,60368,6,Final Grades,2019,B400-Watts-T2/H2,B400,I,1.0,0.0,0,0,1
+1915,60368,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+1916,60368,6,Final Grades,2019,D430-Salomon-M2/W2,D430,I,1.0,0.0,0,0,1
+1917,60746,6,Final Grades,2019,A400-Dalton-T1/H1,A400,B,1.0,1.0,0,0,1
+1918,60746,6,Final Grades,2019,B400-Watts-M2/W2,B400,B,1.0,1.0,0,0,1
+1919,60746,6,Final Grades,2019,C420-Lim-T3/H3,C420,B,1.0,1.0,0,0,1
+1920,60746,6,Final Grades,2019,D430-Salomon-M3/W3,D430,B-,1.0,1.0,0,0,1
+1921,60746,6,Final Grades,2019,E200-Morales-T2/H2,E200,A,1.0,1.0,0,0,1
+1922,60746,6,Final Grades,2019,I121-Human Sexuality-Daily-PM,I121,P,1.0,1.0,0,0,1
+1923,60746,6,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+1924,60358,6,Final Grades,2019,A400-Dalton-M3/W3,A400,C-,1.0,1.0,0,0,1
+1925,60358,6,Final Grades,2019,B400-Watts-M1/W1,B400,I,1.0,0.0,0,0,1
+1926,60358,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+1927,60358,6,Final Grades,2019,D430-Salomon-T1/H1,D430,I,1.0,0.0,0,0,1
+1928,60347,6,Final Grades,2019,A400-Dalton-T3/H3,A400,A-,1.0,1.0,0,0,1
+1929,60347,6,Final Grades,2019,B400-Watts-M2/W2,B400,B+,1.0,1.0,0,0,1
+1930,60347,6,Final Grades,2019,C400-Wu-M1/W1,C400,I,1.0,0.0,0,0,1
+1931,60347,6,Final Grades,2019,D430-Salomon-T2/H2,D430,B+,1.0,1.0,0,0,1
+1932,60347,6,Final Grades,2019,E300-Gross-M3/W3,E300,B-,1.0,1.0,0,0,1
+1933,60434,6,Final Grades,2019,A400-Dalton-M1/W1,A400,B+,1.0,1.0,0,0,1
+1934,60434,6,Final Grades,2019,B400-Watts-T2/H2,B400,A,1.0,1.0,0,0,1
+1935,60434,6,Final Grades,2019,C420-Lim-M2/W2,C420,A-,1.0,1.0,0,0,1
+1936,60434,6,Final Grades,2019,D430-Salomon-T1/H1,D430,B+,1.0,1.0,0,0,1
+1937,60434,6,Final Grades,2019,E400-Gross-T3/H3,E400,B,1.0,1.0,0,0,1
+1938,60434,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+1939,60405,6,Final Grades,2019,A400-Dalton-M1/W1,A400,B-,1.0,1.0,0,0,1
+1940,60405,6,Final Grades,2019,B400-Watts-T1/H1,B400,I,1.0,0.0,0,0,1
+1941,60405,6,Final Grades,2019,C400-Wu-M3/W3,C400,C-,1.0,1.0,0,0,1
+1942,60405,6,Final Grades,2019,D430-Salomon-T2/H2,D430,I,1.0,0.0,0,0,1
+1943,60405,6,Final Grades,2019,I298-Research & Advocacy in Human Rights-Marinkovich-PM,I298,P,1.0,1.0,0,0,1
+1944,60405,6,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+1945,60323,6,Final Grades,2019,A400-Dalton-M1/W1,A400,B,1.0,1.0,0,0,1
+1946,60323,6,Final Grades,2019,B400-Watts-T2/H2,B400,A,1.0,1.0,0,0,1
+1947,60323,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+1948,60323,6,Final Grades,2019,D430-Salomon-T1/H1,D430,B,1.0,1.0,0,0,1
+1949,60323,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+1950,60323,6,Final Grades,2019,90422,I1106,P,1.0,1.0,0,0,1
+1951,60406,6,Final Grades,2019,A400-Dalton-M3/W3,A400,B+,1.0,1.0,0,0,1
+1952,60406,6,Final Grades,2019,B400-Watts-M1/W1,B400,I,1.0,0.0,0,0,1
+1953,60406,6,Final Grades,2019,C420-Lim-T3/H3,C420,A-,1.0,1.0,0,0,1
+1954,60406,6,Final Grades,2019,D430-Salomon-M2/W2,D430,A-,1.0,1.0,0,0,1
+1955,60406,6,Final Grades,2019,E300-Gross-T2/H2,E300,B,1.0,1.0,0,0,1
+1956,60406,6,Final Grades,2019,90437,I1106,P,1.0,1.0,0,0,1
+1957,60406,6,Final Grades,2019,89970,I1106OA,P,1.0,1.0,0,0,1
+1958,60273,6,Final Grades,2019,A400-Dalton-T1/H1,A400,A,1.0,1.0,0,0,1
+1959,60273,6,Final Grades,2019,B400-Watts-M1/W1,B400,A+,1.0,1.0,0,0,1
+1960,60273,6,Final Grades,2019,C420-Lim-M2/W2,C420,A+,1.0,1.0,0,0,1
+1961,60273,6,Final Grades,2019,D430-Salomon-T2/H2,D430,A,1.0,1.0,0,0,1
+1962,60273,6,Final Grades,2019,E400-Gross-T3/H3,E400,B+,1.0,1.0,0,0,1
+1963,60273,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+1964,60409,6,Final Grades,2019,A400-Dalton-M3/W3,A400,B-,1.0,1.0,0,0,1
+1965,60409,6,Final Grades,2019,B400-Watts-M1/W1,B400,I,1.0,0.0,0,0,1
+1966,60409,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+1967,60409,6,Final Grades,2019,D430-Salomon-M2/W2,D430,I,1.0,0.0,0,0,1
+1968,60409,6,Final Grades,2019,I231-Creative Writing-DeOrnellas-PM,F231,A+,1.0,1.0,0,0,1
+1969,60409,6,Final Grades,2019,G299-Multimedia Political Journalism-DeOrnellas-AM,F299,A+,1.0,1.0,0,0,1
+1970,60392,6,Final Grades,2019,A400-Dalton-T3/H3,A400,I,1.0,0.0,0,0,1
+1971,60392,6,Final Grades,2019,B400-Watts-M1/W1,B400,I,1.0,0.0,0,0,1
+1972,60392,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+1973,60392,6,Final Grades,2019,D320-McCarty-T1/H1,D320,I,1.0,0.0,0,0,1
+1974,60392,6,Final Grades,2019,D430-Salomon-M3/W3,D430,I,1.0,0.0,0,0,1
+1975,60416,6,Final Grades,2019,A400-Dalton-M1/W1,A400,C-,1.0,1.0,0,0,1
+1976,60416,6,Final Grades,2019,B400-Watts-T1/H1,B400,I,1.0,0.0,0,0,1
+1977,60416,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+1978,60416,6,Final Grades,2019,D430-Salomon-M3/W3,D430,I,1.0,0.0,0,0,1
+1979,60416,6,Final Grades,2019,I1122-Stage Combat-Brown-PM,I1122,P,1.0,1.0,0,0,1
+1980,60416,6,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+1981,60376,6,Final Grades,2019,A400-Dalton-M3/W3,A400,A+,1.0,1.0,0,0,1
+1982,60376,6,Final Grades,2019,B400-Watts-T2/H2,B400,I,1.0,0.0,0,0,1
+1983,60376,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+1984,60376,6,Final Grades,2019,D430-Salomon-T1/H1,D430,I,1.0,0.0,0,0,1
+1985,60376,6,Final Grades,2019,E400-Gross-T3/H3,E400,A-,1.0,1.0,0,0,1
+1986,60376,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+1987,60294,6,Final Grades,2019,A400-Dalton-M3/W3,A400,A+,1.0,1.0,0,0,1
+1988,60294,6,Final Grades,2019,B400-Watts-M1/W1,B400,A-,1.0,1.0,0,0,1
+1989,60294,6,Final Grades,2019,C420-Lim-M2/W2,C420,A,1.0,1.0,0,0,1
+1990,60294,6,Final Grades,2019,D430-Salomon-T1/H1,D430,I,1.0,0.0,0,0,1
+1991,60294,6,Final Grades,2019,,I1106,,1.0,1.0,0,0,1
+1992,60290,6,Final Grades,2019,A400-Dalton-T1/H1,A400,B-,1.0,1.0,0,0,1
+1993,60290,6,Final Grades,2019,B400-Watts-M1/W1,B400,B,1.0,1.0,0,0,1
+1994,60290,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+1995,60290,6,Final Grades,2019,D430-Salomon-M3/W3,D430,I,1.0,0.0,0,0,1
+1996,60290,6,Final Grades,2019,F503-Intermediate Visual Art-Burchiel-AM,F503,A+,1.0,1.0,0,0,1
+1997,60290,6,Final Grades,2019,I298-Research & Advocacy in Human Rights-Marinkovich-PM,I298,NP,1.0,0.0,0,0,1
+1998,60357,6,Final Grades,2019,A400-Dalton-M3/W3,A400,B+,1.0,1.0,0,0,1
+1999,60357,6,Final Grades,2019,B400-Watts-M1/W1,B400,B,1.0,1.0,0,0,1
+2000,60357,6,Final Grades,2019,C420-Lim-M2/W2,C420,B,1.0,1.0,0,0,1
+2001,60357,6,Final Grades,2019,D430-Salomon-T1/H1,D430,A-,1.0,1.0,0,0,1
+2002,60357,6,Final Grades,2019,E400-Gross-T3/H3,E400,B-,1.0,1.0,0,0,1
+2003,60357,6,Final Grades,2019,F503-Intermediate Visual Art-Burchiel-AM,F503,A+,1.0,1.0,0,0,1
+2004,60357,6,Final Grades,2019,I1088-Local Wilderness (Half Day)-Wilkins-PM,I1088,P,1.0,1.0,0,0,1
+2005,60331,6,Final Grades,2019,A400-Dalton-M3/W3,A400,B,1.0,1.0,0,0,1
+2006,60331,6,Final Grades,2019,B400-Watts-M1/W1,B400,A-,1.0,1.0,0,0,1
+2007,60331,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+2008,60331,6,Final Grades,2019,D430-Salomon-T1/H1,D430,B+,1.0,1.0,0,0,1
+2009,60331,6,Final Grades,2019,E300-Gross-T2/H2,E300,B-,1.0,1.0,0,0,1
+2010,60331,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+2011,60539,6,Final Grades,2019,A400-Dalton-T1/H1,A400,B+,1.0,1.0,0,0,1
+2012,60539,6,Final Grades,2019,B400-Watts-M2/W2,B400,B,1.0,1.0,0,0,1
+2013,60539,6,Final Grades,2019,C400-Wu-M1/W1,C400,I,1.0,0.0,0,0,1
+2014,60539,6,Final Grades,2019,D430-Salomon-M3/W3,D430,B,1.0,1.0,0,0,1
+2015,60539,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,NP,1.0,0.0,0,0,1
+2016,60351,6,Final Grades,2019,A400-Dalton-T1/H1,A400,B+,1.0,1.0,0,0,1
+2017,60351,6,Final Grades,2019,B400-Watts-T2/H2,B400,A+,1.0,1.0,0,0,1
+2018,60351,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+2019,60351,6,Final Grades,2019,D430-Salomon-M3/W3,D430,I,1.0,0.0,0,0,1
+2020,60351,6,Final Grades,2019,90428,I1106,P,1.0,1.0,0,0,1
+2021,60351,6,Final Grades,2019,I1611-Community Service (All Day)-Jures-AM,I1611,P,1.0,1.0,0,0,1
+2022,60325,6,Final Grades,2019,A400-Dalton-M3/W3,A400,B-,1.0,1.0,0,0,1
+2023,60325,6,Final Grades,2019,B400-Watts-M2/W2,B400,I,1.0,0.0,0,0,1
+2024,60325,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+2025,60325,6,Final Grades,2019,D430-Salomon-T1/H1,D430,I,1.0,0.0,0,0,1
+2026,60325,6,Final Grades,2019,I300-Adulting 101-Calvert-PM,I300,P,1.0,1.0,0,0,1
+2027,60325,6,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+2028,60338,6,Final Grades,2019,A400-Dalton-M1/W1,A400,I,1.0,0.0,0,0,1
+2029,60338,6,Final Grades,2019,B400-Watts-T2/H2,B400,I,1.0,0.0,0,0,1
+2030,60338,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+2031,60338,6,Final Grades,2019,D430-Salomon-T1/H1,D430,I,1.0,0.0,0,0,1
+2032,60338,6,Final Grades,2019,G297-Human Rights-Marinkovich-AM,G297,B,1.0,1.0,0,0,1
+2033,60338,6,Final Grades,2019,I298-Research & Advocacy in Human Rights-Marinkovich-PM,I298,P,1.0,1.0,0,0,1
+2034,60302,6,Final Grades,2019,A400-Dalton-M1/W1,A400,A+,1.0,1.0,0,0,1
+2035,60302,6,Final Grades,2019,B400-Watts-T1/H1,B400,A,1.0,1.0,0,0,1
+2036,60302,6,Final Grades,2019,C400-Wu-M3/W3,C400,A-,1.0,1.0,0,0,1
+2037,60302,6,Final Grades,2019,C420-Lim-T3/H3,C420,A+,1.0,1.0,0,0,1
+2038,60302,6,Final Grades,2019,D430-Salomon-M2/W2,D430,A,1.0,1.0,0,0,1
+2039,60589,6,Final Grades,2019,A400-Dalton-M3/W3,A400,A+,1.0,1.0,0,0,1
+2040,60589,6,Final Grades,2019,B400-Watts-M1/W1,B400,I,1.0,0.0,0,0,1
+2041,60589,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+2042,60589,6,Final Grades,2019,D430-Salomon-T2/H2,D430,I,1.0,0.0,0,0,1
+2043,60589,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+2044,60589,6,Final Grades,2019,90426,I1106,P,1.0,1.0,0,0,1
+2045,60291,6,Final Grades,2019,A400-Dalton-M1/W1,A400,B,1.0,1.0,0,0,1
+2046,60291,6,Final Grades,2019,B400-Watts-M2/W2,B400,I,1.0,0.0,0,0,1
+2047,60291,6,Final Grades,2019,C400-Wu-M3/W3,C400,I,1.0,0.0,0,0,1
+2048,60291,6,Final Grades,2019,D430-Salomon-T2/H2,D430,I,1.0,0.0,0,0,1
+2049,60291,6,Final Grades,2019,I142-Robotics-Taylor-PM,I142,NP,1.0,0.0,0,0,1
+2050,60291,6,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+2051,60401,6,Final Grades,2019,A400-Dalton-M1/W1,A400,C+,1.0,1.0,0,0,1
+2052,60401,6,Final Grades,2019,B400-Watts-M2/W2,B400,I,1.0,0.0,0,0,1
+2053,60401,6,Final Grades,2019,C420-Lim-T3/H3,C420,C+,1.0,1.0,0,0,1
+2054,60401,6,Final Grades,2019,D430-Salomon-T2/H2,D430,C+,1.0,1.0,0,0,1
+2055,60401,6,Final Grades,2019,I1088-Local Wilderness (Half Day)-Wilkins-AM,I1088,P,1.0,1.0,0,0,1
+2056,60401,6,Final Grades,2019,I1122-Stage Combat-Brown-PM,I1122,P,1.0,1.0,0,0,1
+2057,60339,6,Final Grades,2019,A400-Dalton-T1/H1,A400,A-,1.0,1.0,0,0,1
+2058,60339,6,Final Grades,2019,B400-Watts-T2/H2,B400,A+,1.0,1.0,0,0,1
+2059,60339,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+2060,60339,6,Final Grades,2019,D430-Salomon-M3/W3,D430,A-,1.0,1.0,0,0,1
+2061,60339,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+2062,60758,6,Final Grades,2019,A400-Dalton-M3/W3,A400,A-,1.0,1.0,0,0,1
+2063,60758,6,Final Grades,2019,B400-Watts-T1/H1,B400,A-,1.0,1.0,0,0,1
+2064,60758,6,Final Grades,2019,C320-Pattabiraman-M1/W1,C320,B-,1.0,1.0,0,0,1
+2065,60758,6,Final Grades,2019,D430-Salomon-T2/H2,D430,A-,1.0,1.0,0,0,1
+2066,60758,6,Final Grades,2019,G101-Intro to Psychology-Rikhter-AM,G101,A+,1.0,1.0,0,0,1
+2067,60758,6,Final Grades,2019,I1088-Local Wilderness (Half Day)-Wilkins-PM,I1088,P,1.0,1.0,0,0,1
+2068,60596,6,Final Grades,2019,A400-Dalton-T3/H3,A400,A-,1.0,1.0,0,0,1
+2069,60596,6,Final Grades,2019,B400-Watts-T2/H2,B400,A,1.0,1.0,0,0,1
+2070,60596,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+2071,60596,6,Final Grades,2019,D430-Salomon-M3/W3,D430,B,1.0,1.0,0,0,1
+2072,60396,6,Final Grades,2019,A400-Dalton-T3/H3,A400,I,1.0,0.0,0,0,1
+2073,60396,6,Final Grades,2019,B400-Watts-T1/H1,B400,I,1.0,0.0,0,0,1
+2074,60396,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+2075,60396,6,Final Grades,2019,D430-Salomon-M3/W3,D430,I,1.0,0.0,0,0,1
+2076,60396,6,Final Grades,2019,I1088-Local Wilderness (Half Day)-Wilkins-AM,I1088,NP,1.0,0.0,0,0,1
+2077,60396,6,Final Grades,2019,I298-Research & Advocacy in Human Rights-Marinkovich-PM,I298,NP,1.0,0.0,0,0,1
+2078,60382,6,Final Grades,2019,A400-Dalton-M3/W3,A400,A+,1.0,1.0,0,0,1
+2079,60382,6,Final Grades,2019,B400-Watts-T2/H2,B400,A+,1.0,1.0,0,0,1
+2080,60382,6,Final Grades,2019,C420-Lim-T3/H3,C420,A+,1.0,1.0,0,0,1
+2081,60382,6,Final Grades,2019,D430-Salomon-M2/W2,D430,A+,1.0,1.0,0,0,1
+2082,60382,6,Final Grades,2019,90427,I1106,P,1.0,1.0,0,0,1
+2083,60382,6,Final Grades,2019,89967,I1106HS,P,1.0,1.0,0,0,1
+2084,60382,6,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+2085,60314,6,Final Grades,2019,A400-Dalton-M3/W3,A400,A-,1.0,1.0,0,0,1
+2086,60314,6,Final Grades,2019,B400-Watts-M1/W1,B400,B,1.0,1.0,0,0,1
+2087,60314,6,Final Grades,2019,C420-Lim-T3/H3,C420,I,1.0,0.0,0,0,1
+2088,60314,6,Final Grades,2019,D430-Salomon-T2/H2,D430,B,1.0,1.0,0,0,1
+2089,60314,6,Final Grades,2019,I1088-Local Wilderness (Half Day)-Wilkins-AM,I1088,NP,1.0,0.0,0,0,1
+2090,60314,6,Final Grades,2019,I700-Advanced Cooking-Hein-PM,I700,P,1.0,1.0,0,0,1
+2091,60341,6,Final Grades,2019,A400-Dalton-T1/H1,A400,A-,1.0,1.0,0,0,1
+2092,60341,6,Final Grades,2019,B400-Watts-T2/H2,B400,A-,1.0,1.0,0,0,1
+2093,60341,6,Final Grades,2019,C400-Wu-M3/W3,C400,B-,1.0,1.0,0,0,1
+2094,60341,6,Final Grades,2019,D430-Salomon-M2/W2,D430,A-,1.0,1.0,0,0,1
+2095,60286,6,Final Grades,2019,A400-Dalton-T1/H1,A400,A,1.0,1.0,0,0,1
+2096,60286,6,Final Grades,2019,B400-Watts-T2/H2,B400,A+,1.0,1.0,0,0,1
+2097,60286,6,Final Grades,2019,C400-Wu-M3/W3,C400,B,1.0,1.0,0,0,1
+2098,60286,6,Final Grades,2019,D430-Salomon-M2/W2,D430,A,1.0,1.0,0,0,1
+2099,60286,6,Final Grades,2019,90425,I1106,P,1.0,1.0,0,0,1
+2100,60286,6,Final Grades,2019,I1122-Stage Combat-Brown-PM,I1122,P,1.0,1.0,0,0,1
+2101,60286,6,Final Grades,2019,I600-Cooking Fundamentals-Hein-AM,I600,P,1.0,1.0,0,0,1
+2102,60343,6,Final Grades,2019,A400-Dalton-M1/W1,A400,A,1.0,1.0,0,0,1
+2103,60343,6,Final Grades,2019,B400-Watts-M2/W2,B400,A-,1.0,1.0,0,0,1
+2104,60343,6,Final Grades,2019,C420-Lim-T3/H3,C420,A,1.0,1.0,0,0,1
+2105,60343,6,Final Grades,2019,D430-Salomon-T1/H1,D430,A,1.0,1.0,0,0,1
+2106,60343,6,Final Grades,2019,E300-Gross-T2/H2,E300,A-,1.0,1.0,0,0,1
+2107,60297,6,Final Grades,2019,A400-Dalton-T3/H3,A400,A-,1.0,1.0,0,0,1
+2108,60297,6,Final Grades,2019,B400-Watts-T1/H1,B400,A,1.0,1.0,0,0,1
+2109,60297,6,Final Grades,2019,C400-Wu-M3/W3,C400,I,1.0,0.0,0,0,1
+2110,60297,6,Final Grades,2019,D430-Salomon-M2/W2,D430,I,1.0,0.0,0,0,1
+2111,60297,6,Final Grades,2019,G299-Multimedia Political Journalism-DeOrnellas-AM,F299,A+,1.0,1.0,0,0,1
+2112,60297,6,Final Grades,2019,90431,I1106,P,1.0,1.0,0,0,1
+2113,60297,6,Final Grades,2019,I298-Research & Advocacy in Human Rights-Marinkovich-PM,I298,P,1.0,1.0,0,0,1
+2114,60332,6,Final Grades,2019,A400-Dalton-T1/H1,A400,B-,1.0,1.0,0,0,1
+2115,60332,6,Final Grades,2019,B400-Watts-M1/W1,B400,I,1.0,0.0,0,0,1
+2116,60332,6,Final Grades,2019,C400-Wu-M3/W3,C400,A-,1.0,1.0,0,0,1
+2117,60332,6,Final Grades,2019,C420-Lim-M2/W2,C420,I,1.0,0.0,0,0,1
+2118,60332,6,Final Grades,2019,D430-Salomon-T2/H2,D430,I,1.0,0.0,0,0,1
+2119,60332,6,Final Grades,2019,I106-Independent Study-Hein-AM,I106,P,1.0,1.0,0,0,1
+2120,41036,2,Final Grades,2019,A300-Covelman-T3/H3,A300,I,1.0,0.0,0,0,1
+2121,41036,2,Final Grades,2019,A400-Carrera-T1/H1,A400,I,1.0,0.0,0,0,1
+2122,41036,2,Final Grades,2019,B400-Rivard-M1/W1,B400,I,1.0,0.0,0,0,1
+2123,41036,2,Final Grades,2019,C320-Alatorre-T2/H2-S2MTH,C320,I,1.0,0.0,0,0,1
+2124,41036,2,Final Grades,2019,E200-Ochoa-M3/W3,E200,I,1.0,0.0,0,0,1
+2125,41036,2,Final Grades,2019,I231-Creative Writing-DeOrnellas-PM,F231,I,1.0,0.0,0,0,1
+2126,41036,2,Final Grades,2019,G101-Intro to Psychology-Wilkins-AM,G101,I,1.0,0.0,0,0,1
+2127,30641,2,Final Grades,2019,A400-Carrera-T1/H1,A400,I,1.0,0.0,0,0,1
+2128,30641,2,Final Grades,2019,B400-Rivard-M1/W1,B400,I,1.0,0.0,0,0,1
+2129,30641,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,I,1.0,0.0,0,0,1
+2130,30641,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,I,1.0,0.0,0,0,1
+2131,30641,2,Final Grades,2019,I231-Creative Writing-DeOrnellas-PM,F231,A+,1.0,1.0,0,0,1
+2132,30641,2,Final Grades,2019,F503-Intermediate Visual Art-Scicluna-AM,F503,I,1.0,0.0,0,0,1
+2133,40834,2,Final Grades,2019,A400-Carrera-T2/H2,A400,B-,1.0,1.0,0,0,1
+2134,40834,2,Final Grades,2019,B400-Rivard-T3/H3,B400,A,1.0,1.0,0,0,1
+2135,40834,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,A-,1.0,1.0,0,0,1
+2136,40834,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,B+,1.0,1.0,0,0,1
+2137,40834,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,B-,1.0,1.0,0,0,1
+2138,40834,2,Final Grades,2019,90907,F2000,A+,1.0,1.0,0,0,1
+2139,40834,2,Final Grades,2019,90909,I106,NO GRADE,1.0,1.0,0,0,1
+2140,40884,2,Final Grades,2019,A400-Carrera-T1/H1,A400,A-,1.0,1.0,0,0,1
+2141,40884,2,Final Grades,2019,B400-Rivard-M3/W3,B400,A,1.0,1.0,0,0,1
+2142,40884,2,Final Grades,2019,C400-Wills-T3/H3-S2MTH,C400,B+,1.0,1.0,0,0,1
+2143,40884,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,B+,1.0,1.0,0,0,1
+2144,40884,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,A,1.0,1.0,0,0,1
+2145,40884,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2146,40786,2,Final Grades,2019,A400-Carrera-T1/H1,A400,I,1.0,0.0,0,0,1
+2147,40786,2,Final Grades,2019,B400-Rivard-T3/H3,B400,C-,1.0,1.0,0,0,1
+2148,40786,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,I,1.0,0.0,0,0,1
+2149,40786,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,C-,1.0,1.0,0,0,1
+2150,40786,2,Final Grades,2019,E300-Hernandez-M2/W2,E300,I,1.0,0.0,0,0,1
+2151,40786,2,Final Grades,2019,I231-Creative Writing-DeOrnellas-PM,F231,A-,1.0,1.0,0,0,1
+2152,40786,2,Final Grades,2019,F503-Intermediate Visual Art-Scicluna-AM,F503,I,1.0,0.0,0,0,1
+2153,40764,2,Final Grades,2019,A400-Carrera-T2/H2,A400,A,1.0,1.0,0,0,1
+2154,40764,2,Final Grades,2019,B400-Rivard-M1/W1,B400,A+,1.0,1.0,0,0,1
+2155,40764,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,A,1.0,1.0,0,0,1
+2156,40764,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,A,1.0,1.0,0,0,1
+2157,40764,2,Final Grades,2019,90907,F2000,A,1.0,1.0,0,0,1
+2158,40764,2,Final Grades,2019,I142-Robotics-Taylor-PM,I142,P,1.0,1.0,0,0,1
+2159,40821,2,Final Grades,2019,A400-Carrera-T2/H2,A400,A-,1.0,1.0,0,0,1
+2160,40821,2,Final Grades,2019,B400-Rivard-M3/W3,B400,A,1.0,1.0,0,0,1
+2161,40821,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,A,1.0,1.0,0,0,1
+2162,40821,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,A-,1.0,1.0,0,0,1
+2163,40821,2,Final Grades,2019,G103-Intro to Programming-Hesby-AM,G103,A,1.0,1.0,0,0,1
+2164,40821,2,Final Grades,2019,I1106CH-Shieh-T4A,I1106CH,NO GRADE,1.0,1.0,0,0,1
+2165,40821,2,Final Grades,2019,I202-Video Game Programming-Hesby-PM,I202,P,1.0,1.0,0,0,1
+2166,40477,2,Final Grades,2019,A400-Carrera-M2/W2,A400,I,1.0,0.0,0,0,1
+2167,40477,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,I,1.0,0.0,0,0,1
+2168,40477,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,I,1.0,0.0,0,0,1
+2169,40477,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2170,41146,2,Final Grades,2019,A400-Carrera-M2/W2,A400,B,1.0,1.0,0,0,1
+2171,41146,2,Final Grades,2019,B400-Rivard-T1/H1,B400,A-,1.0,1.0,0,0,1
+2172,41146,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,A-,1.0,1.0,0,0,1
+2173,41146,2,Final Grades,2019,D200-Shieh-T2/H2,D200,B,1.0,1.0,0,0,1
+2174,41146,2,Final Grades,2019,90907,F2000,B,1.0,1.0,0,0,1
+2175,41146,2,Final Grades,2019,90909,I106,NO GRADE,1.0,1.0,0,0,1
+2176,40809,2,Final Grades,2019,A400-Carrera-M2/W2,A400,B+,1.0,1.0,0,0,1
+2177,40809,2,Final Grades,2019,B400-Rivard-M3/W3,B400,A+,1.0,1.0,0,0,1
+2178,40809,2,Final Grades,2019,C400-Wills-T3/H3-S2MTH,C400,C+,1.0,1.0,0,0,1
+2179,40809,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,B+,1.0,1.0,0,0,1
+2180,40809,2,Final Grades,2019,G103-Intro to Programming-Hesby-AM,G103,B-,1.0,1.0,0,0,1
+2181,40809,2,Final Grades,2019,I1122-Stage Combat-Brown-PM,I1122,P,1.0,1.0,0,0,1
+2182,40888,2,Final Grades,2019,A400-Carrera-M2/W2,A400,I,1.0,0.0,0,0,1
+2183,40888,2,Final Grades,2019,B400-Rivard-M1/W1,B400,I,1.0,0.0,0,0,1
+2184,40888,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,C-,1.0,1.0,0,0,1
+2185,40888,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,I,1.0,0.0,0,0,1
+2186,40888,2,Final Grades,2019,G101-Intro to Psychology-Wilkins-AM,G101,I,1.0,0.0,0,0,1
+2187,40888,2,Final Grades,2019,I1088-Local Wilderness-Wilkins-PM,I1088,NP,1.0,0.0,0,0,1
+2188,40846,2,Final Grades,2019,A400-Carrera-T1/H1,A400,B,1.0,1.0,0,0,1
+2189,40846,2,Final Grades,2019,B400-Rivard-M1/W1,B400,B,1.0,1.0,0,0,1
+2190,40846,2,Final Grades,2019,C400-Wills-T3/H3-S2MTH,C400,B+,1.0,1.0,0,0,1
+2191,40846,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,B-,1.0,1.0,0,0,1
+2192,40846,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,B+,1.0,1.0,0,0,1
+2193,40846,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2194,41314,2,Final Grades,2019,A400-Carrera-T1/H1,A400,C,1.0,1.0,0,0,1
+2195,41314,2,Final Grades,2019,B400-Rivard-T3/H3,B400,C-,1.0,1.0,0,0,1
+2196,41314,2,Final Grades,2019,C320-Alatorre-M2/W2-S2MTH,C320,I,1.0,0.0,0,0,1
+2197,41314,2,Final Grades,2019,D100-Quiroz-T2/H2,D100,C-,1.0,1.0,0,0,1
+2198,41314,2,Final Grades,2019,E100-Ochoa-M1/W1,E100,I,1.0,0.0,0,0,1
+2199,41314,2,Final Grades,2019,F511-Intro to Video Production-Nelson-AM,F511,I,1.0,0.0,0,0,1
+2200,41314,2,Final Grades,2019,I121-Human Sexuality-Breuer-PM,I121,P,1.0,1.0,0,0,1
+2201,40898,2,Final Grades,2019,A400-Carrera-M2/W2,A400,C,1.0,1.0,0,0,1
+2202,40898,2,Final Grades,2019,B400-Rivard-M1/W1,B400,B-,1.0,1.0,0,0,1
+2203,40898,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,I,1.0,0.0,0,0,1
+2204,40898,2,Final Grades,2019,D200-Shieh-T3/H3,D200,I,1.0,0.0,0,0,1
+2205,40898,2,Final Grades,2019,E400-Hernandez-T2/H2,E400,B,1.0,1.0,0,0,1
+2206,40898,2,Final Grades,2019,G103-Intro to Programming-Hesby-AM,G103,I,1.0,0.0,0,0,1
+2207,40898,2,Final Grades,2019,I181-Ethnic Studies-Barragan-PM,I181,P,1.0,1.0,0,0,1
+2208,40969,2,Final Grades,2019,A400-Carrera-M2/W2,A400,I,1.0,0.0,0,0,1
+2209,40969,2,Final Grades,2019,B400-Rivard-T3/H3,B400,C+,1.0,1.0,0,0,1
+2210,40969,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,C-,1.0,1.0,0,0,1
+2211,40969,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,C-,1.0,1.0,0,0,1
+2212,40969,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,B-,1.0,1.0,0,0,1
+2213,40969,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,NP,1.0,0.0,0,0,1
+2214,40784,2,Final Grades,2019,A400-Carrera-M1/W1,A400,I,1.0,0.0,0,0,1
+2215,40784,2,Final Grades,2019,B400-Rivard-T1/H1,B400,C,1.0,1.0,0,0,1
+2216,40784,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,I,1.0,0.0,0,0,1
+2217,40784,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,I,1.0,0.0,0,0,1
+2218,40784,2,Final Grades,2019,G022-Entrepreneurship-Calvert-AM,G022,A+,1.0,1.0,0,0,1
+2219,40784,2,Final Grades,2019,I267-Modern Acting & Theater-Esparza Johnson-PM,I267,NO GRADE,1.0,1.0,0,0,1
+2220,41181,2,Final Grades,2019,B400-Rivard-M1/W1,B400,C+,1.0,1.0,0,0,1
+2221,41181,2,Final Grades,2019,C320-Alatorre-T3/H3-S2MTH,C320,I,1.0,0.0,0,0,1
+2222,41181,2,Final Grades,2019,D200-Shieh-M2/W2,D200,I,1.0,0.0,0,0,1
+2223,41181,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,I,1.0,0.0,0,0,1
+2224,41181,2,Final Grades,2019,E200-Ochoa-M3/W3,E200,B+,1.0,1.0,0,0,1
+2225,41181,2,Final Grades,2019,I231-Creative Writing-DeOrnellas-PM,F231,I,1.0,0.0,0,0,1
+2226,41181,2,Final Grades,2019,F503-Intermediate Visual Art-Scicluna-AM,F503,I,1.0,0.0,0,0,1
+2227,40859,2,Final Grades,2019,A400-Carrera-M1/W1,A400,I,1.0,0.0,0,0,1
+2228,40859,2,Final Grades,2019,B400-Rivard-M3/W3,B400,B-,1.0,1.0,0,0,1
+2229,40859,2,Final Grades,2019,C400-Wills-T3/H3-S2MTH,C400,I,1.0,0.0,0,0,1
+2230,40859,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,I,1.0,0.0,0,0,1
+2231,40859,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,C,1.0,1.0,0,0,1
+2232,40859,2,Final Grades,2019,F503-Intermediate Visual Art-Scicluna-AM,F503,B,1.0,1.0,0,0,1
+2233,40859,2,Final Grades,2019,I202-Video Game Programming-Hesby-PM,I202,P,1.0,1.0,0,0,1
+2234,40977,2,Final Grades,2019,A400-Carrera-M1/W1,A400,C-,1.0,1.0,0,0,1
+2235,40977,2,Final Grades,2019,B400-Rivard-T1/H1,B400,C,1.0,1.0,0,0,1
+2236,40977,2,Final Grades,2019,C320-Alatorre-T3/H3-S2MTH,C320,A,1.0,1.0,0,0,1
+2237,40977,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,B-,1.0,1.0,0,0,1
+2238,40977,2,Final Grades,2019,G101-Intro to Psychology-Wilkins-AM,G101,B,1.0,1.0,0,0,1
+2239,40977,2,Final Grades,2019,I121-Human Sexuality-Breuer-PM,I121,P,1.0,1.0,0,0,1
+2240,40801,2,Final Grades,2019,A400-Carrera-T2/H2,A400,B,1.0,1.0,0,0,1
+2241,40801,2,Final Grades,2019,B400-Rivard-T1/H1,B400,A-,1.0,1.0,0,0,1
+2242,40801,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,A,1.0,1.0,0,0,1
+2243,40801,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,A+,1.0,1.0,0,0,1
+2244,40801,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2245,40824,2,Final Grades,2019,A400-Carrera-T2/H2,A400,B,1.0,1.0,0,0,1
+2246,40824,2,Final Grades,2019,B400-Rivard-M3/W3,B400,A,1.0,1.0,0,0,1
+2247,40824,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,B,1.0,1.0,0,0,1
+2248,40824,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,C,1.0,1.0,0,0,1
+2249,40824,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,A,1.0,1.0,0,0,1
+2250,40824,2,Final Grades,2019,F511-Intro to Video Production-Nelson-AM,F511,A+,1.0,1.0,0,0,1
+2251,40824,2,Final Grades,2019,90905,I1106MA,NO GRADE,1.0,1.0,0,0,1
+2252,40791,2,Final Grades,2019,A400-Carrera-T2/H2,A400,I,1.0,0.0,0,0,1
+2253,40791,2,Final Grades,2019,B400-Rivard-M1/W1,B400,I,1.0,0.0,0,0,1
+2254,40791,2,Final Grades,2019,C320-Alatorre-T3/H3-S2MTH,C320,I,1.0,0.0,0,0,1
+2255,40791,2,Final Grades,2019,D200-Shieh-M2/W2,D200,I,1.0,0.0,0,0,1
+2256,40791,2,Final Grades,2019,I121-Human Sexuality-Breuer-AM,I121,NP,1.0,0.0,0,0,1
+2257,40791,2,Final Grades,2019,I300-Adulting 101-Calvert-PM,I300,NP,1.0,0.0,0,0,1
+2258,40835,2,Final Grades,2019,A400-Carrera-T1/H1,A400,I,1.0,0.0,0,0,1
+2259,40835,2,Final Grades,2019,B400-Rivard-M3/W3,B400,I,1.0,0.0,0,0,1
+2260,40835,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,I,1.0,0.0,0,0,1
+2261,40835,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,I,1.0,0.0,0,0,1
+2262,40835,2,Final Grades,2019,I139-Internship-Barragan-AM,I139,P,1.0,1.0,0,0,1
+2263,40805,2,Final Grades,2019,A400-Carrera-T1/H1,A400,B,1.0,1.0,0,0,1
+2264,40805,2,Final Grades,2019,B400-Rivard-M1/W1,B400,B+,1.0,1.0,0,0,1
+2265,40805,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,A+,1.0,1.0,0,0,1
+2266,40805,2,Final Grades,2019,91891,I1106IVA,NO GRADE,1.0,1.0,0,0,1
+2267,40793,2,Final Grades,2019,A400-Carrera-M1/W1,A400,I,1.0,0.0,0,0,1
+2268,40793,2,Final Grades,2019,B400-Rivard-T1/H1,B400,I,1.0,0.0,0,0,1
+2269,40793,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,I,1.0,0.0,0,0,1
+2270,40793,2,Final Grades,2019,I139-Internship-Barragan-AM,I139,NP,1.0,0.0,0,0,1
+2271,40813,2,Final Grades,2019,A400-Carrera-M2/W2,A400,C,1.0,1.0,0,0,1
+2272,40813,2,Final Grades,2019,B400-Rivard-T1/H1,B400,B,1.0,1.0,0,0,1
+2273,40813,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,B,1.0,1.0,0,0,1
+2274,40813,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,B,1.0,1.0,0,0,1
+2275,40813,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,B,1.0,1.0,0,0,1
+2276,40813,2,Final Grades,2019,G103-Intro to Programming-Hesby-AM,G103,B+,1.0,1.0,0,0,1
+2277,40813,2,Final Grades,2019,I300-Adulting 101-Calvert-PM,I300,P,1.0,1.0,0,0,1
+2278,40769,2,Final Grades,2019,A400-Carrera-T1/H1,A400,B,1.0,1.0,0,0,1
+2279,40769,2,Final Grades,2019,B400-Rivard-M3/W3,B400,A-,1.0,1.0,0,0,1
+2280,40769,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,B-,1.0,1.0,0,0,1
+2281,40769,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,B+,1.0,1.0,0,0,1
+2282,40769,2,Final Grades,2019,I139-Internship-Barragan-AM,I139,P,1.0,1.0,0,0,1
+2283,40845,2,Final Grades,2019,A400-Carrera-M2/W2,A400,I,1.0,0.0,0,0,1
+2284,40845,2,Final Grades,2019,B400-Rivard-M1/W1,B400,I,1.0,0.0,0,0,1
+2285,40845,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,I,1.0,0.0,0,0,1
+2286,40845,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,I,1.0,0.0,0,0,1
+2287,40845,2,Final Grades,2019,G103-Intro to Programming-Hesby-AM,G103,I,1.0,0.0,0,0,1
+2288,40845,2,Final Grades,2019,I202-Video Game Programming-Hesby-PM,I202,NP,1.0,0.0,0,0,1
+2289,40765,2,Final Grades,2019,A400-Carrera-T1/H1,A400,I,1.0,0.0,0,0,1
+2290,40765,2,Final Grades,2019,B400-Rivard-M3/W3,B400,B+,1.0,1.0,0,0,1
+2291,40765,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,I,1.0,0.0,0,0,1
+2292,40765,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,C,1.0,1.0,0,0,1
+2293,40765,2,Final Grades,2019,I1106ES-TA Ethnic Studies-Barragan-PM,I1106ES,P,1.0,1.0,0,0,1
+2294,40765,2,Final Grades,2019,I1106HR-TA Human Rights-Barragan-AM,I1106HR,P,1.0,1.0,0,0,1
+2295,40804,2,Final Grades,2019,A400-Carrera-T1/H1,A400,I,1.0,0.0,0,0,1
+2296,40804,2,Final Grades,2019,B400-Rivard-M1/W1,B400,I,1.0,0.0,0,0,1
+2297,40804,2,Final Grades,2019,C320-Alatorre-M2/W2-S2MTH,C320,I,1.0,0.0,0,0,1
+2298,40804,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,NP,1.0,0.0,0,0,1
+2299,40890,2,Final Grades,2019,A400-Carrera-T2/H2,A400,I,1.0,0.0,0,0,1
+2300,40890,2,Final Grades,2019,B400-Rivard-M1/W1,B400,C-,1.0,1.0,0,0,1
+2301,40890,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,C,1.0,1.0,0,0,1
+2302,40890,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,B-,1.0,1.0,0,0,1
+2303,40890,2,Final Grades,2019,I139-Internship-Barragan-AM,I139,P,1.0,1.0,0,0,1
+2304,40806,2,Final Grades,2019,A400-Carrera-M1/W1,A400,A,1.0,1.0,0,0,1
+2305,40806,2,Final Grades,2019,B400-Rivard-T1/H1,B400,A+,1.0,1.0,0,0,1
+2306,40806,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,A+,1.0,1.0,0,0,1
+2307,40806,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,A+,1.0,1.0,0,0,1
+2308,40806,2,Final Grades,2019,E400-Hernandez-T2/H2,E400,A-,1.0,1.0,0,0,1
+2309,40806,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2310,40806,2,Final Grades,2019,I1106CH-Shieh-T4A,I1106CH,NO GRADE,1.0,1.0,0,0,1
+2311,41005,2,Final Grades,2019,A400-Carrera-T1/H1,A400,I,1.0,0.0,0,0,1
+2312,41005,2,Final Grades,2019,B400-Rivard-M3/W3,B400,I,1.0,0.0,0,0,1
+2313,41005,2,Final Grades,2019,C320-Alatorre-T2/H2-S2MTH,C320,I,1.0,0.0,0,0,1
+2314,41005,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,I,1.0,0.0,0,0,1
+2315,41005,2,Final Grades,2019,I139-Internship-Barragan-AM,I139,P,1.0,1.0,0,0,1
+2316,40838,2,Final Grades,2019,A400-Carrera-M2/W2,A400,I,1.0,0.0,0,0,1
+2317,40838,2,Final Grades,2019,B400-Rivard-T1/H1,B400,C,1.0,1.0,0,0,1
+2318,40838,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,I,1.0,0.0,0,0,1
+2319,40838,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,I,1.0,0.0,0,0,1
+2320,40838,2,Final Grades,2019,G297-Human Rights in the US-Barragan-AM,G297,B,1.0,1.0,0,0,1
+2321,40838,2,Final Grades,2019,I300-Adulting 101-Calvert-PM,I300,P,1.0,1.0,0,0,1
+2322,41014,2,Final Grades,2019,A400-Carrera-M2/W2,A400,C,1.0,1.0,0,0,1
+2323,41014,2,Final Grades,2019,B400-Rivard-T1/H1,B400,I,1.0,0.0,0,0,1
+2324,41014,2,Final Grades,2019,C320-Alatorre-M3/W3-S2MTH,C320,I,1.0,0.0,0,0,1
+2325,41014,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,I,1.0,0.0,0,0,1
+2326,41014,2,Final Grades,2019,G297-Human Rights in the US-Barragan-AM,G297,B+,1.0,1.0,0,0,1
+2327,41014,2,Final Grades,2019,I121-Human Sexuality-Breuer-PM,I121,P,1.0,1.0,0,0,1
+2328,11727,2,Final Grades,2019,A400-Carrera-M1/W1,A400,I,1.0,0.0,0,0,1
+2329,11727,2,Final Grades,2019,B400-Rivard-T3/H3,B400,I,1.0,0.0,0,0,1
+2330,11727,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,B-,1.0,1.0,0,0,1
+2331,11727,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,B,1.0,1.0,0,0,1
+2332,11727,2,Final Grades,2019,E400-Hernandez-T2/H2,E400,A,1.0,1.0,0,0,1
+2333,11727,2,Final Grades,2019,I139-Internship-Barragan-AM,I139,P,1.0,1.0,0,0,1
+2334,40956,2,Final Grades,2019,A400-Carrera-M2/W2,A400,C,1.0,1.0,0,0,1
+2335,40956,2,Final Grades,2019,B400-Rivard-M1/W1,B400,C,1.0,1.0,0,0,1
+2336,40956,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,C+,1.0,1.0,0,0,1
+2337,40956,2,Final Grades,2019,D300-Rodriguez-T1/H1,D300,B-,1.0,1.0,0,0,1
+2338,40956,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,C+,1.0,1.0,0,0,1
+2339,40956,2,Final Grades,2019,G103-Intro to Programming-Hesby-AM,G103,C,1.0,1.0,0,0,1
+2340,40956,2,Final Grades,2019,I1122-Stage Combat-Brown-PM,I1122,P,1.0,1.0,0,0,1
+2341,40841,2,Final Grades,2019,A400-Carrera-M1/W1,A400,A,1.0,1.0,0,0,1
+2342,40841,2,Final Grades,2019,B400-Rivard-T3/H3,B400,A+,1.0,1.0,0,0,1
+2343,40841,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,A+,1.0,1.0,0,0,1
+2344,40841,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,A+,1.0,1.0,0,0,1
+2345,40841,2,Final Grades,2019,E400-Hernandez-T2/H2,E400,A,1.0,1.0,0,0,1
+2346,40841,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2347,40841,2,Final Grades,2019,I1106CH-Shieh-T4A,I1106CH,NO GRADE,1.0,1.0,0,0,1
+2348,40825,2,Final Grades,2019,A400-Carrera-M2/W2,A400,I,1.0,0.0,0,0,1
+2349,40825,2,Final Grades,2019,B400-Rivard-T1/H1,B400,I,1.0,0.0,0,0,1
+2350,40825,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,I,1.0,0.0,0,0,1
+2351,40825,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,I,1.0,0.0,0,0,1
+2352,40825,2,Final Grades,2019,F511-Intro to Video Production-Nelson-AM,F511,I,1.0,0.0,0,0,1
+2353,40825,2,Final Grades,2019,I142-Robotics-Taylor-PM,I142,NP,1.0,0.0,0,0,1
+2354,40785,2,Final Grades,2019,A400-Carrera-M1/W1,A400,I,1.0,0.0,0,0,1
+2355,40785,2,Final Grades,2019,B400-Rivard-T1/H1,B400,C+,1.0,1.0,0,0,1
+2356,40785,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,C+,1.0,1.0,0,0,1
+2357,40785,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,I,1.0,0.0,0,0,1
+2358,40785,2,Final Grades,2019,90904,I1106ID,NO GRADE,1.0,1.0,0,0,1
+2359,40785,2,Final Grades,2019,90905,I1106MA,NO GRADE,1.0,1.0,0,0,1
+2360,40854,2,Final Grades,2019,A400-Carrera-T1/H1,A400,B-,1.0,1.0,0,0,1
+2361,40854,2,Final Grades,2019,B400-Rivard-M3/W3,B400,B,1.0,1.0,0,0,1
+2362,40854,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,C-,1.0,1.0,0,0,1
+2363,40854,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,B-,1.0,1.0,0,0,1
+2364,40854,2,Final Grades,2019,90902,I1106VP,NO GRADE,1.0,1.0,0,0,1
+2365,40854,2,Final Grades,2019,I142-Robotics-Taylor-PM,I142,NP,1.0,0.0,0,0,1
+2366,40852,2,Final Grades,2019,A400-Carrera-M2/W2,A400,I,1.0,0.0,0,0,1
+2367,40852,2,Final Grades,2019,B400-Rivard-M3/W3,B400,I,1.0,0.0,0,0,1
+2368,40852,2,Final Grades,2019,C320-Alatorre-T2/H2-S2MTH,C320,I,1.0,0.0,0,0,1
+2369,40852,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,I,1.0,0.0,0,0,1
+2370,40852,2,Final Grades,2019,90904,I1106ID,NO GRADE,1.0,1.0,0,0,1
+2371,40852,2,Final Grades,2019,I267-Modern Acting & Theater-Esparza Johnson-PM,I267,NO GRADE,1.0,1.0,0,0,1
+2372,40779,2,Final Grades,2019,A400-Carrera-T2/H2,A400,B-,1.0,1.0,0,0,1
+2373,40779,2,Final Grades,2019,B400-Rivard-T3/H3,B400,B-,1.0,1.0,0,0,1
+2374,40779,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,B-,1.0,1.0,0,0,1
+2375,40779,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,B,1.0,1.0,0,0,1
+2376,40779,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,B-,1.0,1.0,0,0,1
+2377,40779,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2378,40850,2,Final Grades,2019,A400-Carrera-T1/H1,A400,I,1.0,0.0,0,0,1
+2379,40850,2,Final Grades,2019,B400-Rivard-T3/H3,B400,I,1.0,0.0,0,0,1
+2380,40850,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,I,1.0,0.0,0,0,1
+2381,40850,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,C+,1.0,1.0,0,0,1
+2382,40850,2,Final Grades,2019,G103-Intro to Programming-Hesby-AM,G103,I,1.0,0.0,0,0,1
+2383,40850,2,Final Grades,2019,I202-Video Game Programming-Hesby-PM,I202,P,1.0,1.0,0,0,1
+2384,40823,2,Final Grades,2019,A400-Carrera-T1/H1,A400,B+,1.0,1.0,0,0,1
+2385,40823,2,Final Grades,2019,B400-Rivard-M3/W3,B400,A-,1.0,1.0,0,0,1
+2386,40823,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,B+,1.0,1.0,0,0,1
+2387,40823,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,B,1.0,1.0,0,0,1
+2388,40823,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,A,1.0,1.0,0,0,1
+2389,40823,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2390,40822,2,Final Grades,2019,A400-Carrera-M1/W1,A400,B,1.0,1.0,0,0,1
+2391,40822,2,Final Grades,2019,B400-Rivard-T1/H1,B400,A+,1.0,1.0,0,0,1
+2392,40822,2,Final Grades,2019,C400-Wills-T3/H3-S2MTH,C400,A-,1.0,1.0,0,0,1
+2393,40822,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,A-,1.0,1.0,0,0,1
+2394,40822,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,A,1.0,1.0,0,0,1
+2395,40822,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2396,40844,2,Final Grades,2019,A400-Carrera-M2/W2,A400,A-,1.0,1.0,0,0,1
+2397,40844,2,Final Grades,2019,B400-Rivard-T1/H1,B400,A-,1.0,1.0,0,0,1
+2398,40844,2,Final Grades,2019,C400-Wills-T3/H3-S2MTH,C400,A,1.0,1.0,0,0,1
+2399,40844,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,A-,1.0,1.0,0,0,1
+2400,40844,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,A,1.0,1.0,0,0,1
+2401,40844,2,Final Grades,2019,I139-Internship-Barragan-AM,I139,NP,1.0,0.0,0,0,1
+2402,40832,2,Final Grades,2019,A400-Carrera-M1/W1,A400,I,1.0,0.0,0,0,1
+2403,40832,2,Final Grades,2019,B400-Rivard-T1/H1,B400,B-,1.0,1.0,0,0,1
+2404,40832,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,I,1.0,0.0,0,0,1
+2405,40832,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,C-,1.0,1.0,0,0,1
+2406,40832,2,Final Grades,2019,90905,I1106MA,NO GRADE,1.0,1.0,0,0,1
+2407,40832,2,Final Grades,2019,I121-Human Sexuality-Breuer-AM,I121,P,1.0,1.0,0,0,1
+2408,40872,2,Final Grades,2019,A400-Carrera-M2/W2,A400,I,1.0,0.0,0,0,1
+2409,40872,2,Final Grades,2019,B400-Rivard-T1/H1,B400,I,1.0,0.0,0,0,1
+2410,40872,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,I,1.0,0.0,0,0,1
+2411,40872,2,Final Grades,2019,G101-Intro to Psychology-Wilkins-AM,G101,I,1.0,0.0,0,0,1
+2412,40872,2,Final Grades,2019,I300-Adulting 101-Calvert-PM,I300,NP,1.0,0.0,0,0,1
+2413,40787,2,Final Grades,2019,A400-Carrera-M1/W1,A400,B-,1.0,1.0,0,0,1
+2414,40787,2,Final Grades,2019,B400-Rivard-T1/H1,B400,B-,1.0,1.0,0,0,1
+2415,40787,2,Final Grades,2019,C400-Wills-T3/H3-S2MTH,C400,B,1.0,1.0,0,0,1
+2416,40787,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,B,1.0,1.0,0,0,1
+2417,40787,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,B,1.0,1.0,0,0,1
+2418,40787,2,Final Grades,2019,I1106ES-TA Ethnic Studies-Barragan-PM,I1106ES,P,1.0,1.0,0,0,1
+2419,40787,2,Final Grades,2019,I1106HR-TA Human Rights-Barragan-AM,I1106HR,P,1.0,1.0,0,0,1
+2420,40767,2,Final Grades,2019,A400-Carrera-T2/H2,A400,A,1.0,1.0,0,0,1
+2421,40767,2,Final Grades,2019,B400-Rivard-T1/H1,B400,A-,1.0,1.0,0,0,1
+2422,40767,2,Final Grades,2019,C400-Wills-T3/H3-S2MTH,C400,A-,1.0,1.0,0,0,1
+2423,40767,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,A-,1.0,1.0,0,0,1
+2424,40767,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,A,1.0,1.0,0,0,1
+2425,40767,2,Final Grades,2019,I121-Human Sexuality-Breuer-AM,I121,P,1.0,1.0,0,0,1
+2426,40767,2,Final Grades,2019,I202-Video Game Programming-Hesby-PM,I202,P,1.0,1.0,0,0,1
+2427,41187,2,Final Grades,2019,A400-Carrera-T2/H2,A400,I,1.0,0.0,0,0,1
+2428,41187,2,Final Grades,2019,B400-Rivard-T3/H3,B400,I,1.0,0.0,0,0,1
+2429,41187,2,Final Grades,2019,C320-Alatorre-M3/W3-S2MTH,C320,I,1.0,0.0,0,0,1
+2430,41187,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,I,1.0,0.0,0,0,1
+2431,41187,2,Final Grades,2019,F511-Intro to Video Production-Nelson-PM,F511,I,1.0,0.0,0,0,1
+2432,41187,2,Final Grades,2019,G022-Entrepreneurship-Calvert-AM,G022,B+,1.0,1.0,0,0,1
+2433,40816,2,Final Grades,2019,A400-Carrera-T1/H1,A400,I,1.0,0.0,0,0,1
+2434,40816,2,Final Grades,2019,B400-Rivard-M1/W1,B400,C-,1.0,1.0,0,0,1
+2435,40816,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,B+,1.0,1.0,0,0,1
+2436,40816,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,C,1.0,1.0,0,0,1
+2437,40816,2,Final Grades,2019,90907,F2000,I,1.0,0.0,0,0,1
+2438,40816,2,Final Grades,2019,90909,I106,NO GRADE,1.0,1.0,0,0,1
+2439,40774,2,Final Grades,2019,A400-Carrera-M2/W2,A400,B,1.0,1.0,0,0,1
+2440,40774,2,Final Grades,2019,B400-Rivard-M1/W1,B400,A,1.0,1.0,0,0,1
+2441,40774,2,Final Grades,2019,C400-Wills-T3/H3-S2MTH,C400,A,1.0,1.0,0,0,1
+2442,40774,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,A,1.0,1.0,0,0,1
+2443,40774,2,Final Grades,2019,G299-Multimedia Political Journalism-DeOrnellas-AM,F299,A,1.0,1.0,0,0,1
+2444,40774,2,Final Grades,2019,I1106CH-Shieh-T4A,I1106CH,NO GRADE,1.0,1.0,0,0,1
+2445,40774,2,Final Grades,2019,I300-Adulting 101-Calvert-PM,I300,P,1.0,1.0,0,0,1
+2446,40851,2,Final Grades,2019,A400-Carrera-M1/W1,A400,A-,1.0,1.0,0,0,1
+2447,40851,2,Final Grades,2019,B400-Rivard-M3/W3,B400,A,1.0,1.0,0,0,1
+2448,40851,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,A+,1.0,1.0,0,0,1
+2449,40851,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,A+,1.0,1.0,0,0,1
+2450,40851,2,Final Grades,2019,I1106CH-Shieh-T4A,I1106CH,NO GRADE,1.0,1.0,0,0,1
+2451,40851,2,Final Grades,2019,I139-Internship-Barragan-AM,I139,P,1.0,1.0,0,0,1
+2452,40775,2,Final Grades,2019,A400-Carrera-M1/W1,A400,A-,1.0,1.0,0,0,1
+2453,40775,2,Final Grades,2019,B400-Rivard-T1/H1,B400,A+,1.0,1.0,0,0,1
+2454,40775,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,A+,1.0,1.0,0,0,1
+2455,40775,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,A,1.0,1.0,0,0,1
+2456,40775,2,Final Grades,2019,E400-Hernandez-T2/H2,E400,A+,1.0,1.0,0,0,1
+2457,40775,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2458,40775,2,Final Grades,2019,I1106CH-Shieh-T4A,I1106CH,NO GRADE,1.0,1.0,0,0,1
+2459,40873,2,Final Grades,2019,A400-Carrera-T2/H2,A400,C-,1.0,1.0,0,0,1
+2460,40873,2,Final Grades,2019,B400-Rivard-M3/W3,B400,B-,1.0,1.0,0,0,1
+2461,40873,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,A,1.0,1.0,0,0,1
+2462,40873,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,A-,1.0,1.0,0,0,1
+2463,40873,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,B-,1.0,1.0,0,0,1
+2464,40873,2,Final Grades,2019,G103-Intro to Programming-Hesby-AM,G103,C-,1.0,1.0,0,0,1
+2465,40873,2,Final Grades,2019,I300-Adulting 101-Calvert-PM,I300,P,1.0,1.0,0,0,1
+2466,40839,2,Final Grades,2019,A400-Carrera-M1/W1,A400,B+,1.0,1.0,0,0,1
+2467,40839,2,Final Grades,2019,B400-Rivard-T3/H3,B400,A,1.0,1.0,0,0,1
+2468,40839,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,A+,1.0,1.0,0,0,1
+2469,40839,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,A-,1.0,1.0,0,0,1
+2470,40839,2,Final Grades,2019,G103-Intro to Programming-Hesby-AM,G103,B+,1.0,1.0,0,0,1
+2471,40839,2,Final Grades,2019,I300-Adulting 101-Calvert-PM,I300,P,1.0,1.0,0,0,1
+2472,40887,2,Final Grades,2019,A400-Carrera-T2/H2,A400,I,1.0,0.0,0,0,1
+2473,40887,2,Final Grades,2019,B400-Rivard-M1/W1,B400,C+,1.0,1.0,0,0,1
+2474,40887,2,Final Grades,2019,C400-Wills-T3/H3-S2MTH,C400,I,1.0,0.0,0,0,1
+2475,40887,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,B-,1.0,1.0,0,0,1
+2476,40887,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,C,1.0,1.0,0,0,1
+2477,40887,2,Final Grades,2019,90902,I1106VP,NO GRADE,1.0,1.0,0,0,1
+2478,40887,2,Final Grades,2019,I1122-Stage Combat-Brown-PM,I1122,P,1.0,1.0,0,0,1
+2479,40807,2,Final Grades,2019,A400-Carrera-M1/W1,A400,A-,1.0,1.0,0,0,1
+2480,40807,2,Final Grades,2019,B400-Rivard-T3/H3,B400,A+,1.0,1.0,0,0,1
+2481,40807,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,A+,1.0,1.0,0,0,1
+2482,40807,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,A,1.0,1.0,0,0,1
+2483,40807,2,Final Grades,2019,E400-Hernandez-T2/H2,E400,A,1.0,1.0,0,0,1
+2484,40807,2,Final Grades,2019,I139-Internship-Barragan-AM,I139,P,1.0,1.0,0,0,1
+2485,40808,2,Final Grades,2019,A400-Carrera-M2/W2,A400,B,1.0,1.0,0,0,1
+2486,40808,2,Final Grades,2019,B400-Rivard-T3/H3,B400,A-,1.0,1.0,0,0,1
+2487,40808,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,B,1.0,1.0,0,0,1
+2488,40808,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,A-,1.0,1.0,0,0,1
+2489,40808,2,Final Grades,2019,G103-Intro to Programming-Hesby-AM,G103,A,1.0,1.0,0,0,1
+2490,40808,2,Final Grades,2019,I202-Video Game Programming-Hesby-PM,I202,P,1.0,1.0,0,0,1
+2491,41189,2,Final Grades,2019,A400-Carrera-M2/W2,A400,I,1.0,0.0,0,0,1
+2492,41189,2,Final Grades,2019,B400-Rivard-T1/H1,B400,I,1.0,0.0,0,0,1
+2493,41189,2,Final Grades,2019,C320-Alatorre-M3/W3-S2MTH,C320,I,1.0,0.0,0,0,1
+2494,41189,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,I,1.0,0.0,0,0,1
+2495,41189,2,Final Grades,2019,I231-Creative Writing-DeOrnellas-PM,F231,I,1.0,0.0,0,0,1
+2496,41189,2,Final Grades,2019,G022-Entrepreneurship-Calvert-AM,G022,B-,1.0,1.0,0,0,1
+2497,40842,2,Final Grades,2019,A400-Carrera-T1/H1,A400,C+,1.0,1.0,0,0,1
+2498,40842,2,Final Grades,2019,B400-Rivard-T3/H3,B400,B-,1.0,1.0,0,0,1
+2499,40842,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,I,1.0,0.0,0,0,1
+2500,40842,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,I,1.0,0.0,0,0,1
+2501,40842,2,Final Grades,2019,I139-Internship-Barragan-AM,I139,P,1.0,1.0,0,0,1
+2502,40994,2,Final Grades,2019,A400-Carrera-M1/W1,A400,I,1.0,0.0,0,0,1
+2503,40994,2,Final Grades,2019,B400-Rivard-T1/H1,B400,I,1.0,0.0,0,0,1
+2504,40994,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,I,1.0,0.0,0,0,1
+2505,40994,2,Final Grades,2019,D200-Shieh-T3/H3,D200,I,1.0,0.0,0,0,1
+2506,40994,2,Final Grades,2019,G103-Intro to Programming-Hesby-AM,G103,I,1.0,0.0,0,0,1
+2507,40994,2,Final Grades,2019,I1122-Stage Combat-Brown-PM,I1122,NP,1.0,0.0,0,0,1
+2508,41052,2,Final Grades,2019,A400-Carrera-T1/H1,A400,B-,1.0,1.0,0,0,1
+2509,41052,2,Final Grades,2019,B400-Rivard-T3/H3,B400,B+,1.0,1.0,0,0,1
+2510,41052,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,B-,1.0,1.0,0,0,1
+2511,41052,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,B,1.0,1.0,0,0,1
+2512,41052,2,Final Grades,2019,I139-Internship-Barragan-AM,I139,P,1.0,1.0,0,0,1
+2513,40860,2,Final Grades,2019,A400-Carrera-M2/W2,A400,C-,1.0,1.0,0,0,1
+2514,40860,2,Final Grades,2019,B400-Rivard-M3/W3,B400,I,1.0,0.0,0,0,1
+2515,40860,2,Final Grades,2019,C400-Wills-T3/H3-S2MTH,C400,I,1.0,0.0,0,0,1
+2516,40860,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,I,1.0,0.0,0,0,1
+2517,40860,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,NP,1.0,0.0,0,0,1
+2518,40895,2,Final Grades,2019,A400-Carrera-M1/W1,A400,I,1.0,0.0,0,0,1
+2519,40895,2,Final Grades,2019,B400-Rivard-T1/H1,B400,C-,1.0,1.0,0,0,1
+2520,40895,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,C-,1.0,1.0,0,0,1
+2521,40895,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,C,1.0,1.0,0,0,1
+2522,40895,2,Final Grades,2019,I139-Internship-Barragan-AM,I139,P,1.0,1.0,0,0,1
+2523,41135,2,Final Grades,2019,A400-Carrera-M1/W1,A400,C-,1.0,1.0,0,0,1
+2524,41135,2,Final Grades,2019,B400-Rivard-M3/W3,B400,A,1.0,1.0,0,0,1
+2525,41135,2,Final Grades,2019,C400-Wills-T3/H3-S2MTH,C400,C,1.0,1.0,0,0,1
+2526,41135,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,B,1.0,1.0,0,0,1
+2527,41135,2,Final Grades,2019,F503-Intermediate Visual Art-Scicluna-AM,F503,B-,1.0,1.0,0,0,1
+2528,41135,2,Final Grades,2019,I121-Human Sexuality-Breuer-PM,I121,P,1.0,1.0,0,0,1
+2529,40780,2,Final Grades,2019,A400-Carrera-T2/H2,A400,I,1.0,0.0,0,0,1
+2530,40780,2,Final Grades,2019,B400-Rivard-T1/H1,B400,B,1.0,1.0,0,0,1
+2531,40780,2,Final Grades,2019,C400-Wills-T3/H3-S2MTH,C400,C,1.0,1.0,0,0,1
+2532,40780,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,B,1.0,1.0,0,0,1
+2533,40780,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,B,1.0,1.0,0,0,1
+2534,40780,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2535,40858,2,Final Grades,2019,A400-Carrera-T1/H1,A400,I,1.0,0.0,0,0,1
+2536,40858,2,Final Grades,2019,B400-Rivard-T3/H3,B400,I,1.0,0.0,0,0,1
+2537,40858,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,I,1.0,0.0,0,0,1
+2538,40858,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,C-,1.0,1.0,0,0,1
+2539,40858,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,NP,1.0,0.0,0,0,1
+2540,40795,2,Final Grades,2019,A400-Carrera-T2/H2,A400,C-,1.0,1.0,0,0,1
+2541,40795,2,Final Grades,2019,B400-Rivard-M3/W3,B400,C+,1.0,1.0,0,0,1
+2542,40795,2,Final Grades,2019,C400-Wills-T3/H3-S2MTH,C400,B,1.0,1.0,0,0,1
+2543,40795,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,C,1.0,1.0,0,0,1
+2544,40795,2,Final Grades,2019,E300-Hernandez-M1/W1,E300,C,1.0,1.0,0,0,1
+2545,40795,2,Final Grades,2019,G022-Entrepreneurship-Calvert-AM,G022,A+,1.0,1.0,0,0,1
+2546,40795,2,Final Grades,2019,I267-Modern Acting & Theater-Esparza Johnson-PM,I267,NO GRADE,1.0,1.0,0,0,1
+2547,41147,2,Final Grades,2019,A400-Carrera-T2/H2,A400,C,1.0,1.0,0,0,1
+2548,41147,2,Final Grades,2019,B400-Rivard-T3/H3,B400,B,1.0,1.0,0,0,1
+2549,41147,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,A-,1.0,1.0,0,0,1
+2550,41147,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,A-,1.0,1.0,0,0,1
+2551,41147,2,Final Grades,2019,E300-Hernandez-M1/W1,E300,B,1.0,1.0,0,0,1
+2552,41147,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2553,40847,2,Final Grades,2019,A400-Carrera-M2/W2,A400,I,1.0,0.0,0,0,1
+2554,40847,2,Final Grades,2019,B400-Rivard-T1/H1,B400,C,1.0,1.0,0,0,1
+2555,40847,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,I,1.0,0.0,0,0,1
+2556,40847,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,B,1.0,1.0,0,0,1
+2557,40847,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2558,41123,2,Final Grades,2019,A400-Carrera-T2/H2,A400,I,1.0,0.0,0,0,1
+2559,41123,2,Final Grades,2019,B400-Rivard-M1/W1,B400,C,1.0,1.0,0,0,1
+2560,41123,2,Final Grades,2019,C320-Alatorre-T3/H3-S2MTH,C320,C,1.0,1.0,0,0,1
+2561,41123,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,C+,1.0,1.0,0,0,1
+2562,41123,2,Final Grades,2019,E300-Hernandez-T1/H1,E300,B+,1.0,1.0,0,0,1
+2563,41123,2,Final Grades,2019,F511-Intro to Video Production-Nelson-PM,F511,A+,1.0,1.0,0,0,1
+2564,41123,2,Final Grades,2019,G101-Intro to Psychology-Wilkins-AM,G101,B+,1.0,1.0,0,0,1
+2565,40792,2,Final Grades,2019,A400-Carrera-M2/W2,A400,C-,1.0,1.0,0,0,1
+2566,40792,2,Final Grades,2019,B400-Rivard-M1/W1,B400,C+,1.0,1.0,0,0,1
+2567,40792,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,B-,1.0,1.0,0,0,1
+2568,40792,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,C,1.0,1.0,0,0,1
+2569,40792,2,Final Grades,2019,F511-Intro to Video Production-Nelson-AM,F511,I,1.0,0.0,0,0,1
+2570,40792,2,Final Grades,2019,I142-Robotics-Taylor-PM,I142,NP,1.0,0.0,0,0,1
+2571,40770,2,Final Grades,2019,A400-Carrera-M2/W2,A400,B-,1.0,1.0,0,0,1
+2572,40770,2,Final Grades,2019,B400-Rivard-T3/H3,B400,B,1.0,1.0,0,0,1
+2573,40770,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,A-,1.0,1.0,0,0,1
+2574,40770,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,B,1.0,1.0,0,0,1
+2575,40770,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2576,40772,2,Final Grades,2019,A400-Carrera-M1/W1,A400,A-,1.0,1.0,0,0,1
+2577,40772,2,Final Grades,2019,B400-Rivard-T1/H1,B400,A,1.0,1.0,0,0,1
+2578,40772,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,A+,1.0,1.0,0,0,1
+2579,40772,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,A,1.0,1.0,0,0,1
+2580,40772,2,Final Grades,2019,E400-Hernandez-T2/H2,E400,B+,1.0,1.0,0,0,1
+2581,40772,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2582,40840,2,Final Grades,2019,A400-Carrera-T2/H2,A400,A-,1.0,1.0,0,0,1
+2583,40840,2,Final Grades,2019,B400-Rivard-T3/H3,B400,A,1.0,1.0,0,0,1
+2584,40840,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,A,1.0,1.0,0,0,1
+2585,40840,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,A,1.0,1.0,0,0,1
+2586,40840,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,A,1.0,1.0,0,0,1
+2587,40840,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2588,40866,2,Final Grades,2019,A400-Carrera-T1/H1,A400,B-,1.0,1.0,0,0,1
+2589,40866,2,Final Grades,2019,B400-Rivard-M3/W3,B400,A-,1.0,1.0,0,0,1
+2590,40866,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,C,1.0,1.0,0,0,1
+2591,40866,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,A-,1.0,1.0,0,0,1
+2592,40866,2,Final Grades,2019,I139-Internship-Barragan-AM,I139,P,1.0,1.0,0,0,1
+2593,40963,2,Final Grades,2019,A400-Carrera-M1/W1,A400,C-,1.0,1.0,0,0,1
+2594,40963,2,Final Grades,2019,B400-Rivard-M3/W3,B400,C-,1.0,1.0,0,0,1
+2595,40963,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,C-,1.0,1.0,0,0,1
+2596,40963,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,C,1.0,1.0,0,0,1
+2597,40963,2,Final Grades,2019,I139-Internship-Barragan-AM,I139,P,1.0,1.0,0,0,1
+2598,40782,2,Final Grades,2019,A400-Carrera-T2/H2,A400,I,1.0,0.0,0,0,1
+2599,40782,2,Final Grades,2019,B400-Rivard-M1/W1,B400,C,1.0,1.0,0,0,1
+2600,40782,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,B-,1.0,1.0,0,0,1
+2601,40782,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,B,1.0,1.0,0,0,1
+2602,40782,2,Final Grades,2019,G103-Intro to Programming-Hesby-AM,G103,B,1.0,1.0,0,0,1
+2603,40782,2,Final Grades,2019,I142-Robotics-Taylor-PM,I142,NP,1.0,0.0,0,0,1
+2604,30637,2,Final Grades,2019,A400-Carrera-T1/H1,A400,I,1.0,0.0,0,0,1
+2605,30637,2,Final Grades,2019,B400-Rivard-M3/W3,B400,I,1.0,0.0,0,0,1
+2606,30637,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,I,1.0,0.0,0,0,1
+2607,30637,2,Final Grades,2019,E200-Ochoa-M2/W2,E200,I,1.0,0.0,0,0,1
+2608,30637,2,Final Grades,2019,G103-Intro to Programming-Hesby-AM,G103,I,1.0,0.0,0,0,1
+2609,30637,2,Final Grades,2019,I1122-Stage Combat-Brown-PM,I1122,NP,1.0,0.0,0,0,1
+2610,40763,2,Final Grades,2019,A400-Carrera-T2/H2,A400,A-,1.0,1.0,0,0,1
+2611,40763,2,Final Grades,2019,B400-Rivard-M3/W3,B400,A+,1.0,1.0,0,0,1
+2612,40763,2,Final Grades,2019,C400-Wills-T3/H3-S2MTH,C400,A+,1.0,1.0,0,0,1
+2613,40763,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,A+,1.0,1.0,0,0,1
+2614,40763,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,A+,1.0,1.0,0,0,1
+2615,40763,2,Final Grades,2019,G101-Intro to Psychology-Wilkins-AM,G101,A+,1.0,1.0,0,0,1
+2616,40763,2,Final Grades,2019,90911,I106,NO GRADE,1.0,1.0,0,0,1
+2617,40968,2,Final Grades,2019,A400-Carrera-T1/H1,A400,B-,1.0,1.0,0,0,1
+2618,40968,2,Final Grades,2019,B400-Rivard-T3/H3,B400,A,1.0,1.0,0,0,1
+2619,40968,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,B,1.0,1.0,0,0,1
+2620,40968,2,Final Grades,2019,I231-Creative Writing-DeOrnellas-PM,F231,A+,1.0,1.0,0,0,1
+2621,40968,2,Final Grades,2019,G101-Intro to Psychology-Wilkins-AM,G101,A-,1.0,1.0,0,0,1
+2622,40778,2,Final Grades,2019,A400-Carrera-M1/W1,A400,I,1.0,0.0,0,0,1
+2623,40778,2,Final Grades,2019,B400-Rivard-T3/H3,B400,C-,1.0,1.0,0,0,1
+2624,40778,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,I,1.0,0.0,0,0,1
+2625,40778,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,I,1.0,0.0,0,0,1
+2626,40778,2,Final Grades,2019,G103-Intro to Programming-Hesby-AM,G103,I,1.0,0.0,0,0,1
+2627,40778,2,Final Grades,2019,I1122-Stage Combat-Brown-PM,I1122,P,1.0,1.0,0,0,1
+2628,40777,2,Final Grades,2019,A400-Carrera-T2/H2,A400,B+,1.0,1.0,0,0,1
+2629,40777,2,Final Grades,2019,B400-Rivard-T1/H1,B400,A+,1.0,1.0,0,0,1
+2630,40777,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,A,1.0,1.0,0,0,1
+2631,40777,2,Final Grades,2019,C420-Wills-M3/W3-S2MTH,C420,A-,1.0,1.0,0,0,1
+2632,40777,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,A-,1.0,1.0,0,0,1
+2633,40777,2,Final Grades,2019,I139-Internship-Barragan-AM,I139,P,1.0,1.0,0,0,1
+2634,41149,2,Final Grades,2019,A200-Iwamoto-T2/H2,A200,C,1.0,1.0,0,0,1
+2635,41149,2,Final Grades,2019,A400-Carrera-M1/W1,A400,I,1.0,0.0,0,0,1
+2636,41149,2,Final Grades,2019,B400-Rivard-M3/W3,B400,I,1.0,0.0,0,0,1
+2637,41149,2,Final Grades,2019,C320-Alatorre-M2/W2-S2MTH,C320,I,1.0,0.0,0,0,1
+2638,41149,2,Final Grades,2019,D200-Shieh-T3/H3,D200,I,1.0,0.0,0,0,1
+2639,41149,2,Final Grades,2019,F511-Intro to Video Production-Nelson-PM,F511,I,1.0,0.0,0,0,1
+2640,41149,2,Final Grades,2019,G101-Intro to Psychology-Wilkins-AM,G101,I,1.0,0.0,0,0,1
+2641,40768,2,Final Grades,2019,A400-Carrera-T2/H2,A400,B-,1.0,1.0,0,0,1
+2642,40768,2,Final Grades,2019,B400-Rivard-T3/H3,B400,A,1.0,1.0,0,0,1
+2643,40768,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,B,1.0,1.0,0,0,1
+2644,40768,2,Final Grades,2019,C420-Wills-M2/W2-S2MTH,C420,B,1.0,1.0,0,0,1
+2645,40768,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,A-,1.0,1.0,0,0,1
+2646,40768,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2647,40796,2,Final Grades,2019,A400-Carrera-T2/H2,A400,I,1.0,0.0,0,0,1
+2648,40796,2,Final Grades,2019,B400-Rivard-M1/W1,B400,I,1.0,0.0,0,0,1
+2649,40796,2,Final Grades,2019,C400-Wills-T3/H3-S2MTH,C400,I,1.0,0.0,0,0,1
+2650,40796,2,Final Grades,2019,D430-Lorenz-M2/W2,D430,C-,1.0,1.0,0,0,1
+2651,40796,2,Final Grades,2019,I231-Creative Writing-DeOrnellas-PM,F231,A+,1.0,1.0,0,0,1
+2652,40796,2,Final Grades,2019,F503-Intermediate Visual Art-Scicluna-AM,F503,I,1.0,0.0,0,0,1
+2653,40867,2,Final Grades,2019,A400-Carrera-T1/H1,A400,I,1.0,0.0,0,0,1
+2654,40867,2,Final Grades,2019,B400-Rivard-M3/W3,B400,I,1.0,0.0,0,0,1
+2655,40867,2,Final Grades,2019,D430-Lorenz-T3/H3,D430,I,1.0,0.0,0,0,1
+2656,40867,2,Final Grades,2019,G103-Intro to Programming-Hesby-AM,G103,I,1.0,0.0,0,0,1
+2657,40867,2,Final Grades,2019,90910,I1106AD,P,1.0,1.0,0,0,1
+2658,40828,2,Final Grades,2019,A400-Carrera-M2/W2,A400,I,1.0,0.0,0,0,1
+2659,40828,2,Final Grades,2019,B400-Rivard-M3/W3,B400,I,1.0,0.0,0,0,1
+2660,40828,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,I,1.0,0.0,0,0,1
+2661,40828,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,I,1.0,0.0,0,0,1
+2662,40828,2,Final Grades,2019,E300-Hernandez-M1/W1,E300,I,1.0,0.0,0,0,1
+2663,40828,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,NP,1.0,0.0,0,0,1
+2664,41037,2,Final Grades,2019,A400-Carrera-M2/W2,A400,C,1.0,1.0,0,0,1
+2665,41037,2,Final Grades,2019,B400-Rivard-T3/H3,B400,B+,1.0,1.0,0,0,1
+2666,41037,2,Final Grades,2019,C420-Wills-T1/H1-S2MTH,C420,I,1.0,0.0,0,0,1
+2667,41037,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,I,1.0,0.0,0,0,1
+2668,41037,2,Final Grades,2019,E300-Hernandez-M1/W1,E300,I,1.0,0.0,0,0,1
+2669,41037,2,Final Grades,2019,F562-Intro to Drama-Esparza Johnson-AM,F562,I,1.0,0.0,0,0,1
+2670,41037,2,Final Grades,2019,I267-Modern Acting & Theater-Esparza Johnson-PM,I267,NO GRADE,1.0,1.0,0,0,1
+2671,40773,2,Final Grades,2019,A400-Carrera-M1/W1,A400,I,1.0,0.0,0,0,1
+2672,40773,2,Final Grades,2019,B400-Rivard-M3/W3,B400,C-,1.0,1.0,0,0,1
+2673,40773,2,Final Grades,2019,C400-Wills-T3/H3-S2MTH,C400,C,1.0,1.0,0,0,1
+2674,40773,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,C+,1.0,1.0,0,0,1
+2675,40773,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2676,40798,2,Final Grades,2019,A400-Carrera-M2/W2,A400,B-,1.0,1.0,0,0,1
+2677,40798,2,Final Grades,2019,B400-Rivard-T3/H3,B400,B,1.0,1.0,0,0,1
+2678,40798,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,B,1.0,1.0,0,0,1
+2679,40798,2,Final Grades,2019,D430-Lorenz-T2/H2,D430,A,1.0,1.0,0,0,1
+2680,40798,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1
+2681,40799,2,Final Grades,2019,A400-Carrera-T2/H2,A400,B,1.0,1.0,0,0,1
+2682,40799,2,Final Grades,2019,B400-Rivard-T3/H3,B400,B+,1.0,1.0,0,0,1
+2683,40799,2,Final Grades,2019,C400-Wills-M1/W1-S2MTH,C400,C,1.0,1.0,0,0,1
+2684,40799,2,Final Grades,2019,D430-Lorenz-M3/W3,D430,A,1.0,1.0,0,0,1
+2685,40799,2,Final Grades,2019,I106-Independent Study-Barragan-AM,I106,P,1.0,1.0,0,0,1

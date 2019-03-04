@@ -1,0 +1,1011 @@
+,site_name,local_student_id,last_name,first_name,current_grade_level,department_name,school_course_id,short_name,teacher,date_of_pull,LETTER_GRADE,corrected_grade,Inc Reason,stu_crs_lookup
+0,Summit Public School: Olympus,120029,Aguilera-Ocampo,C. Mateo,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120029 A400
+1,Summit Public School: Olympus,120029,Aguilera-Ocampo,C. Mateo,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120029 B400
+2,Summit Public School: Olympus,120029,Aguilera-Ocampo,C. Mateo,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120029 D430
+3,Summit Public School: Olympus,120029,Aguilera-Ocampo,C. Mateo,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120029 F502
+4,Summit Public School: Olympus,120029,Aguilera-Ocampo,C. Mateo,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120029 I1043
+5,Summit Public School: Olympus,120029,Aguilera-Ocampo,C. Mateo,12,Intervention,S4100,Bridge to College Math,"Harmon, Sydney",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120029 S4100
+6,Summit Public School: Olympus,120376,Ahmed,Salahuddin,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120376 A400
+7,Summit Public School: Olympus,120376,Ahmed,Salahuddin,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120376 B400
+8,Summit Public School: Olympus,120376,Ahmed,Salahuddin,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120376 C402
+9,Summit Public School: Olympus,120376,Ahmed,Salahuddin,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120376 D430
+10,Summit Public School: Olympus,120376,Ahmed,Salahuddin,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120376 F502
+11,Summit Public School: Olympus,120380,Alvarado,Marisa,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],120380 A400
+12,Summit Public School: Olympus,120380,Alvarado,Marisa,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],120380 B400
+13,Summit Public School: Olympus,120380,Alvarado,Marisa,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],120380 C402
+14,Summit Public School: Olympus,120380,Alvarado,Marisa,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],120380 D430
+15,Summit Public School: Olympus,120380,Alvarado,Marisa,12,Spanish,E400,AP Spanish Language,"Lopez, Madelyne",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],120380 E400
+16,Summit Public School: Olympus,120380,Alvarado,Marisa,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],120380 F502
+17,Summit Public School: Olympus,120068,Baltazar,Josue,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120068 A400
+18,Summit Public School: Olympus,120068,Baltazar,Josue,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120068 B400
+19,Summit Public School: Olympus,120068,Baltazar,Josue,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120068 D430
+20,Summit Public School: Olympus,120068,Baltazar,Josue,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,B,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120068 I1043
+21,Summit Public School: Olympus,120068,Baltazar,Josue,12,Electives,I136OP,Operations Assistant,"Miranda, Jessica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120068 I136OP
+22,Summit Public School: Olympus,120068,Baltazar,Josue,12,Intervention,S4100,Bridge to College Math,"Harmon, Sydney",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120068 S4100
+23,Summit Public School: Olympus,120136,Barnes,Chloe,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],120136 A400
+24,Summit Public School: Olympus,120136,Barnes,Chloe,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],120136 B400
+25,Summit Public School: Olympus,120136,Barnes,Chloe,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120136 C402
+26,Summit Public School: Olympus,120136,Barnes,Chloe,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120136 D430
+27,Summit Public School: Olympus,120136,Barnes,Chloe,12,Spanish,E300,Spanish 3,"Reisch, Rebecca",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120136 E300
+28,Summit Public School: Olympus,120136,Barnes,Chloe,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120136 F502
+29,Summit Public School: Olympus,120136,Barnes,Chloe,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120136 I199
+30,Summit Public School: Olympus,120149,Borja,Aidan,12,Spanish,E300,Spanish 3,"Reisch, Rebecca",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120149 E300
+31,Summit Public School: Olympus,120180,Butler,Samantha,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[X] Ovrdue Proj?[_],120180 A400
+32,Summit Public School: Olympus,120180,Butler,Samantha,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],120180 B400
+33,Summit Public School: Olympus,120180,Butler,Samantha,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120180 C402
+34,Summit Public School: Olympus,120180,Butler,Samantha,12,Science,D200,Chemistry,"Shin, Ji",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120180 D200
+35,Summit Public School: Olympus,120180,Butler,Samantha,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],120180 D430
+36,Summit Public School: Olympus,120180,Butler,Samantha,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,B-,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120180 I1043
+37,Summit Public School: Olympus,120103,Carbajal,Steven,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[X] Ovrdue Proj?[_],120103 A400
+38,Summit Public School: Olympus,120103,Carbajal,Steven,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120103 B400
+39,Summit Public School: Olympus,120103,Carbajal,Steven,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120103 C402
+40,Summit Public School: Olympus,120103,Carbajal,Steven,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,C-,C-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120103 D430
+41,Summit Public School: Olympus,120103,Carbajal,Steven,12,Spanish,E400,AP Spanish Language,"Lopez, Madelyne",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120103 E400
+42,Summit Public School: Olympus,120103,Carbajal,Steven,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,B,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120103 I1043
+43,Summit Public School: Olympus,120027,Cash,Adam,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120027 A400
+44,Summit Public School: Olympus,120027,Cash,Adam,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120027 B400
+45,Summit Public School: Olympus,120027,Cash,Adam,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120027 C402
+46,Summit Public School: Olympus,120027,Cash,Adam,12,Science,D200,Chemistry,"Shin, Ji",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120027 D200
+47,Summit Public School: Olympus,120027,Cash,Adam,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,C-,C-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120027 D430
+48,Summit Public School: Olympus,120027,Cash,Adam,12,Spanish,E200,Spanish 2,"Lopez, Madelyne",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120027 E200
+49,Summit Public School: Olympus,120051,Coleman,Emma,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120051 A400
+50,Summit Public School: Olympus,120051,Coleman,Emma,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120051 B400
+51,Summit Public School: Olympus,120051,Coleman,Emma,12,Math,C400,AP Calculus AB,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120051 C400
+52,Summit Public School: Olympus,120051,Coleman,Emma,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120051 D430
+53,Summit Public School: Olympus,120051,Coleman,Emma,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120051 F502
+54,Summit Public School: Olympus,120051,Coleman,Emma,12,Electives,I136OP,Operations Assistant,"Miranda, Jessica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120051 I136OP
+55,Summit Public School: Olympus,120051,Coleman,Emma,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120051 I199
+56,Summit Public School: Olympus,120118,Cooks,Daijah,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120118 A400
+57,Summit Public School: Olympus,120118,Cooks,Daijah,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120118 B400
+58,Summit Public School: Olympus,120118,Cooks,Daijah,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120118 C402
+59,Summit Public School: Olympus,120118,Cooks,Daijah,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120118 D430
+60,Summit Public School: Olympus,120118,Cooks,Daijah,12,Spanish,E300,Spanish 3,"Reisch, Rebecca",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120118 E300
+61,Summit Public School: Olympus,120118,Cooks,Daijah,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120118 I1043
+62,Summit Public School: Olympus,120114,Cornelio Urbano,Cristobal,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120114 A400
+63,Summit Public School: Olympus,120114,Cornelio Urbano,Cristobal,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120114 B400
+64,Summit Public School: Olympus,120114,Cornelio Urbano,Cristobal,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120114 D430
+65,Summit Public School: Olympus,120114,Cornelio Urbano,Cristobal,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120114 F502
+66,Summit Public School: Olympus,120114,Cornelio Urbano,Cristobal,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,A-,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120114 I1043
+67,Summit Public School: Olympus,120114,Cornelio Urbano,Cristobal,12,Intervention,S4100,Bridge to College Math,"Harmon, Sydney",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120114 S4100
+68,Summit Public School: Olympus,120007,Cubean,Janaesha,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[X] Ovrdue Proj?[_],120007 A400
+69,Summit Public School: Olympus,120007,Cubean,Janaesha,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120007 B400
+70,Summit Public School: Olympus,120007,Cubean,Janaesha,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[X] Ovrdue Proj?[_],120007 D430
+71,Summit Public School: Olympus,120007,Cubean,Janaesha,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120007 F502
+72,Summit Public School: Olympus,120007,Cubean,Janaesha,12,Electives,I136OP,Operations Assistant,"Miranda, Jessica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120007 I136OP
+73,Summit Public School: Olympus,120007,Cubean,Janaesha,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120007 I199
+74,Summit Public School: Olympus,120007,Cubean,Janaesha,12,Intervention,S4100,Bridge to College Math,"Harmon, Sydney",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120007 S4100
+75,Summit Public School: Olympus,120035,Curtis,Chaka,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120035 A400
+76,Summit Public School: Olympus,120035,Curtis,Chaka,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120035 B400
+77,Summit Public School: Olympus,120035,Curtis,Chaka,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120035 C402
+78,Summit Public School: Olympus,120035,Curtis,Chaka,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120035 D430
+79,Summit Public School: Olympus,120035,Curtis,Chaka,12,Spanish,E400,AP Spanish Language,"Lopez, Madelyne",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120035 E400
+80,Summit Public School: Olympus,120035,Curtis,Chaka,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120035 F502
+81,Summit Public School: Olympus,120035,Curtis,Chaka,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120035 I199
+82,Summit Public School: Olympus,120146,De Castro,Xandramarie,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120146 A400
+83,Summit Public School: Olympus,120146,De Castro,Xandramarie,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120146 B400
+84,Summit Public School: Olympus,120146,De Castro,Xandramarie,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120146 C402
+85,Summit Public School: Olympus,120146,De Castro,Xandramarie,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120146 D430
+86,Summit Public School: Olympus,120146,De Castro,Xandramarie,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120146 F502
+87,Summit Public School: Olympus,120146,De Castro,Xandramarie,12,Electives,I136OP,Operations Assistant,"Miranda, Jessica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120146 I136OP
+88,Summit Public School: Olympus,120016,Delgadillo-Reyes,Elsie,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120016 A400
+89,Summit Public School: Olympus,120016,Delgadillo-Reyes,Elsie,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120016 B400
+90,Summit Public School: Olympus,120016,Delgadillo-Reyes,Elsie,12,Math,C400,AP Calculus AB,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120016 C400
+91,Summit Public School: Olympus,120016,Delgadillo-Reyes,Elsie,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120016 D430
+92,Summit Public School: Olympus,120016,Delgadillo-Reyes,Elsie,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120016 F502
+93,Summit Public School: Olympus,120016,Delgadillo-Reyes,Elsie,12,Electives,I136OP,Operations Assistant,"Miranda, Jessica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120016 I136OP
+94,Summit Public School: Olympus,120016,Delgadillo-Reyes,Elsie,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120016 I199
+95,Summit Public School: Olympus,120009,Dickson,Kera'Nikole,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,C-,C-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120009 A400
+96,Summit Public School: Olympus,120009,Dickson,Kera'Nikole,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120009 B400
+97,Summit Public School: Olympus,120009,Dickson,Kera'Nikole,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120009 D430
+98,Summit Public School: Olympus,120009,Dickson,Kera'Nikole,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,B+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120009 I1043
+99,Summit Public School: Olympus,120009,Dickson,Kera'Nikole,12,Electives,I136OP,Operations Assistant,"Miranda, Jessica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120009 I136OP
+100,Summit Public School: Olympus,120009,Dickson,Kera'Nikole,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120009 I199
+101,Summit Public School: Olympus,120009,Dickson,Kera'Nikole,12,Intervention,S4100,Bridge to College Math,"Harmon, Sydney",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120009 S4100
+102,Summit Public School: Olympus,120359,Dysart,Kado,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,C-,C-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120359 A400
+103,Summit Public School: Olympus,120359,Dysart,Kado,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120359 B400
+104,Summit Public School: Olympus,120359,Dysart,Kado,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120359 C402
+105,Summit Public School: Olympus,120359,Dysart,Kado,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120359 D430
+106,Summit Public School: Olympus,120359,Dysart,Kado,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120359 F502
+107,Summit Public School: Olympus,120359,Dysart,Kado,12,Electives,I136OP,Operations Assistant,"Miranda, Jessica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120359 I136OP
+108,Summit Public School: Olympus,120236,Foster,Aseante,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120236 A400
+109,Summit Public School: Olympus,120236,Foster,Aseante,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120236 B400
+110,Summit Public School: Olympus,120236,Foster,Aseante,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120236 C402
+111,Summit Public School: Olympus,120236,Foster,Aseante,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120236 D430
+112,Summit Public School: Olympus,120236,Foster,Aseante,12,Spanish,E200,Spanish 2,"Lopez, Madelyne",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120236 E200
+113,Summit Public School: Olympus,120236,Foster,Aseante,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120236 F502
+114,Summit Public School: Olympus,120024,Fullerton,Danya,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120024 A400
+115,Summit Public School: Olympus,120024,Fullerton,Danya,12,Spanish,E200,Spanish 2,"Lopez, Madelyne",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120024 E200
+116,Summit Public School: Olympus,120100,Garcia,Abraham,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120100 A400
+117,Summit Public School: Olympus,120100,Garcia,Abraham,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,C-,C-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120100 B400
+118,Summit Public School: Olympus,120100,Garcia,Abraham,12,Science,D200,Chemistry,"Shin, Ji",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120100 D200
+119,Summit Public School: Olympus,120100,Garcia,Abraham,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120100 D430
+120,Summit Public School: Olympus,120100,Garcia,Abraham,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,B,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120100 I1043
+121,Summit Public School: Olympus,120100,Garcia,Abraham,12,Intervention,S4100,Bridge to College Math,"Harmon, Sydney",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120100 S4100
+122,Summit Public School: Olympus,120066,Garcia,Luis,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],120066 A400
+123,Summit Public School: Olympus,120066,Garcia,Luis,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],120066 B400
+124,Summit Public School: Olympus,120066,Garcia,Luis,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[X] Ovrdue Proj?[_],120066 D430
+125,Summit Public School: Olympus,120066,Garcia,Luis,12,Spanish,E200,Spanish 2,"Lopez, Madelyne",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120066 E200
+126,Summit Public School: Olympus,120066,Garcia,Luis,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,A-,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120066 I1043
+127,Summit Public School: Olympus,120066,Garcia,Luis,12,Intervention,S4100,Bridge to College Math,"Harmon, Sydney",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120066 S4100
+128,Summit Public School: Olympus,120170,Hale,Sebastian,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120170 A400
+129,Summit Public School: Olympus,120170,Hale,Sebastian,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120170 B400
+130,Summit Public School: Olympus,120170,Hale,Sebastian,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120170 C402
+131,Summit Public School: Olympus,120170,Hale,Sebastian,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120170 D430
+132,Summit Public School: Olympus,120170,Hale,Sebastian,12,Spanish,E300,Spanish 3,"Reisch, Rebecca",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120170 E300
+133,Summit Public School: Olympus,120170,Hale,Sebastian,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120170 F502
+134,Summit Public School: Olympus,120170,Hale,Sebastian,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120170 I199
+135,Summit Public School: Olympus,120098,Harris,Samira,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120098 A400
+136,Summit Public School: Olympus,120098,Harris,Samira,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120098 B400
+137,Summit Public School: Olympus,120098,Harris,Samira,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120098 C402
+138,Summit Public School: Olympus,120098,Harris,Samira,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120098 D430
+139,Summit Public School: Olympus,120162,Huffer,Gabriel,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120162 A400
+140,Summit Public School: Olympus,120162,Huffer,Gabriel,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120162 B400
+141,Summit Public School: Olympus,120162,Huffer,Gabriel,12,Math,C400,AP Calculus AB,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120162 C400
+142,Summit Public School: Olympus,120162,Huffer,Gabriel,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120162 D430
+143,Summit Public School: Olympus,120162,Huffer,Gabriel,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120162 F502
+144,Summit Public School: Olympus,120162,Huffer,Gabriel,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,A,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120162 I1043
+145,Summit Public School: Olympus,120004,James,Derrick,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120004 A400
+146,Summit Public School: Olympus,120004,James,Derrick,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120004 B400
+147,Summit Public School: Olympus,120004,James,Derrick,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120004 C402
+148,Summit Public School: Olympus,120004,James,Derrick,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120004 D430
+149,Summit Public School: Olympus,120004,James,Derrick,12,Spanish,E300,Spanish 3,"Reisch, Rebecca",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120004 E300
+150,Summit Public School: Olympus,120004,James,Derrick,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120004 F502
+151,Summit Public School: Olympus,120004,James,Derrick,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120004 I199
+152,Summit Public School: Olympus,120057,Little,Jeffrey,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120057 A400
+153,Summit Public School: Olympus,120057,Little,Jeffrey,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120057 B400
+154,Summit Public School: Olympus,120057,Little,Jeffrey,12,Math,C400,AP Calculus AB,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120057 C400
+155,Summit Public School: Olympus,120057,Little,Jeffrey,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120057 D430
+156,Summit Public School: Olympus,120057,Little,Jeffrey,12,Spanish,E400,AP Spanish Language,"Lopez, Madelyne",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120057 E400
+157,Summit Public School: Olympus,120057,Little,Jeffrey,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,B-,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120057 I1043
+158,Summit Public School: Olympus,120057,Little,Jeffrey,12,Electives,I1062,Student Government,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120057 I1062
+159,Summit Public School: Olympus,120203,Martin,Richard,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120203 A400
+160,Summit Public School: Olympus,120203,Martin,Richard,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120203 B400
+161,Summit Public School: Olympus,120203,Martin,Richard,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120203 C402
+162,Summit Public School: Olympus,120203,Martin,Richard,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120203 D430
+163,Summit Public School: Olympus,120203,Martin,Richard,12,Spanish,E300,Spanish 3,"Reisch, Rebecca",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120203 E300
+164,Summit Public School: Olympus,120203,Martin,Richard,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120203 F502
+165,Summit Public School: Olympus,120203,Martin,Richard,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120203 I199
+166,Summit Public School: Olympus,120071,Martinez-Estrada,Jennifer,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120071 A400
+167,Summit Public School: Olympus,120071,Martinez-Estrada,Jennifer,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120071 B400
+168,Summit Public School: Olympus,120071,Martinez-Estrada,Jennifer,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120071 C402
+169,Summit Public School: Olympus,120071,Martinez-Estrada,Jennifer,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120071 D430
+170,Summit Public School: Olympus,120071,Martinez-Estrada,Jennifer,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120071 F502
+171,Summit Public School: Olympus,120071,Martinez-Estrada,Jennifer,12,Electives,I136OP,Operations Assistant,"Miranda, Jessica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120071 I136OP
+172,Summit Public School: Olympus,120071,Martinez-Estrada,Jennifer,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120071 I199
+173,Summit Public School: Olympus,120054,McLaughlin,Tristan,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120054 A400
+174,Summit Public School: Olympus,120054,McLaughlin,Tristan,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120054 B400
+175,Summit Public School: Olympus,120054,McLaughlin,Tristan,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120054 C402
+176,Summit Public School: Olympus,120054,McLaughlin,Tristan,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120054 D430
+177,Summit Public School: Olympus,120054,McLaughlin,Tristan,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120054 F502
+178,Summit Public School: Olympus,120054,McLaughlin,Tristan,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,B+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120054 I1043
+179,Summit Public School: Olympus,120023,McNulty,Trevor,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120023 A400
+180,Summit Public School: Olympus,120023,McNulty,Trevor,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120023 B400
+181,Summit Public School: Olympus,120023,McNulty,Trevor,12,Math,C400,AP Calculus AB,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120023 C400
+182,Summit Public School: Olympus,120023,McNulty,Trevor,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120023 D430
+183,Summit Public School: Olympus,120023,McNulty,Trevor,12,Spanish,E400,AP Spanish Language,"Lopez, Madelyne",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120023 E400
+184,Summit Public School: Olympus,120023,McNulty,Trevor,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,A-,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120023 I1043
+185,Summit Public School: Olympus,120210,Millner,Melody,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120210 A400
+186,Summit Public School: Olympus,120210,Millner,Melody,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120210 B400
+187,Summit Public School: Olympus,120210,Millner,Melody,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120210 C402
+188,Summit Public School: Olympus,120210,Millner,Melody,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120210 D430
+189,Summit Public School: Olympus,120210,Millner,Melody,12,Spanish,E300,Spanish 3,"Reisch, Rebecca",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120210 E300
+190,Summit Public School: Olympus,120210,Millner,Melody,12,Electives,I136OP,Operations Assistant,"Miranda, Jessica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120210 I136OP
+191,Summit Public School: Olympus,120058,Mojica-Cruz,Celia,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120058 A400
+192,Summit Public School: Olympus,120058,Mojica-Cruz,Celia,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120058 B400
+193,Summit Public School: Olympus,120058,Mojica-Cruz,Celia,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120058 C402
+194,Summit Public School: Olympus,120058,Mojica-Cruz,Celia,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120058 D430
+195,Summit Public School: Olympus,120058,Mojica-Cruz,Celia,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120058 F502
+196,Summit Public School: Olympus,120058,Mojica-Cruz,Celia,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,A-,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120058 I1043
+197,Summit Public School: Olympus,120142,Molt,Riley,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120142 A400
+198,Summit Public School: Olympus,120142,Molt,Riley,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120142 B400
+199,Summit Public School: Olympus,120142,Molt,Riley,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120142 C402
+200,Summit Public School: Olympus,120142,Molt,Riley,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120142 D430
+201,Summit Public School: Olympus,120142,Molt,Riley,12,Spanish,E200,Spanish 2,"Lopez, Madelyne",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120142 E200
+202,Summit Public School: Olympus,120142,Molt,Riley,12,Electives,I136OP,Operations Assistant,"Miranda, Jessica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120142 I136OP
+203,Summit Public School: Olympus,120142,Molt,Riley,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120142 I199
+204,Summit Public School: Olympus,120011,Morehead,Tyshawn,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120011 A400
+205,Summit Public School: Olympus,120011,Morehead,Tyshawn,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120011 B400
+206,Summit Public School: Olympus,120011,Morehead,Tyshawn,12,Math,C400,AP Calculus AB,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120011 C400
+207,Summit Public School: Olympus,120011,Morehead,Tyshawn,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120011 D430
+208,Summit Public School: Olympus,120011,Morehead,Tyshawn,12,Spanish,E200,Spanish 2,"Lopez, Madelyne",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120011 E200
+209,Summit Public School: Olympus,120011,Morehead,Tyshawn,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120011 F502
+210,Summit Public School: Olympus,120011,Morehead,Tyshawn,12,Electives,I1062,Student Government,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120011 I1062
+211,Summit Public School: Olympus,120011,Morehead,Tyshawn,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120011 I199
+212,Summit Public School: Olympus,120013,Munoz,Samantha,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120013 A400
+213,Summit Public School: Olympus,120013,Munoz,Samantha,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120013 B400
+214,Summit Public School: Olympus,120013,Munoz,Samantha,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120013 C402
+215,Summit Public School: Olympus,120013,Munoz,Samantha,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120013 D430
+216,Summit Public School: Olympus,120013,Munoz,Samantha,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120013 F502
+217,Summit Public School: Olympus,120013,Munoz,Samantha,12,Electives,I136OP,Operations Assistant,"Miranda, Jessica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120013 I136OP
+218,Summit Public School: Olympus,120013,Munoz,Samantha,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120013 I199
+219,Summit Public School: Olympus,120357,Neesanan,Chattaporn,12,History,A200,World Studies II,"Carlson, Jordan",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120357 A200
+220,Summit Public School: Olympus,120357,Neesanan,Chattaporn,12,English,B200,English 10- LIS,"Fernandez, Anndrea",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120357 B200
+221,Summit Public School: Olympus,120357,Neesanan,Chattaporn,12,Science,D300,Physics,"Shin, Ji",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120357 D300
+222,Summit Public School: Olympus,120357,Neesanan,Chattaporn,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120357 F502
+223,Summit Public School: Olympus,120357,Neesanan,Chattaporn,12,Electives,I136OP,Operations Assistant,"Miranda, Jessica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120357 I136OP
+224,Summit Public School: Olympus,120357,Neesanan,Chattaporn,12,Intervention,S4100,Bridge to College Math,"Harmon, Sydney",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120357 S4100
+225,Summit Public School: Olympus,120010,Olivares Deanda,Mauricio,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120010 A400
+226,Summit Public School: Olympus,120010,Olivares Deanda,Mauricio,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120010 B400
+227,Summit Public School: Olympus,120010,Olivares Deanda,Mauricio,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120010 D430
+228,Summit Public School: Olympus,120010,Olivares Deanda,Mauricio,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120010 F502
+229,Summit Public School: Olympus,120010,Olivares Deanda,Mauricio,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120010 I1043
+230,Summit Public School: Olympus,120010,Olivares Deanda,Mauricio,12,Intervention,S4100,Bridge to College Math,"Harmon, Sydney",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120010 S4100
+231,Summit Public School: Olympus,120075,Ortega,Star,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120075 A400
+232,Summit Public School: Olympus,120075,Ortega,Star,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120075 B400
+233,Summit Public School: Olympus,120075,Ortega,Star,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120075 C402
+234,Summit Public School: Olympus,120075,Ortega,Star,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120075 D430
+235,Summit Public School: Olympus,120075,Ortega,Star,12,Spanish,E300,Spanish 3,"Reisch, Rebecca",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120075 E300
+236,Summit Public School: Olympus,120075,Ortega,Star,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120075 I1043
+237,Summit Public School: Olympus,120046,Padilla,Christopher,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120046 A400
+238,Summit Public School: Olympus,120046,Padilla,Christopher,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120046 B400
+239,Summit Public School: Olympus,120046,Padilla,Christopher,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120046 C402
+240,Summit Public School: Olympus,120046,Padilla,Christopher,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120046 D430
+241,Summit Public School: Olympus,120046,Padilla,Christopher,12,Spanish,E300,Spanish 3,"Reisch, Rebecca",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120046 E300
+242,Summit Public School: Olympus,120046,Padilla,Christopher,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120046 F502
+243,Summit Public School: Olympus,120046,Padilla,Christopher,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120046 I199
+244,Summit Public School: Olympus,120028,Parker,Breanna,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120028 A400
+245,Summit Public School: Olympus,120028,Parker,Breanna,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120028 B400
+246,Summit Public School: Olympus,120028,Parker,Breanna,12,Math,C400,AP Calculus AB,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120028 C400
+247,Summit Public School: Olympus,120028,Parker,Breanna,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120028 D430
+248,Summit Public School: Olympus,120028,Parker,Breanna,12,Spanish,E300,Spanish 3,"Reisch, Rebecca",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120028 E300
+249,Summit Public School: Olympus,120028,Parker,Breanna,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120028 I1043
+250,Summit Public School: Olympus,120289,Patterson,Tyirell,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120289 A400
+251,Summit Public School: Olympus,120289,Patterson,Tyirell,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[X] Ovrdue Proj?[_],120289 B400
+252,Summit Public School: Olympus,120289,Patterson,Tyirell,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120289 C402
+253,Summit Public School: Olympus,120289,Patterson,Tyirell,12,Science,D200,Chemistry,"Shin, Ji",1/15/2019 12:00:00 AM,C-,C-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120289 D200
+254,Summit Public School: Olympus,120289,Patterson,Tyirell,12,Spanish,E200,Spanish 2,"Lopez, Madelyne",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120289 E200
+255,Summit Public School: Olympus,120289,Patterson,Tyirell,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120289 F502
+256,Summit Public School: Olympus,120151,Ragin-Purter,Trevon,12,History,A300,AP US History,"Crain, Carrie",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],120151 A300
+257,Summit Public School: Olympus,120151,Ragin-Purter,Trevon,12,English,B300,AP Language and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],120151 B300
+258,Summit Public School: Olympus,120151,Ragin-Purter,Trevon,12,Math,C320,Math III,"Hansen, Alison",1/15/2019 12:00:00 AM,C-,C-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120151 C320
+259,Summit Public School: Olympus,120151,Ragin-Purter,Trevon,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],120151 D430
+260,Summit Public School: Olympus,120151,Ragin-Purter,Trevon,12,Spanish,E200,Spanish 2,"Lopez, Madelyne",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],120151 E200
+261,Summit Public School: Olympus,120151,Ragin-Purter,Trevon,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],120151 F502
+262,Summit Public School: Olympus,120185,Raiter,Alek,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120185 A400
+263,Summit Public School: Olympus,120185,Raiter,Alek,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120185 B400
+264,Summit Public School: Olympus,120185,Raiter,Alek,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120185 C402
+265,Summit Public School: Olympus,120185,Raiter,Alek,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120185 D430
+266,Summit Public School: Olympus,120185,Raiter,Alek,12,Spanish,E300,Spanish 3,"Reisch, Rebecca",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120185 E300
+267,Summit Public School: Olympus,120185,Raiter,Alek,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120185 F502
+268,Summit Public School: Olympus,120185,Raiter,Alek,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,A-,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120185 I1043
+269,Summit Public School: Olympus,120131,Ramirez,Douglas,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120131 A400
+270,Summit Public School: Olympus,120131,Ramirez,Douglas,12,Math,C400,AP Calculus AB,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120131 C400
+271,Summit Public School: Olympus,120131,Ramirez,Douglas,12,Electives,I1062,Student Government,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120131 I1062
+272,Summit Public School: Olympus,120131,Ramirez,Douglas,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120131 I199
+273,Summit Public School: Olympus,120135,Ramirez,Isabel,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120135 A400
+274,Summit Public School: Olympus,120135,Ramirez,Isabel,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,C-,C-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120135 B400
+275,Summit Public School: Olympus,120135,Ramirez,Isabel,12,Science,D200,Chemistry,"Shin, Ji",1/15/2019 12:00:00 AM,C-,C-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120135 D200
+276,Summit Public School: Olympus,120135,Ramirez,Isabel,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120135 D430
+277,Summit Public School: Olympus,120135,Ramirez,Isabel,12,Spanish,E400,AP Spanish Language,"Lopez, Madelyne",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120135 E400
+278,Summit Public School: Olympus,120135,Ramirez,Isabel,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120135 I199
+279,Summit Public School: Olympus,120135,Ramirez,Isabel,12,Intervention,S4100,Bridge to College Math,"Harmon, Sydney",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120135 S4100
+280,Summit Public School: Olympus,120047,Ramos,Moses,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120047 A400
+281,Summit Public School: Olympus,120047,Ramos,Moses,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120047 D430
+282,Summit Public School: Olympus,120047,Ramos,Moses,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120047 I1043
+283,Summit Public School: Olympus,120047,Ramos,Moses,12,Electives,I1062,Student Government,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120047 I1062
+284,Summit Public School: Olympus,120047,Ramos,Moses,12,Intervention,S4100,Bridge to College Math,"Harmon, Sydney",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120047 S4100
+285,Summit Public School: Olympus,120209,Rand,Aspen,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,C-,C-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120209 A400
+286,Summit Public School: Olympus,120209,Rand,Aspen,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120209 B400
+287,Summit Public School: Olympus,120209,Rand,Aspen,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120209 C402
+288,Summit Public School: Olympus,120209,Rand,Aspen,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120209 D430
+289,Summit Public School: Olympus,120209,Rand,Aspen,12,Spanish,E300,Spanish 3,"Reisch, Rebecca",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120209 E300
+290,Summit Public School: Olympus,120209,Rand,Aspen,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120209 I1043
+291,Summit Public School: Olympus,120113,Raschke,Sebastian,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120113 A400
+292,Summit Public School: Olympus,120113,Raschke,Sebastian,12,Math,C400,AP Calculus AB,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120113 C400
+293,Summit Public School: Olympus,120113,Raschke,Sebastian,12,Electives,I1062,Student Government,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120113 I1062
+294,Summit Public School: Olympus,120113,Raschke,Sebastian,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120113 I199
+295,Summit Public School: Olympus,120083,Rendon,Nadia,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120083 A400
+296,Summit Public School: Olympus,120083,Rendon,Nadia,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120083 B400
+297,Summit Public School: Olympus,120083,Rendon,Nadia,12,Math,C400,AP Calculus AB,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120083 C400
+298,Summit Public School: Olympus,120083,Rendon,Nadia,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120083 D430
+299,Summit Public School: Olympus,120083,Rendon,Nadia,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120083 I1043
+300,Summit Public School: Olympus,120083,Rendon,Nadia,12,Electives,I1062,Student Government,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120083 I1062
+301,Summit Public School: Olympus,120083,Rendon,Nadia,12,Electives,I136OP,Operations Assistant,"Miranda, Jessica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120083 I136OP
+302,Summit Public School: Olympus,120055,Roberts,Tyler,12,Math,C400,AP Calculus AB,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120055 C400
+303,Summit Public School: Olympus,120055,Roberts,Tyler,12,Spanish,E200,Spanish 2,"Lopez, Madelyne",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120055 E200
+304,Summit Public School: Olympus,120055,Roberts,Tyler,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120055 I199
+305,Summit Public School: Olympus,120030,Romero Amaro,Bill,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120030 A400
+306,Summit Public School: Olympus,120030,Romero Amaro,Bill,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120030 B400
+307,Summit Public School: Olympus,120030,Romero Amaro,Bill,12,Science,D200,Chemistry,"Shin, Ji",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120030 D200
+308,Summit Public School: Olympus,120030,Romero Amaro,Bill,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120030 D430
+309,Summit Public School: Olympus,120030,Romero Amaro,Bill,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,A-,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120030 I1043
+310,Summit Public School: Olympus,120030,Romero Amaro,Bill,12,Intervention,S4100,Bridge to College Math,"Harmon, Sydney",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120030 S4100
+311,Summit Public School: Olympus,120053,Rouzan,Khalil,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120053 A400
+312,Summit Public School: Olympus,120053,Rouzan,Khalil,12,Math,C400,AP Calculus AB,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120053 C400
+313,Summit Public School: Olympus,120053,Rouzan,Khalil,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120053 D430
+314,Summit Public School: Olympus,120053,Rouzan,Khalil,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120053 I199
+315,Summit Public School: Olympus,120091,Sams,Julian,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120091 A400
+316,Summit Public School: Olympus,120091,Sams,Julian,12,Math,C400,AP Calculus AB,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120091 C400
+317,Summit Public School: Olympus,120091,Sams,Julian,12,Science,D200,Chemistry,"Shin, Ji",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120091 D200
+318,Summit Public School: Olympus,120091,Sams,Julian,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120091 D430
+319,Summit Public School: Olympus,120091,Sams,Julian,12,Electives,I1062,Student Government,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120091 I1062
+320,Summit Public School: Olympus,120091,Sams,Julian,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120091 I199
+321,Summit Public School: Olympus,120037,Sanchez,Marisa,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120037 A400
+322,Summit Public School: Olympus,120037,Sanchez,Marisa,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120037 B400
+323,Summit Public School: Olympus,120037,Sanchez,Marisa,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120037 D430
+324,Summit Public School: Olympus,120037,Sanchez,Marisa,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120037 F502
+325,Summit Public School: Olympus,120037,Sanchez,Marisa,12,Electives,I136OP,Operations Assistant,"Miranda, Jessica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120037 I136OP
+326,Summit Public School: Olympus,120037,Sanchez,Marisa,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120037 I199
+327,Summit Public School: Olympus,120037,Sanchez,Marisa,12,Intervention,S4100,Bridge to College Math,"Harmon, Sydney",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120037 S4100
+328,Summit Public School: Olympus,120166,Shipps,D'Anthony,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,C-,C-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120166 A400
+329,Summit Public School: Olympus,120166,Shipps,D'Anthony,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,C-,C-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120166 B400
+330,Summit Public School: Olympus,120166,Shipps,D'Anthony,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120166 C402
+331,Summit Public School: Olympus,120166,Shipps,D'Anthony,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120166 D430
+332,Summit Public School: Olympus,120166,Shipps,D'Anthony,12,Spanish,E200,Spanish 2,"Lopez, Madelyne",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120166 E200
+333,Summit Public School: Olympus,120166,Shipps,D'Anthony,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120166 F502
+334,Summit Public School: Olympus,120166,Shipps,D'Anthony,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120166 I199
+335,Summit Public School: Olympus,120072,Smith,Nathaniel,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120072 A400
+336,Summit Public School: Olympus,120072,Smith,Nathaniel,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120072 B400
+337,Summit Public School: Olympus,120072,Smith,Nathaniel,12,Math,C400,AP Calculus AB,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120072 C400
+338,Summit Public School: Olympus,120072,Smith,Nathaniel,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120072 D430
+339,Summit Public School: Olympus,120072,Smith,Nathaniel,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120072 F502
+340,Summit Public School: Olympus,120072,Smith,Nathaniel,12,Electives,I1062,Student Government,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120072 I1062
+341,Summit Public School: Olympus,120072,Smith,Nathaniel,12,Electives,I136OP,Operations Assistant,"Miranda, Jessica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120072 I136OP
+342,Summit Public School: Olympus,120072,Smith,Nathaniel,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120072 I199
+343,Summit Public School: Olympus,120033,Sousa,Cleudson,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120033 A400
+344,Summit Public School: Olympus,120033,Sousa,Cleudson,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120033 B400
+345,Summit Public School: Olympus,120033,Sousa,Cleudson,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120033 D430
+346,Summit Public School: Olympus,120033,Sousa,Cleudson,12,Spanish,E400,AP Spanish Language,"Lopez, Madelyne",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120033 E400
+347,Summit Public School: Olympus,120033,Sousa,Cleudson,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,B-,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120033 I1043
+348,Summit Public School: Olympus,120033,Sousa,Cleudson,12,Intervention,S4100,Bridge to College Math,"Harmon, Sydney",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120033 S4100
+349,Summit Public School: Olympus,120102,Thompson-Mays,Eathan,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120102 A400
+350,Summit Public School: Olympus,120102,Thompson-Mays,Eathan,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120102 B400
+351,Summit Public School: Olympus,120102,Thompson-Mays,Eathan,12,Math,C320,Math III,"Hansen, Alison",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120102 C320
+352,Summit Public School: Olympus,120102,Thompson-Mays,Eathan,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120102 D430
+353,Summit Public School: Olympus,120102,Thompson-Mays,Eathan,12,Spanish,E200,Spanish 2,"Lopez, Madelyne",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120102 E200
+354,Summit Public School: Olympus,120102,Thompson-Mays,Eathan,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120102 F502
+355,Summit Public School: Olympus,120106,Turner,Elijah,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120106 A400
+356,Summit Public School: Olympus,120106,Turner,Elijah,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120106 B400
+357,Summit Public School: Olympus,120106,Turner,Elijah,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120106 D430
+358,Summit Public School: Olympus,120106,Turner,Elijah,12,Spanish,E300,Spanish 3,"Reisch, Rebecca",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120106 E300
+359,Summit Public School: Olympus,120106,Turner,Elijah,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120106 I1043
+360,Summit Public School: Olympus,120106,Turner,Elijah,12,Intervention,S4100,Bridge to College Math,"Harmon, Sydney",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120106 S4100
+361,Summit Public School: Olympus,120261,Valencia,Selena,12,English,B300,AP Language and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120261 B300
+362,Summit Public School: Olympus,120261,Valencia,Selena,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120261 B400
+363,Summit Public School: Olympus,120261,Valencia,Selena,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120261 D430
+364,Summit Public School: Olympus,120261,Valencia,Selena,12,Spanish,E400,AP Spanish Language,"Lopez, Madelyne",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120261 E400
+365,Summit Public School: Olympus,120261,Valencia,Selena,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120261 F502
+366,Summit Public School: Olympus,120261,Valencia,Selena,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120261 I1043
+367,Summit Public School: Olympus,120261,Valencia,Selena,12,Electives,I1062,Student Government,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120261 I1062
+368,Summit Public School: Olympus,120094,Vera Bernal,Mitzy,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120094 A400
+369,Summit Public School: Olympus,120094,Vera Bernal,Mitzy,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120094 B400
+370,Summit Public School: Olympus,120094,Vera Bernal,Mitzy,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120094 C402
+371,Summit Public School: Olympus,120094,Vera Bernal,Mitzy,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120094 D430
+372,Summit Public School: Olympus,120094,Vera Bernal,Mitzy,12,Spanish,E400,AP Spanish Language,"Lopez, Madelyne",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120094 E400
+373,Summit Public School: Olympus,120094,Vera Bernal,Mitzy,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120094 F502
+374,Summit Public School: Olympus,120094,Vera Bernal,Mitzy,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120094 I199
+375,Summit Public School: Olympus,120003,Williams,Genai,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120003 A400
+376,Summit Public School: Olympus,120003,Williams,Genai,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120003 B400
+377,Summit Public School: Olympus,120003,Williams,Genai,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120003 C402
+378,Summit Public School: Olympus,120003,Williams,Genai,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120003 D430
+379,Summit Public School: Olympus,120003,Williams,Genai,12,Spanish,E400,AP Spanish Language,"Lopez, Madelyne",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120003 E400
+380,Summit Public School: Olympus,120003,Williams,Genai,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120003 F502
+381,Summit Public School: Olympus,120003,Williams,Genai,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120003 I199
+382,Summit Public School: Olympus,120059,Wymore,Matthew,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120059 A400
+383,Summit Public School: Olympus,120059,Wymore,Matthew,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120059 B400
+384,Summit Public School: Olympus,120059,Wymore,Matthew,12,Math,C400,AP Calculus AB,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120059 C400
+385,Summit Public School: Olympus,120059,Wymore,Matthew,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120059 D430
+386,Summit Public School: Olympus,120059,Wymore,Matthew,12,Spanish,E300,Spanish 3,"Reisch, Rebecca",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120059 E300
+387,Summit Public School: Olympus,120059,Wymore,Matthew,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120059 F502
+388,Summit Public School: Olympus,120059,Wymore,Matthew,12,Electives,I1062,Student Government,"Reynolds, Tiffany",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120059 I1062
+389,Summit Public School: Olympus,120059,Wymore,Matthew,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120059 I199
+390,Summit Public School: Olympus,120195,Zoller,Griffin,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120195 A400
+391,Summit Public School: Olympus,120195,Zoller,Griffin,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120195 B400
+392,Summit Public School: Olympus,120195,Zoller,Griffin,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120195 C402
+393,Summit Public School: Olympus,120195,Zoller,Griffin,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120195 D430
+394,Summit Public School: Olympus,120195,Zoller,Griffin,12,Spanish,E200,Spanish 2,"Lopez, Madelyne",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120195 E200
+395,Summit Public School: Olympus,120195,Zoller,Griffin,12,Electives,I1043,Conditioning,"Ewing, Jasmine",1/15/2019 12:00:00 AM,B,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120195 I1043
+396,Summit Public School: Olympus,120060,Zuniga,Juana,12,History,A400,AP Government,"Crain, Carrie",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120060 A400
+397,Summit Public School: Olympus,120060,Zuniga,Juana,12,English,B400,AP Literature and Composition,"Leon, Jacob",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120060 B400
+398,Summit Public School: Olympus,120060,Zuniga,Juana,12,Math,C402,Modeling & Stats,"Hansen, Alison",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120060 C402
+399,Summit Public School: Olympus,120060,Zuniga,Juana,12,Science,D430,AP Environmental Science,"Prohuska, Jordan",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120060 D430
+400,Summit Public School: Olympus,120060,Zuniga,Juana,12,Spanish,E400,AP Spanish Language,"Lopez, Madelyne",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120060 E400
+401,Summit Public School: Olympus,120060,Zuniga,Juana,12,Electives,F502,Intro to Visual Art,"Guerra, Kristen",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120060 F502
+402,Summit Public School: Olympus,120060,Zuniga,Juana,12,Electives,I199,Health,"Ponikvar, Greg",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120060 I199
+403,Summit Public School: Sierra,110108,Abdi,Faisa,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110108 C400
+404,Summit Public School: Sierra,110108,Abdi,Faisa,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110108 S4100
+405,Summit Public School: Sierra,110403,Abdinur,Hassan,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110403 A400
+406,Summit Public School: Sierra,110403,Abdinur,Hassan,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[X] Ovrdue Proj?[_],110403 B400
+407,Summit Public School: Sierra,110403,Abdinur,Hassan,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],110403 C400
+408,Summit Public School: Sierra,110403,Abdinur,Hassan,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,C-,C-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110403 D430
+409,Summit Public School: Sierra,110403,Abdinur,Hassan,12,Spanish,E200,Spanish 2,"Arias, Abel",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110403 E200
+410,Summit Public School: Sierra,110403,Abdinur,Hassan,12,Electives,I1030,Digital Photography,"Vinson, Ryan",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110403 I1030
+411,Summit Public School: Sierra,110403,Abdinur,Hassan,12,Electives,I1044,Exploring Computer Science,"Mendez, Bo",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110403 I1044
+412,Summit Public School: Sierra,110403,Abdinur,Hassan,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110403 I199
+413,Summit Public School: Sierra,110202,Abdullahi,Fahad,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110202 A400
+414,Summit Public School: Sierra,110202,Abdullahi,Fahad,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110202 B400
+415,Summit Public School: Sierra,110202,Abdullahi,Fahad,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110202 C400
+416,Summit Public School: Sierra,110202,Abdullahi,Fahad,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110202 D430
+417,Summit Public School: Sierra,110202,Abdullahi,Fahad,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,A,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110202 I1026
+418,Summit Public School: Sierra,110202,Abdullahi,Fahad,12,Electives,I1031,Basketball/Citizen Development,"Baba, Erica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110202 I1031
+419,Summit Public School: Sierra,110202,Abdullahi,Fahad,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110202 I199
+420,Summit Public School: Sierra,110202,Abdullahi,Fahad,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110202 S4100
+421,Summit Public School: Sierra,110354,Abdullahi,Safiya,12,History,A200,World Studies II,"Hess, Joseph",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110354 A200
+422,Summit Public School: Sierra,110354,Abdullahi,Safiya,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110354 A400
+423,Summit Public School: Sierra,110354,Abdullahi,Safiya,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110354 B400
+424,Summit Public School: Sierra,110354,Abdullahi,Safiya,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110354 D430
+425,Summit Public School: Sierra,110354,Abdullahi,Safiya,12,Electives,I1030,Digital Photography,"Vinson, Ryan",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110354 I1030
+426,Summit Public School: Sierra,110354,Abdullahi,Safiya,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110354 I1064
+427,Summit Public School: Sierra,110354,Abdullahi,Safiya,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110354 I199
+428,Summit Public School: Sierra,110354,Abdullahi,Safiya,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110354 S4100
+429,Summit Public School: Sierra,110214,Abeditameh,Roxana,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110214 A400
+430,Summit Public School: Sierra,110214,Abeditameh,Roxana,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110214 B400
+431,Summit Public School: Sierra,110214,Abeditameh,Roxana,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110214 C400
+432,Summit Public School: Sierra,110214,Abeditameh,Roxana,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110214 D430
+433,Summit Public School: Sierra,110214,Abeditameh,Roxana,12,Electives,I1030,Digital Photography,"Vinson, Ryan",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110214 I1030
+434,Summit Public School: Sierra,110214,Abeditameh,Roxana,12,Electives,I1046,Creative Writing,"Vinson, Ryan",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110214 I1046
+435,Summit Public School: Sierra,110214,Abeditameh,Roxana,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110214 I199
+436,Summit Public School: Sierra,110214,Abeditameh,Roxana,12,Intervention,S4100,Bridge to College Math,"Gomez, Aubree",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110214 S4100
+437,Summit Public School: Sierra,110042,Aden,Sophia,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110042 A400
+438,Summit Public School: Sierra,110042,Aden,Sophia,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110042 B400
+439,Summit Public School: Sierra,110042,Aden,Sophia,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110042 C400
+440,Summit Public School: Sierra,110042,Aden,Sophia,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110042 D430
+441,Summit Public School: Sierra,110042,Aden,Sophia,12,Electives,G104,AP Comp Sci,"Mendez, Bo",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110042 G104
+442,Summit Public School: Sierra,110042,Aden,Sophia,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110042 I199
+443,Summit Public School: Sierra,110178,Ahmed,Abdullahi,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110178 I199
+444,Summit Public School: Sierra,110178,Ahmed,Abdullahi,12,Intervention,S4100,Bridge to College Math,"Gomez, Aubree",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110178 S4100
+445,Summit Public School: Sierra,110134,Ali,Aasha,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110134 A400
+446,Summit Public School: Sierra,110134,Ali,Aasha,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110134 B400
+447,Summit Public School: Sierra,110134,Ali,Aasha,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110134 C400
+448,Summit Public School: Sierra,110134,Ali,Aasha,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110134 D430
+449,Summit Public School: Sierra,110134,Ali,Aasha,12,Electives,I1021,Drama,"Vinson, Ryan",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110134 I1021
+450,Summit Public School: Sierra,110134,Ali,Aasha,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110134 I1064
+451,Summit Public School: Sierra,110134,Ali,Aasha,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110134 I199
+452,Summit Public School: Sierra,110134,Ali,Aasha,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110134 S4100
+453,Summit Public School: Sierra,110072,Andrada,Svanna,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110072 C400
+454,Summit Public School: Sierra,110072,Andrada,Svanna,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110072 I199
+455,Summit Public School: Sierra,110218,Austin,Mason,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110218 A400
+456,Summit Public School: Sierra,110218,Austin,Mason,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110218 B400
+457,Summit Public School: Sierra,110218,Austin,Mason,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110218 C400
+458,Summit Public School: Sierra,110218,Austin,Mason,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110218 D430
+459,Summit Public School: Sierra,110218,Austin,Mason,12,Electives,I1031,Basketball/Citizen Development,"Baba, Erica",1/15/2019 12:00:00 AM,A,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110218 I1031
+460,Summit Public School: Sierra,110218,Austin,Mason,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110218 S4100
+461,Summit Public School: Sierra,110050,Ayemin,Alexis,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110050 A400
+462,Summit Public School: Sierra,110050,Ayemin,Alexis,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110050 B400
+463,Summit Public School: Sierra,110050,Ayemin,Alexis,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110050 C400
+464,Summit Public School: Sierra,110050,Ayemin,Alexis,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110050 D430
+465,Summit Public School: Sierra,110050,Ayemin,Alexis,12,Spanish,E200,Spanish 2,"Arias, Abel",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110050 E200
+466,Summit Public School: Sierra,110050,Ayemin,Alexis,12,Electives,I1046,Creative Writing,"Vinson, Ryan",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110050 I1046
+467,Summit Public School: Sierra,110050,Ayemin,Alexis,12,Electives,I1047,Yoga,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110050 I1047
+468,Summit Public School: Sierra,110050,Ayemin,Alexis,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,I,NP,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110050 I199
+469,Summit Public School: Sierra,110034,Baltazar,Christopher,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110034 I199
+470,Summit Public School: Sierra,110066,Blackett,Gabriel,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110066 A400
+471,Summit Public School: Sierra,110066,Blackett,Gabriel,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110066 B400
+472,Summit Public School: Sierra,110066,Blackett,Gabriel,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110066 C400
+473,Summit Public School: Sierra,110066,Blackett,Gabriel,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110066 D430
+474,Summit Public School: Sierra,110066,Blackett,Gabriel,12,Electives,G104,AP Comp Sci,"Mendez, Bo",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110066 G104
+475,Summit Public School: Sierra,110066,Blackett,Gabriel,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110066 I1064
+476,Summit Public School: Sierra,110066,Blackett,Gabriel,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110066 I199
+477,Summit Public School: Sierra,110100,Boland,Corina,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110100 A400
+478,Summit Public School: Sierra,110100,Boland,Corina,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110100 B400
+479,Summit Public School: Sierra,110100,Boland,Corina,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110100 C400
+480,Summit Public School: Sierra,110100,Boland,Corina,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110100 D430
+481,Summit Public School: Sierra,110100,Boland,Corina,12,Electives,I1022,2D + 3D Art,"Vinson, Ryan",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110100 I1022
+482,Summit Public School: Sierra,110100,Boland,Corina,12,Electives,I1047,Yoga,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110100 I1047
+483,Summit Public School: Sierra,110100,Boland,Corina,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110100 I199
+484,Summit Public School: Sierra,110081,Bruback,Alistar,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110081 A400
+485,Summit Public School: Sierra,110081,Bruback,Alistar,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110081 B400
+486,Summit Public School: Sierra,110081,Bruback,Alistar,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110081 C400
+487,Summit Public School: Sierra,110081,Bruback,Alistar,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110081 D430
+488,Summit Public School: Sierra,110081,Bruback,Alistar,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110081 I1026
+489,Summit Public School: Sierra,110081,Bruback,Alistar,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110081 I199
+490,Summit Public School: Sierra,110045,Buparat,Sabrina,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110045 A400
+491,Summit Public School: Sierra,110045,Buparat,Sabrina,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110045 B400
+492,Summit Public School: Sierra,110045,Buparat,Sabrina,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110045 C400
+493,Summit Public School: Sierra,110045,Buparat,Sabrina,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110045 D430
+494,Summit Public School: Sierra,110045,Buparat,Sabrina,12,Electives,I1030,Digital Photography,"Vinson, Ryan",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110045 I1030
+495,Summit Public School: Sierra,110045,Buparat,Sabrina,12,Electives,I1062,Student Government,"Baba, Erica",,,,,110045 I1062
+496,Summit Public School: Sierra,110045,Buparat,Sabrina,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110045 I199
+497,Summit Public School: Sierra,110030,Burrus,Teiji,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110030 A400
+498,Summit Public School: Sierra,110030,Burrus,Teiji,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[X] Ovrdue Proj?[_],110030 B400
+499,Summit Public School: Sierra,110030,Burrus,Teiji,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110030 C400
+500,Summit Public School: Sierra,110030,Burrus,Teiji,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110030 D430
+501,Summit Public School: Sierra,110030,Burrus,Teiji,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110030 I1026
+502,Summit Public School: Sierra,110030,Burrus,Teiji,12,Electives,I1030,Digital Photography,"Vinson, Ryan",1/15/2019 12:00:00 AM,I,NP,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110030 I1030
+503,Summit Public School: Sierra,110030,Burrus,Teiji,12,Electives,I1044,Exploring Computer Science,"Mendez, Bo",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110030 I1044
+504,Summit Public School: Sierra,110030,Burrus,Teiji,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110030 I199
+505,Summit Public School: Sierra,110070,Caldwell,Usha,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110070 A400
+506,Summit Public School: Sierra,110070,Caldwell,Usha,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110070 B400
+507,Summit Public School: Sierra,110070,Caldwell,Usha,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110070 C400
+508,Summit Public School: Sierra,110070,Caldwell,Usha,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110070 D430
+509,Summit Public School: Sierra,110070,Caldwell,Usha,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110070 I1064
+510,Summit Public School: Sierra,110070,Caldwell,Usha,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110070 I199
+511,Summit Public School: Sierra,110121,Calvi,Gian,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110121 A400
+512,Summit Public School: Sierra,110121,Calvi,Gian,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110121 B400
+513,Summit Public School: Sierra,110121,Calvi,Gian,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110121 C400
+514,Summit Public School: Sierra,110121,Calvi,Gian,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110121 D430
+515,Summit Public School: Sierra,110121,Calvi,Gian,12,Electives,G104,AP Comp Sci,"Mendez, Bo",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110121 G104
+516,Summit Public School: Sierra,110121,Calvi,Gian,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110121 I199
+517,Summit Public School: Sierra,110024,Chappell,Helen,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,I,NP,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110024 I199
+518,Summit Public School: Sierra,110265,Chen,James,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110265 A400
+519,Summit Public School: Sierra,110265,Chen,James,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110265 B400
+520,Summit Public School: Sierra,110265,Chen,James,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110265 C400
+521,Summit Public School: Sierra,110265,Chen,James,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110265 D430
+522,Summit Public School: Sierra,110265,Chen,James,12,Electives,G104,AP Comp Sci,"Mendez, Bo",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110265 G104
+523,Summit Public School: Sierra,110265,Chen,James,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110265 I199
+524,Summit Public School: Sierra,110063,Clark,Ashley,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110063 A400
+525,Summit Public School: Sierra,110063,Clark,Ashley,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110063 B400
+526,Summit Public School: Sierra,110063,Clark,Ashley,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110063 C400
+527,Summit Public School: Sierra,110063,Clark,Ashley,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110063 D430
+528,Summit Public School: Sierra,110063,Clark,Ashley,12,Electives,I1062,Student Government,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110063 I1062
+529,Summit Public School: Sierra,110063,Clark,Ashley,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110063 I199
+530,Summit Public School: Sierra,110035,Coburn,Fletcher,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110035 A400
+531,Summit Public School: Sierra,110035,Coburn,Fletcher,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110035 B400
+532,Summit Public School: Sierra,110035,Coburn,Fletcher,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110035 C400
+533,Summit Public School: Sierra,110035,Coburn,Fletcher,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110035 D430
+534,Summit Public School: Sierra,110035,Coburn,Fletcher,12,Electives,I1044,Exploring Computer Science,"Mendez, Bo",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110035 I1044
+535,Summit Public School: Sierra,110035,Coburn,Fletcher,12,Electives,I1072,History In Film,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110035 I1072
+536,Summit Public School: Sierra,110035,Coburn,Fletcher,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110035 I199
+537,Summit Public School: Sierra,110077,Cook,Elijah,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],110077 A400
+538,Summit Public School: Sierra,110077,Cook,Elijah,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110077 B400
+539,Summit Public School: Sierra,110077,Cook,Elijah,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110077 C400
+540,Summit Public School: Sierra,110077,Cook,Elijah,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],110077 D430
+541,Summit Public School: Sierra,110077,Cook,Elijah,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110077 I1026
+542,Summit Public School: Sierra,110077,Cook,Elijah,12,Electives,I1072,History In Film,"Baba, Erica",1/15/2019 12:00:00 AM,C+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110077 I1072
+543,Summit Public School: Sierra,110077,Cook,Elijah,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,I,NP,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110077 I199
+544,Summit Public School: Sierra,110077,Cook,Elijah,12,Intervention,S4100,Bridge to College Math,"Gomez, Aubree",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110077 S4100
+545,Summit Public School: Sierra,110069,Cortes,Oscar,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110069 A400
+546,Summit Public School: Sierra,110069,Cortes,Oscar,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110069 B400
+547,Summit Public School: Sierra,110069,Cortes,Oscar,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110069 C400
+548,Summit Public School: Sierra,110069,Cortes,Oscar,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[X] Ovrdue Proj?[_],110069 D430
+549,Summit Public School: Sierra,110069,Cortes,Oscar,12,Spanish,E400,AP Spanish Language,"Arias, Abel",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110069 E400
+550,Summit Public School: Sierra,110069,Cortes,Oscar,12,Electives,I1046,Creative Writing,"Vinson, Ryan",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110069 I1046
+551,Summit Public School: Sierra,110069,Cortes,Oscar,12,Electives,I1072,History In Film,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110069 I1072
+552,Summit Public School: Sierra,110069,Cortes,Oscar,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110069 I199
+553,Summit Public School: Sierra,110139,Cura,Carmina,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110139 A400
+554,Summit Public School: Sierra,110139,Cura,Carmina,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110139 B400
+555,Summit Public School: Sierra,110139,Cura,Carmina,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110139 D430
+556,Summit Public School: Sierra,110139,Cura,Carmina,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110139 I1064
+557,Summit Public School: Sierra,110139,Cura,Carmina,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110139 I199
+558,Summit Public School: Sierra,110139,Cura,Carmina,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110139 S4100
+559,Summit Public School: Sierra,110031,Dagnen,Logan,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110031 A400
+560,Summit Public School: Sierra,110031,Dagnen,Logan,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110031 B400
+561,Summit Public School: Sierra,110031,Dagnen,Logan,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110031 C400
+562,Summit Public School: Sierra,110031,Dagnen,Logan,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110031 D430
+563,Summit Public School: Sierra,110031,Dagnen,Logan,12,Electives,I1030,Digital Photography,"Vinson, Ryan",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110031 I1030
+564,Summit Public School: Sierra,110031,Dagnen,Logan,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110031 I1064
+565,Summit Public School: Sierra,110031,Dagnen,Logan,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110031 I199
+566,Summit Public School: Sierra,110086,De La Cruz,Edgiemeh,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110086 A400
+567,Summit Public School: Sierra,110086,De La Cruz,Edgiemeh,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110086 B400
+568,Summit Public School: Sierra,110086,De La Cruz,Edgiemeh,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110086 C400
+569,Summit Public School: Sierra,110086,De La Cruz,Edgiemeh,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110086 D430
+570,Summit Public School: Sierra,110086,De La Cruz,Edgiemeh,12,Electives,I1062,Student Government,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110086 I1062
+571,Summit Public School: Sierra,110086,De La Cruz,Edgiemeh,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110086 I199
+572,Summit Public School: Sierra,110133,Dirie,Zuhur,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110133 A400
+573,Summit Public School: Sierra,110133,Dirie,Zuhur,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110133 B400
+574,Summit Public School: Sierra,110133,Dirie,Zuhur,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110133 C400
+575,Summit Public School: Sierra,110133,Dirie,Zuhur,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110133 D430
+576,Summit Public School: Sierra,110133,Dirie,Zuhur,12,Electives,I1021,Drama,"Vinson, Ryan",1/15/2019 12:00:00 AM,A,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110133 I1021
+577,Summit Public School: Sierra,110133,Dirie,Zuhur,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110133 I1026
+578,Summit Public School: Sierra,110133,Dirie,Zuhur,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110133 I199
+579,Summit Public School: Sierra,110133,Dirie,Zuhur,12,Intervention,S4100,Bridge to College Math,"Gomez, Aubree",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[X] Ovrdue Proj?[X],110133 S4100
+580,Summit Public School: Sierra,110115,Farmer,Anise,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110115 A400
+581,Summit Public School: Sierra,110115,Farmer,Anise,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110115 B400
+582,Summit Public School: Sierra,110115,Farmer,Anise,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110115 C400
+583,Summit Public School: Sierra,110115,Farmer,Anise,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110115 D430
+584,Summit Public School: Sierra,110115,Farmer,Anise,12,Electives,G104,AP Comp Sci,"Mendez, Bo",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110115 G104
+585,Summit Public School: Sierra,110115,Farmer,Anise,12,Electives,I1031,Basketball/Citizen Development,"Baba, Erica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110115 I1031
+586,Summit Public School: Sierra,110115,Farmer,Anise,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110115 I199
+587,Summit Public School: Sierra,110021,Fletcher,Robert,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110021 A400
+588,Summit Public School: Sierra,110021,Fletcher,Robert,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],110021 B400
+589,Summit Public School: Sierra,110021,Fletcher,Robert,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[X],110021 C400
+590,Summit Public School: Sierra,110021,Fletcher,Robert,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110021 D430
+591,Summit Public School: Sierra,110021,Fletcher,Robert,12,Spanish,E200,Spanish 2,"Arias, Abel",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110021 E200
+592,Summit Public School: Sierra,110021,Fletcher,Robert,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110021 I1026
+593,Summit Public School: Sierra,110021,Fletcher,Robert,12,Electives,I1044,Exploring Computer Science,"Mendez, Bo",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110021 I1044
+594,Summit Public School: Sierra,110021,Fletcher,Robert,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110021 I199
+595,Summit Public School: Sierra,110021,Fletcher,Robert,12,Intervention,S4100,Bridge to College Math,"Gomez, Aubree",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110021 S4100
+596,Summit Public School: Sierra,110048,Flowers,Jerald,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110048 A400
+597,Summit Public School: Sierra,110048,Flowers,Jerald,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110048 B400
+598,Summit Public School: Sierra,110048,Flowers,Jerald,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110048 C400
+599,Summit Public School: Sierra,110048,Flowers,Jerald,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110048 D430
+600,Summit Public School: Sierra,110048,Flowers,Jerald,12,Electives,I1022,2D + 3D Art,"Vinson, Ryan",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110048 I1022
+601,Summit Public School: Sierra,110048,Flowers,Jerald,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110048 I1064
+602,Summit Public School: Sierra,110048,Flowers,Jerald,12,Electives,I1072,History In Film,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110048 I1072
+603,Summit Public School: Sierra,110048,Flowers,Jerald,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110048 I199
+604,Summit Public School: Sierra,110534,Giampino,Maxwell,12,English,B300,AP Language and Composition,"Edens, Stephanie",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110534 B300
+605,Summit Public School: Sierra,110534,Giampino,Maxwell,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110534 B400
+606,Summit Public School: Sierra,110534,Giampino,Maxwell,12,Math,C320,Math III,"Temes, Leah",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110534 C320
+607,Summit Public School: Sierra,110534,Giampino,Maxwell,12,Science,D300,Physics,"Bakke, Peter",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110534 D300
+608,Summit Public School: Sierra,110534,Giampino,Maxwell,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110534 D430
+609,Summit Public School: Sierra,110534,Giampino,Maxwell,12,Electives,I1030,Digital Photography,"Vinson, Ryan",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110534 I1030
+610,Summit Public School: Sierra,110534,Giampino,Maxwell,12,Electives,I1044,Exploring Computer Science,"Mendez, Bo",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110534 I1044
+611,Summit Public School: Sierra,110534,Giampino,Maxwell,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110534 I1064
+612,Summit Public School: Sierra,110534,Giampino,Maxwell,12,Intervention,S4100,Bridge to College Math,"Gomez, Aubree",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110534 S4100
+613,Summit Public School: Sierra,110014,Gilliland,Margo,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,I,NP,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110014 I199
+614,Summit Public School: Sierra,110126,Gray,Justin,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110126 A400
+615,Summit Public School: Sierra,110126,Gray,Justin,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110126 B400
+616,Summit Public School: Sierra,110126,Gray,Justin,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110126 C400
+617,Summit Public School: Sierra,110126,Gray,Justin,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110126 D430
+618,Summit Public School: Sierra,110126,Gray,Justin,12,Electives,I1030,Digital Photography,"Vinson, Ryan",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110126 I1030
+619,Summit Public School: Sierra,110126,Gray,Justin,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110126 I1064
+620,Summit Public School: Sierra,110126,Gray,Justin,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110126 I199
+621,Summit Public School: Sierra,110015,Haavig,Raleigh,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110015 A400
+622,Summit Public School: Sierra,110015,Haavig,Raleigh,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110015 B400
+623,Summit Public School: Sierra,110015,Haavig,Raleigh,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110015 C400
+624,Summit Public School: Sierra,110015,Haavig,Raleigh,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110015 D430
+625,Summit Public School: Sierra,110015,Haavig,Raleigh,12,Electives,I1046,Creative Writing,"Vinson, Ryan",,,,,110015 I1046
+626,Summit Public School: Sierra,110015,Haavig,Raleigh,12,Electives,I1047,Yoga,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110015 I1047
+627,Summit Public School: Sierra,110015,Haavig,Raleigh,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110015 I199
+628,Summit Public School: Sierra,110052,Hasegawa,Clio,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110052 A400
+629,Summit Public School: Sierra,110052,Hasegawa,Clio,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110052 B400
+630,Summit Public School: Sierra,110052,Hasegawa,Clio,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110052 C400
+631,Summit Public School: Sierra,110052,Hasegawa,Clio,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110052 D430
+632,Summit Public School: Sierra,110052,Hasegawa,Clio,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110052 I1064
+633,Summit Public School: Sierra,110052,Hasegawa,Clio,12,Electives,I1072,History In Film,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110052 I1072
+634,Summit Public School: Sierra,110052,Hasegawa,Clio,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110052 I199
+635,Summit Public School: Sierra,110135,Hassan,Aisha,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110135 A400
+636,Summit Public School: Sierra,110135,Hassan,Aisha,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],110135 B400
+637,Summit Public School: Sierra,110135,Hassan,Aisha,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110135 D430
+638,Summit Public School: Sierra,110135,Hassan,Aisha,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,B,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110135 I1026
+639,Summit Public School: Sierra,110135,Hassan,Aisha,12,Electives,I1031,Basketball/Citizen Development,"Baba, Erica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110135 I1031
+640,Summit Public School: Sierra,110135,Hassan,Aisha,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110135 I199
+641,Summit Public School: Sierra,110135,Hassan,Aisha,12,Intervention,S4100,Bridge to College Math,"Gomez, Aubree",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110135 S4100
+642,Summit Public School: Sierra,110526,Hassan,Mubarak,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110526 A400
+643,Summit Public School: Sierra,110526,Hassan,Mubarak,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110526 B400
+644,Summit Public School: Sierra,110526,Hassan,Mubarak,12,Math,C320,Math III,"Temes, Leah",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110526 C320
+645,Summit Public School: Sierra,110526,Hassan,Mubarak,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110526 D430
+646,Summit Public School: Sierra,110526,Hassan,Mubarak,12,Spanish,E200,Spanish 2,"Arias, Abel",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110526 E200
+647,Summit Public School: Sierra,110526,Hassan,Mubarak,12,Electives,I1044,Exploring Computer Science,"Mendez, Bo",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110526 I1044
+648,Summit Public School: Sierra,110526,Hassan,Mubarak,12,Electives,I1047,Yoga,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110526 I1047
+649,Summit Public School: Sierra,110526,Hassan,Mubarak,12,Intervention,S4100,Bridge to College Math,"Gomez, Aubree",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110526 S4100
+650,Summit Public School: Sierra,110054,Hassan,Sumayo,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110054 A400
+651,Summit Public School: Sierra,110054,Hassan,Sumayo,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110054 B400
+652,Summit Public School: Sierra,110054,Hassan,Sumayo,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110054 C400
+653,Summit Public School: Sierra,110054,Hassan,Sumayo,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110054 D430
+654,Summit Public School: Sierra,110054,Hassan,Sumayo,12,Spanish,E400,AP Spanish Language,"Arias, Abel",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110054 E400
+655,Summit Public School: Sierra,110054,Hassan,Sumayo,12,Electives,G104,AP Comp Sci,"Mendez, Bo",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110054 G104
+656,Summit Public School: Sierra,110054,Hassan,Sumayo,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110054 I199
+657,Summit Public School: Sierra,110028,Hernandez,Cora,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110028 A400
+658,Summit Public School: Sierra,110028,Hernandez,Cora,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110028 B400
+659,Summit Public School: Sierra,110028,Hernandez,Cora,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110028 C400
+660,Summit Public School: Sierra,110028,Hernandez,Cora,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110028 D430
+661,Summit Public School: Sierra,110028,Hernandez,Cora,12,Electives,G104,AP Comp Sci,"Mendez, Bo",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110028 G104
+662,Summit Public School: Sierra,110028,Hernandez,Cora,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110028 I1064
+663,Summit Public School: Sierra,110028,Hernandez,Cora,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110028 I199
+664,Summit Public School: Sierra,110017,Hey,Mark,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110017 A400
+665,Summit Public School: Sierra,110017,Hey,Mark,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110017 B400
+666,Summit Public School: Sierra,110017,Hey,Mark,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110017 C400
+667,Summit Public School: Sierra,110017,Hey,Mark,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110017 D430
+668,Summit Public School: Sierra,110017,Hey,Mark,12,Electives,I1031,Basketball/Citizen Development,"Baba, Erica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110017 I1031
+669,Summit Public School: Sierra,110017,Hey,Mark,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110017 I199
+670,Summit Public School: Sierra,110004,Hunt,Jaelen,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110004 A400
+671,Summit Public School: Sierra,110004,Hunt,Jaelen,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110004 B400
+672,Summit Public School: Sierra,110004,Hunt,Jaelen,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110004 C400
+673,Summit Public School: Sierra,110004,Hunt,Jaelen,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110004 D430
+674,Summit Public School: Sierra,110004,Hunt,Jaelen,12,Electives,G104,AP Comp Sci,"Mendez, Bo",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110004 G104
+675,Summit Public School: Sierra,110004,Hunt,Jaelen,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110004 I199
+676,Summit Public School: Sierra,110004,Hunt,Jaelen,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110004 S4100
+677,Summit Public School: Sierra,110007,Isabell,Jadynn,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110007 A400
+678,Summit Public School: Sierra,110007,Isabell,Jadynn,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110007 B400
+679,Summit Public School: Sierra,110007,Isabell,Jadynn,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[X] Ovrdue Proj?[_],110007 D430
+680,Summit Public School: Sierra,110007,Isabell,Jadynn,12,Electives,I1047,Yoga,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110007 I1047
+681,Summit Public School: Sierra,110007,Isabell,Jadynn,12,Electives,I1071,Chamber Choir,"Mendez, Bo",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110007 I1071
+682,Summit Public School: Sierra,110007,Isabell,Jadynn,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110007 I199
+683,Summit Public School: Sierra,110007,Isabell,Jadynn,12,Intervention,S4100,Bridge to College Math,"Gomez, Aubree",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110007 S4100
+684,Summit Public School: Sierra,110089,Jimale,Safiya,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,I,NP,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110089 I199
+685,Summit Public School: Sierra,110040,Jimenez Lopez,Jaquelin,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110040 S4100
+686,Summit Public School: Sierra,110051,Johnson,Jalen,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110051 A400
+687,Summit Public School: Sierra,110051,Johnson,Jalen,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110051 B400
+688,Summit Public School: Sierra,110051,Johnson,Jalen,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110051 C400
+689,Summit Public School: Sierra,110051,Johnson,Jalen,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110051 D430
+690,Summit Public School: Sierra,110051,Johnson,Jalen,12,Spanish,E300,Spanish 3,"McGrath, Kelsey",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110051 E300
+691,Summit Public School: Sierra,110051,Johnson,Jalen,12,Electives,I1030,Digital Photography,"Vinson, Ryan",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110051 I1030
+692,Summit Public School: Sierra,110051,Johnson,Jalen,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110051 I1064
+693,Summit Public School: Sierra,110051,Johnson,Jalen,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110051 I199
+694,Summit Public School: Sierra,110076,Johnson,Queen,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110076 A400
+695,Summit Public School: Sierra,110076,Johnson,Queen,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110076 B400
+696,Summit Public School: Sierra,110076,Johnson,Queen,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110076 C400
+697,Summit Public School: Sierra,110076,Johnson,Queen,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110076 D430
+698,Summit Public School: Sierra,110076,Johnson,Queen,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110076 I1026
+699,Summit Public School: Sierra,110076,Johnson,Queen,12,Electives,I1046,Creative Writing,"Vinson, Ryan",,,,,110076 I1046
+700,Summit Public School: Sierra,110076,Johnson,Queen,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110076 I199
+701,Summit Public School: Sierra,110076,Johnson,Queen,12,Intervention,S4100,Bridge to College Math,"Gomez, Aubree",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110076 S4100
+702,Summit Public School: Sierra,110011,Johnson,Victoria,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110011 A400
+703,Summit Public School: Sierra,110011,Johnson,Victoria,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110011 B400
+704,Summit Public School: Sierra,110011,Johnson,Victoria,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,C-,C-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110011 C400
+705,Summit Public School: Sierra,110011,Johnson,Victoria,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110011 D430
+706,Summit Public School: Sierra,110011,Johnson,Victoria,12,Electives,I1021,Drama,"Vinson, Ryan",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110011 I1021
+707,Summit Public School: Sierra,110011,Johnson,Victoria,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110011 I1064
+708,Summit Public School: Sierra,110011,Johnson,Victoria,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110011 I199
+709,Summit Public School: Sierra,110011,Johnson,Victoria,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110011 S4100
+710,Summit Public School: Sierra,110005,King,Gillian,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110005 A400
+711,Summit Public School: Sierra,110005,King,Gillian,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110005 B400
+712,Summit Public School: Sierra,110005,King,Gillian,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110005 C400
+713,Summit Public School: Sierra,110005,King,Gillian,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110005 D430
+714,Summit Public School: Sierra,110005,King,Gillian,12,Electives,G104,AP Comp Sci,"Mendez, Bo",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110005 G104
+715,Summit Public School: Sierra,110005,King,Gillian,12,Electives,I1031,Basketball/Citizen Development,"Baba, Erica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110005 I1031
+716,Summit Public School: Sierra,110005,King,Gillian,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110005 I199
+717,Summit Public School: Sierra,110236,Lambertsen,Mark,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110236 A400
+718,Summit Public School: Sierra,110236,Lambertsen,Mark,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],110236 B400
+719,Summit Public School: Sierra,110236,Lambertsen,Mark,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110236 C400
+720,Summit Public School: Sierra,110236,Lambertsen,Mark,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110236 D430
+721,Summit Public School: Sierra,110236,Lambertsen,Mark,12,Spanish,E200,Spanish 2,"Arias, Abel",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110236 E200
+722,Summit Public School: Sierra,110236,Lambertsen,Mark,12,Electives,I1044,Exploring Computer Science,"Mendez, Bo",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110236 I1044
+723,Summit Public School: Sierra,110236,Lambertsen,Mark,12,Electives,I1047,Yoga,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110236 I1047
+724,Summit Public School: Sierra,110236,Lambertsen,Mark,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,I,NP,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110236 I199
+725,Summit Public School: Sierra,110182,Laurent,Ninon,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110182 A400
+726,Summit Public School: Sierra,110182,Laurent,Ninon,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110182 B400
+727,Summit Public School: Sierra,110182,Laurent,Ninon,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110182 C400
+728,Summit Public School: Sierra,110182,Laurent,Ninon,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110182 D430
+729,Summit Public School: Sierra,110182,Laurent,Ninon,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110182 I1026
+730,Summit Public School: Sierra,110182,Laurent,Ninon,12,Electives,I1071,Chamber Choir,"Mendez, Bo",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110182 I1071
+731,Summit Public School: Sierra,110319,Levinwood,Brandon,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110319 A400
+732,Summit Public School: Sierra,110319,Levinwood,Brandon,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110319 B400
+733,Summit Public School: Sierra,110319,Levinwood,Brandon,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110319 C400
+734,Summit Public School: Sierra,110319,Levinwood,Brandon,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110319 D430
+735,Summit Public School: Sierra,110319,Levinwood,Brandon,12,Electives,I1022,2D + 3D Art,"Vinson, Ryan",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110319 I1022
+736,Summit Public School: Sierra,110319,Levinwood,Brandon,12,Electives,I1072,History In Film,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110319 I1072
+737,Summit Public School: Sierra,110064,Lyles,Kamaria,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110064 A400
+738,Summit Public School: Sierra,110064,Lyles,Kamaria,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110064 B400
+739,Summit Public School: Sierra,110064,Lyles,Kamaria,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110064 C400
+740,Summit Public School: Sierra,110064,Lyles,Kamaria,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110064 D430
+741,Summit Public School: Sierra,110064,Lyles,Kamaria,12,Electives,G104,AP Comp Sci,"Mendez, Bo",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110064 G104
+742,Summit Public School: Sierra,110064,Lyles,Kamaria,12,Electives,I1062,Student Government,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110064 I1062
+743,Summit Public School: Sierra,110064,Lyles,Kamaria,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110064 I199
+744,Summit Public School: Sierra,110116,Matisse,Noah,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110116 A400
+745,Summit Public School: Sierra,110116,Matisse,Noah,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110116 B400
+746,Summit Public School: Sierra,110116,Matisse,Noah,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110116 C400
+747,Summit Public School: Sierra,110116,Matisse,Noah,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110116 D430
+748,Summit Public School: Sierra,110116,Matisse,Noah,12,Electives,I1062,Student Government,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110116 I1062
+749,Summit Public School: Sierra,110116,Matisse,Noah,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110116 I199
+750,Summit Public School: Sierra,110167,M'Baye,Issa,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,C-,C-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110167 A400
+751,Summit Public School: Sierra,110167,M'Baye,Issa,12,English,B100,English 9- LPD,"Dacuan, Dustin",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110167 B100
+752,Summit Public School: Sierra,110167,M'Baye,Issa,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[X] Ovrdue Proj?[X],110167 B400
+753,Summit Public School: Sierra,110167,M'Baye,Issa,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],110167 D430
+754,Summit Public School: Sierra,110167,M'Baye,Issa,12,Electives,I1030,Digital Photography,"Vinson, Ryan",1/15/2019 12:00:00 AM,A,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110167 I1030
+755,Summit Public School: Sierra,110167,M'Baye,Issa,12,Electives,I1038,Student Ambassadors,"Baba, Erica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110167 I1038
+756,Summit Public School: Sierra,110167,M'Baye,Issa,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110167 S4100
+757,Summit Public School: Sierra,110269,McCloskey,McKayla,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110269 A400
+758,Summit Public School: Sierra,110269,McCloskey,McKayla,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110269 B400
+759,Summit Public School: Sierra,110269,McCloskey,McKayla,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110269 C400
+760,Summit Public School: Sierra,110269,McCloskey,McKayla,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110269 D430
+761,Summit Public School: Sierra,110269,McCloskey,McKayla,12,Electives,I1022,2D + 3D Art,"Vinson, Ryan",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110269 I1022
+762,Summit Public School: Sierra,110269,McCloskey,McKayla,12,Electives,I1072,History In Film,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110269 I1072
+763,Summit Public School: Sierra,110242,McFrazier,Jazzuan,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110242 A400
+764,Summit Public School: Sierra,110242,McFrazier,Jazzuan,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110242 B400
+765,Summit Public School: Sierra,110242,McFrazier,Jazzuan,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110242 C400
+766,Summit Public School: Sierra,110242,McFrazier,Jazzuan,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,C-,C-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110242 D430
+767,Summit Public School: Sierra,110242,McFrazier,Jazzuan,12,Spanish,E200,Spanish 2,"Arias, Abel",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110242 E200
+768,Summit Public School: Sierra,110242,McFrazier,Jazzuan,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110242 I1026
+769,Summit Public School: Sierra,110242,McFrazier,Jazzuan,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110242 I199
+770,Summit Public School: Sierra,110242,McFrazier,Jazzuan,12,Intervention,S4100,Bridge to College Math,"Gomez, Aubree",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110242 S4100
+771,Summit Public School: Sierra,110262,McMahon,Jacob,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110262 A400
+772,Summit Public School: Sierra,110262,McMahon,Jacob,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[X],110262 B400
+773,Summit Public School: Sierra,110262,McMahon,Jacob,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110262 C400
+774,Summit Public School: Sierra,110262,McMahon,Jacob,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110262 D430
+775,Summit Public School: Sierra,110262,McMahon,Jacob,12,Electives,I1030,Digital Photography,"Vinson, Ryan",1/15/2019 12:00:00 AM,I,NP,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110262 I1030
+776,Summit Public School: Sierra,110262,McMahon,Jacob,12,Electives,I1031,Basketball/Citizen Development,"Baba, Erica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110262 I1031
+777,Summit Public School: Sierra,110038,Mesfin,Afomeya,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110038 S4100
+778,Summit Public School: Sierra,110364,Mitchell,Mia,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110364 A400
+779,Summit Public School: Sierra,110364,Mitchell,Mia,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110364 B400
+780,Summit Public School: Sierra,110364,Mitchell,Mia,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110364 C400
+781,Summit Public School: Sierra,110364,Mitchell,Mia,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110364 D430
+782,Summit Public School: Sierra,110364,Mitchell,Mia,12,Electives,I1062,Student Government,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110364 I1062
+783,Summit Public School: Sierra,110002,Mitchell,Zoe,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110002 A400
+784,Summit Public School: Sierra,110002,Mitchell,Zoe,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110002 B400
+785,Summit Public School: Sierra,110002,Mitchell,Zoe,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110002 C400
+786,Summit Public School: Sierra,110002,Mitchell,Zoe,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110002 D430
+787,Summit Public School: Sierra,110002,Mitchell,Zoe,12,Electives,G104,AP Comp Sci,"Mendez, Bo",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110002 G104
+788,Summit Public School: Sierra,110002,Mitchell,Zoe,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110002 I199
+789,Summit Public School: Sierra,110138,Mohamed,Abdirahman,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110138 A400
+790,Summit Public School: Sierra,110138,Mohamed,Abdirahman,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110138 B400
+791,Summit Public School: Sierra,110138,Mohamed,Abdirahman,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110138 C400
+792,Summit Public School: Sierra,110138,Mohamed,Abdirahman,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110138 D430
+793,Summit Public School: Sierra,110138,Mohamed,Abdirahman,12,Electives,I1031,Basketball/Citizen Development,"Baba, Erica",1/15/2019 12:00:00 AM,A,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110138 I1031
+794,Summit Public School: Sierra,110138,Mohamed,Abdirahman,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110138 I1064
+795,Summit Public School: Sierra,110138,Mohamed,Abdirahman,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110138 I199
+796,Summit Public School: Sierra,110095,Mohamed,Sahra,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110095 A400
+797,Summit Public School: Sierra,110095,Mohamed,Sahra,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110095 B400
+798,Summit Public School: Sierra,110095,Mohamed,Sahra,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110095 C400
+799,Summit Public School: Sierra,110095,Mohamed,Sahra,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110095 D430
+800,Summit Public School: Sierra,110095,Mohamed,Sahra,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,A,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110095 I1026
+801,Summit Public School: Sierra,110095,Mohamed,Sahra,12,Electives,I1071,Chamber Choir,"Mendez, Bo",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110095 I1071
+802,Summit Public School: Sierra,110095,Mohamed,Sahra,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110095 I199
+803,Summit Public School: Sierra,110095,Mohamed,Sahra,12,Intervention,S4100,Bridge to College Math,"Gomez, Aubree",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110095 S4100
+804,Summit Public School: Sierra,110111,Mohamed,Samiya,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110111 A400
+805,Summit Public School: Sierra,110111,Mohamed,Samiya,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110111 B400
+806,Summit Public School: Sierra,110111,Mohamed,Samiya,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110111 C400
+807,Summit Public School: Sierra,110111,Mohamed,Samiya,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110111 D430
+808,Summit Public School: Sierra,110111,Mohamed,Samiya,12,Electives,I1046,Creative Writing,"Vinson, Ryan",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110111 I1046
+809,Summit Public School: Sierra,110111,Mohamed,Samiya,12,Electives,I1072,History In Film,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110111 I1072
+810,Summit Public School: Sierra,110111,Mohamed,Samiya,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110111 I199
+811,Summit Public School: Sierra,110111,Mohamed,Samiya,12,Intervention,S4100,Bridge to College Math,"Gomez, Aubree",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110111 S4100
+812,Summit Public School: Sierra,110545,Murphy,Leah,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110545 A400
+813,Summit Public School: Sierra,110545,Murphy,Leah,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110545 B400
+814,Summit Public School: Sierra,110545,Murphy,Leah,12,Math,C320,Math III,"Temes, Leah",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110545 C320
+815,Summit Public School: Sierra,110545,Murphy,Leah,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110545 D430
+816,Summit Public School: Sierra,110545,Murphy,Leah,12,Spanish,E200,Spanish 2,"Arias, Abel",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110545 E200
+817,Summit Public School: Sierra,110545,Murphy,Leah,12,Electives,I1047,Yoga,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110545 I1047
+818,Summit Public School: Sierra,110545,Murphy,Leah,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110545 I1064
+819,Summit Public School: Sierra,110106,Nejash,Shukria,12,Math,C320,Math III,"Temes, Leah",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110106 C320
+820,Summit Public School: Sierra,110106,Nejash,Shukria,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110106 I199
+821,Summit Public School: Sierra,110106,Nejash,Shukria,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110106 S4100
+822,Summit Public School: Sierra,110046,Nuguse,Adiam,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],110046 A400
+823,Summit Public School: Sierra,110046,Nuguse,Adiam,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],110046 B400
+824,Summit Public School: Sierra,110046,Nuguse,Adiam,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110046 C400
+825,Summit Public School: Sierra,110046,Nuguse,Adiam,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[X],110046 D430
+826,Summit Public School: Sierra,110046,Nuguse,Adiam,12,Electives,G104,AP Comp Sci,"Mendez, Bo",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110046 G104
+827,Summit Public School: Sierra,110046,Nuguse,Adiam,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110046 I1026
+828,Summit Public School: Sierra,110046,Nuguse,Adiam,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110046 I199
+829,Summit Public School: Sierra,110046,Nuguse,Adiam,12,Intervention,S4100,Bridge to College Math,"Gomez, Aubree",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[X],110046 S4100
+830,Summit Public School: Sierra,110047,Nuguse,Aron,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110047 A400
+831,Summit Public School: Sierra,110047,Nuguse,Aron,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110047 B400
+832,Summit Public School: Sierra,110047,Nuguse,Aron,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110047 C400
+833,Summit Public School: Sierra,110047,Nuguse,Aron,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110047 D430
+834,Summit Public School: Sierra,110047,Nuguse,Aron,12,Electives,I1031,Basketball/Citizen Development,"Baba, Erica",1/15/2019 12:00:00 AM,A,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110047 I1031
+835,Summit Public School: Sierra,110047,Nuguse,Aron,12,Electives,I1046,Creative Writing,"Vinson, Ryan",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110047 I1046
+836,Summit Public School: Sierra,110047,Nuguse,Aron,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110047 I199
+837,Summit Public School: Sierra,110022,O'Neal,Elijah,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110022 A400
+838,Summit Public School: Sierra,110022,O'Neal,Elijah,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110022 B400
+839,Summit Public School: Sierra,110022,O'Neal,Elijah,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110022 C400
+840,Summit Public School: Sierra,110022,O'Neal,Elijah,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],110022 D430
+841,Summit Public School: Sierra,110022,O'Neal,Elijah,12,Electives,I1031,Basketball/Citizen Development,"Baba, Erica",1/15/2019 12:00:00 AM,I,NP,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110022 I1031
+842,Summit Public School: Sierra,110022,O'Neal,Elijah,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110022 I199
+843,Summit Public School: Sierra,110083,Rahtsami,Iden,12,English,B300,AP Language and Composition,"Edens, Stephanie",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110083 B300
+844,Summit Public School: Sierra,110083,Rahtsami,Iden,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],110083 D430
+845,Summit Public School: Sierra,110083,Rahtsami,Iden,12,Spanish,E200,Spanish 2,"Arias, Abel",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110083 E200
+846,Summit Public School: Sierra,110083,Rahtsami,Iden,12,Electives,I1044,Exploring Computer Science,"Mendez, Bo",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110083 I1044
+847,Summit Public School: Sierra,110083,Rahtsami,Iden,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,I,NP,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110083 I199
+848,Summit Public School: Sierra,110083,Rahtsami,Iden,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[X],110083 S4100
+849,Summit Public School: Sierra,110123,Ranche,Christian,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110123 A400
+850,Summit Public School: Sierra,110123,Ranche,Christian,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110123 B400
+851,Summit Public School: Sierra,110123,Ranche,Christian,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110123 C400
+852,Summit Public School: Sierra,110123,Ranche,Christian,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110123 D430
+853,Summit Public School: Sierra,110123,Ranche,Christian,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110123 I1026
+854,Summit Public School: Sierra,110123,Ranche,Christian,12,Electives,I1030,Digital Photography,"Vinson, Ryan",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110123 I1030
+855,Summit Public School: Sierra,110123,Ranche,Christian,12,Electives,I1038,Student Ambassadors,"Baba, Erica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110123 I1038
+856,Summit Public School: Sierra,110123,Ranche,Christian,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110123 I199
+857,Summit Public School: Sierra,110033,Richards,Malica,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110033 A400
+858,Summit Public School: Sierra,110033,Richards,Malica,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110033 B400
+859,Summit Public School: Sierra,110033,Richards,Malica,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110033 C400
+860,Summit Public School: Sierra,110033,Richards,Malica,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110033 D430
+861,Summit Public School: Sierra,110033,Richards,Malica,12,Spanish,E200,Spanish 2,"Arias, Abel",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110033 E200
+862,Summit Public School: Sierra,110033,Richards,Malica,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110033 I1026
+863,Summit Public School: Sierra,110033,Richards,Malica,12,Electives,I1071,Chamber Choir,"Mendez, Bo",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110033 I1071
+864,Summit Public School: Sierra,110033,Richards,Malica,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110033 I199
+865,Summit Public School: Sierra,120251,Richwine,Kahleb,12,History,A200,World Studies II,"Hess, Joseph",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120251 A200
+866,Summit Public School: Sierra,120251,Richwine,Kahleb,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120251 A400
+867,Summit Public School: Sierra,120251,Richwine,Kahleb,12,English,B100,English 9- LPD,"Dacuan, Dustin",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120251 B100
+868,Summit Public School: Sierra,120251,Richwine,Kahleb,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120251 B400
+869,Summit Public School: Sierra,120251,Richwine,Kahleb,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120251 C400
+870,Summit Public School: Sierra,120251,Richwine,Kahleb,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120251 D430
+871,Summit Public School: Sierra,120251,Richwine,Kahleb,12,Electives,I1022,2D + 3D Art,"Vinson, Ryan",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],120251 I1022
+872,Summit Public School: Sierra,110012,Robertson,Andrew,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110012 A400
+873,Summit Public School: Sierra,110012,Robertson,Andrew,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110012 B400
+874,Summit Public School: Sierra,110012,Robertson,Andrew,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110012 C400
+875,Summit Public School: Sierra,110012,Robertson,Andrew,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110012 D430
+876,Summit Public School: Sierra,110012,Robertson,Andrew,12,Electives,I1022,2D + 3D Art,"Vinson, Ryan",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110012 I1022
+877,Summit Public School: Sierra,110012,Robertson,Andrew,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110012 I1026
+878,Summit Public School: Sierra,110012,Robertson,Andrew,12,Electives,I1072,History In Film,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110012 I1072
+879,Summit Public School: Sierra,110012,Robertson,Andrew,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110012 I199
+880,Summit Public School: Sierra,110043,Ruan Zhao,Zhuo Rong,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110043 A400
+881,Summit Public School: Sierra,110043,Ruan Zhao,Zhuo Rong,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110043 B400
+882,Summit Public School: Sierra,110043,Ruan Zhao,Zhuo Rong,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110043 C400
+883,Summit Public School: Sierra,110043,Ruan Zhao,Zhuo Rong,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110043 D430
+884,Summit Public School: Sierra,110043,Ruan Zhao,Zhuo Rong,12,Spanish,E400,AP Spanish Language,"Arias, Abel",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110043 E400
+885,Summit Public School: Sierra,110043,Ruan Zhao,Zhuo Rong,12,Electives,G104,AP Comp Sci,"Mendez, Bo",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110043 G104
+886,Summit Public School: Sierra,110043,Ruan Zhao,Zhuo Rong,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,I,NP,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110043 I199
+887,Summit Public School: Sierra,110168,Savitt,Elias,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110168 A400
+888,Summit Public School: Sierra,110168,Savitt,Elias,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110168 B400
+889,Summit Public School: Sierra,110168,Savitt,Elias,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110168 C400
+890,Summit Public School: Sierra,110168,Savitt,Elias,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110168 D430
+891,Summit Public School: Sierra,110168,Savitt,Elias,12,Electives,I1021,Drama,"Vinson, Ryan",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110168 I1021
+892,Summit Public School: Sierra,110168,Savitt,Elias,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110168 I1064
+893,Summit Public School: Sierra,110430,Scheiber,Elizabeth,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110430 A400
+894,Summit Public School: Sierra,110430,Scheiber,Elizabeth,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110430 B400
+895,Summit Public School: Sierra,110430,Scheiber,Elizabeth,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110430 C400
+896,Summit Public School: Sierra,110430,Scheiber,Elizabeth,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110430 D430
+897,Summit Public School: Sierra,110430,Scheiber,Elizabeth,12,Electives,I1022,2D + 3D Art,"Vinson, Ryan",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110430 I1022
+898,Summit Public School: Sierra,110430,Scheiber,Elizabeth,12,Electives,I1072,History In Film,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110430 I1072
+899,Summit Public School: Sierra,110263,Schildwachter,Maximillian,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110263 A400
+900,Summit Public School: Sierra,110263,Schildwachter,Maximillian,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110263 B400
+901,Summit Public School: Sierra,110263,Schildwachter,Maximillian,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110263 C400
+902,Summit Public School: Sierra,110263,Schildwachter,Maximillian,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110263 D430
+903,Summit Public School: Sierra,110263,Schildwachter,Maximillian,12,Electives,I1022,2D + 3D Art,"Vinson, Ryan",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110263 I1022
+904,Summit Public School: Sierra,110263,Schildwachter,Maximillian,12,Electives,I1030,Digital Photography,"Vinson, Ryan",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110263 I1030
+905,Summit Public School: Sierra,110092,Siguenza,Nikolai,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[X],110092 B400
+906,Summit Public School: Sierra,110092,Siguenza,Nikolai,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110092 D430
+907,Summit Public School: Sierra,110092,Siguenza,Nikolai,12,Electives,I1021,Drama,"Vinson, Ryan",1/15/2019 12:00:00 AM,I,NP,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110092 I1021
+908,Summit Public School: Sierra,110092,Siguenza,Nikolai,12,Electives,I1044,Exploring Computer Science,"Mendez, Bo",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110092 I1044
+909,Summit Public School: Sierra,110092,Siguenza,Nikolai,12,Electives,I1047,Yoga,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110092 I1047
+910,Summit Public School: Sierra,110092,Siguenza,Nikolai,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110092 I1064
+911,Summit Public School: Sierra,110092,Siguenza,Nikolai,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110092 I199
+912,Summit Public School: Sierra,110092,Siguenza,Nikolai,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[X],110092 S4100
+913,Summit Public School: Sierra,110001,Staley,Carter,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110001 A400
+914,Summit Public School: Sierra,110001,Staley,Carter,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110001 B400
+915,Summit Public School: Sierra,110001,Staley,Carter,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110001 C400
+916,Summit Public School: Sierra,110001,Staley,Carter,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110001 D430
+917,Summit Public School: Sierra,110001,Staley,Carter,12,Electives,G104,AP Comp Sci,"Mendez, Bo",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110001 G104
+918,Summit Public School: Sierra,110001,Staley,Carter,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110001 I199
+919,Summit Public School: Sierra,110124,Taylor,Truth,12,History,A400M,AP Government*,"Irvan, Richard",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110124 A400
+920,Summit Public School: Sierra,110124,Taylor,Truth,12,Science,D430M,AP Environmental Science*,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110124 D430
+921,Summit Public School: Sierra,110124,Taylor,Truth,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110124 I1026
+922,Summit Public School: Sierra,110124,Taylor,Truth,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110124 I199
+923,Summit Public School: Sierra,110124,Taylor,Truth,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[X],110124 S4100
+924,Summit Public School: Sierra,110402,Tedesse,Hamza,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],110402 A400
+925,Summit Public School: Sierra,110402,Tedesse,Hamza,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],110402 B400
+926,Summit Public School: Sierra,110402,Tedesse,Hamza,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110402 C400
+927,Summit Public School: Sierra,110402,Tedesse,Hamza,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[X] Ovrdue Proj?[_],110402 D430
+928,Summit Public School: Sierra,110402,Tedesse,Hamza,12,Spanish,E200,Spanish 2,"Arias, Abel",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110402 E200
+929,Summit Public School: Sierra,110402,Tedesse,Hamza,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110402 I1026
+930,Summit Public School: Sierra,110402,Tedesse,Hamza,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110402 I199
+931,Summit Public School: Sierra,110402,Tedesse,Hamza,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110402 S4100
+932,Summit Public School: Sierra,110008,To,Natalie,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110008 A400
+933,Summit Public School: Sierra,110008,To,Natalie,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110008 B400
+934,Summit Public School: Sierra,110008,To,Natalie,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110008 C400
+935,Summit Public School: Sierra,110008,To,Natalie,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110008 D430
+936,Summit Public School: Sierra,110008,To,Natalie,12,Electives,I1062,Student Government,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110008 I1062
+937,Summit Public School: Sierra,110008,To,Natalie,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110008 I199
+938,Summit Public School: Sierra,110471,Troupe,Jessica,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110471 A400
+939,Summit Public School: Sierra,110471,Troupe,Jessica,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110471 B400
+940,Summit Public School: Sierra,110471,Troupe,Jessica,12,Math,C320,Math III,"Temes, Leah",1/15/2019 12:00:00 AM,B+,B+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110471 C320
+941,Summit Public School: Sierra,110471,Troupe,Jessica,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110471 D430
+942,Summit Public School: Sierra,110471,Troupe,Jessica,12,Electives,I1071,Chamber Choir,"Mendez, Bo",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110471 I1071
+943,Summit Public School: Sierra,110471,Troupe,Jessica,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110471 S4100
+944,Summit Public School: Sierra,110239,Trujillo,Maria,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110239 A400
+945,Summit Public School: Sierra,110239,Trujillo,Maria,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110239 B400
+946,Summit Public School: Sierra,110239,Trujillo,Maria,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110239 C400
+947,Summit Public School: Sierra,110239,Trujillo,Maria,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110239 D430
+948,Summit Public School: Sierra,110239,Trujillo,Maria,12,Electives,G104,AP Comp Sci,"Mendez, Bo",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110239 G104
+949,Summit Public School: Sierra,110053,Vicente,Jaelyn,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110053 A400
+950,Summit Public School: Sierra,110053,Vicente,Jaelyn,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B-,B-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110053 B400
+951,Summit Public School: Sierra,110053,Vicente,Jaelyn,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110053 C400
+952,Summit Public School: Sierra,110053,Vicente,Jaelyn,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110053 D430
+953,Summit Public School: Sierra,110053,Vicente,Jaelyn,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110053 I1026
+954,Summit Public School: Sierra,110053,Vicente,Jaelyn,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110053 I199
+955,Summit Public School: Sierra,110053,Vicente,Jaelyn,12,Intervention,S4100,Bridge to College Math,"Gomez, Aubree",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110053 S4100
+956,Summit Public School: Sierra,110061,Villegas,Cecilia,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[X] Ovrdue Proj?[_],110061 A400
+957,Summit Public School: Sierra,110061,Villegas,Cecilia,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110061 B400
+958,Summit Public School: Sierra,110061,Villegas,Cecilia,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110061 D430
+959,Summit Public School: Sierra,110061,Villegas,Cecilia,12,Electives,I1031,Basketball/Citizen Development,"Baba, Erica",1/15/2019 12:00:00 AM,B+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110061 I1031
+960,Summit Public School: Sierra,110061,Villegas,Cecilia,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110061 I1064
+961,Summit Public School: Sierra,110061,Villegas,Cecilia,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110061 I199
+962,Summit Public School: Sierra,110061,Villegas,Cecilia,12,Intervention,S4100,Bridge to College Math,"Gomez, Aubree",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110061 S4100
+963,Summit Public School: Sierra,110060,Villegas,Tatiana,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110060 A400
+964,Summit Public School: Sierra,110060,Villegas,Tatiana,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110060 B400
+965,Summit Public School: Sierra,110060,Villegas,Tatiana,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110060 C400
+966,Summit Public School: Sierra,110060,Villegas,Tatiana,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110060 D430
+967,Summit Public School: Sierra,110060,Villegas,Tatiana,12,Electives,I1038,Student Ambassadors,"Baba, Erica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110060 I1038
+968,Summit Public School: Sierra,110060,Villegas,Tatiana,12,Electives,I1072,History In Film,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110060 I1072
+969,Summit Public School: Sierra,110060,Villegas,Tatiana,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110060 I199
+970,Summit Public School: Sierra,110085,Vu,An,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110085 A400
+971,Summit Public School: Sierra,110085,Vu,An,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110085 B400
+972,Summit Public School: Sierra,110085,Vu,An,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110085 C400
+973,Summit Public School: Sierra,110085,Vu,An,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110085 D430
+974,Summit Public School: Sierra,110085,Vu,An,12,Electives,I1062,Student Government,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110085 I1062
+975,Summit Public School: Sierra,110085,Vu,An,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110085 I199
+976,Summit Public School: Sierra,110117,Vu,Jeffrey,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110117 A400
+977,Summit Public School: Sierra,110117,Vu,Jeffrey,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,C+,C+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110117 B400
+978,Summit Public School: Sierra,110117,Vu,Jeffrey,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110117 C400
+979,Summit Public School: Sierra,110117,Vu,Jeffrey,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,I,I,PFA?[_] Proj Score?[_] Ovrdue Proj?[X],110117 D430
+980,Summit Public School: Sierra,110117,Vu,Jeffrey,12,Electives,I1022,2D + 3D Art,"Vinson, Ryan",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110117 I1022
+981,Summit Public School: Sierra,110117,Vu,Jeffrey,12,Electives,I1026,Hip Hop Dance & Movement,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110117 I1026
+982,Summit Public School: Sierra,110117,Vu,Jeffrey,12,Electives,I1071,Chamber Choir,"Mendez, Bo",1/15/2019 12:00:00 AM,A,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110117 I1071
+983,Summit Public School: Sierra,110117,Vu,Jeffrey,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110117 I199
+984,Summit Public School: Sierra,110049,Warn,Joseph,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110049 A400
+985,Summit Public School: Sierra,110049,Warn,Joseph,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110049 B400
+986,Summit Public School: Sierra,110049,Warn,Joseph,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110049 C400
+987,Summit Public School: Sierra,110049,Warn,Joseph,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110049 D430
+988,Summit Public School: Sierra,110049,Warn,Joseph,12,Electives,G104,AP Comp Sci,"Mendez, Bo",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110049 G104
+989,Summit Public School: Sierra,110049,Warn,Joseph,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110049 I199
+990,Summit Public School: Sierra,110357,Williams,Julian,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[X] Ovrdue Proj?[_],110357 A400
+991,Summit Public School: Sierra,110357,Williams,Julian,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[_],110357 B400
+992,Summit Public School: Sierra,110357,Williams,Julian,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,C,C,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110357 D430
+993,Summit Public School: Sierra,110357,Williams,Julian,12,Spanish,E200,Spanish 2,"Arias, Abel",1/15/2019 12:00:00 AM,I,I,PFA?[X] Proj Score?[_] Ovrdue Proj?[X],110357 E200
+994,Summit Public School: Sierra,110357,Williams,Julian,12,Electives,I1030,Digital Photography,"Vinson, Ryan",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110357 I1030
+995,Summit Public School: Sierra,110357,Williams,Julian,12,Electives,I1031,Basketball/Citizen Development,"Baba, Erica",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110357 I1031
+996,Summit Public School: Sierra,110357,Williams,Julian,12,Intervention,S4100,Bridge to College Math,"Temes, Leah",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110357 S4100
+997,Summit Public School: Sierra,110026,Wong,Star,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110026 A400
+998,Summit Public School: Sierra,110026,Wong,Star,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A-,A-,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110026 B400
+999,Summit Public School: Sierra,110026,Wong,Star,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110026 C400
+1000,Summit Public School: Sierra,110026,Wong,Star,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,B,B,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110026 D430
+1001,Summit Public School: Sierra,110026,Wong,Star,12,Electives,I1047,Yoga,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110026 I1047
+1002,Summit Public School: Sierra,110026,Wong,Star,12,Electives,I1064,Strength & Fitness,"Lopez, Tianna",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110026 I1064
+1003,Summit Public School: Sierra,110010,Zilavy Pailthorp,Olivia,12,History,A400,AP Government,"Irvan, Richard",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110010 A400
+1004,Summit Public School: Sierra,110010,Zilavy Pailthorp,Olivia,12,English,B400,AP Literature and Composition,"Visperas, Crystal",1/15/2019 12:00:00 AM,A+,A+,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110010 B400
+1005,Summit Public School: Sierra,110010,Zilavy Pailthorp,Olivia,12,Math,C400,AP Calculus AB,"Madonna, John",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110010 C400
+1006,Summit Public School: Sierra,110010,Zilavy Pailthorp,Olivia,12,Science,D430,AP Environmental Science,"Hanzlick-Burton, Camden",1/15/2019 12:00:00 AM,A,A,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110010 D430
+1007,Summit Public School: Sierra,110010,Zilavy Pailthorp,Olivia,12,Electives,I1046,Creative Writing,"Vinson, Ryan",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110010 I1046
+1008,Summit Public School: Sierra,110010,Zilavy Pailthorp,Olivia,12,Electives,I1072,History In Film,"Baba, Erica",1/15/2019 12:00:00 AM,A+,P,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110010 I1072
+1009,Summit Public School: Sierra,110010,Zilavy Pailthorp,Olivia,12,Electives,I199,Health,"Burns, Malia",1/15/2019 12:00:00 AM,,NO GRADE,PFA?[_] Proj Score?[_] Ovrdue Proj?[_],110010 I199
