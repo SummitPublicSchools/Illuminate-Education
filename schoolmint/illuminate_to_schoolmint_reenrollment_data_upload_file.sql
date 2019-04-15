@@ -472,7 +472,9 @@ SELECT DISTINCT
   stud.middle_name AS "student_middle_name",
   stud.last_name AS "student_last_name",
   to_char(stud.birth_date, 'mm/dd/yy') AS "student_birth_date",
-  stud.gender AS "student_gender",
+  CASE WHEN stud.gender = 'N' THEN 'Non-binary'
+       ELSE stud.gender
+  END AS "student_gender",
 
   contacts_final."guardian_1.physical_address_line_1" AS "student_address_street1",
   contacts_final."guardian_1.physical_address_line_2" AS "student_address_street2",
