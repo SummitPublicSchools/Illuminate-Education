@@ -446,7 +446,7 @@ The following CTE is the final output of the contacts query in wide format.
 
     WHERE
       -- Get students enrolled in the current academic year
-      sessions.academic_year = 2018
+      sessions.academic_year = 2019
 
       -- Get students enrolled in a window around the current time
       AND enrollments.entry_date <= current_date
