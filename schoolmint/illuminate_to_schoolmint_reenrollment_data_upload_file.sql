@@ -511,6 +511,7 @@ SELECT DISTINCT
   substring(contacts_final."guardian_1.physical_address_zip" from 1 for 5) AS "guardian_1_address_zipcode",
   contacts_final."guardian_1.home_phone_number" AS "guardian_1_home_phone_number",
   contacts_final."guardian_1.work_phone_number" AS "guardian_1_work_phone_number",
+  contacts_final."guardian_1.contact_id" AS "sis_data_guardian_1_contact_id",
 
   -- Guardian 2
   contacts_final."guardian_2.first_name" AS "guardian_2_first_name",
@@ -525,6 +526,7 @@ SELECT DISTINCT
   substring(contacts_final."guardian_2.physical_address_zip" from 1 for 5) AS "guardian_2_address_zipcode",
   contacts_final."guardian_2.home_phone_number" AS "guardian_2_home_phone_number",
   contacts_final."guardian_2.work_phone_number" AS "guardian_2_work_phone_number",
+  contacts_final."guardian_2.contact_id" AS "sis_data_guardian_2_contact_id",
 
   -- Emergency contact 1
   contacts_final."emergency_contact_1.first_name" AS "emergency_contact_1_first_name",
@@ -534,6 +536,7 @@ SELECT DISTINCT
   contacts_final."emergency_contact_1.work_phone_number" AS "emergency_contact_1_work_phone_number",
   contacts_final."emergency_contact_1.email" AS "emergency_contact_1_email",
   contacts_final."emergency_contact_1.contact_type" AS "emergency_contact_1_relationship",
+  contacts_final."emergency_contact_1.contact_id" AS "sis_data_emergency_contact_1_contact_id",
   
   -- Emergency contact 2
   contacts_final."emergency_contact_2.first_name" AS "emergency_contact_2_first_name",
@@ -543,6 +546,8 @@ SELECT DISTINCT
   contacts_final."emergency_contact_2.work_phone_number" AS "emergency_contact_2_work_phone_number",
   contacts_final."emergency_contact_2.email" AS "emergency_contact_2_email",
   contacts_final."emergency_contact_2.contact_type" AS "emergency_contact_2_relationship",
+  contacts_final."emergency_contact_2.contact_id" AS "sis_data_emergency_contact_2_contact_id",
+
 
   -- Emergency contact 3
   NULL AS "emergency_contact_3_first_name",
@@ -552,6 +557,7 @@ SELECT DISTINCT
   NULL AS "emergency_contact_3_work_phone_number",
   NULL AS "emergency_contact_3_email",
   NULL AS "emergency_contact_3_relationship",
+  NULL AS "sis_data_emergency_contact_3_contact_id",
 
   health.general.doctor_name AS "student_doctor_name",
   health.general.dr_phone AS "student_doctor_number"
