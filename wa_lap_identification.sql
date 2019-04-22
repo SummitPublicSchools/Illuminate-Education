@@ -6,7 +6,7 @@ eligible. LAP eligibility is based on meeting the following criteria:
  
 LAP MATH:
 
-Bottom 20th percentile  (< 20)on MAP Math in most recent test administration for that student
+Bottom 20th percentile  (<= 20)on MAP Math in most recent test administration for that student
 (considering current and previous school year; if student took test more than once in most recent administration, use highest score)
 
 AND
@@ -17,7 +17,7 @@ AND
 
 LAP ELA:
 
-Bottom 20th percentile (< 20) on MAP Reading in most recent test administration for that student
+Bottom 20th percentile (<= 20) on MAP Reading in most recent test administration for that student
 (considering current and previous school year; if student took test more than once in most recent administration, use highest score)
 
 AND
@@ -27,7 +27,8 @@ AND
 -------
 
 To update this query for a new school year, update the following:
- - session ids in the student set table
+ - first day of school
+ - Fall snapshot date
  - NWEA tables
  - academic year in the grades tables
  **********************************************************************************************************************/
@@ -41,21 +42,19 @@ SELECT
   , map_math.map_percentile AS min_map_math_percentile
   , map_math.map_term AS min_map_math_term
   , math_grade
-  , CASE WHEN map_math.map_percentile < 20 THEN TRUE
-         WHEN math_grade IN ('C+', 'C', 'C-', 'D+', 'D', 'D-', 'F', 'INCOMPLETE') THEN TRUE
+  , CASE WHEN (map_math.map_percentile <= 20 AND math_grade IN ('C+', 'C', 'C-', 'D+', 'D', 'D-', 'F', 'INCOMPLETE')) THEN TRUE
          ELSE FALSE
     END AS lap_math
   , map_reading.map_percentile AS min_map_reading_percentile
   , map_reading.map_term AS min_map_reading_term
   , ela_grade
-  , CASE WHEN map_reading.map_percentile < 20 THEN TRUE
-         WHEN ela_grade IN ('C+', 'C', 'C-', 'D+', 'D', 'D-', 'F', 'INCOMPLETE') THEN TRUE
+  , CASE WHEN (map_reading.map_percentile <= 20 AND ela_grade IN ('C+', 'C', 'C-', 'D+', 'D', 'D-', 'F', 'INCOMPLETE')) THEN TRUE
          ELSE FALSE
-    END AS lap_ela   
+    END AS lap_ela
 
 
 FROM
-  /* Student set: currently enrolled students at Atlas, Olympus, and Sierra */
+  /* Student set: students enrolled at Atlas, Olympus, and Sierra on 10/01 */
   (SELECT
     site_name
     , students.student_id
@@ -71,8 +70,9 @@ FROM
   LEFT JOIN public.sites ON sessions.site_id = sites.site_id
 
   WHERE
-    enrollments.session_id IN (157, 156, 155) --update these each year
-    AND leave_date > DATE 'today'
+    enrollments.entry_date >= DATE '2018-08-21' --their enrollment was after the first day of school for this SY
+    AND enrollments.entry_date <= DATE '2018-10-01' -- enrollment was on or before the snapshot date
+    AND enrollments.leave_date >= DATE '2018-10-01' --their last day was on or after the snapshot date
   ) AS student_set
 
 LEFT JOIN
