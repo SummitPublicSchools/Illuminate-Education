@@ -28,7 +28,7 @@ AND
 
 To update this query for a new school year, update the following:
  - first day of school
- - Fall snapshot date
+ - Fall snapshot date (must be after Fall MAP Testing window closes)
  - NWEA tables
  - academic year in the grades tables
  **********************************************************************************************************************/
@@ -54,7 +54,7 @@ SELECT
 
 
 FROM
-  /* Student set: students enrolled at Atlas, Olympus, and Sierra on 10/01 */
+  /* Student set: students enrolled at Atlas, Olympus, and Sierra on 11/01 */
   (SELECT
     site_name
     , students.student_id
@@ -71,8 +71,8 @@ FROM
 
   WHERE
     enrollments.entry_date >= DATE '2018-08-21' --their enrollment was after the first day of school for this SY
-    AND enrollments.entry_date <= DATE '2018-10-01' -- enrollment was on or before the snapshot date
-    AND enrollments.leave_date >= DATE '2018-10-01' --their last day was on or after the snapshot date
+    AND enrollments.entry_date <= DATE '2018-11-01' -- enrollment was on or before the snapshot date
+    AND enrollments.leave_date >= DATE '2018-11-01' --their last day was on or after the snapshot date
   ) AS student_set
 
 LEFT JOIN
