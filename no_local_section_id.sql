@@ -18,8 +18,8 @@ LEFT JOIN terms on terms.term_id = section_term_aff.term_id
 LEFT JOIN sessions on sessions.session_id = terms.session_id
 LEFT JOIN sites on sites.site_id = sessions.site_id
 
-WHERE sessions.academic_year = 2018 AND
-  sites.site_id <> 9999999 AND
+WHERE sessions.academic_year = 2019 AND
+  sites.site_id < 100 AND
   local_section_id IS NULL AND
   school_course_id IS NOT NULL
 
