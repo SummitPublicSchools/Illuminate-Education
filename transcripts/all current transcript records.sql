@@ -26,7 +26,7 @@ WHERE length(cast(msc.site_id as text)) < 3
   AND (courses.transcript_inclusion IS NULL OR courses.transcript_inclusion IS TRUE)
   AND sgt.grade_level_id >= 10
   AND sgt.credits_possible > 0
-  AND sgt.is_repeat IS TRUE
+--   AND sgt.is_repeat IS TRUE
 --   AND (grades.grade = 'I' OR grades.grade = 'F')
 
 
