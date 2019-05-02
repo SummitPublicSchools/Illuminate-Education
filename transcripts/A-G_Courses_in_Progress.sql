@@ -30,7 +30,7 @@ LEFT JOIN courses on courses.course_id = ssa.course_id
 LEFT JOIN section_term_aff sta on sta.section_id = ssa.section_id
 LEFT JOIN terms on sta.term_id = terms.term_id
 
-WHERE sites.site_id <> 9999999
+WHERE sites.site_id < 100
   AND (terms.start_date < now() AND terms.end_date > now())
   AND (ssa.leave_date > now() OR ssa.leave_date IS NULL)
 

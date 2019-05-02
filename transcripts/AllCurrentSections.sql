@@ -35,8 +35,10 @@ WHERE
 -- Edit this to choose a site:
 --   AND sites.site_name NOT LIKE '%Shasta' AND sites.site_name NOT LIKE '%Tahoma' AND sites.site_name NOT LIKE '%Rainier'
 --   AND rooms.room_number LIKE '%MV'
-  AND timeblock_name LIKE '%Exped%'
-  AND timeblock_name NOT LIKE '%PLT%'
+--   AND timeblock_name LIKE '%Exped%'
+--   AND timeblock_name NOT LIKE '%PLT%'
+
+-- AND left(school_course_id,1) IN ('E','F')
 
 GROUP BY
   sites.site_name,
