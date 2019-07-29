@@ -2,10 +2,10 @@ WITH
 contact_types_ranked AS (
 	SELECT
 		student_contact_info.student_id as contact_student_id,
-student_contact_info.contact_id AS person_id,
-student_contact_info.contact_type AS contact_type,
-student_contact_info.emergency_contact AS is_emergency,
-student_contact_info.is_legal AS is_custodial,
+		student_contact_info.contact_id AS person_id,
+		student_contact_info.contact_type AS contact_type,
+		student_contact_info.emergency_contact AS is_emergency,
+		student_contact_info.is_legal AS is_custodial,
 		student_contact_info.CORRESPONDANCE_LANGUAGE_ID as correspondance_language_id,
 		student_contact_info.EDUCATION_LEVEL_ID as EDUCATION_LEVEL_ID,
 		student_contact_info.MARITAL_STATUS_ID as MARITAL_STATUS_ID,
@@ -30,9 +30,15 @@ student_contact_info.is_legal AS is_custodial,
 			 WHEN student_contact_info.contact_type = 'Agency Rep' THEN 10
 			 WHEN student_contact_info.contact_type = 'Cousin' THEN 11
 			 ELSE 12
-	END AS contact_type_rank
+	END AS contact_type_case,
+    ROW_NUMBER() OVER (
+        PARTITION BY contact_student_id
+        ORDER BY
+            contact_type_case
+    ) as contact_type_rank
+
 	FROM MAIN.ILLUMINATE_CA.CONTACTS_STUDENTS_CONTACT_INFO_LATEST student_contact_info
-	where contact_type is not null
+	where student_contact_info.contact_type is not null and student_contact_info.restraining_order=FALSE
 ),
 
 contacts_ranked AS (
@@ -48,7 +54,16 @@ contacts_ranked AS (
 			(CASE WHEN primary_contact =true THEN 1 WHEN primary_contact IS NULL THEN 2 ELSE 3 END),
 			(CASE WHEN resides_with =true THEN 1 WHEN resides_with IS NULL THEN 2 ELSE 3 END),
 			(CASE WHEN is_legal =true THEN 1 WHEN is_legal IS NULL THEN 2 ELSE 3 END)
-	) AS contact_rank
+	) AS guardian_rank,
+
+    ROW_NUMBER() OVER (
+		PARTITION BY contact_student_id
+		ORDER BY
+			(CASE WHEN is_legal =true THEN 1 WHEN is_legal IS NULL THEN 2 ELSE 3 END),
+            (CASE WHEN is_emergency =true THEN 1 WHEN is_legal IS NULL THEN 2 ELSE 3 END)
+
+	) AS emergency_rank
+
 	FROM
 	contact_types_ranked c_types_ranked
 	LEFT JOIN MAIN.ILLUMINATE_CA.CODES_LANGUAGE_LATEST codes_language ON c_types_ranked.correspondance_language_id = codes_language.code_id
@@ -175,21 +190,21 @@ work_phones_ranked AS (
 )
 
 SELECT Distinct
-cr.contact_student_id AS "student_id",
-cr.person_id AS "contact_id",
-sites.site_name AS "site_name",
-contactsList.last_name AS "last_name",
-contactsList.first_name AS "first_name",
-		CASE WHEN cr.contact_type = 'Grandmother' OR cr.contact_type='Grandfather' THEN 'Grandparent' else cr.contact_type END AS "contact_type",
-email_address AS "email",
-cell_phone_number AS "cell_phone_number",
-home_phone_number AS "home_phone_number",
-work_phone_number AS "work_phone_number",
-	physical_address_line_1 AS "physical_address_line_1",
-physical_address_line_2 AS "physical_address_line_2",
-physical_address_city AS "physical_address_city",
-physical_address_state AS "physical_address_state",
-physical_address_zip AS "physical_address_zip",
+	cr.contact_student_id AS "student_id",
+	cr.person_id AS "contact_id",
+	sites.site_name AS "site_name",
+	contactsList.last_name AS "last_name",
+	contactsList.first_name AS "first_name",
+			CASE WHEN cr.contact_type = 'Grandmother' OR cr.contact_type='Grandfather' THEN 'Grandparent' else cr.contact_type END AS "contact_type",
+	email_address AS "email",
+	cell_phone_number AS "cell_phone_number",
+	home_phone_number AS "home_phone_number",
+	work_phone_number AS "work_phone_number",
+		physical_address_line_1 AS "physical_address_line_1",
+	physical_address_line_2 AS "physical_address_line_2",
+	physical_address_city AS "physical_address_city",
+	physical_address_state AS "physical_address_state",
+	physical_address_zip AS "physical_address_zip",
 
 CASE
 	WHEN mailing_address_line_1 is NULL THEN
@@ -227,9 +242,9 @@ CASE
 	END AS "mailing_address_zip",
 
 cr.is_legal AS "is_legal_guardian",
-cr.contact_rank AS "guardian_ranking",
+cr.guardian_rank AS "guardian_ranking",
 cr.is_emergency AS "is_emergency",
-cr.contact_rank AS "emergency_ranking"
+cr.emergency_rank AS "emergency_ranking"
 
 FROM
 	MAIN.PUBLIC.STUDENTS students
@@ -245,3 +260,5 @@ FROM
 	LEFT JOIN cell_phones_ranked cph ON cph.contact_id=cr.person_id AND cph.cell_phone_rank = 1 and cph.cell_phone_number is not NULL
 	LEFT JOIN home_phones_ranked hpr ON hpr.contact_id=cr.person_id AND hpr.home_phone_rank = 1 and hpr.home_phone_number is not NULL
 	LEFT JOIN work_phones_ranked wpr ON wpr.contact_id=cr.person_id AND wpr.work_phone_rank = 1 and wpr.work_phone_number is not NULL
+
+ where (cr.guardian_rank=1 or cr.guardian_rank=2 or cr.emergency_rank=1 or cr.emergency_rank=2)
