@@ -190,7 +190,8 @@ work_phones_ranked AS (
 )
 
 SELECT Distinct
-	cr.contact_student_id AS "student_id",
+	students.student_id AS "student_id",
+	students.sis_local_student_id as "local_student_id",
 	cr.person_id AS "contact_id",
 	sites.site_name AS "site_name",
 	contactsList.last_name AS "last_name",
@@ -260,5 +261,3 @@ FROM
 	LEFT JOIN cell_phones_ranked cph ON cph.contact_id=cr.person_id AND cph.cell_phone_rank = 1 and cph.cell_phone_number is not NULL
 	LEFT JOIN home_phones_ranked hpr ON hpr.contact_id=cr.person_id AND hpr.home_phone_rank = 1 and hpr.home_phone_number is not NULL
 	LEFT JOIN work_phones_ranked wpr ON wpr.contact_id=cr.person_id AND wpr.work_phone_rank = 1 and wpr.work_phone_number is not NULL
-
- where (cr.guardian_rank=1 or cr.guardian_rank=2 or cr.emergency_rank=1 or cr.emergency_rank=2)
