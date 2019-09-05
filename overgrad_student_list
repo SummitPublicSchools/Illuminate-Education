@@ -1,0 +1,17 @@
+-- This generates an upload file for adding all current HS students to Overgrad.
+SELECT
+  sites.site_name site,
+  students.local_student_id spsid,
+  students.email,
+  students.first_name,
+  students.last_name,
+  students.graduation_requirement_year,
+  students.birth_date,
+  students.reported_gender
+FROM
+  matviews.ss_current
+LEFT JOIN sites on sites.site_id = matviews.ss_current.site_id
+LEFT JOIN students on students.student_id = matviews.ss_current.student_id
+WHERE
+  matviews.ss_current.site_id <> 9999999
+  AND matviews.ss_current.grade_level_id >= 10

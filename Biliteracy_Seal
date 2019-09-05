@@ -1,0 +1,20 @@
+-- This asks for students in Illuminate with the "Seal of Biliteracy" demo field flagged as MET. This is reported to CALPADS. In WA, it is included on transcripts.
+
+SELECT * FROM
+  (SELECT
+    sites.site_name,
+    students.local_student_id,
+    students.last_name,
+    students.first_name,
+    (matviews.ss_current.grade_level_id -1) AS grade,
+     codes.transcript_requirements.code_translation AS biliteracy_seal
+  FROM matviews.ss_current
+    LEFT JOIN students on matviews.ss_current.student_id = students.student_id
+    LEFT JOIN sites on matviews.ss_current.site_id = sites.site_id
+    LEFT JOIN student_transcript_extra on matviews.ss_current.student_id = student_transcript_extra.student_id
+    LEFT JOIN codes.transcript_requirements on codes.transcript_requirements.code_id = student_transcript_extra.biliteracy_seal_status_id
+  WHERE sites.site_id <> 9999999
+
+  ORDER BY site_name, grade, local_student_id) AS bilitquery
+
+WHERE biliteracy_seal = 'MET';

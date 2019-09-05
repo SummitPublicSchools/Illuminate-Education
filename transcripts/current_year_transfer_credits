@@ -1,0 +1,45 @@
+-- This pulls each student with credits from the current academic year (2017) on their transcripts, excluding Summer term.
+-- This includes a count of transcript records and the sum of transcsript credits.
+
+SELECT  matviews.student_grades_transcript.student_id,
+        students.local_student_id,
+        sites.site_name AS current_site,
+        students.last_name,
+        students.first_name,
+        (matviews.ss_current.grade_level_id-1) AS current_grade,
+        matviews.student_grades_transcript.district_name as transferring_district,
+        matviews.student_grades_transcript.site_name as transferring_school,
+        matviews.student_grades_transcript.term_name,
+        matviews.student_grades_transcript.academic_year,
+        COUNT(matviews.student_grades_transcript.credits_received) as transcript_records,
+        SUM(matviews.student_grades_transcript.credits_received) as total_credits
+
+FROM    matviews.student_grades_transcript
+
+LEFT JOIN students ON students.student_id = matviews.student_grades_transcript.student_id
+LEFT JOIN matviews.ss_current ON matviews.ss_current.student_id = matviews.student_grades_transcript.student_id
+LEFT JOIN sites on sites.site_id = matviews.ss_current.site_id
+
+WHERE   matviews.student_grades_transcript.academic_year = 2017
+        AND matviews.student_grades_transcript.term_name <> 'Summer'
+        AND matviews.ss_current.site_id <> 9999999
+
+GROUP BY
+        matviews.student_grades_transcript.student_id,
+        matviews.student_grades_transcript.site_name,
+        matviews.student_grades_transcript.district_name,
+        matviews.student_grades_transcript.term_name,
+        matviews.student_grades_transcript.academic_year,
+        students.local_student_id,
+        sites.site_name,
+        students.last_name,
+        students.first_name,
+        matviews.ss_current.grade_level_id
+
+ORDER BY
+        sites.site_name,
+        current_grade,
+        matviews.student_grades_transcript.district_name,
+        matviews.student_grades_transcript.site_name,
+        matviews.student_grades_transcript.term_name,
+        matviews.student_grades_transcript.student_id;

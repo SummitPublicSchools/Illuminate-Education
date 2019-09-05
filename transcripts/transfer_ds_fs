@@ -1,0 +1,45 @@
+-- This report is a list of Ds or Fs in the transfer records of all current students.
+SELECT
+  sites.site_name,
+  students.local_student_id,
+  students.last_name,
+  students.first_name,
+  (matviews.student_term_aff.grade_level_id -1) as currentgrade,
+  matviews.student_grades_transcript.academic_year,
+  matviews.student_grades_transcript.site_name,
+  matviews.student_grades_transcript.school_course_id,
+  matviews.student_grades_transcript.course_title as SPS_title,
+  matviews.student_grades_transcript.outer_course_title as transfer_title,
+  grades.grade
+FROM
+  matviews.student_term_aff
+
+LEFT JOIN students on students.student_id = matviews.student_term_aff.student_id
+LEFT JOIN matviews.student_grades_transcript on matviews.student_grades_transcript.student_id = matviews.student_term_aff.student_id
+LEFT JOIN grades on matviews.student_grades_transcript.grade_id = grades.grade_id
+LEFT JOIN terms on terms.term_id = student_term_aff.term_id
+LEFT JOIN sessions on terms.session_id = sessions.session_id
+LEFT JOIN sites on sessions.site_id = sites.site_id
+
+WHERE
+  grades.grade IN ('D+','D','D-','F') AND
+  matviews.student_grades_transcript.grade_type = 'outer' AND
+--   Update the year in this line for the summer before the new school year.
+  matviews.student_term_aff.entry_date > '07-01-2017'
+
+
+GROUP BY
+  sites.site_name,
+  students.local_student_id,
+  students.last_name,
+  students.first_name,
+  matviews.student_term_aff.grade_level_id,
+  matviews.student_grades_transcript.academic_year,
+  matviews.student_grades_transcript.site_name,
+  matviews.student_grades_transcript.school_course_id,
+  matviews.student_grades_transcript.course_title,
+  matviews.student_grades_transcript.outer_course_title,
+  grades.grade
+
+ORDER BY
+  sites.site_name, last_name, academic_year;
