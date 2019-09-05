@@ -1,0 +1,192 @@
+WITH section_timeblocks AS
+(
+	SELECT
+		sectim.section_id,
+		tim.short_name as timeblock_name,
+		row_number() OVER (PARTITION BY sectim.section_id ORDER BY occurrence_order ) AS timeblock_order
+	FROM section_timeblock_aff sectim
+
+	LEFT JOIN section_term_aff sta
+		ON sectim.section_id = sta.section_id
+
+	LEFT JOIN terms t
+		ON sta.term_id = t.term_id
+
+	LEFT JOIN sessions s
+		ON t.session_id = s.session_id
+
+	LEFT JOIN sites sch
+		ON s.site_id = sch.site_id
+
+	LEFT JOIN timeblocks tim
+		ON tim.timeblock_id = sectim.timeblock_id
+
+	WHERE
+		s.site_id = 11
+		AND s.academic_year = 2018
+)
+,
+
+individual_tardies AS
+(
+	SELECT
+		sit.site_name as Site
+		, gra.short_name as Grade
+		, st.local_student_id
+		, st.last_name
+		, st.first_name
+	-- 	, cou.short_name as Course
+	-- 	, sectim.timeblock_name
+		, concat(cou.short_name,' - ',sectim.timeblock_name) as Course
+		, satt."date"
+		, af.flag_text
+		, trunc(date_part('day',satt."date"::timestamp - '2017-08-21'::timestamp) / 7) + 1 as Week_Number
+		, date_trunc('week', satt."date"::timestamp)::date as Start_of_Week
+		--, date_trunc('week', satt."date"::timestamp)::date as Start_of_Week_v2
+		, st.email as student_email
+		
+	FROM matviews.ss_current ssc
+
+	LEFT JOIN sites sit
+		ON sit.site_id = ssc.site_id
+
+	LEFT JOIN grade_levels gra
+		ON gra.grade_level_id = ssc.grade_level_id
+
+	LEFT JOIN students st
+		ON st.student_id = ssc.student_id
+
+	LEFT JOIN section_student_aff ssa
+		ON ssa.student_id = ssc.student_id
+
+	LEFT JOIN sections sec
+		ON sec.section_id = ssa.section_id
+
+	LEFT JOIN section_course_aff scaff
+		ON scaff.section_id = sec.section_id
+			AND ssa.course_id = scaff.course_id
+
+	LEFT JOIN courses cou
+		ON cou.course_id = scaff.course_id
+
+	LEFT JOIN student_attendance satt
+		ON satt.ssa_id = ssa.ssa_id
+
+	LEFT JOIN attendance_flags af
+		ON af.attendance_flag_id = satt.attendance_flag_id
+
+	LEFT JOIN section_timeblocks sectim
+		ON sectim.section_id = sec.section_id
+			AND sectim.timeblock_order = 1
+
+	WHERE ssc.site_id = 11 --Sierra
+		AND af.is_tardy = TRUE
+		AND satt."date" >= '2017-08-22'
+
+	ORDER BY satt."date" DESC
+)
+,
+
+weekly_tardies_by_course AS
+(
+	SELECT
+		it.Site
+		, it.Grade
+		, it.local_student_id
+		, it.last_name
+		, it.first_name
+		, it.Course
+		, it.flag_text
+		, it.Week_Number
+		, it.Start_of_week
+		, count(it.date) as num_tardies
+		, concat(it.Course,' (',count(it.date),')') as course_concat
+		, it.student_email
+
+	FROM individual_tardies it
+
+	GROUP BY it.Site
+				, it.Grade
+				, it.local_student_id
+				, it.last_name
+				, it.first_name
+				, it.Course
+				, it.flag_text
+				, it.Week_Number
+				, it.start_of_week
+				, it.student_email
+				--, it.contact_email
+				--, it.email_opt_out
+
+	ORDER BY it.local_student_id
+				, it.week_number
+
+)
+,
+
+stu_con_email AS
+(
+	SELECT
+			st.local_student_id,
+			cc.email_address,
+			row_number() OVER (PARTITION BY cc.email_address) AS row_num
+		FROM matviews.ss_current ssc
+
+		LEFT JOIN students st
+			ON st.student_id = ssc.student_id
+
+		LEFT JOIN contacts.students_contact_info coninfo
+			ON st.student_id = coninfo.student_id
+		
+		LEFT JOIN contacts.contacts cc
+			ON coninfo.contact_id = cc.contact_id -- M.Landon
+
+		WHERE coninfo.is_legal IS TRUE
+)
+,
+
+contact_emails_table AS
+(
+	SELECT
+			stu_con_email.local_student_id
+			, string_agg(stu_con_email.email_address, ', ') AS contact_emails
+		FROM stu_con_email
+
+		WHERE stu_con_email.row_num = 1
+
+		GROUP BY stu_con_email.local_student_id
+
+		ORDER BY local_student_id
+)
+
+SELECT
+		wtbc2.Site
+		, wtbc2.Grade
+		, wtbc2.local_student_id
+		, wtbc2.last_name
+		, wtbc2.first_name
+		, wtbc2.flag_text as attendance_flag
+		, wtbc2.Week_Number
+		, wtbc2.Start_of_Week
+		, sum(wtbc2.num_tardies) as weekly_total_tardies
+		, array_agg(wtbc2.course_concat) as tardy_courses
+		, wtbc2.student_email as student_email -- M.Landon
+		, ct.contact_emails
+	FROM weekly_tardies_by_course wtbc2
+
+	LEFT JOIN contact_emails_table ct
+		on ct.local_student_id = wtbc2.local_student_id
+
+	GROUP BY wtbc2.Site
+				, wtbc2.Grade
+				, wtbc2.local_student_id
+				, wtbc2.last_name
+				, wtbc2.first_name
+				, wtbc2.flag_text
+				, wtbc2.Week_Number
+				, wtbc2.start_of_week
+				, wtbc2.student_email
+				, ct.contact_emails
+
+	ORDER BY wtbc2.local_student_id
+				, wtbc2.week_number
