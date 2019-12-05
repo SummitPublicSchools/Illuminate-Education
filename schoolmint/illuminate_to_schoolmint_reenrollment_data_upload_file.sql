@@ -446,7 +446,7 @@ The following CTE is the final output of the contacts query in wide format.
 
     WHERE
       -- Get students enrolled in the current academic year
-      sessions.academic_year = 2019
+      sessions.academic_year = 2020
 
       -- Get students enrolled in a window around the current time
       AND enrollments.entry_date <= current_date
@@ -497,7 +497,6 @@ SELECT DISTINCT
   substring(contacts_final."guardian_1.mailing_address_zip" from 1 for 5) AS "mailing_address_zipcode",
 
   -- Guardian 1
-  contacts_final."guardian_1.contact_id" AS "primary_guardian_id",
   contacts_final."guardian_1.first_name" AS "guardian_1_first_name",
   contacts_final."guardian_1.last_name" AS "guardian_1_last_name",
   contacts_final."guardian_1.email" AS "guardian_1_email",
