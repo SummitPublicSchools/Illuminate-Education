@@ -1,28 +1,28 @@
 /***********************************************************************************************************************
 This query produces a roster of currently enrolled students at Atlas, Olympus, and Sierra and indicates whether they are LAP
-eligible. LAP eligibility is based on meeting the following criteria:
+eligible. LAP eligibility is based on meeting TWO of the criteria in MAP, Subject Letter Grade, or SBAC:
 
 -------
- 
+
 LAP MATH:
 
-Bottom 20th percentile  (<= 20)on MAP Math in most recent test administration for that student
+1) Bottom 20th percentile  (<= 20)on MAP Math in most recent test administration for that student
 (considering current and previous school year; if student took test more than once in most recent administration, use highest score)
 
-AND
+2) <= C+ in Math in the previous year
 
-<= C+ in Math in the previous year
+3) NOT meeting grade level standard on previous year's SBAC Math administration
 
 -------
 
 LAP ELA:
 
-Bottom 20th percentile (<= 20) on MAP Reading in most recent test administration for that student
+1) Bottom 20th percentile (<= 20) on MAP Reading in most recent test administration for that student
 (considering current and previous school year; if student took test more than once in most recent administration, use highest score)
 
-AND
+2) <= C+ in English in the previous year
 
-<= C+ in English in the previous year
+3) NOT meeting grade level standard on previous year's SBAC ELA administration
 
 -------
 
@@ -30,6 +30,7 @@ To update this query for a new school year, update the following:
  - first day of school
  - Fall snapshot date (must be after Fall MAP Testing window closes)
  - NWEA tables
+ - SBAC tables
  - academic year in the grades tables
  **********************************************************************************************************************/
 
@@ -42,13 +43,23 @@ SELECT
   , map_math.map_percentile AS min_map_math_percentile
   , map_math.map_term AS min_map_math_term
   , math_grade
-  , CASE WHEN (map_math.map_percentile <= 20 AND math_grade IN ('C+', 'C', 'C-', 'D+', 'D', 'D-', 'F', 'INCOMPLETE')) THEN TRUE
+  , sbac_math_met_standard
+  , CASE WHEN (
+                (map_math.map_percentile <= 20 AND math_grade IN ('C+', 'C', 'C-', 'D+', 'D', 'D-', 'F', 'INCOMPLETE'))
+                OR (map_math.map_percentile <= 20 AND sbac_math_met_standard = 'NO')
+                OR (sbac_math_met_standard = 'NO' AND math_grade IN ('C+', 'C', 'C-', 'D+', 'D', 'D-', 'F', 'INCOMPLETE'))
+              ) THEN TRUE
          ELSE FALSE
     END AS lap_math
   , map_reading.map_percentile AS min_map_reading_percentile
   , map_reading.map_term AS min_map_reading_term
   , ela_grade
-  , CASE WHEN (map_reading.map_percentile <= 20 AND ela_grade IN ('C+', 'C', 'C-', 'D+', 'D', 'D-', 'F', 'INCOMPLETE')) THEN TRUE
+  , sbac_ela_met_standard
+  , CASE WHEN (
+                (map_reading.map_percentile <= 20 AND ela_grade IN ('C+', 'C', 'C-', 'D+', 'D', 'D-', 'F', 'INCOMPLETE'))
+                OR (map_reading.map_percentile <= 20 AND sbac_ela_met_standard = 'NO')
+                OR (sbac_ela_met_standard = 'NO' AND ela_grade IN ('C+', 'C', 'C-', 'D+', 'D', 'D-', 'F', 'INCOMPLETE'))
+              ) THEN TRUE
          ELSE FALSE
     END AS lap_ela
 
@@ -168,7 +179,7 @@ LEFT JOIN
         -- classifications should be made on fall not winter or spring of current year
         "nwea_2019_TermName" <> 'Winter 2018-2019' AND
         "nwea_2019_TermName" <> 'Spring 2018-2019'
-      
+
       ) reading
 
     WHERE map_discipline = 'Reading'
@@ -176,6 +187,27 @@ LEFT JOIN
 
     ON map_reading.local_student_id = student_set.local_student_id
 
+LEFT JOIN
+  /* 2018 ELA SBAC scores - final and prelim scores are the same but only uploaded in prelim right now */
+    (SELECT
+      student_id,
+      "sba_2018_ela_metStandard" AS sbac_ela_met_standard
+
+    FROM state_data_wa.sba_2018_ela
+    ) AS sbac_ela
+
+    ON sbac_ela.student_id = student_set.student_id
+
+LEFT JOIN
+  /* 2018 math SBAC scores - final and prelim scores are the same but only uploaded in prelim right now */
+    (SELECT
+      student_id,
+      "sba_2018_math_metStandard" AS sbac_math_met_standard
+
+    FROM state_data_wa.sba_2018_math
+    ) AS sbac_math
+
+    ON sbac_math.student_id = student_set.student_id
 
 LEFT JOIN
   /* SY18 math grades */
